@@ -1,0 +1,7 @@
+# Generated previews and temporary exports
+tmp/
+exports/
+*.bak
+Thumbs.db
+.DS_Store
+

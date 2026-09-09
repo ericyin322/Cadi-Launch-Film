@@ -1,0 +1,25 @@
+{
+  "project": "Cadi-Launch-Film",
+  "updated": "2026-09-09",
+  "duration_seconds": 300,
+  "audience": ["上級", "主管", "技術發表會觀眾"],
+  "source_of_truth": "screenplay/master-storyboard-v0.2.md",
+  "video_prompt_target": "MiniMax H3",
+  "storyboard_style": "黑白漫畫式動畫線稿，最終影片為彩色",
+  "segments": [
+    {"id":"SEG-01","storyboard":"v01","approval":"pending_batch_review","h3":"todo"},
+    {"id":"SEG-02","storyboard":"v01","approval":"pending_batch_review","h3":"todo"},
+    {"id":"SEG-03","storyboard":"v01","approval":"pending_batch_review","h3":"todo"},
+    {"id":"SEG-04","storyboard":"v01","approval":"approved","h3":"v01"},
+    {"id":"SEG-05","storyboard":"v01","approval":"pending_batch_review","h3":"todo"},
+    {"id":"SEG-06","storyboard":"v01","approval":"pending_batch_review","h3":"todo"},
+    {"id":"SEG-07","storyboard":"v01","approval":"pending_batch_review","h3":"todo"},
+    {"id":"SEG-08","storyboard":"v01","approval":"pending_batch_review","h3":"todo"},
+    {"id":"SEG-09","storyboard":"v01","approval":"pending_batch_review","h3":"todo"},
+    {"id":"SEG-10","storyboard":"v01","approval":"pending_batch_review","h3":"todo"},
+    {"id":"SEG-11","storyboard":"v01","approval":"pending_batch_review","h3":"todo"},
+    {"id":"SEG-12","storyboard":"v01","approval":"pending_batch_review","h3":"todo"},
+    {"id":"SEG-13","storyboard":"v01","approval":"pending_batch_review","h3":"todo"}
+  ]
+}
+
