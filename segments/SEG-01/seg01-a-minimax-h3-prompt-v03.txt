@@ -1,0 +1,33 @@
+subject_definitions:
+<Picture 1> is the female protagonist, a 20-something East Asian female mechanical R&D engineer. She has long, straight, center-parted black hair and wears a tailored taupe-gray blazer, an ivory crew-neck top, and loose light-colored trousers. She is professional, composed, and places a high value on immaculate grooming.
+<Picture 2> is Cadi, a small flying robot mascot. Its head is composed of actively burning, ethereal cyan-blue plasma fire that continuously flickers, dances, and undulates with rising wisps and subtle luminous embers (an energetic plasma flame, completely non-solid, with zero gelatinous or jelly-like surface tension). Within the dynamic flame sit two oversized oval cyan eyes and a tiny mouth, atop a dark navy segmented robot body and a glowing circular cyan chest core. Its height is approximately half of the female protagonist's upper body.
+<Picture 3> is the virtual factory, a near-future engineering city inspired by the street aesthetics of Taiwan and Hong Kong. It features a southern entrance observation deck, a central north-south floating transit lane, engineering service buildings lining both sides, warm vertical neon shapes, and cyan data light rails.
+<Subject 1> is the person defined by <Picture 1>; her face, hair and clothing follow that identity reference.
+<Subject 2> is the excluded mascot defined by <Picture 2>, not an on-screen performer.
+<Picture 3> is a reserved project declaration only: no third image is supplied or used in this scene.
+
+summary:
+[reference generation] SEG01-A: a chaotic external-client CAE meeting, then discovery of the exhausted female protagonist <Picture 1> hiding at the wall-side end of the conference table. Generate 362 frames at 24 fps; story action occupies 0-11 seconds, followed by an expendable ambience handle. Two shots.
+
+retention_analysis:
+The female protagonist <Picture 1> / <Subject 1>: fully_preserved facial identity, long center-parted black hair, taupe-gray blazer, ivory top, light loose trousers and adult proportions. Her grooming stays neat despite withdrawn posture and exhaustion. Do not transfer reference-sheet layout, text, accessory samples or white background.
+Cadi <Picture 2> / <Subject 2>: required identity binding only; entirely absent. Do not render its body, flame, eyes or chest core.
+Virtual factory <Picture 3>: reserved textual definition, absent and unconnected. No factory imagery, neon streets or floating structures. The approved monochrome storyboard is offline staging guidance only; output is a full-color cinematic office scene, with cool gray walls, natural skin and muted clothing colors.
+
+detailed_description:
+[Shot 1] Full-color cinematic office, 16:9. A diagonal long table fills a cool gray conference room. Anonymous clients in dark business clothes stand on opposing sides; their heads are completely featureless backlit shapes. They argue with broad gestures. Papers litter the table and floor. Small muted engineering stress plots remain on the rear projection, never becoming the visual focus. Ceiling light is cool, projection spill comes from screen-left.
+[0s-2s] A 24mm wide view puts shouting bodies and the diagonal tabletop close to the viewer. Opposing clients point across the table; another palm strikes the tabletop. The heroine is concealed by this crowd, not introduced yet.
+[2s-5s] One client raises a report toward another; the other sweeps it aside. Loose pages spin past the lens and fall with gravity. Brief handheld vibration follows the table impact, without random camera spinning. Keep the clients arguing with each other, not attacking the heroine.
+[Shot 2] At 00:05.000, cut to table-height 35mm tracking along the same side of the table toward its wall-side end.
+[5s-8s] The camera tracks right. Cropped standing torsos, waving forearms and loose paper repeatedly occlude the lens. Beyond each occlusion, different featureless clients remain in heated disagreement.
+[8s-11s] The camera clears the last torso and finds the female protagonist <Picture 1> seated low at screen-right against the wall-side corner. She draws her open laptop closer, shoulders tucked inward; its screen shields her torso. Standing people tower over her. Her hands settle by the laptop base, mouth closed, gaze lowered. Camera decelerates to a stop, never passing her.
+[11s-15s] Expendable handle: maintain the same stable 35mm medium view, heroine at screen-right, laptop in front, chair not yet touching the wall. One page settles on the far table, distant arms continue arguing. No new demand, no retreat, no brow rub or paper stacking yet. End at 15.083 seconds on this same settled posture.
+Negative constraints: no subtitles, no readable text, no storyboard borders or panel numbers, no monochrome output, no character-sheet layout, no duplicate heroine, no identifiable client facial features, no punching or physical assault, no comic sound-effect lettering, no extra limbs, no room mirroring. No Cadi <Picture 2>, no virtual factory <Picture 3>, no robot or blue flame; no rubbery, gelatinous, solid jelly texture; no solid glass surface. The female protagonist <Picture 1> never joins the shouting, smiles happily, kneels or hides under the table.
+
+overall_soundscape:
+Continuous overlapping Mandarin argument from different positions, paper flutters, tabletop thumps, projector fan and ventilation. Keep dialogue sources off-camera after the heroine is revealed. Client A, approximately 0.3-6 seconds: <d>[Chinese] Top Compression 請增加一組 Baseline，材料也換一版比較。</d>
+Client B, approximately 5.3-10.6 seconds, overlaps A's tail: <d>[Chinese] A、B 兩個按壓點的強度排序，都請分開列清楚。</d>
+Other argument stays indistinct; no additional intelligible scripted lines. The heroine does not speak. The 11-15.083-second handle contains room argument ambience only, without a new intelligible sentence. No rhythmic musical emphasis.
+
+non_diegetic_music:
+N/A

@@ -59,3 +59,42 @@ segments:
     cast: [heroine, cadi]
     continues_from: "S03a"
     beat: "女主揉眼、放手重新聚焦並接受協作；Cadi 胸口光源擴張，青藍光掃鏡形成轉場。"
+  - id: "seg01-a"
+    scene: 1
+    seed: 7101
+    frames: 362
+    cast: [heroine, cadi]
+    visible_cast: [heroine]
+    reserved_unbound_picture: 3
+    prompt: "segments/SEG-01/seg01-a-minimax-h3-prompt-v04.txt"
+    beat: "失控會議；找到躲在牆角的主角。"
+  - id: "seg01-b"
+    scene: 1
+    seed: 7101
+    frames: 362
+    cast: [heroine, cadi]
+    visible_cast: [heroine]
+    reserved_unbound_picture: 3
+    continues_from: "seg01-a"
+    prompt: "segments/SEG-01/seg01-b-minimax-h3-prompt-v04.txt"
+    beat: "退椅撞牆；整理落紙、承接並準備離場。"
+
+  - id: "seg02-a"
+    scene: 2
+    seed: 7201
+    frames: 362
+    cast: [heroine, cadi]
+    visible_cast: [heroine]
+    reserved_unbound_picture: 3
+    prompt: "segments/SEG-02/seg02-a-minimax-h3-prompt-v01.txt"
+    beat: "門外飛紙、衝出關門、背靠門嘆氣撥髮、手錶震動；低鼓漸強。"
+  - id: "seg02-b"
+    scene: 2
+    seed: 7201
+    frames: 362
+    cast: [heroine, cadi]
+    visible_cast: [heroine]
+    reserved_unbound_picture: 3
+    continues_from: "seg02-a"
+    prompt: "segments/SEG-02/seg02-b-minimax-h3-prompt-v01.txt"
+    beat: "看錶、開手機、RF 郵件、滿版群組抱怨；低鼓推高張力。"

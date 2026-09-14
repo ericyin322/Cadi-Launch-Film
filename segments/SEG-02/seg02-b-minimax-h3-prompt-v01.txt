@@ -1,0 +1,34 @@
+subject_definitions:
+<Picture 1> is the female protagonist, a 20-something East Asian female mechanical R&D engineer. She has long, straight, center-parted black hair and wears a tailored taupe-gray blazer, an ivory crew-neck top, and loose light-colored trousers. She is professional, composed, and places a high value on immaculate grooming.
+<Picture 2> is Cadi, a small flying robot mascot. Its head is composed of actively burning, ethereal cyan-blue plasma fire that continuously flickers, dances, and undulates with rising wisps and subtle luminous embers (an energetic plasma flame, completely non-solid, with zero gelatinous or jelly-like surface tension). Within the dynamic flame sit two oversized oval cyan eyes and a tiny mouth, atop a dark navy segmented robot body and a glowing circular cyan chest core. Its height is approximately half of the female protagonist's upper body.
+<Picture 3> is the virtual factory, a near-future engineering city inspired by the street aesthetics of Taiwan and Hong Kong. It features a southern entrance observation deck, a central north-south floating transit lane, engineering service buildings lining both sides, warm vertical neon shapes, and cyan data light rails.
+<Subject 1> is the person defined by <Picture 1>; her face, hair and clothing follow that identity reference.
+<Subject 2> is the excluded mascot defined by <Picture 2>, not an on-screen performer.
+<Picture 3> is a reserved project declaration only: no third image is supplied or used in this scene.
+
+summary:
+[reference generation] SEG02-B: the female protagonist <Picture 1> checks the vibrating watch, hurriedly opens her phone, reads an RF-change email notification and opens Teams; cut to a full-frame group chat filling with colleagues' complaints. Generate 362 frames at 24 fps. Main action: 0-12 seconds; remaining footage is an expendable handle. Full-color cinematic animation, 16:9.
+
+retention_analysis:
+The female protagonist <Picture 1> / <Subject 1>: preserve identity, long straight black hair, taupe-gray blazer, ivory top, pale trousers and proportions. Exclude design-sheet layout and background.
+Cadi <Picture 2> / <Subject 2>: project binding only, completely absent including chat avatars.
+Virtual factory <Picture 3>: reserved, unconnected and absent.
+Same cool gray corridor, solid door behind her and window to screen-right, light from screen-right. Right upper arm holds the closed laptop against her ribs; black rectangular smartwatch on left wrist. Phone is retrieved and held in her LEFT hand. UI is a flat readable digital view; it never becomes a hologram or a virtual factory.
+
+detailed_description:
+[Shot 1] State anchor: the female protagonist <Picture 1> already stands with her back against the closed conference-room door. Left hand is settled beside her left ear after brushing her hair, smartwatch softly lit near her cheek, eyes just opening from a tired sigh. Camera is at her front-right in the same 65mm wrist-and-cheek close-up, cool light from screen-right. She is interrupted and tense, not relaxed. Do not repeat the escape, sigh, hair brush or vibration.
+[0s-2s] She lowers her left forearm enough to glance at the watch, eyebrows tightening. She immediately reaches into her blazer pocket with the same left hand, retrieves the phone, wakes and unlocks it. Right upper arm continuously secures the laptop; do not hand off either device. Slightly widen the view to include the pocket movement.
+[Shot 2] At 00:02.000, cut to a steady readable close-up of the phone held in her left hand.
+[2s-5s] Show a received-email notification with exact Traditional Chinese subject "RF需求變更需求" and preview "半小時後開會". Keep both lines large, stable and readable for about three seconds, without additional sender text or new message content. At the end her left thumb taps the Teams app icon; its group-chat layout appears.
+[Shot 3] At 00:05.000, match-cut to a FULL-FRAME Teams/LINE-like group-chat UI. Remove the physical phone border and hand completely. Header: "Placement 討論". White background, muted violet header, dark legible text, three distinct small neutral colleague avatars. No heroine or physical office in this shot.
+[5s-7s] First colleague bubble appears with exact text: "半小時討論!?? 我圖都還沒看怎麼開會!?" It remains visible.
+[7s-9s] A second colleague bubble appears below, exact text: "我placement 昨天晚上才搞定". Both remain visible.
+[9s-12s] Third bubble appears below, exact text: "完蛋了怎麼辦!!". All three remain readable with no scrolling or replacements. From 11 seconds, footsteps begin off-screen as an audio lead into the next office shot; do not cut away from the chat. Off-screen she pockets the phone and heads to her desk carrying the laptop.
+[12s-15s] Expendable handle through 15.083 seconds: retain the same three-message UI, no new bubbles or repeated notifications. Hold unresolved tension.
+Negative constraints: no subtitles outside the UI, no extra text beyond specified UI, no translated or paraphrased messages, no garbled Chinese, no tiny text, no scrolling away the first bubble, no chat voice-over, no panel numbers, no storyboard grid, no monochrome output, no holographic phone, no physical people inside the full-screen UI, no extra limbs or changing device hands, no new scene after the chat. No Cadi <Picture 2>, no virtual factory <Picture 3>, no robot or blue flame, no rubbery, gelatinous, solid jelly texture, no solid glass surface on a mascot.
+
+overall_soundscape:
+Quiet corridor ventilation and muffled argument at first, small clothing and phone-handling sounds. No second smartwatch buzz and no spoken dialogue. A restrained interface tap opens Teams. Three distinct short message pings coincide with bubble arrivals at 5, 7 and 9 seconds; their tails can overlap but remain recognizable. Complaints are written messages only, not actors reading them aloud. Footsteps enter at 11 seconds beneath the UI, gaining pace toward the office. Preserve UI reading time and keep pings audible over the drums.
+
+non_diegetic_music:
+Continue A's same original 72 BPM deep bass-drum/low-tom score already at medium-low tension; do not restart softly or add an intro. From 0-5 seconds increase low-drum impact and add restrained doubled pulses as she sees the urgent email. From 5-9 seconds progressively layer lower toms and denser subdivisions under the accumulating chat bubbles. From 9-12 seconds reach the strongest level: heavy, insistent, tightly controlled low drums with rising pressure, a dark sub-bass foundation and almost no melody. No sudden tempo jump, heroic orchestral fanfare, choir, lyrics, triumphant release or final crash. Duck slightly for message pings. End the retained portion unresolved so tension carries into SEG-03. The tail holds this level without a new climax. Final edit uses a single continuous 21-second score; independently generated clips do not guarantee beat-phase continuity.

@@ -1,0 +1,33 @@
+subject_definitions:
+<Picture 1> is the female protagonist, a 20-something East Asian female mechanical R&D engineer. She has long, straight, center-parted black hair and wears a tailored taupe-gray blazer, an ivory crew-neck top, and loose light-colored trousers. She is professional, composed, and places a high value on immaculate grooming.
+<Picture 2> is Cadi, a small flying robot mascot. Its head is composed of actively burning, ethereal cyan-blue plasma fire that continuously flickers, dances, and undulates with rising wisps and subtle luminous embers (an energetic plasma flame, completely non-solid, with zero gelatinous or jelly-like surface tension). Within the dynamic flame sit two oversized oval cyan eyes and a tiny mouth, atop a dark navy segmented robot body and a glowing circular cyan chest core. Its height is approximately half of the female protagonist's upper body.
+<Picture 3> is the virtual factory, a near-future engineering city inspired by the street aesthetics of Taiwan and Hong Kong. It features a southern entrance observation deck, a central north-south floating transit lane, engineering service buildings lining both sides, warm vertical neon shapes, and cyan data light rails.
+<Subject 1> is the person defined by <Picture 1>; her face, hair and clothing follow that identity reference.
+<Subject 2> is the excluded mascot defined by <Picture 2>, not an on-screen performer.
+<Picture 3> is a reserved project declaration only: no third image is supplied or used in this scene.
+
+summary:
+[reference generation] SEG02-A: the female protagonist <Picture 1> escapes a chaotic meeting, closes the door, briefly exhales and brushes her hair before her smartwatch vibrates. Generate 362 frames at 24 fps. Main action: 0-9 seconds; remaining footage is an expendable handle. Full-color cinematic animation, 16:9.
+
+retention_analysis:
+The female protagonist <Picture 1> / <Subject 1>: preserve face, long center-parted black hair, taupe-gray blazer, ivory top, light trousers and proportions. Exclude design-sheet layout, swatches, text and background.
+Cadi <Picture 2> / <Subject 2>: required project binding only, completely absent.
+Virtual factory <Picture 3>: reserved and unconnected, absent. Do not import factory imagery.
+Use the approved storyboard only as offline staging; no panel layout. Cool gray office corridor, natural skin and muted costume colors. Right upper arm clamps a closed laptop against her ribs throughout; a black rectangular smartwatch stays on her left wrist. Phone remains in her blazer pocket.
+
+detailed_description:
+[Shot 1] The camera is already OUTSIDE the conference room, eye-level 28mm wide view. The closed-door position is center-left, a large adjacent conference-room window is screen-right. Cool overhead light and soft window spill from screen-right. Behind glass, anonymous featureless client silhouettes argue and loose documents tumble above the table.
+[0s-2s] The female protagonist <Picture 1> rushes through the doorway into the corridor, right arm securing the laptop, left hand catching the door handle. Hair and blazer follow her quick movement. Camera holds the exterior view; never start inside or track out behind her.
+[2s-5s] She pulls the door fully shut with her left hand, turns and places her BACK against the solid door panel. Her shoulders drop. The latch clicks; the loud argument becomes muffled. Papers remain visible flying and falling inside through the adjacent window, not in the corridor.
+[Shot 2] At 00:05.000, cut to a 65mm close-up from the corridor, slightly to her front-right. Door behind her, same screen-right light.
+[5s-7s] The female protagonist <Picture 1> closes her eyes and lets out one tired, long sigh. She lifts her left hand and brushes a loose strand toward her left ear. Keep the laptop clamped under the right upper arm, partly below frame.
+[7s-9s] The camera tilts slightly down and racks focus from her face to the left smartwatch near her cheek. Its display lights and a short vibration interrupts the quiet. Her fingers have finished brushing her hair and settle beside her ear. End the story window on this stationary wrist-and-cheek composition, her eyes just opening; she has not lowered her wrist or retrieved the phone.
+[9s-12s] Expendable handle: preserve the same wrist position, framing and light, only breathing and a loose hair settling; do not repeat the sigh or hair gesture.
+[12s-15s] Continue the settled pose through 15.083 seconds; watch stays softly lit, no repeated alert, phone retrieval or new event.
+Negative constraints: no subtitles, no comic motion lettering, no panel borders or labels, no monochrome output, no photorealistic live-action switch, no extra fingers or arms, no laptop changing arms, no duplicate heroine, no room mirroring, no glass penetration, no phone before watch alert, no replayed gesture, no slow-motion escape. Clients remain featureless behind glass. No Cadi <Picture 2>, no virtual factory <Picture 3>, no robot or blue flame, no rubbery, gelatinous, solid jelly texture, no solid glass surface on a mascot.
+
+overall_soundscape:
+Indistinct Mandarin argument and fluttering papers from behind the window; no new intelligible dialogue. Quick footsteps and cloth rustle, a firm door close and latch at about 3.5 seconds, then subdued argument through the closed door. One audible sigh around 5.2-6.7 seconds and one short smartwatch buzz around 8 seconds. The heroine does not speak. Keep the sigh and buzz clear above the score. Handles contain only low room tone, breathing and sustained music; no repeated buzz.
+
+non_diegetic_music:
+Original tense percussion-led underscore, 72 BPM underlying pulse. Deep felted bass-drum and low tom hits dominate, with a very quiet dark sub-bass drone and no prominent melody. Begin sparse and restrained, soft low hits with long controlled decay. Grow steadily through the door close; during the brief sigh the low pulse remains underneath, never becoming reassuring. Add a slightly stronger doubled low-drum pulse as the watch lights. Escalation comes from increasing dynamics and layer density, not sudden tempo jumps. No heroic brass, choir, lyrics, cheerful beat, jump-scare sting or resolved cadence. At the 9-second editorial boundary maintain medium-low unresolved tension for B; the expendable tail must not advance the crescendo. Final edit uses one continuous percussion bed across both segments.

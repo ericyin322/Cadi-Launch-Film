@@ -1,0 +1,36 @@
+subject_definitions:
+<Picture 1> is the female protagonist, a 20-something East Asian female mechanical R&D engineer. She has long, straight, center-parted black hair and wears a tailored taupe-gray blazer, an ivory crew-neck top, and loose light-colored trousers. She is professional, composed, and places a high value on immaculate grooming.
+<Picture 2> is Cadi, a small flying robot mascot. Its head is composed of actively burning, ethereal cyan-blue plasma fire that continuously flickers, dances, and undulates with rising wisps and subtle luminous embers (an energetic plasma flame, completely non-solid, with zero gelatinous or jelly-like surface tension). Within the dynamic flame sit two oversized oval cyan eyes and a tiny mouth, atop a dark navy segmented robot body and a glowing circular cyan chest core. Its height is approximately half of the female protagonist's upper body.
+<Picture 3> is the virtual factory, a near-future engineering city inspired by the street aesthetics of Taiwan and Hong Kong. It features a southern entrance observation deck, a central north-south floating transit lane, engineering service buildings lining both sides, warm vertical neon shapes, and cyan data light rails.
+<Subject 1> is the person defined by <Picture 1>; her face, hair and clothing follow that identity reference.
+<Subject 2> is the excluded mascot defined by <Picture 2>, not an on-screen performer.
+<Picture 3> is a reserved project declaration only: no third image is supplied or used in this scene.
+
+summary:
+[reference generation] SEG01-B: continue the corner staging, show the female protagonist <Picture 1> retreat until her chair touches the wall, then quietly sort a fallen page and accept the work. Generate 362 frames at 24 fps; story action occupies 0-13 seconds, with an expendable final handle. Covers original Shots 03 and 04.
+
+retention_analysis:
+The female protagonist <Picture 1> / <Subject 1>: fully_preserved facial identity, long center-parted black hair, taupe-gray blazer, ivory top, light loose trousers and adult proportions. Her grooming stays neat despite withdrawn posture and exhaustion. Do not transfer reference-sheet layout, text, accessory samples or white background.
+Cadi <Picture 2> / <Subject 2>: required identity binding only; entirely absent. Do not render its body, flame, eyes or chest core.
+Virtual factory <Picture 3>: reserved textual definition, absent and unconnected. No factory imagery, neon streets or floating structures. The approved monochrome storyboard is offline staging guidance only; output is a full-color cinematic office scene, with cool gray walls, natural skin and muted clothing colors.
+
+detailed_description:
+Opening state anchor: the female protagonist <Picture 1> is already seated low at screen-right at the same wall-side table end, both hands near her open laptop base, shoulders tucked, gaze lowered, lips closed. Chair is close to but not touching the wall. Same 35mm table-height front-left view, camera stopped, cool ceiling light and projection spill from screen-left. Match the preceding clip's settled pose and screen direction through this textual anchor; no reference video or endpoint guide is supplied.
+[Shot 1] Begin from this settled medium view and follow the original Shot 03 action.
+[0s-2s] A report-holding forearm suddenly enters near her face, reaches past her and points at another client. She tilts her head away and retracts one shoulder. No one hits or grabs her.
+[2s-4s] She eases the wheeled chair back toward the wall. The camera shifts slightly to a side three-quarter angle on the same table side, revealing the chair back physically touching the wall. A quiet bump stops the retreat. Keep the wall visibly close: there is no further room behind her.
+[4s-6s] One loose sheet drifts down onto the laptop keyboard. She lowers her eyes to it, hands momentarily still at the table edge. In the distant projection, a muted drop-analysis image replaces the stress plot. Keep the engineering content small and secondary.
+[Shot 2] At 00:06.000, cut to a 65mm close three-quarter front view, maintaining the wall on her right/back and blurred arguing clients over her left shoulder.
+[6s-8s] The female protagonist <Picture 1> slowly closes her eyes and presses fingertips briefly to her brow. Her hand drops, eyes reopen; she lifts the fallen sheet from the keyboard. Background clients continue vigorous gesturing while she moves quietly.
+[8s-11s] She aligns the sheet's edges with both hands and places it on a crooked document stack beside the open laptop. She gives the first restrained acknowledgement, pauses, then finishes the exact acceptance line. Heavy eyelids and small precise movements show fatigue, without a cheerful smile.
+[11s-13s] She closes the notebook on the table and withdraws her hand. After finishing the line, the chair rolls a short distance diagonally backward toward the open aisle, away from the wall rather than through it. Keep her seated, ready for SEG-02 to show her rising and picking up the laptop; do not start walking away.
+[13s-15s] Expendable handle: hold the seated departure-ready pose until 15.083 seconds. Notebook remains closed, laptop open, sorted paper on stack. The argument continues behind her. Do not replay the acknowledgement or chair movement.
+Negative constraints: no subtitles, no readable text, no storyboard borders or panel numbers, no monochrome output, no character-sheet layout, no duplicate heroine, no identifiable client facial features, no punching or physical assault, no comic sound-effect lettering, no extra limbs, no room mirroring. No Cadi <Picture 2>, no virtual factory <Picture 3>, no robot or blue flame; no rubbery, gelatinous, solid jelly texture; no solid glass surface. The female protagonist <Picture 1> never joins the shouting, smiles happily, kneels or hides under the table.
+
+overall_soundscape:
+Continue the same busy argument, projector hum and paper sounds with no reset to silence. Client C begins at 0 seconds and speaks briskly through roughly 7 seconds, with other voices indistinct underneath: <d>[Chinese] 另外，請照 Bellini Drop 的條件跑 RB、LB、RT，並回覆各角落的完成時間。</d>
+At roughly 8-11 seconds the heroine speaks quietly, with a small pause after the first word: <d>[Chinese] 好。好，沒問題，我來處理。</d>
+Preserve every word; use post-production dialogue placement if generated timing misses the intended windows. Chair-wall bump at 2-4 seconds, paper contact at 4-6 seconds, restrained breath and paper alignment, then notebook closure and short chair-roll sound after the final line. Background arguing never stops; only its intelligibility reduces around the heroine's voice. The final handle contains ambience without new words.
+
+non_diegetic_music:
+N/A
