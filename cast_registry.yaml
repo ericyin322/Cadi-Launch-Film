@@ -1,0 +1,61 @@
+project:
+  title: "Cadi Launch Film"
+  aspect_ratio: "16:9"
+  frames_per_segment: 362
+  label_style: "paired"
+  section_style: "detailed"
+
+assets:
+  heroine:
+    priority: 10
+    file: "assets/characters/Gemini_Generated_Image_6rilce6rilce6ril.jpg"
+    role: "identity"
+    binding: "Her face, hair, and clothing follow"
+    canonical: >-
+      the female protagonist, a 20-something East Asian female mechanical R&D engineer.
+      She has long, straight, center-parted black hair and wears a tailored taupe-gray
+      blazer, an ivory crew-neck top, and loose light-colored trousers. She is
+      professional, composed, and places a high value on immaculate grooming.
+    retention: >-
+      fully preserved: her facial features, long straight center-parted black hair,
+      tailored taupe-gray blazer, ivory crew-neck top, loose light-colored trousers,
+      body proportions, professional composure, and immaculate grooming must remain
+      consistent. Do not copy the design-sheet layout, text, color swatches, object
+      icons, or white background.
+
+  cadi:
+    priority: 20
+    file: "assets/characters/cadi Design Sheet.jpg"
+    role: "identity"
+    binding: "Its design, proportions, and colors follow"
+    canonical: >-
+      Cadi, a small flying robot mascot. Its head is composed of actively burning,
+      ethereal cyan-blue plasma fire that continuously flickers, dances, and undulates
+      with rising wisps and subtle luminous embers (an energetic plasma flame, completely
+      non-solid, with zero gelatinous or jelly-like surface tension). Within the dynamic
+      flame sit two oversized oval cyan eyes and a tiny mouth, atop a dark navy segmented
+      robot body and a glowing circular cyan chest core. Its height is approximately half
+      of the female protagonist's upper body.
+    retention: >-
+      fully preserved: its actively burning cyan-blue plasma fire head, continuous
+      flickering combustion, soft rising flame tongues, subtle luminous embers, wind-drag
+      during movement, upward licking and dissipation while hovering, oversized oval cyan
+      eyes, tiny mouth, dark navy segmented robot body, body proportions, and glowing
+      circular cyan chest core must remain consistent. Do not copy the design-sheet
+      layout, title, Chinese text, or white background.
+    extra_negatives:
+      - "rubbery, gelatinous, solid jelly texture"
+      - "solid glass surface"
+
+segments:
+  - id: "S03a"
+    scene: 3
+    seed: 7301
+    cast: [heroine, cadi]
+    beat: "女主抵達工作位並接上工作站；呼叫 Cadi，Cadi 從介面彈出並表示已掌握狀況。"
+  - id: "S03b"
+    scene: 3
+    seed: 7301
+    cast: [heroine, cadi]
+    continues_from: "S03a"
+    beat: "女主揉眼、放手重新聚焦並接受協作；Cadi 胸口光源擴張，青藍光掃鏡形成轉場。"

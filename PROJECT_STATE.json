@@ -1,6 +1,6 @@
 {
   "project": "Cadi-Launch-Film",
-  "updated": "2026-09-09",
+  "updated": "2026-09-11",
   "duration_seconds": 300,
   "audience": ["上級", "主管", "技術發表會觀眾"],
   "source_of_truth": "screenplay/master-storyboard-v0.2.md",
@@ -9,7 +9,7 @@
   "segments": [
     {"id":"SEG-01","storyboard":"v01","approval":"pending_batch_review","h3":"todo"},
     {"id":"SEG-02","storyboard":"v01","approval":"pending_batch_review","h3":"todo"},
-    {"id":"SEG-03","storyboard":"v01","approval":"pending_batch_review","h3":"todo"},
+    {"id":"SEG-03","storyboard":"v01","approval":"pending_batch_review","h3":"v01_test_s03a_s03b"},
     {"id":"SEG-04","storyboard":"v01","approval":"approved","h3":"v01"},
     {"id":"SEG-05","storyboard":"v01","approval":"pending_batch_review","h3":"todo"},
     {"id":"SEG-06","storyboard":"v01","approval":"pending_batch_review","h3":"todo"},
@@ -22,4 +22,3 @@
     {"id":"SEG-13","storyboard":"v01","approval":"pending_batch_review","h3":"todo"}
   ]
 }
-
