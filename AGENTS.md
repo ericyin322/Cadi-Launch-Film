@@ -2,7 +2,7 @@
 
 - 所有回覆與製作文件以繁體中文為主。
 - 先讀 `README.md`、`PROGRESS.md`、`PROJECT_STATE.json` 與 `screenplay/DECISIONS.md`。
-- 劇情內容以 `screenplay/master-storyboard-v0.7.md` 為唯一來源；未經使用者授權不得改寫劇情。
+- 劇情內容以 `screenplay/master-storyboard-v0.8.md` 為唯一來源；未經使用者授權不得改寫劇情。
 - 修改某個 SEG 時只處理該 SEG；除非連續性受到影響，否則不要改動其他段落。
 - 新版本不得覆蓋舊檔，使用 `v02`、`v03` 依序增加。
 - 新增分段可先使用 `SEG-xxA`；同步更新 `PROGRESS.md`、`PROJECT_STATE.json` 與 `CHANGELOG.md`。

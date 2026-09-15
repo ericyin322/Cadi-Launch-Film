@@ -7,7 +7,7 @@
     "主管",
     "技術發表會觀眾"
   ],
-  "source_of_truth": "screenplay/master-storyboard-v0.7.md",
+  "source_of_truth": "screenplay/master-storyboard-v0.8.md",
   "video_prompt_target": "MiniMax H3",
   "storyboard_style": "黑白漫畫式線稿（僅限 Storyboard 前期圖，不進 H3 提示詞）",
   "final_video_style": "寫實真人電影質感；H3 逐字文字見 cast_registry.yaml project.visual_style",
@@ -33,8 +33,16 @@
     {
       "id": "SEG-03",
       "storyboard": "v01",
-      "approval": "pending_batch_review",
-      "h3": "v01_test_s03a_s03b"
+      "approval": "storyboard_v01_outdated_revision_pending",
+      "h3": "v01_test_s03a_s03b_outdated",
+      "screenplay": "v0.8",
+      "screenplay_approval": "approved_by_user_revision",
+      "brief": "segments/SEG-03/brief-v02.md",
+      "timing_status": "21_seconds_confirmed_by_user",
+      "timing_notes": "依使用者決定維持21秒；完整保留對白、動作及0.5秒思考停頓。全片5:00與後段時間碼不變。",
+      "screenplay_notes": "依使用者要求維持 v0.8 原檔微調：攝影機進入辦公區，女主角稍微挪開辦公椅並坐下、喚醒螢幕；Cadi 思考停頓0.5秒。",
+      "duration_seconds": 21,
+      "time_range": "00:45–01:06"
     },
     {
       "id": "SEG-04",
@@ -96,5 +104,6 @@
       "approval": "pending_batch_review",
       "h3": "todo"
     }
-  ]
+  ],
+  "duration_status": "planned_300_seconds"
 }
