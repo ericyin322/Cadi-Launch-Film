@@ -1,0 +1,35 @@
+subject_definitions:
+<Picture 1> is the female protagonist, a 20-something East Asian female mechanical R&D engineer. She has long, straight, center-parted black hair and wears a tailored taupe-gray blazer, an ivory crew-neck top, and loose light-colored trousers. She is professional, composed, and places a high value on immaculate grooming.
+<Picture 2> is Cadi, a small flying robot mascot. Its head is composed of actively burning, ethereal cyan-blue plasma fire that continuously flickers, dances, and undulates with rising wisps and subtle luminous embers (an energetic plasma flame, completely non-solid, with zero gelatinous or jelly-like surface tension). Within the dynamic flame sit two oversized oval cyan eyes and a tiny mouth, atop a dark navy segmented robot body and a glowing circular cyan chest core. Its height is approximately half of the female protagonist's upper body.
+<Picture 3> is the virtual factory, a near-future engineering city inspired by the street aesthetics of Taiwan and Hong Kong. It features a southern entrance observation deck, a central north-south floating transit lane, engineering service buildings lining both sides, warm vertical neon shapes, and cyan data light rails.
+<Subject 1> is the person defined by <Picture 1>; her face, hair and clothing follow that identity reference.
+<Subject 2> is the excluded mascot defined by <Picture 2>, not an on-screen performer.
+<Picture 3> is a reserved project declaration only: no third image is supplied or used in this scene.
+
+summary:
+[reference generation] SEG02-B: <Subject 1>, the female protagonist <Picture 1>, checks her smartwatch, opens an RF change-request email, and the frame becomes a full-screen group chat filling with complaints. Generate 362 frames at 24 fps (15.083 seconds); story action occupies 0-12 seconds, then an expendable handle. Three shots, full color, 16:9.
+
+retention_analysis:
+<Subject 1> (appears in [Shot 1], [Shot 2]): fully_preserved - identity, hair, costume and proportions exactly as defined by <Picture 1>; in [Shot 2] only her left hand, taupe sleeve and black watch stay in frame, and she is absent from [Shot 3]. Exclude sheet layout, text, swatches and white background.
+<Subject 2> / <Picture 2> (mandatory identity binding): unused and absent from every shot, including chat avatars and app icons; no flame head, eyes, body or chest core.
+<Picture 3> (mandatory reserved declaration): unconnected and absent; no visible retention marker applies.
+Storyboard is offline staging only. Continues the end state of SEG02-A: same corridor and screen-right light, closed laptop under her right upper arm, black watch on her left wrist, phone in her left hand only.
+
+detailed_description:
+Full-color cinematic 2D animation, 16:9, in the same cool gray office corridor with natural skin tones and muted taupe clothing, moving into a flat, bright phone interface. Timestamps are final playback time.
+[Shot 1] A 65mm close-up from her front-right opens on the closing state of SEG02-A: <Subject 1>, the female protagonist <Picture 1>, stands with her back against the closed conference-room door, left hand settled beside her left ear, the lit black smartwatch near her cheek, eyes just opening after a tired sigh. She is interrupted and tense, not relaxed.
+[0s-2s] The camera pulls out with small amplitude to include her pocket as she lowers her left forearm and reads the watch, eyebrows tightening. Without pausing, the same left hand dips into her blazer pocket, pulls out a phone and wakes the screen with her thumb. Her right upper arm keeps the closed laptop clamped; neither object changes hands.
+[Shot 2] At 00:02.000, the shot cuts to a steady, readable close-up of the phone in her left hand, the same taupe sleeve and black watch at the frame edge.
+[2s-5s] The screen shows one email notification card: a bold Traditional Chinese subject line "RF需求變更需求" above a lighter preview line "半小時後開會". Both stay large, sharp, correctly formed and still for the full three seconds, with no sender block and no scrolling. At about 4.6 seconds her thumb taps the group-chat app icon below the card with a restrained interface tap.
+[Shot 3] At 00:05.000, the shot cuts to a FULL-FRAME group-chat interface in the same screen position; the phone body, her hand and the corridor are gone. A dark violet-navy header bar carries the title "Placement 討論" with small call icons at screen-right, above a white message area with three distinct small colleague avatars down screen-left. No person or physical office appears.
+[5s-7s] A short message ping sounds at 5 seconds and the first incoming bubble appears beside the top avatar, reading exactly "半小時討論!?? 我圖都還沒看怎麼開會!?". It stays on screen.
+[7s-9s] A second ping at 7 seconds brings the next bubble below it, reading exactly "我placement 昨天晚上才搞定". Both stay visible.
+[9s-12s] A third ping at 9 seconds brings the last bubble, reading exactly "完蛋了怎麼辦!!". All three stay readable in place, with no scrolling or replacement. From 11 seconds quick footsteps rise off-screen as a lead into the next scene while the interface stays on screen; off-screen she pockets the phone and heads to her desk with the laptop.
+[12s-15s] Expendable handle through 15.083 seconds: the same three-message interface, unchanged, with no new bubble, notification or cut away. Hold the unresolved tension.
+Negative constraints: no subtitles, no readable text beyond the specified interface, no translated or shortened messages, no garbled or invented Chinese characters, no tiny or blurred text, no scrolling bubbles away, no monochrome output, no people inside the full-frame interface, no extra fingers or limbs, no device changing hands, no new scene after the chat. Do not replay the escape, sigh, hair brush or watch vibration. No Cadi <Picture 2>, no virtual factory <Picture 3>, no robot or blue flame, no rubbery, gelatinous, solid jelly texture, no solid glass surface.
+
+overall_soundscape:
+Corridor ventilation and the muffled, unintelligible client argument (S1) continue beneath the phone handling and across the cut to the interface, quieter but present. Handling sounds, fabric and thumb taps stay attached to their sources; the three pings stay short and restrained. No spoken complaints, no voice-over reading the chat, no repeated watch buzz. From 11 seconds her footsteps lead out toward the office area.
+
+non_diegetic_music:
+Continue A's 72 BPM bass-drum and low-tom pulse at medium-low tension, with no new intro, reset or tempo change. From 0-5 seconds thicken the low drum with doubled pulses under the email. From 5-9 seconds layer further toms and denser subdivisions as the messages stack up. From 9-12 seconds reach heavy, insistent low-drum pressure over the dark sub-bass drone, almost no melody, ending unresolved; the handle sustains it without a new climax. No jump-scare sting, heroic brass, choir, lyrics or resolved cadence. Duck for the pings and the tap. One continuous percussion bed covers A and B in the final edit.

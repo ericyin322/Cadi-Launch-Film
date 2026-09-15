@@ -28,11 +28,53 @@ Ref2VA rewrites use `subject_definitions`, `summary`, `retention_analysis`, `det
 
 Read `references/ref-en.txt` for label rules, retention analysis, and complete examples.
 
+## Absent Objects (hard rule)
+
+H3 has no negation operator. A text encoder turns `no Cadi`, `the excluded mascot` and
+`absent from every shot` into the same embedding as `Cadi`: the model sees the noun and
+renders it. Ref2VA makes this worse, because uploading a reference image is itself a
+direct instruction to place that subject in the video. A "reserved" or "excluded" slot
+therefore summons the subject even when no text mentions it.
+
+1. Only cast members that actually appear get a `<Picture N>` / `<Subject N>` slot. Do
+   not upload a reference image for an absent subject and do not reserve an index for
+   one. Indices stay contiguous from 1 and match the uploaded `ref_image_{N-1}` slots.
+2. Never name an absent object anywhere in the prompt: not in `subject_definitions`, not
+   in `retention_analysis`, not in the negative list. Exclusion declarations do not
+   exist; there is no phrasing that makes one safe.
+3. Cross-segment identity consistency comes from a fixed seed plus verbatim reuse of the
+   registry `canonical` text in the segments where the subject does appear. It never
+   comes from carrying a ghost slot through the segments where it does not.
+4. Negative lists may contain only rendering defects and frame-level attributes, such as
+   `no subtitles`, `no readable text`, `no extra fingers`, `no deformed limbs`,
+   `no shaky camera`, `no slow motion`, `no looping`. They may not contain object nouns.
+5. Registry `extra_negatives` apply only while that asset is in the cast. They constrain
+   how a present subject must not look; they never assert that a subject is absent.
+6. To hold a present object in a state, write it positively: `the laptop stays closed`,
+   not `no open laptop`.
+
+Wrong — every line below drags the object into frame:
+
+    <Subject 2> is the excluded mascot defined by <Picture 2>, not an on-screen performer.
+    <Picture 3> is a reserved project declaration only: no third image is supplied or used in this scene.
+    <Subject 2> / <Picture 2>: unused and absent from every shot and reflection.
+    Negative constraints: ... No Cadi <Picture 2>, no virtual factory <Picture 3>, no robot or blue flame.
+
+Right — the absent subjects are simply not present in the prompt at all, only
+`<Picture 1>` / `<Subject 1>` is declared, and `ref_image_0` is the only upload:
+
+    <Subject 1> is the female protagonist ... Her face, hair and clothing follow <Picture 1>.
+    Negative constraints: no subtitles, no readable text, no extra fingers or limbs, no duplicate heroine, no shaky camera.
+
+`scripts/check_prompt.py` enforces rules 1-4.
+
+
 ## Output Rules
 
 - Write rewrite sections in English; preserve dialogue, lyrics, and visible scene text in their original language.
 - Describe each shot by composition, subjects, environment, actions, camera, sound, and the exact point where referenced content appears.
 - Avoid plot summaries, unresolved reference labels, and timing that does not match the requested duration.
+- Never mention, negate, exclude or reserve a subject that does not appear; see "Absent Objects" above.
 ## Tips for Better Results
 - Always match the total duration of the description to the requested video length (4–15 seconds).
 - Keep reference labels consistent (e.g. `<Picture 1>`, `<Video 1>`, `<Audio 1>`) across every section.

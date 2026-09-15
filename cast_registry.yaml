@@ -24,6 +24,7 @@ assets:
       icons, or white background.
 
   cadi:
+    summon_tokens: ["cadi", "mascot", "plasma", "flame head", "robot", "chest core"]
     priority: 20
     file: "assets/characters/cadi Design Sheet.jpg"
     role: "identity"
@@ -47,6 +48,26 @@ assets:
       - "rubbery, gelatinous, solid jelly texture"
       - "solid glass surface"
 
+  teams_ui:
+    summon_tokens: ["teams", "group-chat interface", "message bubble"]
+    priority: 30
+    file: "assets/software/teams-ui-reference-v01.png"
+    role: "interface"
+    binding: "Its layout, colors, icons and bubble styling follow"
+    canonical: >-
+      the group-chat interface reference: a team-chat screen with a dark violet-navy
+      header bar carrying the chat title and call icons, a white message area, round
+      colleague avatars down screen-left, and light incoming bubbles beside them.
+    retention: >-
+      fully preserved: header bar, title placement, call icons, avatar column, bubble
+      shape, corner radius, spacing and type scale. Do not copy the reference's own
+      sample messages, sender names, timestamps, unread badges, photo avatars or side
+      panels; all visible text comes from the segment's specified lines.
+
+# 不出場的資產不得列入 cast：不上傳參考圖、不編索引、提示詞一個字都不提。
+# H3 沒有否定運算子，「排除宣告」與「保留槽」只會把物件召喚進畫面。
+# summon_tokens 供 check_prompt.py 反向比對：資產不在 cast 時，這些字眼出現即 FAIL。
+
 segments:
   - id: "S03a"
     scene: 3
@@ -63,18 +84,14 @@ segments:
     scene: 1
     seed: 7101
     frames: 362
-    cast: [heroine, cadi]
-    visible_cast: [heroine]
-    reserved_unbound_picture: 3
+    cast: [heroine]
     prompt: "segments/SEG-01/seg01-a-minimax-h3-prompt-v04.txt"
     beat: "失控會議；找到躲在牆角的主角。"
   - id: "seg01-b"
     scene: 1
     seed: 7101
     frames: 362
-    cast: [heroine, cadi]
-    visible_cast: [heroine]
-    reserved_unbound_picture: 3
+    cast: [heroine]
     continues_from: "seg01-a"
     prompt: "segments/SEG-01/seg01-b-minimax-h3-prompt-v04.txt"
     beat: "退椅撞牆；整理落紙、承接並準備離場。"
@@ -83,18 +100,14 @@ segments:
     scene: 2
     seed: 7201
     frames: 362
-    cast: [heroine, cadi]
-    visible_cast: [heroine]
-    reserved_unbound_picture: 3
-    prompt: "segments/SEG-02/seg02-a-minimax-h3-prompt-v01.txt"
+    cast: [heroine]
+    prompt: "segments/SEG-02/seg02-a-minimax-h3-prompt-v03.txt"
     beat: "門外飛紙、衝出關門、背靠門嘆氣撥髮、手錶震動；低鼓漸強。"
   - id: "seg02-b"
     scene: 2
     seed: 7201
     frames: 362
-    cast: [heroine, cadi]
-    visible_cast: [heroine]
-    reserved_unbound_picture: 3
+    cast: [heroine, teams_ui]
     continues_from: "seg02-a"
-    prompt: "segments/SEG-02/seg02-b-minimax-h3-prompt-v01.txt"
+    prompt: "segments/SEG-02/seg02-b-minimax-h3-prompt-v04.txt"
     beat: "看錶、開手機、RF 郵件、滿版群組抱怨；低鼓推高張力。"

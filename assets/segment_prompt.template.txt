@@ -5,6 +5,11 @@ subject_definitions 和 retention_analysis 的角色描述必須從 registry 逐
 
 內文動作描述一律用 <Subject N> 指稱角色；<Picture N> 只出現在 subject_definitions
 和 retention_analysis 的綁定句裡。索引 N 同時對應節點上的 ref_image_{N-1} 插槽。
+
+【硬規則】這一段沒出場的角色或場景：不上傳圖、不編索引、整份提示詞一個字都不提。
+沒有「排除宣告」也沒有「保留槽」——H3 的文字條件沒有否定運算子，寫 no / excluded /
+absent 只會把該物件餵給模型並畫出來；Ref2VA 連上傳參考圖本身就是召喚。跨段一致性
+靠固定 seed ＋ 出場段落逐字重用 registry 的 canonical，不靠幽靈插槽。
 若 section_style 設為 "integrated"，把 detailed_description: 換成
 integrated_multimodal_description:，並刪掉 summary: 與 non_diegetic_music: 兩節。
 ==============================================================================
@@ -13,8 +18,8 @@ subject_definitions:
 <Subject 1> is <<<registry.assets[第一順位].canonical 逐字>>> <<<綁定句，例如
 Her face, hair, and clothing follow <Picture 1>. / Its design, proportions, and colors
 follow <Picture 1>. / Its architecture, lighting, and layout follow <Picture 1>.>>>
-<Subject 2> is <<<第二順位；沒有就整組刪掉>>> ... follow <Picture 2>.
-<Subject 3> is <<<同上>>> ... follow <Picture 3>.
+<Subject 2> is <<<第二順位；這段沒出場就整組刪掉，不要留排除宣告>>> ... follow <Picture 2>.
+<Subject 3> is <<<同上；索引必須從 1 連續，不得跳號或保留>>> ... follow <Picture 3>.
 
 summary:
 [reference generation] <<<一到兩句話：這 15 秒發生什麼、情緒走向如何。>>>
@@ -39,10 +44,11 @@ technology brand film, 16:9, 768p.>>> <<<開場畫面：主體在哪、在做什
 0:14 <<<收尾：明確的結束狀態。這個狀態就是下一段 state anchor 要重建的東西，
 寫具體一點——姿勢、手的位置、視線方向、鏡頭停在哪。>>>
 
-<<<負面表列，固定樣板 + 該段追加：>>>
+<<<負面表列，固定樣板 + 該段追加。只能放畫面瑕疵與鏡頭屬性，不得出現任何物件名詞；
+要讓畫面裡的東西保持某個狀態，改寫成正向句（the laptop stays closed），不要寫 no open laptop：>>>
 No reverse motion, no backward walking, no looping, no mid-shot freeze, no readable
 text, no subtitles, no logos, no duplicate characters, no deformed limbs, no object
-penetration, no mirrored layout, no sudden prop disappearance<<<，若 Cadi 出場追加：
+penetration, no mirrored layout<<<，若 Cadi 出場追加（僅限出場時）：
 , no jelly or gelatinous head texture, no solid glass surface>>>.
 
 overall_soundscape:

@@ -168,7 +168,8 @@ def check_timeline(text, style):
                       (r"\btwenty-second\b", "fifteen-second"),
                       (r"\bthirty-second\b", "fifteen-second")]:
         if re.search(bad, body, re.I):
-            fail(f"內文寫了 {bad.strip('\\b')} 但單段實為 15.083 秒；"
+            word = bad.replace("\\b", "")
+            fail(f"內文寫了 {word} 但單段實為 15.083 秒；"
                  f"秒數不符會讓模型壓縮或拉長節奏，改成 {good}")
 
 
@@ -181,6 +182,138 @@ def check_negatives(text, style):
         fail("負面表列缺失或不完整（找不到 no readable text / no subtitles）")
     else:
         ok("負面表列存在")
+
+
+# ---------------------------------------------------------------------------
+# 召喚檢查：H3 的文字條件沒有否定運算子，提示詞裡出現的物件名詞一律會被畫出來。
+# 「排除宣告」「保留槽」不但無效，而且是強力的正向條件；Ref2VA 連上傳參考圖本身
+# 都是召喚。不出場的東西唯一正確的處理方式是：完全不提、不上傳、不編索引。
+# ---------------------------------------------------------------------------
+
+EXCLUSION_PATTERNS = [
+    (r"\bis the excluded\b", "排除宣告"),
+    (r"\bexcluded (?:mascot|subject|character|asset)\b", "排除宣告"),
+    (r"\bnot an on-screen\b", "排除宣告"),
+    (r"\breserved (?:project )?declaration\b", "保留槽宣告"),
+    (r"\bis (?:a )?reserved\b", "保留槽宣告"),
+    (r"\bunused and absent\b", "排除宣告"),
+    (r"\babsent from every\b", "排除宣告"),
+    (r"\bno (?:second|third|fourth|fifth|sixth) image is (?:supplied|used|provided)\b",
+     "保留槽宣告"),
+    (r"\bmandatory reserved\b", "保留槽宣告"),
+    (r"\b(?:unconnected|unbound) and absent\b", "保留槽宣告"),
+]
+
+# 負面表列允許的字詞：畫面瑕疵與鏡頭屬性，沒有對應的可繪製實體。
+NEGATIVE_ALLOW = {
+    "subtitle", "subtitles", "text", "caption", "captions", "watermark",
+    "watermarks", "logo", "logos", "letter", "letters", "lettering",
+    "typography", "font", "fonts", "panel", "panels", "border", "borders",
+    "number", "numbers", "monochrome", "grayscale", "greyscale",
+    "black-and-white", "live-action", "photoreal", "photorealistic",
+    "finger", "fingers", "limb", "limbs", "deformed", "deformity",
+    "duplicate", "duplicated", "extra", "distortion", "artifact", "artifacts",
+    "blur", "blurring", "morph", "morphing", "flicker", "flickering",
+    "jitter", "shaky", "shake", "handheld", "slow", "speed", "time-lapse",
+    "timelapse", "loop", "looping", "freeze", "frozen", "reverse",
+    "backward", "mirror", "mirrored", "mirroring", "penetration", "clipping",
+    "jelly", "gelatinous", "rubbery", "cut", "cuts", "transition",
+    "transitions", "zoom", "dolly", "pan", "split", "collage", "montage",
+    "motion", "render", "rendering", "seam", "banding", "noise", "aliasing",
+    "glitch", "camera", "shot", "frame", "output", "switch", "spoken",
+    "dialogue", "lyrics", "invented", "scripted",
+}
+
+
+def _negative_block(body):
+    """只取負面表列那一段；內文敘述裡的 no/without 是劇情，不在這裡判。"""
+    m = re.search(r"(?is)\bnegative constraints?\s*:(.*?)(?:\n\s*\n|\Z)", body)
+    if m:
+        return m.group(1)
+    paras = [x for x in re.split(r"\n\s*\n", body) if re.match(r"\s*No\b", x)]
+    return paras[-1] if paras else ""
+
+
+def _negative_items(body):
+    """抓負面表列裡的每一條 no 項目。"""
+    block = _negative_block(body)
+    return [(m.group(0).strip(), m.group(1).strip().lower())
+            for m in re.finditer(r"(?i)\bno\s+([^.,;:\n]{2,60})", block)]
+
+
+def check_summoning(text, style, reg=None, cast=None):
+    body_key = ("integrated_multimodal_description" if style == "integrated"
+                else "detailed_description")
+    m = re.search(rf"(?ms)^{body_key}:\s*(.*?)(?=^[A-Za-z_]\w*:|\Z)", text)
+    body = m.group(1) if m else ""
+
+    hits = 0
+
+    # (a) 排除／保留宣告句型：全文都不該出現（重疊的命中合併成一條）
+    spans = []
+    for pat, label in EXCLUSION_PATTERNS:
+        for mm in re.finditer(pat, text, re.I):
+            spans.append((mm.start(), mm.end(), label))
+    spans.sort()
+    merged = []
+    for start, end, label in spans:
+        if merged and start <= merged[-1][1] + 60:
+            merged[-1][1] = max(merged[-1][1], end)
+        else:
+            merged.append([start, end, label])
+    for start, end, label in merged:
+        line = text[max(0, start - 30):end + 30].replace("\n", " ")
+        fail(f"{label}會把物件召喚進畫面，必須整段刪除: \"...{line.strip()}...\"")
+        hits += 1
+
+    # (b) 否定句裡出現參考標籤：等於一邊說不要、一邊餵完整描述
+    for mm in re.finditer(
+            r"(?i)\b(?:no|not|never|without)\b[^.;\n]{0,60}?"
+            r"<(?:Picture|Subject)\s+\d+>", text):
+        line = mm.group(0).replace("\n", " ")
+        fail(f"否定句裡帶了參考標籤，模型只會讀到標籤指向的物件: \"{line.strip()}\"")
+        hits += 1
+
+    # (c) registry 比對：不在 cast 卻在提示詞裡被提名的資產
+    if reg and cast is not None:
+        assets = reg.get("assets", {})
+        for key, asset in assets.items():
+            if key in cast:
+                continue
+            tokens = [key.replace("_", " ")] + list(asset.get("summon_tokens") or [])
+            for tok in tokens:
+                tok = str(tok).strip().lower()
+                if not tok:
+                    continue
+                if re.search(r"(?<![\w-])" + re.escape(tok) + r"(?![\w-])",
+                             text, re.I):
+                    fail(f"資產 {key} 不在 {'/'.join(sorted(cast))} 的 cast 裡，"
+                         f"但提示詞出現 \"{tok}\"；不出場就一個字都不能提")
+                    hits += 1
+                    break
+
+    # (d) 負面表列裡的物件名詞：WARN，請改寫成正向狀態描述
+    allowed_extra = []
+    if reg and cast:
+        for key in cast:
+            for neg in (reg.get("assets", {}).get(key, {})
+                        .get("extra_negatives") or []):
+                allowed_extra.append(normalize(neg))
+    for whole, item in _negative_items(body):
+        if "<picture" in item or "<subject" in item:
+            continue  # 已由 (b) 以 FAIL 報過
+        words = set(re.findall(r"[a-z][a-z-]+", item))
+        if words & NEGATIVE_ALLOW:
+            continue
+        norm_item = normalize(item)
+        if any(e and (e in norm_item or norm_item in e) for e in allowed_extra):
+            continue  # registry 針對出場角色指定的材質負面詞
+        warn(f"負面表列 \"{whole}\" 在點名物件而非畫面瑕疵；"
+             f"物件名詞會被召喚，請刪掉或改寫成正向狀態"
+             f"（例如 \"the laptop stays closed\"）")
+
+    if hits == 0:
+        ok("沒有排除宣告、保留槽或否定標籤（不出場的物件不會被召喚）")
 
 
 def check_length(text):
@@ -254,6 +387,7 @@ def check_registry(text, reg, seg_id, indices):
               f"-> <Picture {i}> / <Subject {i}> = {key}")
     print(f"  seed = {seg.get('seed', '未設定')}, "
           f"frames = {reg['project'].get('frames_per_segment', 362)}")
+    return cast
 
 
 def main():
@@ -282,6 +416,8 @@ def main():
     check_negatives(text, style)
     check_length(text)
 
+    reg = None
+    cast = None
     if args.registry:
         if not args.segment:
             fail("給了 --registry 就必須同時給 --segment")
@@ -292,7 +428,9 @@ def main():
                 warn("未安裝 PyYAML，跳過 registry 比對（pip install pyyaml）")
             else:
                 reg = yaml.safe_load(open(args.registry, encoding="utf-8"))
-                check_registry(text, reg, args.segment, indices)
+                cast = check_registry(text, reg, args.segment, indices)
+
+    check_summoning(text, style, reg, set(cast) if cast else None)
 
     print()
     for level, msg in results:
