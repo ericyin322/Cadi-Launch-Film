@@ -106,3 +106,11 @@
 - 依 v0.7 與 H3 A／B 最新節奏生成六格黑白 Storyboard，涵蓋指責手勢、怒罵嘴型與口水、收筆電、悄悄離席、關門及靜默後嘆氣。
 - v03 首次生成稿保留；v04 將 03–06 的深色筆電修正為最新設定的銀色 HP 筆電。
 - 新增 `brief-v04.md` 與 `storyboard-generation-prompt-v04.md`，同步更新進度與機器狀態；v04 待使用者確認。
+
+## 2026-09-15｜H3 畫風召喚修正
+
+- `cast_registry.yaml` 新增 `project.visual_style`；heroine 改掛 `heroine-photo-reference-v01.png`；heroine／cadi 的 retention 刪除 design-sheet 否定句，改為正向真人描述。
+- skill：`base-en.txt` 改為專案有 visual_style 時逐字使用、不從參考圖推斷；`SKILL.md` 新增 Project Visual Style 硬規則。
+- `check_prompt.py`：新增 `check_style`（2D／animation／cel／drawing style／illustrated／design sheet／storyboard 等字眼 FAIL、負面表列否定真人 FAIL、visual_style 逐字比對）；`NEGATIVE_ALLOW` 移除 live-action／photoreal。
+- 範本、`AGENTS.md`、`PROJECT_STATE.json`、`ASSET_INDEX.md` 同步。既有提示詞未改版。
+- SEG-02 依新規則出 A v05／B v06：畫風句逐字取自 visual_style、刪除 drawing style 否定句與 illustrated 字眼；A 改掛 heroine-photo-reference-v01.png；registry 與 manifest 路徑同步。兩段 12 passed／0 warn／0 fail。

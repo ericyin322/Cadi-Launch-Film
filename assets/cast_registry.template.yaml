@@ -10,6 +10,7 @@ project:
   frames_per_segment: 362       # 15.083s，見 references/h3-constraints.md
   label_style: "paired"         # Subject/Picture 配對（node pack 契約），已定案
   section_style: "detailed"     # Ref2VA 六區段，已定案
+  visual_style: ""              # 成片畫風一句話，逐字複製進每段 detailed_description 開頭；只寫正向描述
 
 # ---------------------------------------------------------------------------
 # 資產。priority 決定區域索引的指派順序，數字小的先拿到 <Picture 1>。

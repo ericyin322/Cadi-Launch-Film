@@ -2,7 +2,8 @@
 
 | 檔案 | 用途 | 可參考 | 不可直接沿用 |
 |---|---|---|---|
-| `characters/Gemini_Generated_Image_6rilce6rilce6ril.jpg` | MiniMax H3 固定 `<Picture 1>`／女主角身分基準 | 臉部、長直中分黑髮、正側背比例、米灰西裝與淺色寬褲、表情與專業氣質 | 設計表排版、文字、色票、物件圖示與白色背景 |
+| `characters/heroine-photo-reference-v01.png` | MiniMax H3 女主角身分基準（2026-09-15 起取代設計表） | 寫實臉部、長直中分黑髮、米灰西裝與淺色上衣、真人質感 | 灰色棚拍背景 |
+| `characters/Gemini_Generated_Image_6rilce6rilce6ril.jpg` | 女主角設計表；Storyboard 用。H3 不再上傳（插畫風會把成片拉成動畫） | 臉部、長直中分黑髮、正側背比例、米灰西裝與淺色寬褲、表情與專業氣質 | 設計表排版、文字、色票、物件圖示與白色背景 |
 | `characters/cadi Design Sheet.jpg` | MiniMax H3 固定 `<Picture 2>`／Cadi 身分基準 | 正側背比例、動態火焰頭、眼睛、小嘴、深藍機器身體、胸口光核與表情 | 設計表排版、標題、中文字與白色背景 |
 | `characters/cadi-reference-v01.png` | Cadi 身分基準 | 火焰頭、眼睛、身體與胸口核心 | 原背景 |
 | `characters/heroine-face-reference-v01.png` | 主角臉部基準 | 臉型、長直黑髮、氣質 | 原服裝、背景與光線 |

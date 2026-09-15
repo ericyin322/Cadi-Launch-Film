@@ -69,6 +69,26 @@ Right — the absent subjects are simply not present in the prompt at all, only
 `scripts/check_prompt.py` enforces rules 1-4.
 
 
+## Project Visual Style (hard rule)
+
+A reference image carries its own rendering style into the video. Character design
+sheets and storyboards are drawings, so "derive the style from the reference image"
+turns a live-action project into 2D animation.
+
+1. When the registry defines `project.visual_style`, the style opening of
+   `detailed_description` is that sentence copied verbatim. Never infer style from
+   `<Picture N>`.
+2. Describe style only positively (`real skin, real fabric, real lighting`). Never write
+   that the reference's drawing style, design-sheet layout or storyboard look is
+   "replaced", "ignored" or "not copied": the noun is what the model reads.
+3. In a live-action project, style words such as `2D`, `animation`, `cel shading`,
+   `drawing style`, `illustrated`, `cartoon`, `anime`, `manga`, `sketch`, `line art`,
+   `design sheet` and `storyboard` must not appear anywhere in the prompt.
+4. Prefer a photographic reference image for identity; a drawn design sheet keeps
+   pulling the render toward illustration no matter what the text says.
+
+`scripts/check_prompt.py` enforces rules 1 and 3.
+
 ## Output Rules
 
 - Write rewrite sections in English; preserve dialogue, lyrics, and visible scene text in their original language.

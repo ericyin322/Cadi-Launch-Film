@@ -28,8 +28,11 @@ retention_analysis:
 <Subject 1> is fully preserved from <Picture 1>: <<<registry.assets[第一順位].retention 逐字>>>
 <Subject 2> is fully preserved from <Picture 2>: <<<同上；沒有就刪掉>>>
 
-detailed_description: [Shot 1] <<<影片類型與比例，例如：Live-action cinematic
-technology brand film, 16:9, 768p.>>> <<<開場畫面：主體在哪、在做什麼、環境、光線、
+detailed_description:
+<<<registry.project.visual_style 逐字；不得從參考圖推斷畫風，不得寫 2D／animation／cel／
+drawing／illustration／design sheet／storyboard 等字眼，也不寫「參考圖的畫風被取代」這類否定句>>>
+
+[Shot 1] <<<比例，例如 16:9。>>> <<<開場畫面：主體在哪、在做什麼、環境、光線、
 鏡頭焦段與機位。若這段是接續前一段，這裡改寫 state anchor——位置與姿勢、鏡頭機位
 與焦段、光線方向、上一段末尾的情緒狀態，四項都要。>>>
 

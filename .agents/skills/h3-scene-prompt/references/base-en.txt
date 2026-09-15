@@ -75,7 +75,7 @@ Recommended structure: **plausible preceding state → explicit action and trans
 
 `integrated_multimodal_description` is the main body of the rewritten prompt. Every detail should correspond to something visible or audible: visual style, initial composition, subject appearance and position, scene and key props, actions and reactions, shot changes, spoken language, and synchronized diegetic sound.
 
-At the beginning of `[Shot 1]`, state the overall style and initial composition. Common styles include `Cinematic`, `live-action`, `2D-animated`, `3D CG`, `claymation`, `watercolor`, and `vintage film`. For keyframe tasks, derive the style from the reference image; for T2VA, select it from the user's text.
+At the beginning of `[Shot 1]`, state the overall style and initial composition. Common styles include `Cinematic`, `live-action`, `2D-animated`, `3D CG`, `claymation`, `watercolor`, and `vintage film`. If the project defines a fixed visual style (for example `project.visual_style` in a cast registry), copy it verbatim and never derive the style from reference images, because character design sheets and storyboards are drawings and would pull the video toward animation. Otherwise, for keyframe tasks derive the style from the reference image; for T2VA, select it from the user's text.
 
 ```text
 [Shot 1] Live-action, cinematic, a medium-wide shot frames...

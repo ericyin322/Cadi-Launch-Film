@@ -210,7 +210,7 @@ NEGATIVE_ALLOW = {
     "watermarks", "logo", "logos", "letter", "letters", "lettering",
     "typography", "font", "fonts", "panel", "panels", "border", "borders",
     "number", "numbers", "monochrome", "grayscale", "greyscale",
-    "black-and-white", "live-action", "photoreal", "photorealistic",
+    "black-and-white",
     "finger", "fingers", "limb", "limbs", "deformed", "deformity",
     "duplicate", "duplicated", "extra", "distortion", "artifact", "artifacts",
     "blur", "blurring", "morph", "morphing", "flicker", "flickering",
@@ -223,6 +223,40 @@ NEGATIVE_ALLOW = {
     "glitch", "camera", "shot", "frame", "output", "switch", "spoken",
     "dialogue", "lyrics", "invented", "scripted",
 }
+
+
+# 畫風召喚字眼：真人實拍專案裡出現任何一個都會把成片拉向動畫／插畫。
+STYLE_SUMMON_PATTERNS = [
+    r"\b2d\b", r"\banimat\w*", r"\bcel\b", r"\bcel[- ]?shad\w*",
+    r"\bdrawing[- ]style\b", r"\bhand[- ]drawn\b", r"\bdrawn style\b",
+    r"\billustrat\w*", r"\bcartoon\w*", r"\banime\b", r"\bmanga\b",
+    r"\bcomic\w*", r"\bsketch\w*", r"\bline[- ]art\b", r"\bline drawing\b",
+    r"\bclean contours?\b", r"\bcontour lines?\b", r"\bdesign[- ]sheet\b",
+    r"\bstoryboard\w*", r"\bwatercolou?r\b", r"\bclaymation\b",
+]
+LIVE_ACTION_NEG = re.compile(r"(?i)\bno\s+(?:live[- ]action|photo-?real\w*|realistic)")
+
+
+def check_style(text, reg=None):
+    vs = ((reg or {}).get("project") or {}).get("visual_style")
+    hits = 0
+    for pat in STYLE_SUMMON_PATTERNS:
+        for mm in re.finditer(pat, text, re.I):
+            line = text[max(0, mm.start() - 40):mm.end() + 40].replace("\n", " ")
+            fail(f"畫風字眼 \"{mm.group(0)}\" 會把成片召喚成動畫／插畫（否定句也一樣），"
+                 f"請刪除並只用正向的真人描述: \"...{line.strip()}...\"")
+            hits += 1
+    for mm in LIVE_ACTION_NEG.finditer(text):
+        fail(f"負面表列否定了真人質感: \"{mm.group(0)}\"")
+        hits += 1
+    if vs:
+        if normalize(vs) in normalize(text):
+            ok("project.visual_style 逐字一致")
+        else:
+            fail("detailed_description 開頭缺少 registry 的 project.visual_style（必須逐字複製，不得從參考圖推斷）")
+            hits += 1
+    if hits == 0 and not vs:
+        ok("沒有畫風召喚字眼")
 
 
 def _negative_block(body):
@@ -431,6 +465,7 @@ def main():
                 cast = check_registry(text, reg, args.segment, indices)
 
     check_summoning(text, style, reg, set(cast) if cast else None)
+    check_style(text, reg)
 
     print()
     for level, msg in results:

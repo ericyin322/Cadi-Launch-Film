@@ -37,3 +37,5 @@
 - 2026-09-15：依使用者指示新增 SEG-01 B v06，取消全段說話聲；史詩器樂貫通離席與關門，在 B 9 秒門扣接合瞬間硬切，9–10 秒完全靜默，10 秒才嘆氣，12–13 秒撥髮。A v06 保留，剪輯仍11＋13秒。來源升至 v0.7，SEG-02 只同步門後說話聲靜音的必要銜接；B檢查11項通過、0警告、0失敗。舊版保留。
 
 - 2026-09-15：使用者直接要求生成 SEG-02 A／B H3，並表示可提供 Teams 圖像。依 v0.7 製作 seg02-a v04（鏡頭05–06）與 seg02-b v05（鏡頭07–08），維持 9＋12 秒與 seed 7201。B 中女主角僅以手部入鏡，故 B 只上傳 Teams UI 參考圖為 `<Picture 1>`，不掛女主角圖；A 只掛女主角圖。Storyboard v03 未製作。
+
+- 2026-09-15：成片畫風定為寫實真人電影質感，H3 逐字句存於 `cast_registry.yaml` 的 `project.visual_style`，不再從參考圖推斷。原因：skill 指示「從參考圖推斷畫風」，而女主角參考是插畫設計表，導致提示詞反覆出現 2D animation／cel shading；v07 為壓插畫感寫的「its drawing style … replaced」同樣會召喚畫風。女主角 H3 身分圖改為設計表右下寫實棚拍裁切 `heroine-photo-reference-v01.png`；check_prompt.py 新增畫風字眼檢查與 visual_style 逐字比對。

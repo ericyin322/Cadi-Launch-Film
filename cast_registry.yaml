@@ -4,11 +4,15 @@ project:
   frames_per_segment: 362
   label_style: "paired"
   section_style: "detailed"
+  # 成片畫風唯一來源：detailed_description 開頭逐字複製這句，不從參考圖推斷。
+  # 畫風只用正向描述；不得出現 2D／animation／cel／drawing／illustration／design sheet 等字眼（check_prompt.py 會擋）。
+  visual_style: >-
+    Photorealistic live-action cinema footage shot on a digital cinema camera with prime lenses: natural skin texture with visible pores, real fabric weave, physically accurate reflections, shallow depth of field and subtle film grain.
 
 assets:
   heroine:
     priority: 10
-    file: "assets/characters/Gemini_Generated_Image_6rilce6rilce6ril.jpg"
+    file: "assets/characters/heroine-photo-reference-v01.png"
     role: "identity"
     binding: "Her face, hair, and clothing follow"
     canonical: >-
@@ -20,8 +24,8 @@ assets:
       fully preserved: her facial features, long straight center-parted black hair,
       tailored taupe-gray blazer, ivory crew-neck top, loose light-colored trousers,
       body proportions, professional composure, and immaculate grooming must remain
-      consistent. Do not copy the design-sheet layout, text, color swatches, object
-      icons, or white background.
+      consistent. She is a real person with real skin, real fabric and real lighting inside
+      the scene described by the timeline.
 
   cadi:
     summon_tokens: ["cadi", "mascot", "plasma", "flame head", "robot", "chest core"]
@@ -42,8 +46,8 @@ assets:
       flickering combustion, soft rising flame tongues, subtle luminous embers, wind-drag
       during movement, upward licking and dissipation while hovering, oversized oval cyan
       eyes, tiny mouth, dark navy segmented robot body, body proportions, and glowing
-      circular cyan chest core must remain consistent. Do not copy the design-sheet
-      layout, title, Chinese text, or white background.
+      circular cyan chest core must remain consistent. It is lit by the same real lighting as the scene
+      described by the timeline.
     extra_negatives:
       - "rubbery, gelatinous, solid jelly texture"
       - "solid glass surface"
@@ -101,7 +105,7 @@ segments:
     seed: 7201
     frames: 362
     cast: [heroine]
-    prompt: "segments/SEG-02/seg02-a-minimax-h3-prompt-v04.txt"
+    prompt: "segments/SEG-02/seg02-a-minimax-h3-prompt-v05.txt"
     beat: "背靠門、手錶亮起震動、皺眉看錶、掏出手機亮屏；低鼓隨震動進入並漸強。"
   - id: "seg02-b"
     scene: 2
@@ -109,7 +113,7 @@ segments:
     frames: 362
     cast: [teams_ui]
     continues_from: "seg02-a"
-    prompt: "segments/SEG-02/seg02-b-minimax-h3-prompt-v05.txt"
+    prompt: "segments/SEG-02/seg02-b-minimax-h3-prompt-v06.txt"
     beat: "手機 RF 郵件通知停留、點開 Teams、滿版群組三則抱怨；腳步聲引出 SEG-03。女主角只露手與袖口，不掛她的圖。"
 
 
