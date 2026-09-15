@@ -15,9 +15,9 @@
       "id": "SEG-01",
       "screenplay": "v0.7",
       "screenplay_approval": "approved_by_user_revision",
-      "storyboard": "v02",
-      "approval": "h3_authorized_directly_from_v0_5_text_storyboard_v03_pending",
-      "h3": "seg01_a_v06_b_v06_validated_latch_cut_one_second_silence_then_sigh"
+      "storyboard": "v04",
+      "approval": "storyboard_v04_pending_user_review",
+      "h3": "seg01_a_v07_b_v07_ready_video_unverified"
     },
     {
       "id": "SEG-02",

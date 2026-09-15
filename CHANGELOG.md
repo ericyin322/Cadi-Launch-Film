@@ -98,3 +98,9 @@
 - 2026-09-15：依使用者指示，SEG-01 A 升至 v07：(1) 史詩器樂從第一幀到最後一幀全程主導，不再有「靜音」描述；(2) 全段無人聲，刪除 shouting／Mandarin argument／breathing 等人聲字眼（避免召喚），嘴部特寫只保留畫面；(3) 筆電明確為銀色 HP，蓋背圓形 HP logo 對鏡頭並於合蓋、夾臂時保持可見，負面表列改用 no subtitles/no captions 以免壓掉 logo；(4) 由 2D 賽璐璐動畫改為寫實真人電影質感，參考圖只取身分與服裝。v06 保留；驗證 11 通過、0 警告、0 失敗。B v06 仍為 2D 動畫描述，待處理。
 
 - 2026-09-15：SEG-01 B 升至 v07，與 A v07 統一：寫實真人電影質感取代 2D 動畫；筆電為銀色 HP、logo 全程朝外；刪除 argument／speech／inaudible／mouths moving／breathing／no spoken dialogue 等人聲字眼避免召喚；配樂寫明第一幀起全音量，9 秒門扣硬切、9–10 秒靜默、10 秒嘆氣結構不變。v06 保留。
+
+## 2026-09-15｜SEG-01 Storyboard v04
+
+- 依 v0.7 與 H3 A／B 最新節奏生成六格黑白 Storyboard，涵蓋指責手勢、怒罵嘴型與口水、收筆電、悄悄離席、關門及靜默後嘆氣。
+- v03 首次生成稿保留；v04 將 03–06 的深色筆電修正為最新設定的銀色 HP 筆電。
+- 新增 `brief-v04.md` 與 `storyboard-generation-prompt-v04.md`，同步更新進度與機器狀態；v04 待使用者確認。
