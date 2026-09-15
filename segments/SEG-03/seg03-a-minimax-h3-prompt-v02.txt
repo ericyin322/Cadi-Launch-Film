@@ -1,0 +1,37 @@
+subject_definitions:
+<Subject 1> is the female protagonist, a 20-something East Asian female mechanical R&D engineer. She has long, straight, center-parted black hair and wears a tailored taupe-gray blazer, an ivory crew-neck top, and loose light-colored trousers. She is professional, composed, and places a high value on immaculate grooming. Her face, hair, and clothing follow <Picture 1>.
+<Subject 2> is Cadi, a small flying robot mascot. Its head is composed of actively burning, ethereal cyan-blue plasma fire that continuously flickers, dances, and undulates with rising wisps and subtle luminous embers (an energetic plasma flame, completely non-solid, with zero gelatinous or jelly-like surface tension). Within the dynamic flame sit two oversized oval cyan eyes and a tiny mouth, atop a dark navy segmented robot body and a glowing circular cyan chest core. Its height is approximately half of the female protagonist's upper body. Its design, proportions, and colors follow <Picture 2>.
+
+summary:
+[reference generation] A fifteen-second photorealistic live-action office scene. <Subject 1> reaches her desk, pulls her chair slightly out, sits, wakes her monitor and leans in to call Cadi. <Subject 2> ignites in cyan fire inside the monitor interface and greets her. She answers with a frown and an impatient line; a blue Outlook mail icon pops above Cadi's flame head and it holds a silent half-second thinking pose before looking back at her.
+
+retention_analysis:
+<Subject 1> (appears in [Shot 1], [Shot 3]): fully_preserved - Preserve facial identity, center-parted straight black hair, taupe-gray blazer, ivory top, light trousers, body proportions and careful grooming, carrying the tense, hurried mood from the previous scene.
+<Picture 1> (identity source for <Subject 1>): fully_preserved - supplies facial identity, hair and clothing. She is a real person with real skin, real fabric and real lighting inside the office described by the timeline.
+<Subject 2> (appears inside the monitor in [Shot 1], [Shot 2], [Shot 4]): fully_preserved - its actively burning cyan-blue plasma fire head, continuous flickering combustion, soft rising flame tongues, subtle luminous embers, upward licking and dissipation, oversized oval cyan eyes, tiny mouth, dark navy segmented robot body, body proportions, and glowing circular cyan chest core must remain consistent.
+<Picture 2> (design source for <Subject 2>): fully_preserved - supplies Cadi's shape, face, proportions and colors. Cadi lives inside the monitor as a glowing on-screen character; its fire light spills out of the screen onto her face and the desk.
+
+detailed_description:
+Photorealistic live-action cinema footage shot on a digital cinema camera with prime lenses: natural skin texture with visible pores, real fabric weave, physically accurate reflections, shallow depth of field and subtle film grain. A modern open-plan engineering office in cool daylight: rows of gray desks, black office chairs, large dark monitors, soft ceiling panels. Her desk is by a window with a single wide monitor, a keyboard and a mouse.
+
+[Shot 1] A medium tracking shot glides forward into the office area toward her desk, framing the female protagonist <Picture 1>, <Subject 1>, from a three-quarter rear angle as she arrives slightly out of breath.
+[0s-2s] She grips the chair back with her left hand, rolls the chair a short distance out from the desk and sits down in one smooth motion, smoothing her blazer. The camera eases to a stop beside her shoulder.
+[2s-4s] At 2.0 seconds she taps the keyboard; the dark monitor wakes with a soft cool glow across her face. She leans her upper body slightly toward the screen. <Subject 1> (S1) calls in a quick, slightly strained adult female voice from 2.6 to 3.4 seconds: <d>[English] Hi, Cadi.</d> At 3.6 seconds a cyan-blue flame ignites at the center of the dark interface and Cadi <Picture 2>, <Subject 2>, flares into view inside the monitor.
+
+[Shot 2] At 00:04.000, the camera cuts to a straight-on close-up of the monitor screen filling the frame. <Subject 2> floats in the middle of the interface, its plasma fire head flickering and licking upward, embers drifting.
+[4s-6s] Cadi lifts its oversized cyan eyes toward the camera, as if looking out at her, and gives a small wave. <Subject 2> (S2) greets her from 4.1 to 5.9 seconds in a clear, bright, playful yet professional child voice: <d>[Chinese] Hi, Lisa, 今天過得好嗎?</d> The English words are spoken naturally within the Mandarin sentence. Its chest core pulses gently with each word.
+
+[Shot 3] At 00:06.000, the camera cuts to a frontal close-up of <Subject 1>, lit by the cyan screen glow.
+[6s-8s] Her eyebrows knit and her mouth tightens. <Subject 1> (S1) replies quickly and curtly from 6.1 to 7.9 seconds, her impatience audible in a clipped, flat tone: <d>[Chinese] 收到一封棘手的信件, 你看一下.</d> She gestures once toward the screen with her right hand.
+
+[Shot 4] At 00:08.000, the camera cuts back to the straight-on close-up of the monitor.
+[8s-10s] At 8.1 seconds a single glossy blue Outlook mail app icon pops up above Cadi's flame head with a small bounce. Cadi tilts its head, rolls its eyes upward and raises one robot hand to rest against its chin in a thinking pose. From 8.5 to 9.0 seconds it holds completely still in silence except for the flickering fire. At 9.0 seconds its eyes return to look straight out at her.
+[10s-15s] Cadi lowers its hand and waits attentively, the Outlook icon hovering above its head, flame tongues rising and dissipating, chest core glowing steadily. The camera holds steady.
+
+Negative constraints: no subtitles, no captions, no readable text, no watermark, no extra fingers, no deformed limbs, no duplicate heroine, no rubbery, gelatinous, solid jelly texture, no solid glass surface, no flickering frame, no shaky camera, no slow motion, no looping.
+
+overall_soundscape:
+A quiet office ambience: low air-conditioning hum and distant keyboard clicks. In [Shot 1] the last hurried footsteps stop, the chair casters roll briefly and the seat cushion creaks as she sits, followed by a crisp key tap at 2.0 seconds and a soft screen-wake tone. At 3.6 seconds a gentle whoosh of igniting flame with a light crackle. Cadi's fire carries a soft continuous crackle while it is on screen. At 8.1 seconds a short bright pop accompanies the icon. The half-second pause from 8.5 to 9.0 seconds carries only room tone and the flame crackle.
+
+non_diegetic_music:
+The low 72 BPM D minor drum pulse from the previous scene decays in its last bars and falls away by 2 seconds, leaving a soft dark sub-bass pad. At 3.6 seconds, as the flame ignites, a light shimmering synth arpeggio in D major rises gently above the pad, curious and warm. The music stays low under all dialogue, drops almost to silence for the half-second pause from 8.5 to 9.0 seconds, then resumes the soft arpeggio through 15 seconds without resolving. Purely instrumental.

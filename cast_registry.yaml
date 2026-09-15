@@ -129,5 +129,18 @@ segments:
     prompt: "segments/SEG-02/seg02-b-minimax-h3-prompt-v08.txt"
     beat: "手機 RF 郵件通知停留、點開 Teams、滿版群組三則抱怨；腳步聲引出 SEG-03。女主角只露手與袖口，不掛她的圖。"
 
-
-
+  - id: "seg03-a"
+    scene: 3
+    seed: 7301
+    frames: 362
+    cast: [heroine, cadi]
+    prompt: "segments/SEG-03/seg03-a-minimax-h3-prompt-v02.txt"
+    beat: "鏡頭09–10：挪椅坐下、喚醒螢幕說 Hi Cadi；Cadi 螢幕內問候；Lisa 不耐煩交代信件；Outlook icon、0.5 秒思考停頓。"
+  - id: "seg03-b"
+    scene: 3
+    seed: 7301
+    frames: 362
+    cast: [heroine, cadi]
+    continues_from: "seg03-a"
+    prompt: "segments/SEG-03/seg03-b-minimax-h3-prompt-v02.txt"
+    beat: "鏡頭11：Cadi 提出 IEC spec＋GP 的 placement 預覽建議，鏡頭退至肩後；Lisa 點頭說讓我們開始吧；胸口光擴張、青藍光掃鏡。"

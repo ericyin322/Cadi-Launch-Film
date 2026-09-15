@@ -1,0 +1,35 @@
+subject_definitions:
+<Subject 1> is the female protagonist, a 20-something East Asian female mechanical R&D engineer. She has long, straight, center-parted black hair and wears a tailored taupe-gray blazer, an ivory crew-neck top, and loose light-colored trousers. She is professional, composed, and places a high value on immaculate grooming. Her face, hair, and clothing follow <Picture 1>.
+<Subject 2> is Cadi, a small flying robot mascot. Its head is composed of actively burning, ethereal cyan-blue plasma fire that continuously flickers, dances, and undulates with rising wisps and subtle luminous embers (an energetic plasma flame, completely non-solid, with zero gelatinous or jelly-like surface tension). Within the dynamic flame sit two oversized oval cyan eyes and a tiny mouth, atop a dark navy segmented robot body and a glowing circular cyan chest core. Its height is approximately half of the female protagonist's upper body. Its design, proportions, and colors follow <Picture 2>.
+
+summary:
+[reference generation] A fifteen-second photorealistic live-action office scene continuing at the desk. Cadi <Subject 2>, inside the monitor, delivers a long, energetic proposal while the camera slowly pulls back to an over-the-shoulder view of <Subject 1>. She nods and decisively agrees; Cadi's chest core swells and a wave of cyan light pours out of the screen and floods the whole frame.
+
+retention_analysis:
+<Subject 1> (appears in [Shot 1] from behind her shoulder and in [Shot 2]): fully_preserved - Preserve facial identity, center-parted straight black hair, taupe-gray blazer, ivory top, light trousers, body proportions and careful grooming; her expression moves from tense to resolved.
+<Picture 1> (identity source for <Subject 1>): fully_preserved - her facial features, long straight center-parted black hair, tailored taupe-gray blazer, ivory crew-neck top, loose light-colored trousers, body proportions, professional composure, and immaculate grooming must remain consistent. She is a real person with real skin, real fabric and real lighting inside the office described by the timeline.
+<Subject 2> (appears inside the monitor in [Shot 1] and [Shot 3]): fully_preserved - its actively burning cyan-blue plasma fire head, continuous flickering combustion, soft rising flame tongues, subtle luminous embers, upward licking and dissipation, oversized oval cyan eyes, tiny mouth, dark navy segmented robot body, body proportions, and glowing circular cyan chest core must remain consistent.
+<Picture 2> (design source for <Subject 2>): fully_preserved - supplies Cadi's shape, face, proportions and colors. Cadi lives inside the monitor as a glowing on-screen character; its fire light spills out of the screen onto her face and the desk.
+
+detailed_description:
+Photorealistic live-action cinema footage shot on a digital cinema camera with prime lenses: natural skin texture with visible pores, real fabric weave, physically accurate reflections, shallow depth of field and subtle film grain. The same modern open-plan engineering office in cool daylight; she sits leaning slightly forward at her window desk facing a single wide monitor, keyboard and mouse in front of her.
+
+[Shot 1] A straight-on close-up of the monitor screen. Cadi <Picture 2>, <Subject 2>, floats at the center of the dark interface, plasma fire head flickering and licking upward, embers drifting, looking straight out of the screen.
+[0s-3s] <Subject 2> (S1) speaks from 0.2 to 8.6 seconds in a clear, bright, playful yet professional child voice, brisk and confident, with small hand gestures on the key phrases and the chest core pulsing with its speech: <d>[Chinese] 半小時後要開會, 主題是 placement 會議, 我建議您馬上開始評估, 我可以先尋找 IEC spec 的最新資料, 結合 GP 圖, 先建立一版 placement 預覽, 要我開始嗎?</d> The English terms placement, IEC spec and GP are spoken naturally within the Mandarin. The camera begins a slow, smooth dolly back.
+[3s-6s] The dolly continues back past the monitor bezel; the desk edge and keyboard enter the lower frame, and the back of her head and her left shoulder, the female protagonist <Picture 1>, <Subject 1>, rise softly out of focus in the foreground. Cadi keeps talking and stays sharp on the screen.
+[6s-8s] The camera settles into an over-the-shoulder view, Cadi still speaking and gesturing. On the final question Cadi tilts its head and opens both hands toward her, waiting, eyes bright.
+
+[Shot 2] At 00:08.800, the camera cuts to a frontal close-up of <Subject 1>, her face lit by cyan screen glow.
+[9s-10s] At 8.9 seconds she exhales, her frown releases, and she gives one firm nod. <Subject 1> (S2) says from 9.1 to 10.2 seconds in a steady, decisive adult female voice: <d>[Chinese] 讓我們開始吧.</d> The corner of her mouth lifts slightly.
+
+[Shot 3] At 00:10.400, the camera cuts to the straight-on close-up of the monitor.
+[10s-12s] Cadi smiles; its circular chest core swells and flares brighter. A wave of cyan-blue light expands from the chest core, fills the screen and pours out past the monitor edges, washing over the frame from center outward by 11.5 seconds as a light-sweep transition.
+[12s-15s] The whole frame is a luminous cyan-white glow with soft drifting light particles and gentle ripples of brightness. The camera holds steady.
+
+Negative constraints: no subtitles, no captions, no readable text, no watermark, no extra fingers, no deformed limbs, no duplicate heroine, no rubbery, gelatinous, solid jelly texture, no solid glass surface, no shaky camera, no slow motion, no looping.
+
+overall_soundscape:
+Quiet office ambience continues: low air-conditioning hum, distant keyboard clicks, faint muffled conversation. Cadi's fire carries a soft continuous crackle while it is on screen. During the dolly back in [Shot 1] there is only room tone under the voice. A faint fabric rustle accompanies her nod near 8.9 seconds. From 10.4 seconds a rising airy energy swell and bright shimmer build with the chest-core flare, cresting in a smooth whoosh as the light fills the frame at 11.5 seconds, then settling into a sustained soft luminous hum. Voices stay dry, close and fully intelligible.
+
+non_diegetic_music:
+Continue the soft D major synth arpeggio over a warm sub-bass pad already in progress, starting mid-phrase with no new intro, kept low under Cadi's long line. After her decisive answer at 10.2 seconds a steady pulse enters and the arpeggio lifts upward with a broad rising string-synth swell, cresting at 11.5 seconds with the light sweep and sustaining an open, hopeful chord through 15 seconds. Purely instrumental.

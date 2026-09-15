@@ -34,7 +34,7 @@
       "id": "SEG-03",
       "storyboard": "v01",
       "approval": "storyboard_v01_outdated_revision_pending",
-      "h3": "v01_test_s03a_s03b_outdated",
+      "h3": "a_v02_b_v02_ready_video_unverified",
       "screenplay": "v0.8",
       "screenplay_approval": "approved_by_user_revision",
       "brief": "segments/SEG-03/brief-v02.md",
@@ -42,7 +42,9 @@
       "timing_notes": "依使用者決定維持21秒；完整保留對白、動作及0.5秒思考停頓。全片5:00與後段時間碼不變。",
       "screenplay_notes": "依使用者要求維持 v0.8 原檔微調：攝影機進入辦公區，女主角稍微挪開辦公椅並坐下、喚醒螢幕；Cadi 思考停頓0.5秒。",
       "duration_seconds": 21,
-      "time_range": "00:45–01:06"
+      "time_range": "00:45–01:06",
+      "h3_storyboard_override": "explicit_user_request_2026-09-15",
+      "h3_notes": "segments/SEG-03/minimax-h3-generation-notes-v02.md；A 9.5秒＋B 11.5秒，seed 7301，heroine＋cadi 兩圖"
     },
     {
       "id": "SEG-04",
