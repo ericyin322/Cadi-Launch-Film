@@ -1,5 +1,7 @@
 # 已確認創作決策
 
+- 2026-09-15：使用者再次直接要求確認 skill 與 MiniMax H3 須知並重製 SEG-02 A／B，據此產生 A v06／B v07；新版 Storyboard 尚未確認的狀態保留。現行規則以 project.visual_style 逐字畫風及 Absent Objects 為準，優先於下方歷史固定三槽／排除宣告。B 僅以 `<Picture 1>` 綁 Teams UI；素材仍待放入。劇情 v0.7 未改動。
+
 - 片長：約五分鐘。
 - 場合：技術發表會／展會。
 - 主要觀眾：上級與主管。

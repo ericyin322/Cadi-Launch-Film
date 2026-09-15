@@ -22,11 +22,13 @@
     },
     {
       "id": "SEG-02",
-      "storyboard": "v02",
-      "approval": "storyboard_v02_outdated_v03_pending",
-      "h3": "a_v05_b_v06_live_action_style_video_unverified",
+      "storyboard": "v03",
+      "approval": "storyboard_v03_pending_user_review",
+      "h3": "a_v06_b_v07_prompts_ready_teams_reference_missing_video_unverified",
       "screenplay": "v0.5",
-      "screenplay_approval": "approved_by_user_revision"
+      "screenplay_approval": "approved_by_user_revision",
+      "h3_storyboard_override": "explicit_user_request_2026-09-15",
+      "storyboard_notes": "四格已完成；第一則群組訊息標點仍需依文字來源驗收。"
     },
     {
       "id": "SEG-03",

@@ -105,7 +105,7 @@ segments:
     seed: 7201
     frames: 362
     cast: [heroine]
-    prompt: "segments/SEG-02/seg02-a-minimax-h3-prompt-v05.txt"
+    prompt: "segments/SEG-02/seg02-a-minimax-h3-prompt-v06.txt"
     beat: "背靠門、手錶亮起震動、皺眉看錶、掏出手機亮屏；低鼓隨震動進入並漸強。"
   - id: "seg02-b"
     scene: 2
@@ -113,7 +113,7 @@ segments:
     frames: 362
     cast: [teams_ui]
     continues_from: "seg02-a"
-    prompt: "segments/SEG-02/seg02-b-minimax-h3-prompt-v06.txt"
+    prompt: "segments/SEG-02/seg02-b-minimax-h3-prompt-v07.txt"
     beat: "手機 RF 郵件通知停留、點開 Teams、滿版群組三則抱怨；腳步聲引出 SEG-03。女主角只露手與袖口，不掛她的圖。"
 
 

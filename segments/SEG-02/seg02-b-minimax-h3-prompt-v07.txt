@@ -1,0 +1,31 @@
+subject_definitions:
+<Subject 1> is the group-chat interface reference: a team-chat screen with a dark violet-navy header bar carrying the chat title and call icons, a white message area, round colleague avatars down screen-left, and light incoming bubbles beside them. Its layout, colors, icons and bubble styling follow <Picture 1>.
+
+summary:
+[reference generation] A fifteen-second scene in two shots. First, a photorealistic live-action close-up of a phone held in a hand in a taupe-gray blazer sleeve: an email notification with the subject "客戶需求變更" and the preview "半小時後開會" stays on screen for three seconds, then the thumb opens the chat app. Second, the frame becomes the full-screen chat interface <Subject 1> defined by <Picture 1>, titled "Placement 討論", where three anxious messages pop in one after another and stay. A low drum pulse tightens throughout.
+
+retention_analysis:
+<Subject 1> (appears on the phone at the end of [Shot 1] and as the full frame in [Shot 2]): fully_preserved - header bar, title placement, call icons, avatar column, bubble shape, corner radius, spacing and type scale. Every visible word comes only from the lines specified in the timeline; the avatars are plain solid-color circles in three distinct colors.
+<Picture 1> (interface source for [Shot 2]): fully_preserved - supplies layout, colors, iconography and bubble styling only. The header title, message count and message wording are replaced by the specified lines, and the rest of the message area stays clean white.
+
+detailed_description:
+Photorealistic live-action cinema footage shot on a digital cinema camera with prime lenses: natural skin texture with visible pores, real fabric weave, physically accurate reflections, shallow depth of field and subtle film grain. The phone close-up uses the same cool-gray corridor light. The second shot fills the 16:9 frame with the crisp, front-facing digital chat interface and sharp text.
+
+[Shot 1] A steady close-up of a black smartphone held upright in a left hand, screen facing the camera and filling most of the frame. The cuff of a taupe-gray blazer sleeve and the edge of a slim black smartwatch sit at the lower frame edge.
+[0s-2s] On the already unlocked screen, a single rounded white email notification card is already settled and stays still. Its bold first line reads exactly "RF需求變更需求"; the lighter second line below reads exactly "半小時後開會". Both lines are large, sharp, correctly formed Traditional Chinese.
+[2s-4s] The card holds perfectly still and fully legible for the whole beat. The hand tightens its grip slightly; the screen glow reflects on the fingertips. The camera pushes in with small amplitude at slow speed.
+[4s-5s] The thumb taps the Teams app icon at 4.6 seconds. The chat interface <Subject 1>, using the header, spacing and colors of <Picture 1>, opens on the phone by 5 seconds. Its header and message area align with the next shot.
+
+[Shot 2] At 00:05.000, the camera cuts to a full-frame view of the chat interface <Subject 1>, matching the screen position of the phone; the whole 16:9 frame is now the interface. The dark violet-navy header shows the title "Placement 討論" with call icons at the right. The white message area below is empty.
+[5s-7s] At 5 seconds the first light incoming bubble pops in beside the top avatar with a small scale-up, reading exactly "半小時候討論!?? 我圖都還沒看怎麼開會!?". It stays on screen.
+[7s-9s] At 7 seconds a second bubble pops in beside a different avatar below the first, reading exactly "我 placement 昨天晚上才搞定". Both bubbles stay visible.
+[9s-12s] At 9 seconds a third bubble pops in beside a third avatar, reading exactly "完蛋了怎麼辦!!". All three bubbles remain sharp, stacked and readable, and the layout holds completely still. From 10.5 seconds hurried footsteps are heard as the interface holds.
+[12s-15s] The same three-message interface holds unchanged through the final frame; the footsteps continue to quicken.
+
+Negative constraints: no subtitles, no captions, no watermark, no garbled text, no tiny or blurred text, no extra fingers, no deformed fingers, no flickering, no shaky camera, no slow motion, no looping.
+
+overall_soundscape:
+[Shot 1]: faint corridor ventilation hum, slight grip friction, and a crisp short tap at 4.6 seconds. [Shot 2]: a short, bright chat ping exactly as each bubble appears at 5, 7 and 9 seconds, each ping slightly closer and more insistent. From 10.5 seconds, quick leather-soled footsteps on a hard office floor enter from off-screen and accelerate toward 15 seconds.
+
+non_diegetic_music:
+Continue the purely instrumental 72 BPM D minor tension cue already in progress: low muffled bass drum and low toms over a dark sub-bass drone, starting mid-phrase with no new intro. From 0 to 5 seconds the pulse doubles under the notification. From 5 to 9 seconds additional toms layer in with denser subdivisions as the messages stack up. From 9 to 15 seconds reach heavy, insistent low-drum pressure, unresolved on the final frame. The score consists entirely of low percussion and sustained sub-bass; the music ducks briefly under each ping.

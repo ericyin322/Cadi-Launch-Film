@@ -2,6 +2,10 @@
 
 ## 2026-09-15
 
+- 依使用者要求使用內建 imagegen 生成 SEG-02 Storyboard v03 四格，對應 v0.7 鏡頭 05–08。修正初稿左右手、郵件圖示與灰階；舊版及初稿保留。已完成待確認；第一則群組訊息標點仍以文字來源為準。同步更新進度與狀態。
+
+- 依使用者要求確認 H3 skills 與須知，重製 SEG-02 A v06／B v07；逐字使用真人 visual_style、移除畫風召喚詞，保留原文與 9＋12 秒。修正 A 抬手機鏡位及 B 已解鎖通知卡的接續；兩段均 12 passed／0 warnings／0 failed。新增生成說明 v07，更新 SEG-02 索引與 Teams 圖片標籤；Teams 素材尚缺，影片未生成，Storyboard 確認狀態不變。
+
 - 依使用者指示，以 v0.7 文字劇情重製 SEG-02 H3：seg02-a v04（手錶震動、掏手機亮屏，只掛女主角）、seg02-b v05（RF 郵件通知、點開 Teams、滿版群組三則抱怨，只掛 Teams UI 參考圖）。9＋12 秒、seed 7201、低鼓漸強不變；Storyboard v03 未製作。更新 registry cast／路徑、manifest 上傳順序與生成說明 v05；兩段驗證 0 fail。
 
 - 使用者實測發現：MiniMax H3 的文字條件沒有否定運算子，只要不該出場的物件出現在 `<Subject>` / `<Picture>` 標籤或提示詞裡（含 no / excluded / absent 等否定句），模型就會把它畫進畫面；Ref2VA 連上傳參考圖本身都是召喚。

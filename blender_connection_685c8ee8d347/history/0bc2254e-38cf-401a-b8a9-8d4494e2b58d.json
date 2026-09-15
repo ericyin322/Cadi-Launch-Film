@@ -1,0 +1,15 @@
+{
+  "id": "0bc2254e-38cf-401a-b8a9-8d4494e2b58d",
+  "ok": true,
+  "result": {
+    "file": "C:\\Users\\u\\Documents\\Codex\\Cadi-Launch-Film\\assets\\blender\\board-layout-v01\\board-layout-v01.blend",
+    "scene": "Board_Layout_v01",
+    "objects": 958,
+    "text_objects": 0,
+    "solid_thickness_mm": 2,
+    "renders": [
+      "board-top-v01.png",
+      "board-angle-v01.png"
+    ]
+  }
+}
