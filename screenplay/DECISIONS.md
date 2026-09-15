@@ -1,5 +1,7 @@
 # 已確認創作決策
 
+- 2026-09-15：使用者肯定 SEG-02 Storyboard v03 並指定 B 的製作修訂：手機桌面由使用者提供參考圖（含 Teams icon 與桌布），三位同事須有 profile 頭像；甲／乙／丙以慌張／沮喪／憤怒念出既有訊息。此為 v0.7 鏡頭08的授權聲音及介面補充，不改訊息字詞、事件或片長；B v08 使用 Picture 1 群組介面、Picture 2 手機桌面，圖片待補。配音用畫外聲搭配靜態頭像。
+
 - 2026-09-15：使用者再次直接要求確認 skill 與 MiniMax H3 須知並重製 SEG-02 A／B，據此產生 A v06／B v07；新版 Storyboard 尚未確認的狀態保留。現行規則以 project.visual_style 逐字畫風及 Absent Objects 為準，優先於下方歷史固定三槽／排除宣告。B 僅以 `<Picture 1>` 綁 Teams UI；素材仍待放入。劇情 v0.7 未改動。
 
 - 片長：約五分鐘。

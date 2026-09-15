@@ -1,8 +1,0 @@
-00:00.047  reports          | WARNING Unable to open 'C:\Users\u\AppData\Roaming\Blender Foundation\Blender\5.2\config\userpref.blend': Permission denied
-02:25.015  image.write      | ERROR OpenImageIO write failed: Could not open file "\.thumbnails\large\blender_39212_0da7a44a8c20a577f62285b443b0f7a5.png.png"
-02:25.359  render           | Saved: 'C:\Users\u\Documents\Codex\Cadi-Launch-Film\assets\blender\board-layout-v01\board-top-v01.png'
-02:25.969  render           | Saved: 'C:\Users\u\Documents\Codex\Cadi-Launch-Film\assets\blender\board-layout-v01\board-angle-v01.png'
-02:26.078  image.write      | ERROR OpenImageIO write failed: Could not open file "\.thumbnails\large\blender_39212_2c028e998346a30dff02b886f3763dec.png.png"
-03:28.953  render           | Saved: 'C:\Users\u\Documents\Codex\Cadi-Launch-Film\assets\blender\board-layout-v01\board-top-v02.png'
-03:29.156  render           | Saved: 'C:\Users\u\Documents\Codex\Cadi-Launch-Film\assets\blender\board-layout-v01\board-angle-v02.png'
-03:29.203  image.write      | ERROR OpenImageIO write failed: Could not open file "\.thumbnails\large\blender_39212_a68becaca6499c2820f5b755aef35fc7.png.png"

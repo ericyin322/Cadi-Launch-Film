@@ -1,0 +1,34 @@
+subject_definitions:
+<Subject 1> is the group-chat interface reference: a team-chat screen with a dark violet-navy header bar carrying the chat title and call icons, a white message area, round colleague avatars down screen-left, and light incoming bubbles beside them. Its layout, colors, icons and bubble styling follow <Picture 1>.
+<Subject 2> is the unlocked phone home screen, with the wallpaper and the Teams app icon in the positions shown by the supplied home-screen reference. Its wallpaper and Teams app icon placement follow <Picture 2>.
+
+summary:
+[reference generation] A fifteen-second scene: an email card overlays the phone home screen <Subject 2>, then a tap opens the full-frame chat interface <Subject 1>. Three colleagues have distinct profile portraits and read their messages with panicked, dejected and angry emotion, respectively.
+
+retention_analysis:
+<Subject 1> (appears on the phone at the end of [Shot 1] and as the full frame in [Shot 2]): fully_preserved - header bar, title placement, call icons, avatar column, bubble shape, corner radius, spacing and type scale. Every visible word comes only from the lines specified in the timeline; each avatar is a distinct, static photographic head-and-shoulders profile portrait of an adult office colleague, circularly cropped. The portraits remain confined to their avatar circles. The sender labels are 同事甲, 同事乙 and 同事丙 in top-to-bottom order; each portrait stays paired with its sender and message.
+<Picture 1> (interface source for [Shot 2]): fully_preserved - supplies layout, colors, iconography and bubble styling only. The header title, message count and message wording are replaced by the specified lines, and the rest of the message area stays clean white.
+
+<Subject 2> / <Picture 2> (phone display in [Shot 1]): fully_preserved - preserve wallpaper, icon appearance, size and exact screen-relative position. The notification card sits above the wallpaper while the Teams icon remains visible and reachable by the thumb.
+
+detailed_description:
+Photorealistic live-action cinema footage shot on a digital cinema camera with prime lenses: natural skin texture with visible pores, real fabric weave, physically accurate reflections, shallow depth of field and subtle film grain. Cool-gray corridor light for the phone; crisp full-frame 16:9 chat UI for the second shot.
+
+[Shot 1] A steady close-up of a black smartphone held upright in a left hand, screen facing the camera and filling most of the frame. The cuff of a taupe-gray blazer sleeve and the edge of a slim black smartwatch sit at the lower frame edge.
+[0s-2s] On the already unlocked home screen <Subject 2> from <Picture 2>, a single rounded white email notification card is already settled and stays still. Its bold first line reads exactly "RF需求變更需求"; the lighter second line below reads exactly "半小時後開會". Both lines are large, sharp, correctly formed Traditional Chinese.
+[2s-4s] The card holds perfectly still and fully legible for the whole beat. The grip tightens slightly as the camera slowly pushes in.
+[4s-5s] The thumb taps the Teams app icon at its exact screen-relative position in <Picture 2> at 4.6 seconds. The chat interface <Subject 1>, using the header, spacing and colors of <Picture 1>, opens on the phone by 5 seconds. Its header and message area align with the next shot.
+
+[Shot 2] At 00:05.000, the camera cuts to a full-frame view of the chat interface <Subject 1>, matching the screen position of the phone; the whole 16:9 frame is now the interface. The dark violet-navy header shows the title "Placement 討論" with call icons at the right. The white message area provides space for three stacked messages and their circular photographic profile portraits.
+[5s-7s] At 5 seconds the first light incoming bubble pops in beside the top avatar with a small scale-up, reading exactly "半小時討論!?? 我圖都還沒看怎麼開會!?". It stays on screen with the sender label 同事甲 and the first profile portrait. Colleague A (S1), off-screen voice-over associated with this portrait, begins at 5.1 seconds in a panicked Mandarin voice: fast, breathless, rising pitch and urgent stressed syllables, finishing by 8.7 seconds: <d>[Chinese] 半小時討論!? 我圖都還沒看怎麼開會!?</d>
+[7s-9s] At 7 seconds a second bubble pops in beside a different avatar below the first, reading exactly "我placement 昨天晚上才搞定". Both bubbles stay visible. The second portrait and sender label 同事乙 appear with the second bubble. Colleague B (S2), a distinct off-screen voice-over, begins at 7.3 seconds with a dejected Mandarin delivery, low energy, heavy breath and falling pitch, finishing by 10 seconds: <d>[Chinese] 我placement 昨天晚上才搞定.</d> The English technical word is spoken naturally within the Mandarin sentence. A brief overlap with S1 conveys simultaneous reactions while both voices remain intelligible.
+[9s-12s] At 9 seconds a third bubble pops in beside a third avatar, reading exactly "完蛋了怎麼辦!!". The third portrait and sender label 同事丙 appear with the third bubble. Colleague C (S3), a third distinct off-screen voice-over, begins at 9.5 seconds with an angry Mandarin delivery, tense forceful attack and sharply stressed words, finishing by 11.3 seconds: <d>[Chinese] 完蛋了怎麼辦!</d> All three bubbles and their static portraits remain sharp, stacked and readable, and the layout holds completely still. From 10.5 seconds hurried footsteps are heard as the interface holds.
+[12s-15s] The three-message interface holds; only footsteps and the score continue.
+
+Negative constraints: no subtitles, no captions, no watermark, no garbled text, no tiny or blurred text, no extra fingers, no deformed fingers, no flickering, no shaky camera, no slow motion, no looping.
+
+overall_soundscape:
+[Shot 1]: faint corridor ventilation hum, slight grip friction, and a crisp short tap at 4.6 seconds. [Shot 2]: a short, bright chat ping exactly as each bubble appears at 5, 7 and 9 seconds, each ping slightly closer and more insistent. Three separate, dry, close voice-over tracks follow the timed dialogue in [Shot 2], each attached to its matching portrait. Voice clarity takes priority over pings and footsteps; the portraits remain still during speech. From 10.5 seconds, quick leather-soled footsteps on a hard office floor enter from off-screen and accelerate toward 15 seconds.
+
+non_diegetic_music:
+Continue the purely instrumental 72 BPM D minor tension cue already in progress: low muffled bass drum and low toms over a dark sub-bass drone, starting mid-phrase with no new intro. From 0 to 5 seconds the pulse doubles under the notification. From 5 to 9 seconds additional toms layer in with denser subdivisions as the messages stack up. From 9 to 15 seconds reach heavy, insistent low-drum pressure, unresolved on the final frame. The score consists entirely of low percussion and sustained sub-bass; the music ducks under each ping and stays substantially quieter beneath all three spoken lines, then rises gently after the last voice ends.

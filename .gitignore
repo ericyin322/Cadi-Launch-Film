@@ -5,3 +5,9 @@ exports/
 Thumbs.db
 .DS_Store
 
+# Blender assets and local connection files
+/assets/blender/
+/blender_connection_*/
+/blender_active_connection.json
+*.blend
+*.blend1

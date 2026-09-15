@@ -68,6 +68,19 @@ assets:
       sample messages, sender names, timestamps, unread badges, photo avatars or side
       panels; all visible text comes from the segment's specified lines.
 
+
+  phone_home:
+    priority: 40
+    file: "assets/software/phone-home-reference-v01.png"
+    role: "interface"
+    binding: "Its wallpaper and Teams app icon placement follow"
+    canonical: >-
+      the unlocked phone home screen, with the wallpaper and the Teams app icon
+      in the positions shown by the supplied home-screen reference.
+    retention: >-
+      Preserve the wallpaper, icon appearance, icon size and icon position within
+      the phone display. The email notification is layered above this home screen.
+
 # 不出場的資產不得列入 cast：不上傳參考圖、不編索引、提示詞一個字都不提。
 # H3 沒有否定運算子，「排除宣告」與「保留槽」只會把物件召喚進畫面。
 # summon_tokens 供 check_prompt.py 反向比對：資產不在 cast 時，這些字眼出現即 FAIL。
@@ -111,9 +124,9 @@ segments:
     scene: 2
     seed: 7201
     frames: 362
-    cast: [teams_ui]
+    cast: [teams_ui, phone_home]
     continues_from: "seg02-a"
-    prompt: "segments/SEG-02/seg02-b-minimax-h3-prompt-v07.txt"
+    prompt: "segments/SEG-02/seg02-b-minimax-h3-prompt-v08.txt"
     beat: "手機 RF 郵件通知停留、點開 Teams、滿版群組三則抱怨；腳步聲引出 SEG-03。女主角只露手與袖口，不掛她的圖。"
 
 

@@ -23,8 +23,8 @@
     {
       "id": "SEG-02",
       "storyboard": "v03",
-      "approval": "storyboard_v03_pending_user_review",
-      "h3": "a_v06_b_v07_prompts_ready_teams_reference_missing_video_unverified",
+      "approval": "storyboard_v03_approved_user_requested_b_refinement",
+      "h3": "a_v06_b_v08_profiles_emotional_voiceover_references_pending",
       "screenplay": "v0.5",
       "screenplay_approval": "approved_by_user_revision",
       "h3_storyboard_override": "explicit_user_request_2026-09-15",
