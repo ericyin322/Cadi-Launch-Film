@@ -2,6 +2,8 @@
 
 ## 2026-09-15
 
+- 依使用者指示，以 v0.7 文字劇情重製 SEG-02 H3：seg02-a v04（手錶震動、掏手機亮屏，只掛女主角）、seg02-b v05（RF 郵件通知、點開 Teams、滿版群組三則抱怨，只掛 Teams UI 參考圖）。9＋12 秒、seed 7201、低鼓漸強不變；Storyboard v03 未製作。更新 registry cast／路徑、manifest 上傳順序與生成說明 v05；兩段驗證 0 fail。
+
 - 使用者實測發現：MiniMax H3 的文字條件沒有否定運算子，只要不該出場的物件出現在 `<Subject>` / `<Picture>` 標籤或提示詞裡（含 no / excluded / absent 等否定句），模型就會把它畫進畫面；Ref2VA 連上傳參考圖本身都是召喚。
 - `.agents/skills/h3-scene-prompt/SKILL.md` 新增「Absent Objects」硬規則：不出場者不上傳圖、不編索引、全文不提名；負面表列只准放畫面瑕疵與鏡頭屬性；跨段一致性改由固定 seed ＋ 出場段落逐字重用 canonical 維持。
 - `check_prompt.py` 新增 `check_summoning`：抓排除／保留宣告句型、與參考標籤同句的否定、以及不在 cast 卻被提名的 registry 資產（FAIL），並對負面表列裡的物件名詞提出 WARN；順手修掉在 Python 3.10 會 SyntaxError 的 f-string。

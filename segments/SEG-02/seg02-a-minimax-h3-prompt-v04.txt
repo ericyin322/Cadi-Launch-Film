@@ -1,0 +1,30 @@
+subject_definitions:
+<Subject 1> is the female protagonist, a 20-something East Asian female mechanical R&D engineer. She has long, straight, center-parted black hair and wears a tailored taupe-gray blazer, an ivory crew-neck top, and loose light-colored trousers. She is professional, composed, and places a high value on immaculate grooming. Her face, hair, and clothing follow <Picture 1>.
+
+summary:
+[reference generation] A fifteen-second photorealistic live-action corridor scene. <Subject 1>, defined by <Picture 1>, rests with her back against a closed meeting-room door after a long sigh, her closed silver HP laptop under her right arm. A smartwatch on her left wrist suddenly lights up and buzzes; she checks it with a tightening frown, pulls a phone from her blazer pocket and wakes it. A low drum pulse enters with the buzz and slowly grows.
+
+retention_analysis:
+<Subject 1> (appears in [Shot 1], [Shot 2]): fully_preserved - Preserve facial identity, center-parted straight black hair, taupe-gray blazer, ivory top, light trousers, body proportions and careful grooming, with the same tired expression that ended the previous scene.
+<Picture 1> (identity source throughout): fully_preserved - Render her as a real person in photorealistic live action in a quiet office corridor. The reference supplies identity and clothing only; its drawing style, layout and background are replaced by real skin, real fabric and real lighting, while staging and camera follow the timeline below.
+
+detailed_description:
+Photorealistic live-action cinema footage shot on a digital cinema camera with prime lenses: natural skin texture with visible pores, real fabric weave, physically accurate reflections on brushed aluminum, a matte black watch face and a glass phone screen, shallow depth of field and subtle film grain. A slightly dim cool-gray corridor with soft overhead light; the closed door behind her is a plain light-gray panel. The corridor is empty and still.
+
+[Shot 1] A chest-up frontal view of the female protagonist <Picture 1>, <Subject 1>, leaning her back against the closed door, eyes half-lowered, shoulders relaxed after her sigh. Her closed silver HP laptop is secured beneath her right upper arm with the round chrome HP logo facing outward. A slim black smartwatch sits on her left wrist.
+[0s-2s] Her left hand finishes lowering from beside her ear and comes to rest near her waist. At 1.0 second the watch face lights up with a bright white glow and buzzes in two short pulses; a faint tremor passes through her wrist. Her eyes open. The camera is steady.
+[2s-4s] The camera racks focus from her face down to the glowing watch as she lifts her left forearm and turns the wrist toward herself. She lowers her gaze to the watch, her eyebrows draw together and her lips press into a tense line. The laptop stays pinned against her right ribs.
+
+[Shot 2] At 00:04.000, the camera cuts to a waist-up three-quarter view from her front-left, the door edge soft in the background.
+[4s-6s] Still leaning on the door, she slides her left hand into the left pocket of her blazer and draws out a black smartphone in one smooth motion. The fabric of the pocket flap folds and settles. Her right arm keeps the closed laptop in place.
+[6s-9s] She raises the phone to chest height and presses the side button with her thumb; the screen wakes and casts a cool glow across her chin and fingers. The camera tilts up with small amplitude at slow speed, following the phone as it rises, and ends in a close over-the-shoulder angle on the lit screen, which stays softly out of focus.
+[9s-12s] The camera pushes in slowly over her left shoulder toward the glowing phone. Her thumb hovers above the screen. Her eyes scan the display and her breathing becomes shallow; her shoulders lift slightly off the door.
+[12s-15s] She holds the phone steady at chest height, jaw tight, still reading. The laptop remains closed under her right arm, logo outward. The camera settles into a steady close framing on phone and hand.
+
+Negative constraints: no subtitles, no captions, no readable text, no watermark, no extra fingers, no deformed limbs, no flickering, no shaky camera, no slow motion, no looping.
+
+overall_soundscape:
+The scene opens in near-silence: a faint low corridor ventilation hum and soft sleeve rustle. At 1.0 second, two short, dry, close watch-vibration buzzes are the first clear sound. From 4 seconds, pocket fabric friction and the light tap of the phone button follow the visible actions, followed by a very soft screen-wake tone near 7 seconds. Her shallow breathing is barely audible from 9 seconds. Everything stays intimate, dry and close.
+
+non_diegetic_music:
+Original purely instrumental tension cue at 72 BPM in D minor. Silence for the first second; at the watch buzz a single deep bass-drum hit enters, followed by a slow, sparse pulse of muffled low drum and low tom on every beat. From 4 seconds the pulse grows slightly louder and a dark sub-bass drone fades in underneath. From 9 seconds doubled drum pulses begin, steadily building pressure through 15 seconds without resolving. No melody, no brass fanfare, no choir, no vocals.
