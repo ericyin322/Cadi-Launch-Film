@@ -1,0 +1,32 @@
+subject_definitions:
+<Subject 1> is the female protagonist, a 20-something East Asian female mechanical R&D engineer. She has long, straight, center-parted black hair and wears a tailored taupe-gray blazer, an ivory crew-neck top, and loose light-colored trousers. She is professional, composed, and places a high value on immaculate grooming. Her face, hair, and clothing follow <Picture 1>.
+
+summary:
+[reference generation] A fifteen-second color animated office scene. The female engineer <Subject 1>, defined by <Picture 1>, quietly walks along the edge of an argumentative meeting, slips into the corridor, gently closes the door, leans against it and exhales. The room's loud argument becomes a muffled background as the door latches.
+
+retention_analysis:
+<Subject 1> (appears in [Shot 1], [Shot 2], [Shot 3]): fully_preserved - Preserve facial identity, center-parted straight black hair, taupe-gray blazer, ivory top, light trousers, body proportions and careful grooming.
+<Picture 1> (identity source throughout): fully_preserved - Transfer the character design to the meeting room and adjoining corridor. The reference supplies identity and clothing; the timeline supplies staging, lighting and camera composition.
+
+detailed_description:
+Color 2D animation with clean contours and controlled cel shading. Restrained cool-gray office surfaces and soft overhead lighting continue into a slightly quieter-lit corridor; moving clients remain featureless backlit silhouettes.
+
+[Shot 1] A medium-wide three-quarter rear view follows the female protagonist <Picture 1>, <Subject 1>, already upright beside her chair. Her closed laptop is secured under her right upper arm, left hand free, and her body faces the aisle at screen-right. A pale wall borders the aisle; the arguing clients and conference table remain on its other side.
+[0s-3s] She continues into quiet, measured steps along the room's edge, moving left-to-right behind the standing clients. The camera tracks right slowly at chest height, retaining her taupe-gray jacket and long straight black hair. Clients gesture toward one another as reports flutter over the table. Their Mandarin argument is an overlapping indistinct texture; her soft footsteps sit underneath it.
+[3s-5s] She reaches the door and gently presses its handle with her left hand. The camera eases to a stop behind her shoulder while she pulls the door inward just far enough to pass sideways. The laptop remains closed against her right ribs. Handle friction and a small hinge movement accompany the action.
+[5s-7s] She turns her shoulders and slips sideways through the opening into the corridor, keeping her left hand on the handle. Hair and jacket follow her turn naturally. The clients remain occupied with one another behind her; her walking pace stays quiet and controlled.
+
+[Shot 2] At 00:07.000, the camera cuts to a corridor-side medium-wide view of the same doorway and its narrow side window. The female protagonist <Picture 1>, <Subject 1>, has cleared the threshold, with her left hand still controlling the door and the closed laptop under her right arm.
+[7s-9s] She gently draws the door shut until the latch clicks. As the gap closes, the sharp room argument loses its high frequencies and drops to a muffled murmur. Flying paper and gesturing silhouettes remain visible through the side window. She releases the handle and turns her back toward the door.
+
+[Shot 3] At 00:09.000, the camera cuts to a chest-up frontal view of the female protagonist <Picture 1>, <Subject 1>, settling her back against the closed door. Her face is softly lit, with the laptop edge visible beside her right forearm.
+[9s-13s] She closes her eyes and releases one long, audible sigh; her shoulders descend with the exhalation. Her left hand then lifts to sweep the loose strands beside her cheek behind her ear. A subtle slow push-in reveals her tired expression and precise grooming gesture.
+[13s-15s] Her left hand lowers naturally from her ear, and her breathing settles. She remains supported by the door, holding the laptop steadily; the camera gently comes to rest while the muffled argument continues beyond the door.
+
+Negative constraints: no subtitles, no readable text, no extra fingers, no deformed limbs, no flickering, no shaky camera, no looping.
+
+overall_soundscape:
+Soft footsteps and clothing movement beneath continuous indistinct Mandarin argument. Handle friction, a faint hinge sound and a gentle latch click follow the visible actions. At the latch, the argument becomes quieter and muffled while corridor ventilation remains audible. The woman's single long nonverbal sigh is close and clear, followed by quiet breathing and a soft hair-and-sleeve rustle.
+
+non_diegetic_music:
+Original epic orchestral pressure at 72 BPM in D minor, beginning with a sustained phrase of low strings, deep restrained drums, muted brass and distant wordless choir. Maintain a measured pulse through the quiet walk. At the closing latch, thin the percussion and lower the brass; a soft low-string sustain leaves space for the sigh and continues under the ending.

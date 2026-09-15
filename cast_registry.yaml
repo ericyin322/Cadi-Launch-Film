@@ -85,16 +85,16 @@ segments:
     seed: 7101
     frames: 362
     cast: [heroine]
-    prompt: "segments/SEG-01/seg01-a-minimax-h3-prompt-v04.txt"
-    beat: "失控會議；找到躲在牆角的主角。"
+    prompt: "segments/SEG-01/seg01-a-minimax-h3-prompt-v07.txt"
+    beat: "吵雜會議；女主角整理落紙、合上筆電並起身。"
   - id: "seg01-b"
     scene: 1
     seed: 7101
     frames: 362
     cast: [heroine]
     continues_from: "seg01-a"
-    prompt: "segments/SEG-01/seg01-b-minimax-h3-prompt-v04.txt"
-    beat: "退椅撞牆；整理落紙、承接並準備離場。"
+    prompt: "segments/SEG-01/seg01-b-minimax-h3-prompt-v07.txt"
+    beat: "女主角悄悄離開會議室，輕輕關門、背靠門嘆氣撥髮。"
 
   - id: "seg02-a"
     scene: 2
@@ -111,3 +111,6 @@ segments:
     continues_from: "seg02-a"
     prompt: "segments/SEG-02/seg02-b-minimax-h3-prompt-v04.txt"
     beat: "看錶、開手機、RF 郵件、滿版群組抱怨；低鼓推高張力。"
+
+
+

@@ -1,0 +1,32 @@
+subject_definitions:
+<Subject 1> is the female protagonist, a 20-something East Asian female mechanical R&D engineer. She has long, straight, center-parted black hair and wears a tailored taupe-gray blazer, an ivory crew-neck top, and loose light-colored trousers. She is professional, composed, and places a high value on immaculate grooming. Her face, hair, and clothing follow <Picture 1>.
+
+summary:
+[reference generation] A fifteen-second color animated office scene. The female engineer <Subject 1>, defined by <Picture 1>, quietly walks along the edge of an argumentative meeting, slips into the corridor, gently closes the door, leans against it and exhales. Instrumental epic music carries the meeting-room action and cuts off instantly at the closing latch. One full second of absolute silence precedes her sigh. All speech is inaudible throughout.
+
+retention_analysis:
+<Subject 1> (appears in [Shot 1], [Shot 2], [Shot 3]): fully_preserved - Preserve facial identity, center-parted straight black hair, taupe-gray blazer, ivory top, light trousers, body proportions and careful grooming.
+<Picture 1> (identity source throughout): fully_preserved - Transfer the character design to the meeting room and adjoining corridor. The reference supplies identity and clothing; the timeline supplies staging, lighting and camera composition.
+
+detailed_description:
+Color 2D animation with clean contours and controlled cel shading. Restrained cool-gray office surfaces and soft overhead lighting continue into a slightly quieter-lit corridor; moving clients remain featureless backlit silhouettes.
+
+[Shot 1] A medium-wide three-quarter rear view follows the female protagonist <Picture 1>, <Subject 1>, already upright beside her chair. Her closed laptop is secured under her right upper arm, left hand free, and her body faces the aisle at screen-right. A pale wall borders the aisle; the arguing clients and conference table remain on its other side.
+[0s-3s] She continues into quiet, measured steps along the room's edge, moving left-to-right behind the standing clients. The camera tracks right slowly at chest height, retaining her taupe-gray jacket and long straight black hair. Clients gesture toward one another as reports flutter over the table. Their argument is visual only. Instrumental epic music carries the scene; soft footsteps sit beneath the score.
+[3s-5s] She reaches the door and gently presses its handle with her left hand. The camera eases to a stop behind her shoulder while she pulls the door inward just far enough to pass sideways. The laptop remains closed against her right ribs. Quiet handle friction and a faint hinge sound accompany the action beneath the continuous instrumental score.
+[5s-7s] She turns her shoulders and slips sideways through the opening into the corridor, keeping her left hand on the handle. Hair and jacket follow her turn naturally. The clients remain occupied with one another behind her; her walking pace stays quiet and controlled.
+
+[Shot 2] At 00:07.000, the camera cuts to a corridor-side medium-wide view of the same doorway and its narrow side window. The female protagonist <Picture 1>, <Subject 1>, has cleared the threshold, with her left hand still controlling the door and the closed laptop under her right arm.
+[7s-9s] She gently draws the door shut. Flying paper and gesturing silhouettes remain visible through the side window, their mouths moving inaudibly. The instrumental score maintains its full phrase and intensity as the gap narrows. At exactly 9.000 seconds the door seats in its frame: a short, dry latch click marks contact, and the music and every other sound cut off abruptly at that contact, with all reverberation tails truncated.
+
+[Shot 3] At 00:09.000, the camera cuts to a chest-up frontal view of the female protagonist <Picture 1>, <Subject 1>, releasing the handle and settling her back against the closed door. Her face is softly lit, with the laptop edge visible beside her right forearm.
+[9s-10s] Hold one complete second of absolute silence. She rests against the door and closes her eyes, shoulders still raised. The camera is steady. Her exhalation has not started. The entire soundtrack is silent for this interval.
+[10s-13s] At exactly 10.000 seconds, she releases one long, close, audible nonverbal sigh. Her shoulders descend with the exhalation through 12 seconds. She then lifts her left hand and sweeps the loose strands beside her cheek behind her ear by 13 seconds. A subtle slow push-in reveals her tired expression and precise grooming gesture. The isolated sigh breaks the silence; the score remains stopped.
+[13s-15s] Her left hand lowers naturally from her ear, and her breathing settles. She remains supported by the door, holding the laptop steadily. The camera gently comes to rest. Only her faint natural breathing and soft sleeve movement are audible.
+Negative constraints: no subtitles, no readable text, no extra fingers, no deformed limbs, no flickering, no shaky camera, no looping, no spoken dialogue.
+
+overall_soundscape:
+Speech is inaudible throughout, including behind the closed door. Before 9 seconds, restrained footsteps, clothing movement and handle friction sit beneath the instrumental score. At exactly 9.000 seconds, the dry door-latch contact marks a hard cut to absolute silence; truncate all sound tails at the boundary. From 9.000 to 10.000 seconds, all audio is silent. At 10.000 seconds, a single close nonverbal sigh begins and lasts approximately two seconds, followed by a faint grooming rustle and quiet breathing. The sigh is the first audible event after the one-second silence.
+
+non_diegetic_music:
+Original purely instrumental epic orchestral score at 72 BPM in D minor: low strings, deep orchestral drums and broad brass. Begin mid-phrase and sustain the music continuously through the walk, doorway passage and door-closing movement. Keep its strength until the door-latch contact at exactly 9.000 seconds, then cut it off instantly, with zero fade and zero reverb tail. The music remains silent from that instant through the end, including the one-second silent hold and the subsequent sigh.

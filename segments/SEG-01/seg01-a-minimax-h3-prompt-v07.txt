@@ -1,0 +1,32 @@
+subject_definitions:
+<Subject 1> is the female protagonist, a 20-something East Asian female mechanical R&D engineer. She has long, straight, center-parted black hair and wears a tailored taupe-gray blazer, an ivory crew-neck top, and loose light-colored trousers. She is professional, composed, and places a high value on immaculate grooming. Her face, hair, and clothing follow <Picture 1>.
+
+summary:
+[reference generation] A fifteen-second photorealistic live-action office scene with an epic orchestral score playing from the first frame to the last. In a tense external engineering meeting, clients gesture heatedly at each other; <Subject 1>, defined by <Picture 1>, quietly closes her silver HP laptop and rises beside the wall. The opening five seconds are high-frame-rate slow-motion close-ups of accusatory hands and a furious open mouth spraying fine saliva droplets. Her practical movements play at natural speed after the opening.
+
+retention_analysis:
+<Subject 1> (appears in [Shot 3]): fully_preserved - Preserve facial identity, center-parted straight black hair, taupe-gray blazer, ivory top, light trousers, body proportions and careful grooming.
+<Picture 1> (identity source for [Shot 3]): fully_preserved - Render her as a real person in photorealistic live action inside a single continuous office space. The reference supplies identity and clothing only; its drawing style, layout and background are replaced by real skin, real fabric and real lighting, while composition and actions follow the timeline below.
+
+detailed_description:
+Photorealistic live-action cinema footage shot on a digital cinema camera with prime lenses: natural skin texture with visible pores, real fabric weave, physically accurate reflections on glass and brushed aluminum, shallow depth of field and subtle film grain. A modern corporate meeting room in restrained cool-gray tones under soft overhead light keeps the woman's face readable. Clients stay anonymous: in wider views they are softly backlit and out of focus; the opening mouth insert crops tightly to lips, teeth and a small edge of chin.
+
+[Shot 1] An extreme close-up at table height, filmed at high frame rate, frames two opposing clients' hands above a blurred conference table, with an engineering stress-color projection dissolving into the cool-gray background.
+[0s-3s] In quarter-speed slow motion, one rigid index finger thrusts toward the opposing client and stops at full extension; a second hand enters from the opposite edge, pointing back with tense, curled fingers. Real jacket cuffs crease and stretch with the wrists. The camera trucks right over a very short distance, keeping the accusing fingertips sharp as drifting paper blurs behind them. The epic orchestral score opens at full strength.
+
+[Shot 2] At 00:03.000, the camera cuts to an extreme side close-up of an anonymous client's mouth, cropped tightly from upper lip to chin edge. Cool rim light catches the wet lip surface and suspended droplets.
+[3s-5s] In quarter-speed slow motion, the jaw drops wide open in fury, the lips pull taut and teeth flash. Fine saliva droplets burst from the mouth, separate into tiny beads and travel outward on gently descending arcs. A slow, small push-in follows the contorting lips and the droplets passing through the thin focus plane. Heavy drums and brass of the orchestral score drive the image.
+
+[Shot 3] At 00:05.000, the camera cuts to table height and trucks right slowly past foreground arms, revealing the female protagonist <Picture 1>, <Subject 1>, seated against the wall in the right third. Her open silver HP laptop is angled so the back of its lid faces the camera, with the round chrome HP logo centered on the lid; the screen partly covers her ivory top. Her taupe-gray sleeves and long black hair match the reference. The aisle toward the doorway continues screen-right.
+[5s-7s] She glances toward the gesturing clients, then lowers her eyes to a sheet resting on her keyboard. Focus settles on her face and hands as the foreground gestures soften. From here all movement plays at natural speed; the orchestral score continues at full strength.
+[7s-9s] She lifts that sheet by its edge, lays it on the table, then gently folds the laptop lid fully shut. The chrome HP logo on the closed lid catches the overhead light. A soft paper rustle and a quiet lid click sit under the music. Her lips stay relaxed and closed.
+[9s-11s] She secures the closed laptop beneath her right upper arm, the HP logo facing outward. Her chair slides diagonally backward into the clear aisle, away from the wall; she rises smoothly with her left hand briefly steadying the seat. The camera tilts up gently to retain a medium framing.
+[11s-15s] Standing beside the chair, she settles the laptop against her right ribs, HP logo still visible, and turns her shoulders toward the aisle at screen-right. Her left hand relaxes at her side; her jacket shifts slightly. The clients continue gesturing toward each other in soft focus, and scattered pages settle naturally. The camera finishes its small upward adjustment.
+
+Negative constraints: no subtitles, no captions, no watermark, no extra fingers, no deformed limbs, no flickering, no shaky camera, no looping.
+
+overall_soundscape:
+The soundtrack is the orchestral score together with a few soft physical object sounds. From 0 to 5 seconds the score alone fills the track. From 5 seconds, a low ventilation hum and faint paper movement sit quietly beneath the music. From 7 seconds, sheet friction, a soft laptop lid click, chair casters rolling and fabric rustle follow their visible actions in consistent indoor reverberation, always mixed below the score.
+
+non_diegetic_music:
+Original purely instrumental epic orchestral score at 72 BPM in D minor: sustained low strings, deep orchestral taiko-style drums and broad brass swells. The music starts on the very first frame at full strength and plays continuously and prominently for the entire fifteen seconds as the dominant layer of the soundtrack. Drum hits land on the slow-motion finger thrust and the mouth close-up; from 5 seconds the strings carry a steady, forceful phrase under her quiet actions, building slightly toward 15 seconds and still sounding on the final frame.

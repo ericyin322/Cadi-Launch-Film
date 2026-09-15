@@ -1,31 +1,31 @@
 {
   "project": "Cadi-Launch-Film",
-  "updated": "2026-09-14",
+  "updated": "2026-09-15",
   "duration_seconds": 300,
   "audience": [
     "上級",
     "主管",
     "技術發表會觀眾"
   ],
-  "source_of_truth": "screenplay/master-storyboard-v0.4.md",
+  "source_of_truth": "screenplay/master-storyboard-v0.7.md",
   "video_prompt_target": "MiniMax H3",
   "storyboard_style": "黑白漫畫式動畫線稿，最終影片為彩色",
   "segments": [
     {
       "id": "SEG-01",
-      "screenplay": "v0.3",
-      "screenplay_approval": "approved",
+      "screenplay": "v0.7",
+      "screenplay_approval": "approved_by_user_revision",
       "storyboard": "v02",
-      "approval": "approved_for_h3_by_user_request",
-      "h3": "v04_seg01_a_b_epic_slow_motion_ready_video_unverified"
+      "approval": "h3_authorized_directly_from_v0_5_text_storyboard_v03_pending",
+      "h3": "seg01_a_v06_b_v06_validated_latch_cut_one_second_silence_then_sigh"
     },
     {
       "id": "SEG-02",
       "storyboard": "v02",
-      "approval": "approved_for_h3_by_user_request",
-      "h3": "seg02_a_v03_seg02_b_v04_teams_ui_picture3_reference_image_pending",
-      "screenplay": "v0.4",
-      "screenplay_approval": "approved"
+      "approval": "storyboard_v02_outdated_v03_pending",
+      "h3": "outdated_after_screenplay_v0_5_waiting_for_storyboard_approval",
+      "screenplay": "v0.5",
+      "screenplay_approval": "approved_by_user_revision"
     },
     {
       "id": "SEG-03",

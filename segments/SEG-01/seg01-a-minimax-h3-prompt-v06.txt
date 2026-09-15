@@ -1,0 +1,31 @@
+subject_definitions:
+<Subject 1> is the female protagonist, a 20-something East Asian female mechanical R&D engineer. She has long, straight, center-parted black hair and wears a tailored taupe-gray blazer, an ivory crew-neck top, and loose light-colored trousers. She is professional, composed, and places a high value on immaculate grooming. Her face, hair, and clothing follow <Picture 1>.
+
+summary:
+[reference generation] A fifteen-second color animated office scene. An argumentative external engineering meeting fills the room; <Subject 1>, defined by <Picture 1>, quietly collects her laptop and rises beside the wall. For the opening five seconds, epic instrumental music is the sole audible layer over extreme slow-motion close-ups of accusatory hands and an angrily shouting mouth spraying fine saliva droplets. Her practical movements resume at natural speed after the opening.
+
+retention_analysis:
+<Subject 1> (appears in [Shot 3]): fully_preserved - Preserve facial identity, center-parted straight black hair, taupe-gray blazer, ivory top, light trousers, body proportions and careful grooming.
+<Picture 1> (identity source for [Shot 3]): fully_preserved - Transfer the character design to a single continuous office space. The reference supplies identity and clothing; the target composition, background, lighting and actions follow the timeline below.
+
+detailed_description:
+Color 2D animation with clean contours, controlled cel shading and restrained cool-gray office colors. Soft overhead light keeps the woman's face readable. Clients appear as anonymous backlit silhouettes in wider views; the opening mouth insert crops tightly to lips, teeth and a small edge of chin, keeping the rest of the face outside the composition.
+
+[Shot 1] An extreme close-up at table height frames two opposing clients' hands above a blurred conference table, with an engineering stress-color projection dissolving into the cool-gray background.
+[0s-3s] In quarter-speed slow motion, one rigid index finger thrusts toward the opposing client and stops at full extension; a second hand enters from the opposite edge, pointing back with tense, curled fingers. Jacket cuffs stretch with the wrists. The camera trucks right over a very short distance, keeping the accusing fingertips sharp as drifting paper blurs behind them. Epic instrumental music is the sole audible layer; all diegetic audio is silent.
+
+[Shot 2] At 00:03.000, the camera cuts to an extreme side close-up of an anonymous client's mouth, cropped tightly from upper lip to chin edge. Cool rim light catches the wet lip surface and suspended droplets.
+[3s-5s] In quarter-speed slow motion, the jaw opens wide in furious shouting, the lips pull taut and teeth flash. Fine saliva droplets burst from the mouth, separate into tiny beads and travel outward on gently descending arcs. A slow, small push-in emphasizes the contorting lips and the droplets passing through the thin focus plane. The mouth action is visually furious and completely inaudible. Only the instrumental orchestral score is heard.
+[Shot 3] At 00:05.000, the camera cuts to table height and trucks right slowly past foreground arms, revealing the female protagonist <Picture 1>, <Subject 1>, seated against the wall in the right third. Her open laptop partly covers her ivory top; her taupe-gray sleeves and long black hair match the reference. The aisle toward the doorway continues screen-right.
+[5s-7s] She glances toward the arguing silhouettes, then lowers her eyes to a sheet resting on her keyboard. Focus settles on her face and hands as the foreground gestures soften. At exactly five seconds, indistinct overlapping Mandarin argument and office room tone enter for the first time; her movements now play at natural speed.
+[7s-9s] She lifts that sheet by its edge, lays it on the table, then gently folds the laptop lid fully shut. Paper friction and a soft lid click remain audible beneath the room noise. Her lips stay relaxed and closed.
+[9s-11s] She secures the closed laptop beneath her right upper arm. Her chair slides diagonally backward into the clear aisle, away from the wall; she rises smoothly with her left hand briefly steadying the seat. The camera tilts up gently to retain a medium framing.
+[11s-15s] Standing beside the chair, she settles the laptop against her right ribs and turns her shoulders toward the aisle at screen-right. Her left hand relaxes at her side; quiet breathing moves her jacket slightly. The clients continue gesturing toward each other in soft focus, and scattered pages settle naturally. The camera finishes its small upward adjustment.
+
+Negative constraints: no subtitles, no readable text, no extra fingers, no deformed limbs, no flickering, no shaky camera, no looping.
+
+overall_soundscape:
+From 0 to 5 seconds, the entire diegetic layer is silent. Starting at 5 seconds, overlapping indistinct Mandarin meeting argument, ventilation hum and paper movement become audible. From 7 seconds onward, sheet friction, a laptop lid click, chair sliding and clothing movement follow their visible actions in consistent indoor reverberation. Speech remains an indistinct crowd texture.
+
+non_diegetic_music:
+Original instrumental epic orchestral score at 72 BPM in D minor: sustained low strings, deep orchestral drums and broad brass swells. From 0 to 5 seconds, this score is the sole audible layer, carrying the quarter-speed gestures and saliva through a continuous forceful phrase; use an instrumental ensemble throughout. At 5 seconds, retain the musical phrase while lowering its level slightly as the room sound enters. Sustain the phrase through the ending.

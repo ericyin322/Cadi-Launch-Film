@@ -1,0 +1,30 @@
+subject_definitions:
+<Subject 1> is the female protagonist, a 20-something East Asian female mechanical R&D engineer. She has long, straight, center-parted black hair and wears a tailored taupe-gray blazer, an ivory crew-neck top, and loose light-colored trousers. She is professional, composed, and places a high value on immaculate grooming. Her face, hair, and clothing follow <Picture 1>.
+
+summary:
+[reference generation] A fifteen-second color animated office scene. An argumentative external engineering meeting fills the room; <Subject 1>, defined by <Picture 1>, quietly collects her laptop and rises beside the wall. Slow camera movement and briefly slowed flying paper contrast with her restrained, practical movements.
+
+retention_analysis:
+<Subject 1> (appears in [Shot 2]): fully_preserved - Preserve facial identity, center-parted straight black hair, taupe-gray blazer, ivory top, light trousers, body proportions and careful grooming.
+<Picture 1> (identity source for [Shot 2]): fully_preserved - Transfer the character design to a single continuous office space. The reference supplies identity and clothing; the target composition, background, lighting and actions follow the timeline below.
+
+detailed_description:
+Color 2D animation with clean contours, controlled cel shading and restrained cool-gray office colors. Soft overhead light keeps the woman's face readable while the arguing clients appear as featureless backlit silhouettes.
+
+[Shot 1] A wide 28 mm view looks diagonally along a conference table toward an engineering stress-color projection and a pale wall. Clients stand on opposite sides, gesturing toward one another.
+[0s-3s] The camera pushes in slowly over a short distance. One client slaps the table while another raises a report; loose sheets fan out above the tabletop. Dense overlapping Mandarin argument fills the room. A low rough client voice (S1) briefly emerges with <d>[Mandarin Chinese] 結果!</d>, then blends back into indistinct argument.
+[3s-5s] Paper passes close to the lens in a brief half-speed flutter, revealing waving arms beyond. A sharper client voice (S2) interjects <d>[Mandarin Chinese] 重跑!</d>; a lower impatient client voice (S3) overlaps its ending with <d>[Mandarin Chinese] 交期!</d>. These are isolated fragments directed between the arguing clients. Voices remain at natural speed.
+
+[Shot 2] At 00:05.000, the camera cuts to table height and trucks right slowly past foreground arms, revealing the female protagonist <Picture 1>, <Subject 1>, seated against the wall in the right third. Her open laptop partly covers her ivory top; her taupe-gray sleeves and long black hair match the reference. The aisle toward the doorway continues screen-right.
+[5s-7s] She glances toward the arguing silhouettes, then lowers her eyes to a sheet resting on her keyboard. Focus settles on her face and hands as the foreground gestures soften. The argument continues across the cut at the same room level.
+[7s-9s] She lifts that sheet by its edge, lays it on the table, then gently folds the laptop lid fully shut. Paper friction and a soft lid click remain audible beneath the room noise. Her lips stay relaxed and closed.
+[9s-11s] She secures the closed laptop beneath her right upper arm. Her chair slides diagonally backward into the clear aisle, away from the wall; she rises smoothly with her left hand briefly steadying the seat. The camera tilts up gently to retain a medium framing.
+[11s-15s] Standing beside the chair, she settles the laptop against her right ribs and turns her shoulders toward the aisle at screen-right. Her left hand relaxes at her side; quiet breathing moves her jacket slightly. The clients continue gesturing toward each other in soft focus, and scattered pages settle naturally. The camera finishes its small upward adjustment.
+
+Negative constraints: no subtitles, no readable text, no extra fingers, no deformed limbs, no flickering, no shaky camera, no looping.
+
+overall_soundscape:
+Continuous overlapping Mandarin meeting argument, ventilation hum, paper flutters and occasional table impacts. Keep the three brief vocal fragments embedded in the crowd texture. Close physical details include sheet friction, a laptop lid click, chair sliding and clothing movement; preserve a consistent indoor reverberation through the cut.
+
+non_diegetic_music:
+Original epic orchestral pressure at 72 BPM in D minor: sustained low strings, deep restrained drums, muted brass and distant wordless choir. Build gradually beneath the argument, with a broad pulse supporting the slow camera. Sustain the phrase through the ending.
