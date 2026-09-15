@@ -1,5 +1,7 @@
 # 資產索引
 
+SEG-02B v08 新增待提供資產：`software/phone-home-reference-v01.png`，綁定 `<Picture 2>`；用途為手機桌面（桌布、Teams icon 外觀／大小／位置），郵件通知另疊。群組三位同事使用各自生成的 profile 照片，與姓名及聲音固定配對；不沿用群組參考圖的既有人像身分。
+
 | 檔案 | 用途 | 可參考 | 不可直接沿用 |
 |---|---|---|---|
 | `characters/heroine-photo-reference-v01.png` | MiniMax H3 女主角身分基準（2026-09-15 起取代設計表） | 寫實臉部、長直中分黑髮、米灰西裝與淺色上衣、真人質感 | 灰色棚拍背景 |
