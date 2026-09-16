@@ -1,0 +1,14 @@
+# 依此順序上傳；工廠與流程圖片路徑由使用者自行填寫。
+references:
+  - picture: 1
+    role: 女主角身分
+    file: "assets/characters/heroine-photo-reference-v01.png"
+  - picture: 2
+    role: Cadi 身分
+    file: "assets/characters/cadi Design Sheet.jpg"
+  - picture: 3
+    role: 工廠場景
+    file: ""
+  - picture: 4
+    role: 流程圖
+    file: ""

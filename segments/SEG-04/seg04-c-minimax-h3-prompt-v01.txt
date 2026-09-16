@@ -1,0 +1,42 @@
+subject_definitions:
+<Subject 1> is the female protagonist, a 20-something East Asian female mechanical R&D engineer. She has long, straight, center-parted black hair and wears a tailored taupe-gray blazer, an ivory crew-neck top, and loose light-colored trousers. She is professional, composed, and places a high value on immaculate grooming. Her face, hair, and clothing follow <Picture 1>.
+<Subject 2> is Cadi, a small flying robot mascot. Its head is composed of actively burning, ethereal cyan-blue plasma fire that continuously flickers, dances, and undulates with rising wisps and subtle luminous embers (an energetic plasma flame, completely non-solid, with zero gelatinous or jelly-like surface tension). Within the dynamic flame sit two oversized oval cyan eyes and a tiny mouth, atop a dark navy segmented robot body and a glowing circular cyan chest core. Its height is approximately half of the female protagonist's upper body. Its design, proportions, and colors follow <Picture 2>.
+<Subject 3> is the virtual engineering factory environment. Its architecture and spatial layout follow <Picture 3>.
+<Subject 4> is the workflow reference displayed on a floating virtual screen. Its node layout, connections, labels and symbols follow <Picture 4>.
+
+summary:
+[reference generation] A fifteen-second continuation: finish the explanation, move the workflow upward on its screen, reveal the approve button, then press it.
+
+retention_analysis:
+<Subject 1> / <Picture 1> (throughout [Shot 1]): fully_preserved - face, hair, clothing, proportions and professional composure; real skin and fabric under scene lighting.
+<Subject 2> / <Picture 2> (throughout [Shot 1]): fully_preserved - actively burning cyan-blue plasma fire, completely non-solid, continuous flickering, rising wisps and embers, wind-drag in motion and upward licking while hovering; eyes, mouth, navy body and chest core stay consistent.
+<Subject 3> / <Picture 3> (throughout [Shot 1]): fully_preserved - architecture, spatial layout and landmark proportions, under the project lighting.
+<Subject 4> / <Picture 4> (throughout [Shot 1]): fully_preserved - node layout, connection directions, labels and symbols, displayed within the borders of a readable virtual screen.
+
+detailed_description:
+Photorealistic live-action cinema footage shot on a digital cinema camera with prime lenses: natural skin texture with visible pores, real fabric weave, physically accurate reflections, shallow depth of field and subtle film grain.
+Full color, 16:9, cyan and warm amber practical lighting in a Taiwan-Hong Kong science-fiction engineering district.
+
+[Shot 1] One continuous fifteen-second shot. Match a locked frontal medium two-shot at seated eye height with a 35mm prime lens. The female protagonist <Picture 1>, <Subject 1>, sits screen-right in the lounge chair beneath the parasol, right hand holding the drink at chest level, left hand resting on the chair arm. Cadi <Picture 2>, <Subject 2>, hovers screen-left with one open palm toward her and mouth closed. Preserve the factory <Picture 3>, <Subject 3>, architecture, spatial layout and cyan-and-amber lighting. The workflow <Picture 4>, <Subject 4>, occupies the entire visible surface of a rectangular virtual screen between them, below their faces. Its node layout, labels and connections follow the reference.
+
+[0s-1s] Continue the preceding settled composition for a full second. Hold camera, body poses, drink and screen positions. Only subtle breathing and flame flicker continue. Voices rest while music continues. Cadi's actively burning, ethereal cyan-blue plasma fire continuously flickers, dances, and undulates; soft tongues and embers rise and dissipate from his completely non-solid head.
+
+[1s-4s] Cadi <Subject 2> (S1) resumes in a bright young-girl Mandarin voice, professionally articulated with clear technical terms: <d>[Chinese] 接著我會開啟Creo導入3D模型，</d> His mouth follows the words while his hand traces the corresponding region of the workflow on the screen. She watches, cup held steadily at chest level.
+
+[4s-6s] Cadi <Subject 2> (S1) continues: <d>[Chinese] 接者做風扇Rib的運算，</d> His fingertip follows the existing graphic connections toward later nodes; highlights stay within the screen surface. Her left hand remains on the chair arm.
+
+[6s-9s] Cadi <Subject 2> (S1) finishes with a rising question inflection: <d>[Chinese] 找出最佳的Rib方案，這樣的流程可以嗎</d> He presents an open palm toward her, finishes by 9s and closes his mouth. The workflow stays in its original position until the sentence finishes. His flame rises softly while hovering; eyes, mouth, navy body and chest core stay consistent.
+
+[9s-11s] Only after the speech ends, the workflow graphic slides upward inside the fixed screen, progressively exposing a lower control area. A large circular touch button appears there, within reach of her left hand. Its face clearly reads the exact lowercase word "approve", centered in high-contrast lettering. Complete the reveal by 10.5s and hold the fully exposed button for half a second. She looks at the button, left hand still resting on the chair arm. Both speakers remain quiet.
+
+[11s-13s] Now she lifts her left hand, extends her index finger and deliberately reaches toward the button center. The female protagonist <Subject 1> (S2) says in a calm, decisive adult Mandarin voice: <d>[Chinese] 核准。</d> Her fingertip contacts the circular "approve" button once around 12.2s. Its rim lights cyan at contact. Hold briefly on contact, then retract the finger by 13s. Keep her hand, fingertip and label fully visible; her right hand holds the drink throughout.
+
+[13s-15s] Exactly two cyan data trails emerge from the activated button toward the left and right service stations. The raised workflow and labeled circular button remain visible on the screen. Cadi turns toward the trails, flame tips briefly dragging with the motion before rising again. She lowers her left hand toward the chair arm. End with both trails visible.
+
+Negative constraints: no subtitles, no extra fingers, no deformed limbs, no duplicate characters, no shaky camera, no cuts, no looping, no rubbery, gelatinous, solid jelly texture, no solid glass surface.
+
+overall_soundscape:
+Only the two scripted speaking voices and instrumental music are audible. Dialogue is close and clear. Environmental sound, Foley and action effects are silent; all physical actions are visual only.
+
+non_diegetic_music:
+Upbeat major-key instrumental pop, about 116 BPM: buoyant bass, light drums, electric piano and playful plucked synth. Energetic and optimistic throughout. Keep music low beneath both voices, lifting slightly after the final reply. The scripted dialogue is the sole vocal layer.

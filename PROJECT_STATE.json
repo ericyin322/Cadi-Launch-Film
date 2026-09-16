@@ -1,6 +1,6 @@
 {
   "project": "Cadi-Launch-Film",
-  "updated": "2026-09-15",
+  "updated": "2026-09-16",
   "duration_seconds": 300,
   "audience": [
     "上級",
@@ -49,8 +49,14 @@
     {
       "id": "SEG-04",
       "storyboard": "v01",
-      "approval": "approved",
-      "h3": "v01"
+      "approval": "storyboard_v01_approved_user_requested_b_refinement",
+      "h3": "b_v06_c_v01_references_pending_video_unverified",
+      "h3_notes": "B8秒＋C15秒（C時長為製作安排）；尾首各1秒穩定銜接。C說完才上移流程、露出approve，女主才按。詳見生成說明v06。",
+      "brief": "segments/SEG-04/brief-v04.md",
+      "screenplay_override": "segments/SEG-04/brief-v04.md",
+      "timing_status": "b_8_seconds_user_requested_c_15_seconds_production_plan",
+      "h3_storyboard_override": "explicit_user_request_2026-09-16",
+      "timing_notes": "B/C原始合計23秒；A若沿用9秒則SEG04為32秒。全片原300秒時槽待重排，未修改其他段。"
     },
     {
       "id": "SEG-05",
@@ -107,5 +113,5 @@
       "h3": "todo"
     }
   ],
-  "duration_status": "planned_300_seconds"
+  "duration_status": "planned_300_seconds_retiming_pending_seg04_bc_split"
 }

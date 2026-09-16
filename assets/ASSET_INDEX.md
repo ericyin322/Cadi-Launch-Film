@@ -1,5 +1,7 @@
 # 資產索引
 
+- 2026-09-16：SEG04-B v03：新增工廠（Picture 3，僅場景建筑與空間布局）、流程圖（Picture 4，僅節點布局、連線、標籤與符號）。兩張圖片路徑留空於 segments/SEG-04/reference-paths-v03.yaml，由使用者自行處理；未檢視實際圖片，不能確認其內容與劇情一致。畫風仍以 registry visual_style 為準，角色身分由 Picture 1／2 提供。
+
 SEG-02B v08 新增待提供資產：`software/phone-home-reference-v01.png`，綁定 `<Picture 2>`；用途為手機桌面（桌布、Teams icon 外觀／大小／位置），郵件通知另疊。群組三位同事使用各自生成的 profile 照片，與姓名及聲音固定配對；不沿用群組參考圖的既有人像身分。
 
 | 檔案 | 用途 | 可參考 | 不可直接沿用 |

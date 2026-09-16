@@ -1,0 +1,40 @@
+subject_definitions:
+<Subject 1> is the female protagonist, a 20-something East Asian female mechanical R&D engineer. She has long, straight, center-parted black hair and wears a tailored taupe-gray blazer, an ivory crew-neck top, and loose light-colored trousers. She is professional, composed, and places a high value on immaculate grooming. Her face, hair, and clothing follow <Picture 1>.
+<Subject 2> is Cadi, a small flying robot mascot. Its head is composed of actively burning, ethereal cyan-blue plasma fire that continuously flickers, dances, and undulates with rising wisps and subtle luminous embers (an energetic plasma flame, completely non-solid, with zero gelatinous or jelly-like surface tension). Within the dynamic flame sit two oversized oval cyan eyes and a tiny mouth, atop a dark navy segmented robot body and a glowing circular cyan chest core. Its height is approximately half of the female protagonist's upper body. Its design, proportions, and colors follow <Picture 2>.
+<Subject 3> is the virtual engineering factory environment. Its architecture and spatial layout follow <Picture 3>.
+<Subject 4> is the workflow reference displayed as a floating three-dimensional plan. Its node layout, connections, labels and symbols follow <Picture 4>.
+
+summary:
+[reference generation] A fifteen-second continuous shot. <Subject 2> explains the plan to <Subject 1>, who sips her drink while listening and approves after the question. <Picture 1> and <Picture 2> define identities, <Picture 3> defines the factory environment, and <Picture 4> defines the visible workflow.
+
+retention_analysis:
+<Subject 1> / <Picture 1> (throughout [Shot 1]): fully_preserved - face, hair, clothing, proportions and professional composure; real skin and fabric under scene lighting.
+<Subject 2> / <Picture 2> (throughout [Shot 1]): fully_preserved - actively burning cyan-blue plasma fire, completely non-solid, continuous flickering, rising wisps and embers, wind-drag in motion and upward licking while hovering; eyes, mouth, navy body and chest core stay consistent.
+<Subject 3> / <Picture 3> (throughout [Shot 1]): fully_preserved - architecture, spatial layout and landmark proportions, under the project lighting.
+<Subject 4> / <Picture 4> (throughout [Shot 1]): fully_preserved - node layout, connection directions, labels and symbols, projected as a readable floating plan.
+
+detailed_description:
+Photorealistic live-action cinema footage shot on a digital cinema camera with prime lenses: natural skin texture with visible pores, real fabric weave, physically accurate reflections, shallow depth of field and subtle film grain.
+Full color, 16:9, cyan and warm amber practical lighting in a Taiwan-Hong Kong science-fiction engineering district.
+
+[Shot 1] One continuous fifteen-second shot. The female protagonist <Picture 1>, <Subject 1>, sits screen-right on a vacation lounge chair beneath a parasol on a floating platform. Her right hand holds the drink with its straw; her left hand rests on the chair arm. Cadi <Picture 2>, <Subject 2>, hovers screen-left, hands already lifting. The factory <Picture 3>, <Subject 3>, surrounds them; its architecture and spatial arrangement follow the supplied environment reference. The workflow <Picture 4>, <Subject 4>, floats between them below their faces, with its supplied layout, labels, symbols and connections intact. Start from her front-right at seated eye height with a 35mm prime lens, continuing a small, slow clockwise arc toward a frontal medium two-shot. Keep both faces and the full plan readable.
+
+[0s-2s] Cadi continues spreading his hands as the plan opens. At 0.2s, Cadi <Subject 2> (S1) begins the complete line below in a bright, clear young-girl Mandarin voice, professionally articulated at a brisk, connected pace. Continue through 13.2s, giving the English technical terms clear pronunciation and the final question an audible rising inflection: <d>[Chinese] 我會先看IEC Spec 實際的內容，並結合GP圖的結果進行整合，先給您確認，如果您要修改可以跟我說。接著我會開啟Creo做風扇Rib的運算，找出最佳的Rib方案，這樣的流程可以嗎</d> His tiny mouth follows the speech. The woman raises the cup slightly, watching him and the plan. Cadi's actively burning, ethereal cyan-blue plasma fire continuously flickers, dances, and undulates, with soft rising tongues and luminous embers dissipating above his completely non-solid head.
+
+[2s-5s] As the explanation covers the IEC Spec content and GP results, Cadi gestures across the corresponding source region of the supplied plan. A gentle cyan highlight travels along its existing connections. The woman takes a sip through the straw while keeping her eyes on the workflow; her right hand steadily supports the cup. The camera eases back a few centimeters to keep the plan in frame.
+
+[5s-8s] Cadi presents an open palm toward her as the line reaches review and possible changes. She releases the straw, lowers the drink to chest level and studies the plan with an attentive expression. The cup stays in her right hand. His flame tongues rise and disperse while he hovers; eyes, mouth, navy body and chest core retain their proportions.
+
+[8s-11s] During the Creo and fan Rib portion of the same uninterrupted speech, Cadi traces the later portion of the reference workflow with a fingertip. The graphic remains stable under localized highlights. She follows the highlight with her eyes; her left hand lifts toward the approval point. The upbeat instrumental stays softly beneath the dialogue.
+
+[11s-13s] Cadi reaches the best Rib solution and the closing question, drawing his hands back toward an open presentation pose. The woman keeps listening with the drink held low in her right hand. Keep her fingertip and approval seal in frame. The final question continues to 13.2s.
+
+[13s-15s] Cadi finishes speaking at 13.2s. At 13.35s, the female protagonist <Subject 1> (S2) replies in a calm, decisive adult female Mandarin voice: <d>[Chinese] 核准。</d> As she speaks, her left index finger presses the approval seal once. The seal becomes exactly two cyan data trails diverging toward the left and right service stations. Cadi turns to follow the trails, his soft flame tips briefly dragging with the turn before rising again. End with both trails visible, the plan intact and the drink still in her right hand.
+
+Negative constraints: no subtitles, no extra fingers, no deformed limbs, no duplicate characters, no shaky camera, no cuts, no looping, no rubbery, gelatinous, solid jelly texture, no solid glass surface.
+
+overall_soundscape:
+Only the two scripted speaking voices and instrumental music are audible. Dialogue is close and clear. Environmental sound, Foley and action effects are silent; all physical actions are visual only.
+
+non_diegetic_music:
+Upbeat major-key instrumental pop, about 116 BPM: buoyant bass, light drums, electric piano and playful plucked synth. Energetic and optimistic throughout. Keep music low beneath both voices, lifting slightly after the final reply. The scripted dialogue is the sole vocal layer.

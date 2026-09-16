@@ -81,6 +81,29 @@ assets:
       Preserve the wallpaper, icon appearance, icon size and icon position within
       the phone display. The email notification is layered above this home screen.
 
+  factory:
+    priority: 50
+    file: ""
+    role: "environment"
+    status: "pending_user_reference"
+    binding: "Its architecture and spatial layout follow"
+    canonical: >-
+      the virtual engineering factory environment.
+    retention: >-
+      Preserve the supplied architecture, spatial layout and landmark proportions;
+      render the environment with the project's specified lighting and materials.
+  workflow:
+    priority: 60
+    file: ""
+    role: "workflow_graphic"
+    status: "pending_user_reference"
+    binding: "Its node layout, connections, labels and symbols follow"
+    canonical: >-
+      the workflow reference displayed on a floating virtual screen.
+    retention: >-
+      Preserve the supplied node layout, connection directions, labels and symbols;
+      keep the entire workflow readable on a virtual screen between the two speakers.
+
 # 不出場的資產不得列入 cast：不上傳參考圖、不編索引、提示詞一個字都不提。
 # H3 沒有否定運算子，「排除宣告」與「保留槽」只會把物件召喚進畫面。
 # summon_tokens 供 check_prompt.py 反向比對：資產不在 cast 時，這些字眼出現即 FAIL。
@@ -144,3 +167,21 @@ segments:
     continues_from: "seg03-a"
     prompt: "segments/SEG-03/seg03-b-minimax-h3-prompt-v02.txt"
     beat: "鏡頭11：Cadi 提出 IEC spec＋GP 的 placement 預覽建議，鏡頭退至肩後；Lisa 點頭說讓我們開始吧；胸口光擴張、青藍光掃鏡。"
+
+  - id: "seg04-b"
+    scene: 4
+    seed: 7401
+    duration_seconds: 8
+    frame_setting: "依實際節點8秒設定計算"
+    cast: [heroine, cadi, factory, workflow]
+    prompt: "segments/SEG-04/seg04-b-minimax-h3-prompt-v06.txt"
+    beat: "0–7秒Spec與GP說明；7–8秒停留銜接。"
+  - id: "seg04-c"
+    scene: 4
+    seed: 7401
+    frames: 362
+    duration_seconds: 15
+    cast: [heroine, cadi, factory, workflow]
+    continues_from: "seg04-b"
+    prompt: "segments/SEG-04/seg04-c-minimax-h3-prompt-v01.txt"
+    beat: "首秒銜接；Creo導入3D模型與Rib說明；說完後流程上移，露出approve鍵，女主才按。"
