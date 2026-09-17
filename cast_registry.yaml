@@ -276,8 +276,8 @@ segments:
     cast:
     - cadi
     - drop
-    prompt: segments/SEG-07/seg07-a-minimax-h3-prompt-v01.txt
-    prompt_registry: segments/SEG-07/cast-registry-v01.yaml
+    prompt: segments/SEG-07/seg07-a-minimax-h3-prompt-v02.txt
+    prompt_registry: segments/SEG-07/cast-registry-v02.yaml
     reference_videos:
     - label: <Video 1>
       file: assets/blender/cpu-motion-v07/01-scatter-rise-v07.mp4
@@ -291,8 +291,8 @@ segments:
     - heroine
     - cadi
     - drop
-    prompt: segments/SEG-07/seg07-b-minimax-h3-prompt-v01.txt
-    prompt_registry: segments/SEG-07/cast-registry-v01.yaml
+    prompt: segments/SEG-07/seg07-b-minimax-h3-prompt-v02.txt
+    prompt_registry: segments/SEG-07/cast-registry-v02.yaml
     reference_videos:
     - label: <Video 1>
       file: assets/blender/cpu-motion-v07/01-scatter-rise-v07.mp4

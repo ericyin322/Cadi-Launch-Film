@@ -1,0 +1,59 @@
+{
+  "mode": "Ref2VA",
+  "aspect_ratio": "16:9",
+  "segments": [
+    {
+      "id": "seg07-a",
+      "seconds": 14,
+      "seed": 7701,
+      "images": [
+        {
+          "slot": "ref_image_0",
+          "label": "<Picture 1>",
+          "file": "assets/characters/cadi_red.png"
+        },
+        {
+          "slot": "ref_image_1",
+          "label": "<Picture 2>",
+          "file": "assets/characters/agent3-drop.png"
+        }
+      ],
+      "videos": [
+        {
+          "label": "<Video 1>",
+          "file": "assets/blender/cpu-motion-v07/01-scatter-rise-v07.mp4",
+          "role": "scatter_motion_and_final_layout"
+        }
+      ]
+    },
+    {
+      "id": "seg07-b",
+      "seconds": 12,
+      "seed": 7701,
+      "images": [
+        {
+          "slot": "ref_image_0",
+          "label": "<Picture 1>",
+          "file": "assets/characters/heroine-photo-reference-v01.png"
+        },
+        {
+          "slot": "ref_image_1",
+          "label": "<Picture 2>",
+          "file": "assets/characters/cadi_red.png"
+        },
+        {
+          "slot": "ref_image_2",
+          "label": "<Picture 3>",
+          "file": "assets/characters/agent3-drop.png"
+        }
+      ],
+      "videos": [
+        {
+          "label": "<Video 1>",
+          "file": "assets/blender/cpu-motion-v07/01-scatter-rise-v07.mp4",
+          "role": "final_layout"
+        }
+      ]
+    }
+  ]
+}

@@ -92,7 +92,7 @@
       "id": "SEG-07",
       "storyboard": "v01",
       "approval": "storyboard_v01_outdated_revision_pending",
-      "h3": "a_v01_b_v01_ready_video_unverified",
+      "h3": "a_v02_b_v02_ready_video_unverified",
       "storyboard_notes": "v01已過時；新版須呈現drop看資料、立體零件灑落排好、Cadi邀請女主角觀看。",
       "brief": "segments/SEG-07/brief-v02.md",
       "screenplay_override": "segments/SEG-07/brief-v02.md",
@@ -106,7 +106,7 @@
         "assets/blender/cpu-motion-v07/01-scatter-rise-v07.blend"
       ],
       "h3_storyboard_override": "explicit_user_request_after_text_revision_2026-09-17",
-      "h3_notes": "A14秒／B12秒；A兩圖、B三圖，兩段各掛零件落下Video 1，B僅取完成布局。seed7701；詳見生成說明v01。"
+      "h3_notes": "A14秒／B12秒；A兩圖、B三圖，兩段各掛零件落下Video 1，B僅取完成布局。seed7701；詳見生成說明v02。 Cadi使用cadi_red.png紅黑配色；舊版保留。"
     },
     {
       "id": "SEG-08",
