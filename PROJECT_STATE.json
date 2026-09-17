@@ -145,5 +145,16 @@
       "h3": "todo"
     }
   ],
-  "duration_status": "planned_300_seconds_retiming_pending_seg04_bc_split"
+  "duration_status": "planned_300_seconds_retiming_pending_seg04_bc_split",
+  "character_visual_updates": {
+    "cadi": {
+      "effective_date": "2026-09-17",
+      "reference": "assets/characters/cadi_red.png",
+      "flame_color": "red_with_orange_gold_inner_flames_and_warm_white_center",
+      "source": "cast_registry.yaml assets.cadi",
+      "scope": "future_generation_only",
+      "existing_h3_prompts": "preserved",
+      "existing_segment_registries_and_manifests": "preserved"
+    }
+  }
 }

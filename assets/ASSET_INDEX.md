@@ -12,8 +12,9 @@ SEG-02B v08 新增待提供資產：`software/phone-home-reference-v01.png`，�
 | `characters/agent1-hana.png` | SEG-05／06 hana 身分；取代小華 | 白色機身、紅棕眼、花瓣耳飾、粉色飄帶、櫻花胸徽、比例及關節 | 背景、文字、排版、多視角人物數量 |
 | `characters/heroine-photo-reference-v01.png` | MiniMax H3 女主角身分基準（2026-09-15 起取代設計表） | 寫實臉部、長直中分黑髮、米灰西裝與淺色上衣、真人質感 | 灰色棚拍背景 |
 | `characters/Gemini_Generated_Image_6rilce6rilce6ril.jpg` | 女主角設計表；Storyboard 用。H3 不再上傳（插畫風會把成片拉成動畫） | 臉部、長直中分黑髮、正側背比例、米灰西裝與淺色寬褲、表情與專業氣質 | 設計表排版、文字、色票、物件圖示與白色背景 |
-| `characters/cadi Design Sheet.jpg` | MiniMax H3 固定 `<Picture 2>`／Cadi 身分基準 | 正側背比例、動態火焰頭、眼睛、小嘴、深藍機器身體、胸口光核與表情 | 設計表排版、標題、中文字與白色背景 |
-| `characters/cadi-reference-v01.png` | Cadi 身分基準 | 火焰頭、眼睛、身體與胸口核心 | 原背景 |
+| `characters/cadi_red.png` | Cadi 現行身分與色系基準（2026-09-17 起；索引依當段出場角色排序） | 紅橙動態火焰、暖白焰心／眼光、深紅眼框、深灰機甲、紅色關節點綴、金橙暖白胸核、比例與表情 | 排版、標題、文字、色票、白色背景與多視角人物數量 |
+| `characters/cadi Design Sheet.jpg` | 舊藍焰版歷史資產；既有 H3 引用保留 | 舊版回溯 | 不作新製作色系基準 |
+| `characters/cadi-reference-v01.png` | 舊版 Cadi 參考；歷史保留 | 舊版回溯 | 不作新製作色系基準 |
 | `characters/heroine-face-reference-v01.png` | 主角臉部基準 | 臉型、長直黑髮、氣質 | 原服裝、背景與光線 |
 | `characters/heroine-outfit-reference-v01.png` | 主角服裝基準 | 西裝外套、淺色上衣、寬褲輪廓 | 原人物臉部與姿勢 |
 | `software/creo-interface-reference-v01.png` | Creo 視覺基準 | 灰白介面、頂部功能區、模型樹與建模視窗 | 小字、網址與截圖內容 |

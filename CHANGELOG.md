@@ -1,5 +1,7 @@
 # 修改紀錄
 
+- 2026-09-17：依使用者要求，Cadi 新製作色系改為紅焰版；實際資產為 `assets/characters/cadi_red.png`（原訊息的 `cadi/_red.png` 不存在）。更新 AGENTS、H3 skill、共用 registry、registry 模板及資產索引；外觀依新版圖，持續燃燒／非固體動態保留。既有 H3 提示詞、各段 registry／manifest 與生成說明全部保留；劇情及分段進度不變。
+
 - 2026-09-17：使用者確認SEG07文字修訂並直接要求H3，新增A／B v01（14＋12秒）、本段registry及圖片／影片manifest。A用Cadi、drop兩圖及零件影片，B用女主角、Cadi、drop三圖及同影片的完成布局；指定台詞完整保留，seed7701。檢查A13／B14項通過，0警告、0失敗。新版Storyboard未製作，影片未生成。
 
 - 2026-09-17：依使用者指示新增 SEG-07 brief-v02，承接 SEG-06 drop 看資料，展開立體影像，全部零件灑落平面並排好；參考 cpu-motion-v07 的 01-scatter-rise-v07.mp4／.blend。Cadi 邀請女主角觀看，DLG-19 改為「這是最新版的placement，您覺得如何」，原 DLG-18 停用。結尾帶出躺椅上的女主角銜接 SEG-08；暫沿用26秒。主檔與舊版保留，Storyboard v01 已過時，H3 待新版圖確認。

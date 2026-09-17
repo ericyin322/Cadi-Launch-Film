@@ -89,6 +89,13 @@ turns a live-action project into 2D animation.
 
 `scripts/check_prompt.py` enforces rules 1 and 3.
 
+## Cadi 現行色系（本專案，2026-09-17 起）
+
+- 新製作以根目錄 `cast_registry.yaml` 的 `assets.cadi.file`、`canonical` 與 `retention` 為準；身分圖為 `assets/characters/cadi_red.png`。紅橙火焰、暖白焰心與眼光、深灰機甲、紅色點綴及金橙胸核為現行色系。畫風仍逐字使用 `project.visual_style`。
+- 保留持續燃燒、非固體、火舌上升、微光餘燼、移動拖曳及懸停消散的動態。新提示詞只正向描述現行色系，不寫「藍色改紅色」或排除舊色的句子。
+- 既有 H3 提示詞與對應的分段 registry、manifest、生成說明都是歷史快照，本次不回改，也不因共用 registry 更新而批次重製。
+- 日後新增或重製時，從根目錄取得最新 Cadi 規格，建立下一版分段 registry 與 manifest；不得直接沿用舊快照的 Cadi 色系或圖片路徑。保留該段專屬身高／出場設定，繼續遵守 Absent Objects。
+
 ## Output Rules
 
 - Write rewrite sections in English; preserve dialogue, lyrics, and visible scene text in their original language.
