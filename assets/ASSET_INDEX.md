@@ -6,8 +6,9 @@ SEG-02B v08 新增待提供資產：`software/phone-home-reference-v01.png`，�
 
 | 檔案 | 用途 | 可參考 | 不可直接沿用 |
 |---|---|---|---|
-| `characters/agent2-hapa.png` | SEG-05 hapa 身分；取代小明 | 白色機身、綠眼、葉片耳飾、綠葉胸徽、比例及關節 | 背景、文字、排版、多視角人物數量 |
-| `characters/agent1-hana.png` | SEG-05 hana 身分；取代小華 | 白色機身、紅棕眼、花瓣耳飾、粉色飄帶、櫻花胸徽、比例及關節 | 背景、文字、排版、多視角人物數量 |
+| `characters/agent3-drop.png` | SEG-06 drop 身分，取代小白；SEG-07開頭延續 | 白色水滴形頭部、藍眼、白色機身、黑色關節、藍色水滴胸核、比例及關節 | 背景、水花裝飾、文字、排版、多視角人物數量 |
+| `characters/agent2-hapa.png` | SEG-05／06 hapa 身分；取代小明 | 白色機身、綠眼、葉片耳飾、綠葉胸徽、比例及關節 | 背景、文字、排版、多視角人物數量 |
+| `characters/agent1-hana.png` | SEG-05／06 hana 身分；取代小華 | 白色機身、紅棕眼、花瓣耳飾、粉色飄帶、櫻花胸徽、比例及關節 | 背景、文字、排版、多視角人物數量 |
 | `characters/heroine-photo-reference-v01.png` | MiniMax H3 女主角身分基準（2026-09-15 起取代設計表） | 寫實臉部、長直中分黑髮、米灰西裝與淺色上衣、真人質感 | 灰色棚拍背景 |
 | `characters/Gemini_Generated_Image_6rilce6rilce6ril.jpg` | 女主角設計表；Storyboard 用。H3 不再上傳（插畫風會把成片拉成動畫） | 臉部、長直中分黑髮、正側背比例、米灰西裝與淺色寬褲、表情與專業氣質 | 設計表排版、文字、色票、物件圖示與白色背景 |
 | `characters/cadi Design Sheet.jpg` | MiniMax H3 固定 `<Picture 2>`／Cadi 身分基準 | 正側背比例、動態火焰頭、眼睛、小嘴、深藍機器身體、胸口光核與表情 | 設計表排版、標題、中文字與白色背景 |

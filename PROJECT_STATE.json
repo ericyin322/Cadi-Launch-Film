@@ -73,15 +73,26 @@
     },
     {
       "id": "SEG-06",
-      "storyboard": "v01",
-      "approval": "pending_batch_review",
-      "h3": "todo"
+      "storyboard": "v02",
+      "approval": "storyboard_v02_pending_user_review",
+      "h3": "todo_after_revised_storyboard_approval",
+      "time_range": "01:56–02:20",
+      "screenplay_override": "segments/SEG-06/brief-v02.md",
+      "brief": "segments/SEG-06/brief-v02.md",
+      "character_revision": "explicit_user_request_2026-09-17",
+      "duration_seconds": 24,
+      "timing_status": "original_slot_retained_pending_readthrough",
+      "screenplay_notes": "Cadi 直飛 drop 站點並打招呼；hana／hapa 直接交付資料後飛離，drop 接手彙整。",
+      "screenplay_approval": "approved_by_user_revision",
+      "storyboard_notes": "六格已完成：抵達、招呼、hapa交付Spec、hana交付GP、兩Agent離場、drop彙整。純黑白；v01與初稿保留。"
     },
     {
       "id": "SEG-07",
       "storyboard": "v01",
       "approval": "pending_batch_review",
-      "h3": "todo"
+      "h3": "todo",
+      "character_continuity_override": "segments/SEG-06/brief-v02.md：鏡頭24小白改為drop，同步動作執行者與DLG-18說話者；其餘不變。",
+      "storyboard_notes": "v01鏡頭24小白身分需改為drop以銜接SEG-06，其餘維持原審查狀態。"
     },
     {
       "id": "SEG-08",
