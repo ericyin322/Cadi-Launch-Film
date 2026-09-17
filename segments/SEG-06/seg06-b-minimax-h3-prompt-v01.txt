@@ -1,0 +1,30 @@
+subject_definitions:
+<Subject 1> is Cadi, a small flying robot mascot. Its head is composed of actively burning, ethereal cyan-blue plasma fire that continuously flickers, dances, and undulates with rising wisps and subtle luminous embers (an energetic plasma flame, completely non-solid, with zero gelatinous or jelly-like surface tension). Within the dynamic flame sit two oversized oval cyan eyes and a tiny mouth, atop a dark navy segmented robot body and a glowing circular cyan chest core. Its design, proportions, and colors follow <Picture 1>.
+<Subject 2> is drop, a compact white humanoid service robot with a smooth solid white teardrop-shaped head tapering to one rounded peak, two large blue eyes, a small expressive mouth, white armored body panels, black articulated joints, circular blue-lit side modules, and a glowing blue water-drop emblem centered on its chest. Its appearance, proportions, and colors follow <Picture 2>.
+
+summary:
+[reference generation] A 9-second sequence: Cadi instructs drop to preserve unresolved conflicts, and drop begins cross-checking the two delivered data sets.
+
+retention_analysis:
+<Subject 1> / <Picture 1>: fully_preserved - fully preserved: its actively burning cyan-blue plasma fire head, continuous flickering combustion, soft rising flame tongues, subtle luminous embers, wind-drag during movement, upward licking and dissipation while hovering, oversized oval cyan eyes, tiny mouth, dark navy segmented robot body, body proportions, and glowing circular cyan chest core must remain consistent. It is lit by the same real lighting as the scene described by the timeline.
+<Subject 2> / <Picture 2>: fully_preserved - fully preserved: its solid teardrop head silhouette, blue eyes, small mouth, white armor, black articulated joints, blue-lit side modules, water-drop chest emblem and body proportions. Its white shell reflects the physical district lighting.
+Each image supplies one character identity. The timeline supplies the physical location and blocking.
+
+detailed_description:
+Photorealistic live-action cinema footage shot on a digital cinema camera with prime lenses: natural skin texture with visible pores, real fabric weave, physically accurate reflections, shallow depth of field and subtle film grain.
+Full-color Taiwanese and Hong Kong science-fiction engineering district: dense multilevel buildings, vertical illuminated signs, brushed metal, glass and concrete; warm shop lights contrast with cyan transport channels. An open-front aggregation station has a circular overhead canopy and a brushed-metal workbench. Warm light falls from upper right, cyan fill from street-left. White armor reflects these lights.
+[Shot 1] Stable medium two-shot of Cadi <Picture 1> hovering at screen-left and drop <Picture 2> behind the same workbench at screen-right. The Spec stack rests on the left side of the counter and the translucent GP plan with raised Connector coordinate pins rests on the right. Hold the camera at counter-facing eye level on the same side of the workbench. Cadi is already turning his gaze down toward the delivered data; drop follows his gaze.
+[0s-1.5s] Cadi raises his right hand toward the two data sets. His actively burning, ethereal cyan-blue plasma fire continuously flickers, dances, and undulates; soft tongues lick upward and subtle luminous embers dissipate. <Subject 1> (S1), in a bright, playful yet professional childlike Mandarin voice, begins clearly: <d>[Mandarin Chinese] drop，</d> His small mouth moves in sync within the fire. drop holds its hands beside the two data sets.
+[1.5s-3s] The camera makes a slow, short push toward both faces and the counter. <Subject 1> (S1) continues: <d>[Mandarin Chinese] 彙整兩份結果；</d> Cadi sweeps his hand from the Spec stack toward the GP plan. drop tracks this gesture with its blue eyes, its smooth solid white teardrop head reflecting the overhead lamp.
+[3s-4.5s] <Subject 1> (S1) continues in the same calm instruction: <d>[Mandarin Chinese] 衝突項目不要猜，</d> His fingertips pause above the yellow-marked cards. The two yellow items remain visually distinct from the green confirmed cards; the plan's coordinate pins remain fixed.
+[4.5s-6s] <Subject 1> (S1) completes the sentence: <d>[Mandarin Chinese] 保留為待確認。</d> He lowers his hand slightly and meets drop's gaze. His completely non-solid fire lifts and dissipates gently while hovering, and the round cyan chest core holds a steady glow. The camera settles with the workbench in the lower third.
+[6s-8s] drop nods once. <Subject 2> (S2), in a clear, even youthful Mandarin voice with soft electronic resonance, answers: <d>[Mandarin Chinese] 了解，開始交叉驗證。</d> Its mouth follows the words as it spreads the Spec cards beside the GP plan, keeping the green and yellow groups visibly distinct. Restrained servo sounds sit under the reply.
+[8s-9s] drop begins comparing one card with the corresponding location pin, moving a fingertip between the separate data sets. Cadi watches attentively, flame wisps rising above his steady eyes. Two yellow pending items remain on the counter. Hold this active comparison through the final frame, with the low data tone and music continuing.
+
+Negative constraints: no subtitles, no extra fingers or limbs, no deformed limbs, no shaky camera, no looping; no rubbery, gelatinous, solid jelly texture; no solid glass surface on the plasma head.
+
+overall_soundscape:
+Low district ventilation and transport hum, soft joint servos and quiet data-contact tones beneath clear Mandarin dialogue. Directional flight sounds follow visible movement. Keep speech intelligible and close, with restrained street reverberation.
+
+non_diegetic_music:
+A light, energetic instrumental bed at 112 BPM with plucked synthesizer notes, warm bass and restrained electronic percussion. Maintain a steady forward pulse; duck beneath dialogue and gently open during silent gestures.

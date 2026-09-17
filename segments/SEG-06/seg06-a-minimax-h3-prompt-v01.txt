@@ -1,0 +1,36 @@
+subject_definitions:
+<Subject 1> is Cadi, a small flying robot mascot. Its head is composed of actively burning, ethereal cyan-blue plasma fire that continuously flickers, dances, and undulates with rising wisps and subtle luminous embers (an energetic plasma flame, completely non-solid, with zero gelatinous or jelly-like surface tension). Within the dynamic flame sit two oversized oval cyan eyes and a tiny mouth, atop a dark navy segmented robot body and a glowing circular cyan chest core. Its design, proportions, and colors follow <Picture 1>.
+<Subject 2> is drop, a compact white humanoid service robot with a smooth solid white teardrop-shaped head tapering to one rounded peak, two large blue eyes, a small expressive mouth, white armored body panels, black articulated joints, circular blue-lit side modules, and a glowing blue water-drop emblem centered on its chest. Its appearance, proportions, and colors follow <Picture 2>.
+<Subject 3> is hapa, a compact white humanoid service robot with a rounded head, two large green eyes, a small expressive mouth, two upright leaf-shaped ear fins with green insets, black circular side modules with green rims, black articulated joints, and a green leaf emblem centered on its chest. Its appearance, proportions, and colors follow <Picture 3>.
+<Subject 4> is hana, a compact white humanoid service robot with a rounded head, two large reddish-brown eyes, a small expressive mouth, pale petal-shaped ear fins, black circular side modules with pink rims, trailing pink ribbons, black articulated joints, and a cherry-blossom emblem centered on its chest. Its appearance, proportions, and colors follow <Picture 4>.
+
+summary:
+[reference generation] A 15-second sequence: Cadi reaches drop and waves hello; hapa and hana deliver their respective data directly to drop, then fly away.
+
+retention_analysis:
+<Subject 1> / <Picture 1>: fully_preserved - fully preserved: its actively burning cyan-blue plasma fire head, continuous flickering combustion, soft rising flame tongues, subtle luminous embers, wind-drag during movement, upward licking and dissipation while hovering, oversized oval cyan eyes, tiny mouth, dark navy segmented robot body, body proportions, and glowing circular cyan chest core must remain consistent. It is lit by the same real lighting as the scene described by the timeline.
+<Subject 2> / <Picture 2>: fully_preserved - fully preserved: its solid teardrop head silhouette, blue eyes, small mouth, white armor, black articulated joints, blue-lit side modules, water-drop chest emblem and body proportions. Its white shell reflects the physical district lighting.
+<Subject 3> / <Picture 3>: fully_preserved - fully preserved: its facial features, head silhouette, ear fins, side modules, chest emblem, accent colors, articulated limbs and body proportions. Its shell and joints reflect the district lighting.
+<Subject 4> / <Picture 4>: fully_preserved - fully preserved: its facial features, head silhouette, ear fins, side modules, chest emblem, accent colors, articulated limbs and body proportions. Its shell and joints reflect the district lighting.
+Each image supplies one character identity.
+
+detailed_description:
+Photorealistic live-action cinema footage shot on a digital cinema camera with prime lenses: natural skin texture with visible pores, real fabric weave, physically accurate reflections, shallow depth of field and subtle film grain.
+Full-color Taiwanese and Hong Kong engineering street with dense tall buildings and vertical signs. The aggregation station has a circular canopy and metal counter; warm light falls from upper right, cyan fill from street-left.
+[Shot 1] Rear medium-wide tracking view of Cadi <Picture 1>, torso already angled forward along the northbound route. drop <Picture 2>, with a smooth solid teardrop head and blue chest emblem, waits behind the station workbench ahead.
+[0s-1.5s] Cadi flies directly forward toward drop. Track at shoulder height. His actively burning, ethereal cyan-blue plasma fire continuously flickers, dances, and undulates; soft tongues and luminous embers trail backward with airflow. A short rising flight sound follows the approach.
+
+[Shot 2] At 00:01.500, cut to a medium-wide view at the workbench. Cadi <Picture 1> hovers at screen-left and drop <Picture 2> stands screen-right behind the counter; both faces and hands are clear.
+[1.5s-3s] Cadi hovers and waves; drop meets his gaze and waves back silently. Cadi's completely non-solid fire licks upward and dissipates as his forward speed settles.
+[3s-4s] hapa <Picture 3>, with upright leaf ear fins and green chest emblem, flies in carrying Spec cards; hana <Picture 4>, with petal ear fins and trailing pink ribbons, follows carrying a translucent GP plan. They settle beside the counter between Cadi and drop. Ease sideways to frame the handoff.
+[4s-10s] hapa extends the Spec stack directly into drop's hands, releases it after drop grips it, then draws its empty hands back. <Subject 3> (S1), in a crisp, slightly metallic youthful Mandarin voice, reports with synchronized mouth movement: <d>[Mandarin Chinese] 最新 Spec 已取得。確認項目標綠，兩項資訊待確認，已標黃。</d> Confirmed cards glow green; exactly two unresolved cards glow yellow. drop rests the stack on the left side of the workbench. hana waits with the GP plan; Cadi watches.
+[10s-13.5s] hana advances and places the translucent GP plan directly into drop's hands. Connector coordinates rise as luminous position pins. <Subject 4> (S2), in a nimble, bright Mandarin voice with light electronic resonance, says: <d>[Mandarin Chinese] GP 辨識完成，Connector 座標已回傳。</d> drop sets the plan on the right side of the workbench and keeps the Spec stack separate. Finish both handoffs before departure.
+[13.5s-15s] hana and hapa turn away and fly empty-handed through the left edge into the street, ribbons and leaf fins following their movement. Flight sounds fade left. Cadi and drop stay beside the two data sets. Ease to a stable medium two-shot, Cadi left and drop right, Spec stack left on the counter and GP plan right. End with both departing agents fully beyond the frame edge; Cadi's flame rises softly above his eyes and tiny mouth.
+
+Negative constraints: no subtitles, no extra fingers or limbs, no deformed limbs, no shaky camera, no looping; no rubbery, gelatinous, solid jelly texture; no solid glass surface on the plasma head.
+
+overall_soundscape:
+Low district ventilation and transport hum, soft joint servos and quiet data-contact tones beneath clear Mandarin dialogue. Directional flight sounds follow visible movement. Keep speech intelligible and close, with restrained street reverberation.
+
+non_diegetic_music:
+A light, energetic instrumental bed at 112 BPM with plucked synthesizer notes, warm bass and restrained electronic percussion. Maintain a steady forward pulse; duck beneath dialogue and gently open during silent gestures.

@@ -75,7 +75,7 @@
       "id": "SEG-06",
       "storyboard": "v02",
       "approval": "storyboard_v02_pending_user_review",
-      "h3": "todo_after_revised_storyboard_approval",
+      "h3": "a_v01_b_v01_ready_video_unverified",
       "time_range": "01:56–02:20",
       "screenplay_override": "segments/SEG-06/brief-v02.md",
       "brief": "segments/SEG-06/brief-v02.md",
@@ -84,7 +84,9 @@
       "timing_status": "original_slot_retained_pending_readthrough",
       "screenplay_notes": "Cadi 直飛 drop 站點並打招呼；hana／hapa 直接交付資料後飛離，drop 接手彙整。",
       "screenplay_approval": "approved_by_user_revision",
-      "storyboard_notes": "六格已完成：抵達、招呼、hapa交付Spec、hana交付GP、兩Agent離場、drop彙整。純黑白；v01與初稿保留。"
+      "storyboard_notes": "六格已完成：抵達、招呼、hapa交付Spec、hana交付GP、兩Agent離場、drop彙整。純黑白；v01與初稿保留。",
+      "h3_storyboard_override": "explicit_user_request_after_storyboard_v02_2026-09-17",
+      "h3_notes": "A15秒／B9秒；A四張角色圖、B兩張；seed7601。segments/SEG-06/minimax-h3-generation-notes-v01.md；對白未實測，影片未生成。"
     },
     {
       "id": "SEG-07",

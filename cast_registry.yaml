@@ -130,6 +130,21 @@ assets:
 # H3 沒有否定運算子，「排除宣告」與「保留槽」只會把物件召喚進畫面。
 # summon_tokens 供 check_prompt.py 反向比對：資產不在 cast 時，這些字眼出現即 FAIL。
 
+  drop:
+    priority: 25
+    summon_tokens:
+    - drop
+    file: assets/characters/agent3-drop.png
+    role: identity
+    binding: Its appearance, proportions, and colors follow
+    canonical: drop, a compact white humanoid service robot with a smooth solid white teardrop-shaped head
+      tapering to one rounded peak, two large blue eyes, a small expressive mouth, white armored body panels,
+      black articulated joints, circular blue-lit side modules, and a glowing blue water-drop emblem centered
+      on its chest.
+    retention: 'fully preserved: its solid teardrop head silhouette, blue eyes, small mouth, white armor,
+      black articulated joints, blue-lit side modules, water-drop chest emblem and body proportions. Its
+      white shell reflects the physical district lighting.'
+
 segments:
   - id: "S03a"
     scene: 3
@@ -227,3 +242,28 @@ segments:
     prompt: "segments/SEG-05/seg05-b-minimax-h3-prompt-v03.txt"
     beat: "Cadi派hana向右飛離；180度環繞Cadi，準備前往下一站。"
     prompt_registry: "segments/SEG-05/cast-registry-v03.yaml"
+  - id: seg06-a
+    scene: 6
+    seed: 7601
+    duration_seconds: 15
+    frame_setting: 依實際節點15秒設定計算
+    cast:
+    - cadi
+    - drop
+    - hapa
+    - hana
+    prompt: segments/SEG-06/seg06-a-minimax-h3-prompt-v01.txt
+    beat: Cadi抵達並揮手；hapa／hana交付Spec／GP後飛離。
+    prompt_registry: segments/SEG-06/cast-registry-v01.yaml
+  - id: seg06-b
+    scene: 6
+    seed: 7601
+    duration_seconds: 9
+    frame_setting: 依實際節點9秒設定計算
+    cast:
+    - cadi
+    - drop
+    prompt: segments/SEG-06/seg06-b-minimax-h3-prompt-v01.txt
+    beat: Cadi交代彙整原則，drop開始交叉驗證。
+    prompt_registry: segments/SEG-06/cast-registry-v01.yaml
+    continues_from: seg06-a

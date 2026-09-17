@@ -1,5 +1,7 @@
 # 已確認創作決策
 
+- 2026-09-17：使用者看過 SEG-06 Storyboard v02 後直接要求生成 H3；新增 A／B v01，規劃15＋9秒。A使用Cadi、drop、hapa、hana四圖，B僅Cadi與drop兩圖；完整保留DLG-14–17及揮手招呼、直接交付後飛離的順序。逐字沿用真人電影畫風與既有角色canonical；新增drop身分、本段registry、manifest及生成說明。驗證A14／B12項通過，各1個小數beat誤報警告、0失敗；另核對六beat連續及對白逐字一致。影片尚未生成。
+
 - 2026-09-17：依使用者要求，使用內建 imagegen 完成 SEG-06 Storyboard v02 六格黑白圖，依 brief-v02 呈現 Cadi 抵達並問候 drop、hapa／hana 親自交付 Spec／GP、兩者飛離、drop 接手彙整。已檢視角色與交接順序並校正殘留色彩；v01 及初稿保留。新版待使用者確認，H3 尚未製作。
 
 - 2026-09-17：依使用者指示新增 SEG-06 brief-v02：小白改為 drop（agent3-drop.png）；承接 SEG-05，Cadi 直接飛抵 drop 站點並打招呼，hana／hapa 返回，親手交付各自資料後飛離。保留既有任務分工、回報及交叉驗證台詞，DLG-16 更新稱呼；原24秒時槽待試讀。SEG-07 鏡頭24 的小白身分同步延續為 drop，事件與台詞不變。v0.8 與舊版保留；Storyboard v01 已過時，H3 待新版圖確認後製作。
