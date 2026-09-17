@@ -1,6 +1,6 @@
 {
   "project": "Cadi-Launch-Film",
-  "updated": "2026-09-16",
+  "updated": "2026-09-17",
   "duration_seconds": 300,
   "audience": [
     "上級",
@@ -60,12 +60,16 @@
     },
     {
       "id": "SEG-05",
-      "storyboard": "v01",
-      "approval": "pending_batch_review",
-      "h3": "a_v01_b_v01_ready_video_unverified",
-      "h3_storyboard_override": "explicit_user_request_2026-09-16",
-      "h3_notes": "A14秒＋B12秒；兩張身分圖；小明小華採分鏡外形文字描述，詳見生成說明v01。",
-      "duration_seconds": 26
+      "storyboard": "v02",
+      "approval": "storyboard_v02_outdated_user_requested_motion_revision",
+      "h3": "a_v03_b_v03_ready_video_unverified",
+      "h3_storyboard_override": "explicit_user_request_2026-09-17",
+      "h3_notes": "A14秒 hapa向左飛離／B12秒 hana向右飛離＋Cadi環繞180度準備出發。每段兩圖，詳見生成說明v03及本段registry。",
+      "duration_seconds": 26,
+      "brief": "segments/SEG-05/brief-v03.md",
+      "screenplay_override": "segments/SEG-05/brief-v03.md",
+      "character_revision": "explicit_user_request_2026-09-17",
+      "storyboard_notes": "v02含女主角與雙站工作全景，已過時；新版待製作。"
     },
     {
       "id": "SEG-06",

@@ -1,0 +1,150 @@
+project:
+  title: Cadi Launch Film
+  aspect_ratio: '16:9'
+  frames_per_segment: 362
+  label_style: paired
+  section_style: detailed
+  visual_style: 'Photorealistic live-action cinema footage shot on a digital cinema
+    camera with prime lenses: natural skin texture with visible pores, real fabric
+    weave, physically accurate reflections, shallow depth of field and subtle film
+    grain.'
+assets:
+  heroine:
+    priority: 10
+    file: assets/characters/heroine-photo-reference-v01.png
+    role: identity
+    binding: Her face, hair, and clothing follow
+    canonical: the female protagonist, a 20-something East Asian female mechanical
+      R&D engineer. She has long, straight, center-parted black hair and wears a tailored
+      taupe-gray blazer, an ivory crew-neck top, and loose light-colored trousers.
+      She is professional, composed, and places a high value on immaculate grooming.
+    retention: 'fully preserved: her facial features, long straight center-parted
+      black hair, tailored taupe-gray blazer, ivory crew-neck top, loose light-colored
+      trousers, body proportions, professional composure, and immaculate grooming
+      must remain consistent. She is a real person with real skin, real fabric and
+      real lighting inside the scene described by the timeline.'
+  cadi:
+    summon_tokens:
+    - cadi
+    - mascot
+    - plasma
+    - flame head
+    - robot
+    - chest core
+    priority: 20
+    file: assets/characters/cadi Design Sheet.jpg
+    role: identity
+    binding: Its design, proportions, and colors follow
+    canonical: Cadi, a small flying robot mascot. Its head is composed of actively
+      burning, ethereal cyan-blue plasma fire that continuously flickers, dances,
+      and undulates with rising wisps and subtle luminous embers (an energetic plasma
+      flame, completely non-solid, with zero gelatinous or jelly-like surface tension).
+      Within the dynamic flame sit two oversized oval cyan eyes and a tiny mouth,
+      atop a dark navy segmented robot body and a glowing circular cyan chest core.
+    retention: 'fully preserved: its actively burning cyan-blue plasma fire head,
+      continuous flickering combustion, soft rising flame tongues, subtle luminous
+      embers, wind-drag during movement, upward licking and dissipation while hovering,
+      oversized oval cyan eyes, tiny mouth, dark navy segmented robot body, body proportions,
+      and glowing circular cyan chest core must remain consistent. It is lit by the
+      same real lighting as the scene described by the timeline.'
+    extra_negatives:
+    - rubbery, gelatinous, solid jelly texture
+    - solid glass surface
+  teams_ui:
+    summon_tokens:
+    - teams
+    - group-chat interface
+    - message bubble
+    priority: 30
+    file: assets/software/teams-ui-reference-v01.png
+    role: interface
+    binding: Its layout, colors, icons and bubble styling follow
+    canonical: 'the group-chat interface reference: a team-chat screen with a dark
+      violet-navy header bar carrying the chat title and call icons, a white message
+      area, round colleague avatars down screen-left, and light incoming bubbles beside
+      them.'
+    retention: 'fully preserved: header bar, title placement, call icons, avatar column,
+      bubble shape, corner radius, spacing and type scale. Do not copy the reference''s
+      own sample messages, sender names, timestamps, unread badges, photo avatars
+      or side panels; all visible text comes from the segment''s specified lines.'
+  phone_home:
+    priority: 40
+    file: assets/software/phone-home-reference-v01.png
+    role: interface
+    binding: Its wallpaper and Teams app icon placement follow
+    canonical: the unlocked phone home screen, with the wallpaper and the Teams app
+      icon in the positions shown by the supplied home-screen reference.
+    retention: Preserve the wallpaper, icon appearance, icon size and icon position
+      within the phone display. The email notification is layered above this home
+      screen.
+  factory:
+    priority: 50
+    file: ''
+    role: environment
+    status: pending_user_reference
+    binding: Its architecture and spatial layout follow
+    canonical: the virtual engineering factory environment.
+    retention: Preserve the supplied architecture, spatial layout and landmark proportions;
+      render the environment with the project's specified lighting and materials.
+  workflow:
+    priority: 60
+    file: ''
+    role: workflow_graphic
+    status: pending_user_reference
+    binding: Its node layout, connections, labels and symbols follow
+    canonical: the workflow reference displayed on a floating virtual screen.
+    retention: Preserve the supplied node layout, connection directions, labels and
+      symbols; keep the entire workflow readable on a virtual screen between the two
+      speakers.
+  hapa:
+    priority: 70
+    summon_tokens:
+    - hapa
+    file: assets/characters/agent2-hapa.png
+    role: identity
+    binding: Its appearance, proportions, and colors follow
+    canonical: hapa, a compact white humanoid service robot with a rounded head, two
+      large green eyes, a small expressive mouth, two upright leaf-shaped ear fins
+      with green insets, black circular side modules with green rims, black articulated
+      joints, and a green leaf emblem centered on its chest.
+    retention: 'fully preserved: its facial features, head silhouette, ear fins, side
+      modules, chest emblem, accent colors, articulated limbs and body proportions.
+      Its white shell and dark joints have physically accurate reflections under the
+      district lighting.'
+  hana:
+    priority: 80
+    summon_tokens:
+    - hana
+    file: assets/characters/agent1-hana.png
+    role: identity
+    binding: Its appearance, proportions, and colors follow
+    canonical: hana, a compact white humanoid service robot with a rounded head, two
+      large reddish-brown eyes, a small expressive mouth, pale petal-shaped ear fins,
+      black circular side modules with pink rims, trailing pink ribbons, black articulated
+      joints, and a cherry-blossom emblem centered on its chest.
+    retention: 'fully preserved: its facial features, head silhouette, ear fins, side
+      modules, chest emblem, accent colors, articulated limbs and body proportions.
+      Its white shell and dark joints have physically accurate reflections under the
+      district lighting.'
+segments:
+- id: seg05-a
+  scene: 5
+  seed: 7501
+  duration_seconds: 14
+  frame_setting: 依實際節點14秒設定計算
+  cast:
+  - cadi
+  - hapa
+  prompt: segments/SEG-05/seg05-a-minimax-h3-prompt-v03.txt
+  beat: Cadi派hapa向左飛離。
+- id: seg05-b
+  scene: 5
+  seed: 7501
+  duration_seconds: 12
+  frame_setting: 依實際節點12秒設定計算
+  cast:
+  - cadi
+  - hana
+  continues_from: seg05-a
+  prompt: segments/SEG-05/seg05-b-minimax-h3-prompt-v03.txt
+  beat: Cadi派hana向右飛離；180度環繞Cadi，準備前往下一站。

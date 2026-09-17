@@ -104,6 +104,28 @@ assets:
       Preserve the supplied node layout, connection directions, labels and symbols;
       keep the entire workflow readable on a virtual screen between the two speakers.
 
+  hapa:
+    priority: 70
+    summon_tokens: ["hapa"]
+    file: "assets/characters/agent2-hapa.png"
+    role: "identity"
+    binding: "Its appearance, proportions, and colors follow"
+    canonical: >-
+      hapa, a compact white humanoid service robot with a rounded head, two large green eyes, a small expressive mouth, two upright leaf-shaped ear fins with green insets, black circular side modules with green rims, black articulated joints, and a green leaf emblem centered on its chest.
+    retention: >-
+      fully preserved: its facial features, head silhouette, ear fins, side modules, chest emblem, accent colors, articulated limbs and body proportions. Its white shell and dark joints have physically accurate reflections under the district lighting.
+
+  hana:
+    priority: 80
+    summon_tokens: ["hana"]
+    file: "assets/characters/agent1-hana.png"
+    role: "identity"
+    binding: "Its appearance, proportions, and colors follow"
+    canonical: >-
+      hana, a compact white humanoid service robot with a rounded head, two large reddish-brown eyes, a small expressive mouth, pale petal-shaped ear fins, black circular side modules with pink rims, trailing pink ribbons, black articulated joints, and a cherry-blossom emblem centered on its chest.
+    retention: >-
+      fully preserved: its facial features, head silhouette, ear fins, side modules, chest emblem, accent colors, articulated limbs and body proportions. Its white shell and dark joints have physically accurate reflections under the district lighting.
+
 # 不出場的資產不得列入 cast：不上傳參考圖、不編索引、提示詞一個字都不提。
 # H3 沒有否定運算子，「排除宣告」與「保留槽」只會把物件召喚進畫面。
 # summon_tokens 供 check_prompt.py 反向比對：資產不在 cast 時，這些字眼出現即 FAIL。
@@ -191,15 +213,17 @@ segments:
     seed: 7501
     duration_seconds: 14
     frame_setting: "依實際節點14秒設定計算"
-    cast: [heroine, cadi]
-    prompt: "segments/SEG-05/seg05-a-minimax-h3-prompt-v01.txt"
-    beat: "鏡頭16–17：Cadi接管調度，派小明取得Spec並標示確認狀態。"
+    cast: [cadi, hapa]
+    prompt: "segments/SEG-05/seg05-a-minimax-h3-prompt-v03.txt"
+    beat: "Cadi派hapa向左飛離。"
+    prompt_registry: "segments/SEG-05/cast-registry-v03.yaml"
   - id: "seg05-b"
     scene: 5
     seed: 7501
     duration_seconds: 12
     frame_setting: "依實際節點12秒設定計算"
-    cast: [heroine, cadi]
+    cast: [cadi, hana]
     continues_from: "seg05-a"
-    prompt: "segments/SEG-05/seg05-b-minimax-h3-prompt-v01.txt"
-    beat: "鏡頭18–19：派小華辨識GP；雙站並行，Cadi與躺椅上的主角向北出發。"
+    prompt: "segments/SEG-05/seg05-b-minimax-h3-prompt-v03.txt"
+    beat: "Cadi派hana向右飛離；180度環繞Cadi，準備前往下一站。"
+    prompt_registry: "segments/SEG-05/cast-registry-v03.yaml"
