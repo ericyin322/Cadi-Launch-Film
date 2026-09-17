@@ -267,3 +267,34 @@ segments:
     beat: Cadi交代彙整原則，drop開始交叉驗證。
     prompt_registry: segments/SEG-06/cast-registry-v01.yaml
     continues_from: seg06-a
+
+  - id: seg07-a
+    scene: 7
+    seed: 7701
+    duration_seconds: 14
+    frame_setting: 依實際節點秒數設定
+    cast:
+    - cadi
+    - drop
+    prompt: segments/SEG-07/seg07-a-minimax-h3-prompt-v01.txt
+    prompt_registry: segments/SEG-07/cast-registry-v01.yaml
+    reference_videos:
+    - label: <Video 1>
+      file: assets/blender/cpu-motion-v07/01-scatter-rise-v07.mp4
+      role: scatter_motion_and_final_layout
+  - id: seg07-b
+    scene: 7
+    seed: 7701
+    duration_seconds: 12
+    frame_setting: 依實際節點秒數設定
+    cast:
+    - heroine
+    - cadi
+    - drop
+    prompt: segments/SEG-07/seg07-b-minimax-h3-prompt-v01.txt
+    prompt_registry: segments/SEG-07/cast-registry-v01.yaml
+    reference_videos:
+    - label: <Video 1>
+      file: assets/blender/cpu-motion-v07/01-scatter-rise-v07.mp4
+      role: final_layout
+    continues_from: seg07-a
