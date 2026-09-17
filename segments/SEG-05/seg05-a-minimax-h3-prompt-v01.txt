@@ -1,0 +1,32 @@
+subject_definitions:
+<Subject 1> is the female protagonist, a 20-something East Asian female mechanical R&D engineer. She has long, straight, center-parted black hair and wears a tailored taupe-gray blazer, an ivory crew-neck top, and loose light-colored trousers. She is professional, composed, and places a high value on immaculate grooming. Her face, hair, and clothing follow <Picture 1>.
+<Subject 2> is Cadi, a small flying robot mascot. Its head is composed of actively burning, ethereal cyan-blue plasma fire that continuously flickers, dances, and undulates with rising wisps and subtle luminous embers (an energetic plasma flame, completely non-solid, with zero gelatinous or jelly-like surface tension). Within the dynamic flame sit two oversized oval cyan eyes and a tiny mouth, atop a dark navy segmented robot body and a glowing circular cyan chest core. Its height is approximately half of the female protagonist's upper body. Its design, proportions, and colors follow <Picture 2>.
+
+summary:
+[reference generation] A 14-second two-shot sequence establishes command of the district and dispatches Xiaoming to retrieve and classify Spec information. <Subject 1> uses <Picture 1> for identity; <Subject 2> uses <Picture 2> for identity.
+
+retention_analysis:
+<Subject 1> / <Picture 1>: fully_preserved - fully preserved: her facial features, long straight center-parted black hair, tailored taupe-gray blazer, ivory crew-neck top, loose light-colored trousers, body proportions, professional composure, and immaculate grooming must remain consistent. She is a real person with real skin, real fabric and real lighting inside the scene described by the timeline.
+<Subject 2> / <Picture 2>: fully_preserved - fully preserved: its actively burning cyan-blue plasma fire head, continuous flickering combustion, soft rising flame tongues, subtle luminous embers, wind-drag during movement, upward licking and dissipation while hovering, oversized oval cyan eyes, tiny mouth, dark navy segmented robot body, body proportions, and glowing circular cyan chest core must remain consistent. It is lit by the same real lighting as the scene described by the timeline.
+Both referenced identities appear in both shots. Reference transfer is limited to identity, proportions and clothing or body colors; the timeline supplies the location and blocking.
+
+detailed_description:
+Photorealistic live-action cinema footage shot on a digital cinema camera with prime lenses: natural skin texture with visible pores, real fabric weave, physically accurate reflections, shallow depth of field and subtle film grain.
+Full-color Taiwanese and Hong Kong science-fiction engineering district: dense multilevel buildings, vertical illuminated signs, brushed metal, glass and concrete, warm practical shop lights against cool cyan transport channels. The central channel runs south to north, receding into the background. Maintain this axis, with SPEC／HTTP on screen-left and GP 辨識 on screen-right.
+[Shot 1] Low-angle medium-wide view of Cadi <Picture 2> above the central dispatch platform. The female protagonist <Picture 1> reclines on her floating lounge platform in the right midground, hands relaxed, looking toward the dispatch platform.
+[0s-2s] Cadi descends and lands on the platform. His completely non-solid cyan-blue plasma head continuously flickers, dances, and undulates; soft wisps trail upward during descent. A soft landing contact is audible.
+[2s-4s] Vertical signs behind him illuminate sequentially down the district. The camera slowly pushes forward at low height, strengthening his commanding position. His eyes and tiny mouth remain stable within the moving fire.
+[4s-6s] Cadi settles upright and looks toward the left station. The protagonist remains quietly reclined in the midground. The fire licks upward and dissipates into subtle luminous embers as his body becomes still.
+
+[Shot 2] At 00:06.000, cut to a medium-wide three-quarter view encompassing Cadi <Picture 2> at center-right and the SPEC／HTTP roller shutter at screen-left. The female protagonist <Picture 1> stays on her lounge platform deeper along the center channel. Xiaoming is a compact service robot with a rounded rectangular ivory head, a dark faceplate with two luminous oval eyes, short articulated limbs and a rectangular backpack; its painted metal surfaces catch the district lighting.
+[6s-8.5s] Cadi sweeps his left hand toward the station. The vertical sign SPEC／HTTP brightens, the roller shutter rises, and Xiaoming slides out. Cadi (S1), in a bright, playful yet professional childlike Mandarin voice, begins the single continuous instruction: <d>[Mandarin Chinese] 小明，透過 HTTP 取得最新 Spec；</d> His mouth moves with the words; fire wisps bend with his gesture.
+[8.5s-12.8s] The camera gently tracks left to include Xiaoming listening attentively. Cadi (S1), with the same voice and continuous cadence, finishes: <d>[Mandarin Chinese] 正確資訊標綠，待確認資訊標黃。</d> Cadi's body remains steady while his non-solid fire head flickers and releases rising embers.
+[12.8s-14s] Xiaoming (S2), with a crisp, slightly metallic youthful Mandarin voice, answers briskly: <d>[Mandarin Chinese] 收到！</d> Its faceplate pulses in sync with the response. Cadi lowers his left hand and starts to turn his attention toward screen-right. The camera finishes its move on this ready pose.
+
+Negative constraints: no subtitles, no extra fingers or limbs, no deformed limbs, no shaky camera, no looping; no rubbery, gelatinous, solid jelly texture; no solid glass surface on the plasma head.
+
+overall_soundscape:
+Low district ventilation and transport hum, restrained mechanical movement and clear spatially placed voices. Keep effects beneath dialogue. Preserve the two stations' processing sounds into the closing moment.
+
+non_diegetic_music:
+A light, energetic instrumental bed at 112 BPM with plucked synthesizer notes, warm bass and restrained electronic percussion. Keep a steady forward pulse, duck gently beneath speech, and maintain the same musical phrase across the scene.

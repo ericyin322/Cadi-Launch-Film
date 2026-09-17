@@ -185,3 +185,21 @@ segments:
     continues_from: "seg04-b"
     prompt: "segments/SEG-04/seg04-c-minimax-h3-prompt-v01.txt"
     beat: "首秒銜接；Creo導入3D模型與Rib說明；說完後流程上移，露出approve鍵，女主才按。"
+
+  - id: "seg05-a"
+    scene: 5
+    seed: 7501
+    duration_seconds: 14
+    frame_setting: "依實際節點14秒設定計算"
+    cast: [heroine, cadi]
+    prompt: "segments/SEG-05/seg05-a-minimax-h3-prompt-v01.txt"
+    beat: "鏡頭16–17：Cadi接管調度，派小明取得Spec並標示確認狀態。"
+  - id: "seg05-b"
+    scene: 5
+    seed: 7501
+    duration_seconds: 12
+    frame_setting: "依實際節點12秒設定計算"
+    cast: [heroine, cadi]
+    continues_from: "seg05-a"
+    prompt: "segments/SEG-05/seg05-b-minimax-h3-prompt-v01.txt"
+    beat: "鏡頭18–19：派小華辨識GP；雙站並行，Cadi與躺椅上的主角向北出發。"

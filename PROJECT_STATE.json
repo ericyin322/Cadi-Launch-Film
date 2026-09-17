@@ -62,7 +62,10 @@
       "id": "SEG-05",
       "storyboard": "v01",
       "approval": "pending_batch_review",
-      "h3": "todo"
+      "h3": "a_v01_b_v01_ready_video_unverified",
+      "h3_storyboard_override": "explicit_user_request_2026-09-16",
+      "h3_notes": "A14秒＋B12秒；兩張身分圖；小明小華採分鏡外形文字描述，詳見生成說明v01。",
+      "duration_seconds": 26
     },
     {
       "id": "SEG-06",
