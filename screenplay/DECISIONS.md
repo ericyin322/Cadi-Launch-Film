@@ -1,5 +1,7 @@
 # 已確認創作決策
 
+- 2026-09-17：依使用者指示新增 SEG-07 brief-v02，承接 SEG-06 drop 看資料，展開立體影像，全部零件灑落平面並排好；參考 cpu-motion-v07 的 01-scatter-rise-v07.mp4／.blend。Cadi 邀請女主角觀看，DLG-19 改為「這是最新版的placement，您覺得如何」，原 DLG-18 停用。結尾帶出躺椅上的女主角銜接 SEG-08；暫沿用26秒。主檔與舊版保留，Storyboard v01 已過時，H3 待新版圖確認。
+
 - 2026-09-17：使用者明確要求直接修改 master-storyboard-v0.8.md，已將全文9處「小白」統一改為「drop」，涵蓋分段表、鏡頭23／24、DLG-16–18、事件表與連續性帳本；本次僅替換名稱，保留v0.8檔名與其餘內容。
 
 - 2026-09-17：使用者看過 SEG-06 Storyboard v02 後直接要求生成 H3；新增 A／B v01，規劃15＋9秒。A使用Cadi、drop、hapa、hana四圖，B僅Cadi與drop兩圖；完整保留DLG-14–17及揮手招呼、直接交付後飛離的順序。逐字沿用真人電影畫風與既有角色canonical；新增drop身分、本段registry、manifest及生成說明。驗證A14／B12項通過，各1個小數beat誤報警告、0失敗；另核對六beat連續及對白逐字一致。影片尚未生成。

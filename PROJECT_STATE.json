@@ -91,10 +91,20 @@
     {
       "id": "SEG-07",
       "storyboard": "v01",
-      "approval": "pending_batch_review",
+      "approval": "storyboard_v01_outdated_revision_pending",
       "h3": "todo",
-      "character_continuity_override": "segments/SEG-06/brief-v02.md：鏡頭24小白改為drop，同步動作執行者與DLG-18說話者；其餘不變。",
-      "storyboard_notes": "v01鏡頭24小白身分需改為drop以銜接SEG-06，其餘維持原審查狀態。"
+      "storyboard_notes": "v01已過時；新版須呈現drop看資料、立體零件灑落排好、Cadi邀請女主角觀看。",
+      "brief": "segments/SEG-07/brief-v02.md",
+      "screenplay_override": "segments/SEG-07/brief-v02.md",
+      "screenplay_approval": "approved_by_user_revision",
+      "screenplay_notes": "承接SEG06；DLG-18停用，DLG-19改為「這是最新版的placement，您覺得如何」。鏡頭27帶出躺椅上的女主角以接SEG08。",
+      "duration_seconds": 26,
+      "time_range": "02:20–02:46",
+      "timing_status": "original_slot_retained_pending_readthrough",
+      "motion_references": [
+        "assets/blender/cpu-motion-v07/01-scatter-rise-v07.mp4",
+        "assets/blender/cpu-motion-v07/01-scatter-rise-v07.blend"
+      ]
     },
     {
       "id": "SEG-08",
