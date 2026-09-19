@@ -157,7 +157,15 @@
       "h3": "todo",
       "environment_description_file": "assets/environments/virtual-factory-description-v01.txt",
       "environment_reference_mode": "text_only",
-      "environment_binding": "segments/SEG-09/factory-scene-binding-v01.md"
+      "environment_binding": "segments/SEG-09/factory-scene-binding-v01.md",
+      "blender_concept": {
+        "version": "v01",
+        "status": "concept_previs_pending_user_review",
+        "concept": "方案二：重型軌道船塢進站，Creo Robot專用操作",
+        "blend": "assets/blender/seg09-creo-dock-v01/creo-dock-v01.blend",
+        "preview": "assets/blender/seg09-creo-dock-v01/creo-dock-previs-v01.mp4",
+        "notes": "獨立12秒白模預演；未替換正式劇本與Storyboard；未製作H3。"
+      }
     },
     {
       "id": "SEG-10",
