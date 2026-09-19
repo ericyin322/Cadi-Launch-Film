@@ -92,26 +92,26 @@
       "id": "SEG-06",
       "storyboard": "v02",
       "approval": "storyboard_v02_pending_user_review",
-      "h3": "text_factory_updated_video_unverified",
+      "h3": "a_v03_b_v03_dialogue_updated_video_unverified",
       "time_range": "01:56–02:20",
-      "screenplay_override": "segments/SEG-06/brief-v02.md",
-      "brief": "segments/SEG-06/brief-v02.md",
+      "screenplay_override": "segments/SEG-06/brief-v03.md",
+      "brief": "segments/SEG-06/brief-v03.md",
       "character_revision": "explicit_user_request_2026-09-17",
       "duration_seconds": 24,
       "timing_status": "original_slot_retained_pending_readthrough",
-      "screenplay_notes": "Cadi 直飛 drop 站點並打招呼；hana／hapa 直接交付資料後飛離，drop 接手彙整。",
+      "screenplay_notes": "Cadi 直飛 drop 站點並打招呼；hana／hapa 直接交付資料後飛離，drop 接手彙整。 2026-09-19：DLG-14改為「最新 Spec 已取得。固有項目標綠，新增參數已標黃。」",
       "screenplay_approval": "approved_by_user_revision",
       "storyboard_notes": "六格已完成：抵達、招呼、hapa交付Spec、hana交付GP、兩Agent離場、drop彙整。純黑白；v01與初稿保留。",
       "h3_storyboard_override": "explicit_user_request_after_storyboard_v02_2026-09-17",
-      "h3_notes": "segments/SEG-06/minimax-h3-generation-notes-v02.md",
+      "h3_notes": "segments/SEG-06/minimax-h3-generation-notes-v03.md",
       "environment_description_file": "assets/environments/virtual-factory-description-v01.txt",
       "environment_reference_mode": "text_only",
       "environment_binding": "segments/SEG-06/factory-scene-binding-v01.md",
       "h3_prompts": [
-        "segments/SEG-06/seg06-a-minimax-h3-prompt-v02.txt",
-        "segments/SEG-06/seg06-b-minimax-h3-prompt-v02.txt"
+        "segments/SEG-06/seg06-a-minimax-h3-prompt-v03.txt",
+        "segments/SEG-06/seg06-b-minimax-h3-prompt-v03.txt"
       ],
-      "reference_manifest": "segments/SEG-06/reference-manifest-v02.json"
+      "reference_manifest": "segments/SEG-06/reference-manifest-v03.json"
     },
     {
       "id": "SEG-07",

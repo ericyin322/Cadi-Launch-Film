@@ -291,9 +291,9 @@ segments:
     - drop
     - hapa
     - hana
-    prompt: segments/SEG-06/seg06-a-minimax-h3-prompt-v02.txt
+    prompt: segments/SEG-06/seg06-a-minimax-h3-prompt-v03.txt
     beat: Cadi抵達並揮手；hapa／hana交付Spec／GP後飛離。
-    prompt_registry: segments/SEG-06/cast-registry-v02.yaml
+    prompt_registry: segments/SEG-06/cast-registry-v03.yaml
     environment: virtual_factory
     environment_description_file: assets/environments/virtual-factory-description-v01.txt
 
@@ -305,9 +305,9 @@ segments:
     cast:
     - cadi
     - drop
-    prompt: segments/SEG-06/seg06-b-minimax-h3-prompt-v02.txt
+    prompt: segments/SEG-06/seg06-b-minimax-h3-prompt-v03.txt
     beat: Cadi交代彙整原則，drop開始交叉驗證。
-    prompt_registry: segments/SEG-06/cast-registry-v02.yaml
+    prompt_registry: segments/SEG-06/cast-registry-v03.yaml
     continues_from: seg06-a
     environment: virtual_factory
     environment_description_file: assets/environments/virtual-factory-description-v01.txt
