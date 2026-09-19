@@ -1,0 +1,60 @@
+{
+  "changes": [
+    {
+      "id": "seg04-a",
+      "source": "segments/SEG-04/minimax-h3-prompt-v01.md#H3-04A",
+      "prompt": "segments/SEG-04/seg04-a-minimax-h3-prompt-v02.txt"
+    },
+    {
+      "id": "seg04-b",
+      "source": "segments/SEG-04/seg04-b-minimax-h3-prompt-v06.txt",
+      "prompt": "segments/SEG-04/seg04-b-minimax-h3-prompt-v07.txt"
+    },
+    {
+      "id": "seg04-c",
+      "source": "segments/SEG-04/seg04-c-minimax-h3-prompt-v01.txt",
+      "prompt": "segments/SEG-04/seg04-c-minimax-h3-prompt-v02.txt"
+    },
+    {
+      "id": "seg05-a",
+      "source": "segments/SEG-05/seg05-a-minimax-h3-prompt-v03.txt",
+      "prompt": "segments/SEG-05/seg05-a-minimax-h3-prompt-v04.txt"
+    },
+    {
+      "id": "seg05-b",
+      "source": "segments/SEG-05/seg05-b-minimax-h3-prompt-v03.txt",
+      "prompt": "segments/SEG-05/seg05-b-minimax-h3-prompt-v04.txt"
+    },
+    {
+      "id": "seg06-a",
+      "source": "segments/SEG-06/seg06-a-minimax-h3-prompt-v01.txt",
+      "prompt": "segments/SEG-06/seg06-a-minimax-h3-prompt-v02.txt"
+    },
+    {
+      "id": "seg06-b",
+      "source": "segments/SEG-06/seg06-b-minimax-h3-prompt-v01.txt",
+      "prompt": "segments/SEG-06/seg06-b-minimax-h3-prompt-v02.txt"
+    },
+    {
+      "id": "seg07-a",
+      "source": "segments/SEG-07/seg07-a-minimax-h3-prompt-v02.txt",
+      "prompt": "segments/SEG-07/seg07-a-minimax-h3-prompt-v03.txt"
+    },
+    {
+      "id": "seg07-b",
+      "source": "segments/SEG-07/seg07-b-minimax-h3-prompt-v02.txt",
+      "prompt": "segments/SEG-07/seg07-b-minimax-h3-prompt-v03.txt"
+    }
+  ],
+  "historical_sha256": {
+    "segments/SEG-04/seg04-b-minimax-h3-prompt-v06.txt": "59b610d38d01cfdd2f32946eaad6abdfb4c65a8820c2ae231415901d1b8c5175",
+    "segments/SEG-04/seg04-c-minimax-h3-prompt-v01.txt": "e398749738a1f2ca581002abca977325a2700858aed698d95deed949486fc389",
+    "segments/SEG-05/seg05-a-minimax-h3-prompt-v03.txt": "bb6db2398d26f60f91c9a8ced1dcc980031b29cce2d263eee178d0a8e0c58d33",
+    "segments/SEG-05/seg05-b-minimax-h3-prompt-v03.txt": "afa957ee9f6541639ead33fbde5b527aca8a74f312e06bd8e61eb209e710e360",
+    "segments/SEG-06/seg06-a-minimax-h3-prompt-v01.txt": "55f3635862683b6f9f442c5eacdd93a341431ca6f051b8efd948014345da0170",
+    "segments/SEG-06/seg06-b-minimax-h3-prompt-v01.txt": "9e4e5902db043797c7612bf6b0dc3f863a5bbb2102f8e9a4be9bbb7d94f4649d",
+    "segments/SEG-07/seg07-a-minimax-h3-prompt-v02.txt": "5e5f3ba84bd7db99e701974a574ef92c350c08de33487a416ecabe0cdfb116f2",
+    "segments/SEG-07/seg07-b-minimax-h3-prompt-v02.txt": "53c6112e4cc09c634f625a811f12222916dc8b159c397ee016f0dac1758de590",
+    "segments/SEG-04/minimax-h3-prompt-v01.md": "469496f5f51df055ecbaaa74670202d9ea9ae5c4df4e49d76e0c39af68209ce8"
+  }
+}

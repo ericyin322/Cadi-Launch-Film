@@ -1,6 +1,6 @@
 {
   "project": "Cadi-Launch-Film",
-  "updated": "2026-09-17",
+  "updated": "2026-09-19",
   "duration_seconds": 300,
   "audience": [
     "上級",
@@ -50,32 +50,49 @@
       "id": "SEG-04",
       "storyboard": "v01",
       "approval": "storyboard_v01_approved_user_requested_b_refinement",
-      "h3": "b_v06_c_v01_references_pending_video_unverified",
-      "h3_notes": "B8秒＋C15秒（C時長為製作安排）；尾首各1秒穩定銜接。C說完才上移流程、露出approve，女主才按。詳見生成說明v06。",
+      "h3": "text_factory_updated_video_unverified",
+      "h3_notes": "segments/SEG-04/minimax-h3-generation-notes-v07.md",
       "brief": "segments/SEG-04/brief-v04.md",
       "screenplay_override": "segments/SEG-04/brief-v04.md",
       "timing_status": "b_8_seconds_user_requested_c_15_seconds_production_plan",
       "h3_storyboard_override": "explicit_user_request_2026-09-16",
-      "timing_notes": "B/C原始合計23秒；A若沿用9秒則SEG04為32秒。全片原300秒時槽待重排，未修改其他段。"
+      "timing_notes": "B/C原始合計23秒；A若沿用9秒則SEG04為32秒。全片原300秒時槽待重排，未修改其他段。",
+      "environment_description_file": "assets/environments/virtual-factory-description-v01.txt",
+      "environment_reference_mode": "text_only",
+      "environment_binding": "segments/SEG-04/factory-scene-binding-v01.md",
+      "h3_prompts": [
+        "segments/SEG-04/seg04-a-minimax-h3-prompt-v02.txt",
+        "segments/SEG-04/seg04-b-minimax-h3-prompt-v07.txt",
+        "segments/SEG-04/seg04-c-minimax-h3-prompt-v02.txt"
+      ],
+      "reference_manifest": "segments/SEG-04/reference-manifest-v07.json"
     },
     {
       "id": "SEG-05",
       "storyboard": "v02",
       "approval": "storyboard_v02_outdated_user_requested_motion_revision",
-      "h3": "a_v03_b_v03_ready_video_unverified",
+      "h3": "text_factory_updated_video_unverified",
       "h3_storyboard_override": "explicit_user_request_2026-09-17",
-      "h3_notes": "A14秒 hapa向左飛離／B12秒 hana向右飛離＋Cadi環繞180度準備出發。每段兩圖，詳見生成說明v03及本段registry。",
+      "h3_notes": "segments/SEG-05/minimax-h3-generation-notes-v04.md",
       "duration_seconds": 26,
       "brief": "segments/SEG-05/brief-v03.md",
       "screenplay_override": "segments/SEG-05/brief-v03.md",
       "character_revision": "explicit_user_request_2026-09-17",
-      "storyboard_notes": "v02含女主角與雙站工作全景，已過時；新版待製作。"
+      "storyboard_notes": "v02含女主角與雙站工作全景，已過時；新版待製作。",
+      "environment_description_file": "assets/environments/virtual-factory-description-v01.txt",
+      "environment_reference_mode": "text_only",
+      "environment_binding": "segments/SEG-05/factory-scene-binding-v01.md",
+      "h3_prompts": [
+        "segments/SEG-05/seg05-a-minimax-h3-prompt-v04.txt",
+        "segments/SEG-05/seg05-b-minimax-h3-prompt-v04.txt"
+      ],
+      "reference_manifest": "segments/SEG-05/reference-manifest-v04.json"
     },
     {
       "id": "SEG-06",
       "storyboard": "v02",
       "approval": "storyboard_v02_pending_user_review",
-      "h3": "a_v01_b_v01_ready_video_unverified",
+      "h3": "text_factory_updated_video_unverified",
       "time_range": "01:56–02:20",
       "screenplay_override": "segments/SEG-06/brief-v02.md",
       "brief": "segments/SEG-06/brief-v02.md",
@@ -86,13 +103,21 @@
       "screenplay_approval": "approved_by_user_revision",
       "storyboard_notes": "六格已完成：抵達、招呼、hapa交付Spec、hana交付GP、兩Agent離場、drop彙整。純黑白；v01與初稿保留。",
       "h3_storyboard_override": "explicit_user_request_after_storyboard_v02_2026-09-17",
-      "h3_notes": "A15秒／B9秒；A四張角色圖、B兩張；seed7601。segments/SEG-06/minimax-h3-generation-notes-v01.md；對白未實測，影片未生成。"
+      "h3_notes": "segments/SEG-06/minimax-h3-generation-notes-v02.md",
+      "environment_description_file": "assets/environments/virtual-factory-description-v01.txt",
+      "environment_reference_mode": "text_only",
+      "environment_binding": "segments/SEG-06/factory-scene-binding-v01.md",
+      "h3_prompts": [
+        "segments/SEG-06/seg06-a-minimax-h3-prompt-v02.txt",
+        "segments/SEG-06/seg06-b-minimax-h3-prompt-v02.txt"
+      ],
+      "reference_manifest": "segments/SEG-06/reference-manifest-v02.json"
     },
     {
       "id": "SEG-07",
       "storyboard": "v01",
       "approval": "storyboard_v01_outdated_revision_pending",
-      "h3": "a_v02_b_v02_ready_video_unverified",
+      "h3": "text_factory_updated_video_unverified",
       "storyboard_notes": "v01已過時；新版須呈現drop看資料、立體零件灑落排好、Cadi邀請女主角觀看。",
       "brief": "segments/SEG-07/brief-v02.md",
       "screenplay_override": "segments/SEG-07/brief-v02.md",
@@ -106,37 +131,60 @@
         "assets/blender/cpu-motion-v07/01-scatter-rise-v07.blend"
       ],
       "h3_storyboard_override": "explicit_user_request_after_text_revision_2026-09-17",
-      "h3_notes": "A14秒／B12秒；A兩圖、B三圖，兩段各掛零件落下Video 1，B僅取完成布局。seed7701；詳見生成說明v02。 Cadi使用cadi_red.png紅黑配色；舊版保留。"
+      "h3_notes": "segments/SEG-07/minimax-h3-generation-notes-v03.md",
+      "environment_description_file": "assets/environments/virtual-factory-description-v01.txt",
+      "environment_reference_mode": "text_only",
+      "environment_binding": "segments/SEG-07/factory-scene-binding-v01.md",
+      "h3_prompts": [
+        "segments/SEG-07/seg07-a-minimax-h3-prompt-v03.txt",
+        "segments/SEG-07/seg07-b-minimax-h3-prompt-v03.txt"
+      ],
+      "reference_manifest": "segments/SEG-07/reference-manifest-v03.json"
     },
     {
       "id": "SEG-08",
       "storyboard": "v01",
       "approval": "pending_batch_review",
-      "h3": "todo"
+      "h3": "todo",
+      "environment_description_file": "assets/environments/virtual-factory-description-v01.txt",
+      "environment_reference_mode": "text_only",
+      "environment_binding": "segments/SEG-08/factory-scene-binding-v01.md"
     },
     {
       "id": "SEG-09",
       "storyboard": "v01",
       "approval": "pending_batch_review",
-      "h3": "todo"
+      "h3": "todo",
+      "environment_description_file": "assets/environments/virtual-factory-description-v01.txt",
+      "environment_reference_mode": "text_only",
+      "environment_binding": "segments/SEG-09/factory-scene-binding-v01.md"
     },
     {
       "id": "SEG-10",
       "storyboard": "v01",
       "approval": "pending_batch_review",
-      "h3": "todo"
+      "h3": "todo",
+      "environment_description_file": "assets/environments/virtual-factory-description-v01.txt",
+      "environment_reference_mode": "text_only",
+      "environment_binding": "segments/SEG-10/factory-scene-binding-v01.md"
     },
     {
       "id": "SEG-11",
       "storyboard": "v01",
       "approval": "pending_batch_review",
-      "h3": "todo"
+      "h3": "todo",
+      "environment_description_file": "assets/environments/virtual-factory-description-v01.txt",
+      "environment_reference_mode": "text_only",
+      "environment_binding": "segments/SEG-11/factory-scene-binding-v01.md"
     },
     {
       "id": "SEG-12",
       "storyboard": "v01",
       "approval": "pending_batch_review",
-      "h3": "todo"
+      "h3": "todo",
+      "environment_description_file": "assets/environments/virtual-factory-description-v01.txt",
+      "environment_reference_mode": "text_only",
+      "environment_binding": "segments/SEG-12/factory-scene-binding-v01.md"
     },
     {
       "id": "SEG-13",
@@ -156,5 +204,25 @@
       "existing_h3_prompts": "preserved",
       "existing_segment_registries_and_manifests": "preserved"
     }
+  },
+  "virtual_factory_environment": {
+    "description_file": "assets/environments/virtual-factory-description-v01.txt",
+    "usage_file": "assets/environments/virtual-factory-usage-v01.md",
+    "reference_mode": "text_only",
+    "applies_to": [
+      "SEG-04",
+      "SEG-05",
+      "SEG-06",
+      "SEG-07",
+      "SEG-08",
+      "SEG-09",
+      "SEG-10",
+      "SEG-11",
+      "SEG-12"
+    ],
+    "environment_description": "A bright futuristic engineering district beneath a blue sky with white clouds. A glowing cyan transport avenue leads toward a monumental tower surrounded by enormous horizontal rings. Multilevel automated workshops line both sides, combining dense Taiwanese and Hong Kong streetscapes with white-gray metal facades, exposed pipes, glass platforms, and vertical orange engineering signs. Elevated cyan rails connect the buildings. Yellow industrial robot arms operate inside warm-lit workshops, small white service robots move along terraces, and hovering disc-shaped carriers transport luminous translucent cubes. Green rooftop planters soften the architecture. Natural sunlight creates realistic metal and glass reflections.",
+    "establishing_camera": "The camera slowly glides forward, keeping the central tower centered as the city operates in an orderly rhythm.",
+    "camera_policy": "Use establishing_camera only for district establishing views; preserve shot-specific camera directions.",
+    "interior_policy": "Use only visible materials and lighting for interior-only shots; use the district paragraph in street-visible shots."
   }
 }

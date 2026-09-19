@@ -1,0 +1,64 @@
+{
+  "environment": {
+    "mode": "text_only",
+    "description_file": "assets/environments/virtual-factory-description-v01.txt"
+  },
+  "segments": [
+    {
+      "id": "seg06-a",
+      "mode": "Ref2VA",
+      "seconds": 15,
+      "seed": 7601,
+      "prompt": "segments/SEG-06/seg06-a-minimax-h3-prompt-v02.txt",
+      "images": [
+        {
+          "slot": "ref_image_0",
+          "label": "<Picture 1>",
+          "asset": "cadi",
+          "file": "assets/characters/cadi_red.png"
+        },
+        {
+          "slot": "ref_image_1",
+          "label": "<Picture 2>",
+          "asset": "drop",
+          "file": "assets/characters/agent3-drop.png"
+        },
+        {
+          "slot": "ref_image_2",
+          "label": "<Picture 3>",
+          "asset": "hapa",
+          "file": "assets/characters/agent2-hapa.png"
+        },
+        {
+          "slot": "ref_image_3",
+          "label": "<Picture 4>",
+          "asset": "hana",
+          "file": "assets/characters/agent1-hana.png"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "id": "seg06-b",
+      "mode": "Ref2VA",
+      "seconds": 9,
+      "seed": 7601,
+      "prompt": "segments/SEG-06/seg06-b-minimax-h3-prompt-v02.txt",
+      "images": [
+        {
+          "slot": "ref_image_0",
+          "label": "<Picture 1>",
+          "asset": "cadi",
+          "file": "assets/characters/cadi_red.png"
+        },
+        {
+          "slot": "ref_image_1",
+          "label": "<Picture 2>",
+          "asset": "drop",
+          "file": "assets/characters/agent3-drop.png"
+        }
+      ],
+      "videos": []
+    }
+  ]
+}

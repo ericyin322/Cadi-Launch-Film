@@ -1,5 +1,7 @@
 # 修改紀錄
 
+- 2026-09-19：依使用者要求將已確認英文工廠描述納為 SEG-04～12 共用文字場景。新增場景原文、套用規則與各段綁定；SEG04 A v02／B v07／C v02、SEG05 A/B v04、SEG06 A/B v02、SEG07 A/B v03已加入場景，並依既有規則使用紅焰Cadi。SEG04取消工廠參考圖，流程圖改Picture 3；各段新增registry／manifest／生成說明。SEG08～12待H3製作時套用，室內鏡頭只描述可見內容；原劇情、台詞、時間節點及舊檔保留。影片未生成。
+
 - 2026-09-17：依使用者要求將SEG07 A／B H3升至v02，採commit 724a701的Cadi紅焰／深灰紅點綴規格與cadi_red.png。同步建立registry、reference manifest、生成說明v02，更新現行索引；v01保留。兩段檢查13／14項通過、0警告、0失敗。維持14＋12秒、指定台詞、角色動作、場景青藍補光及投影配色；影片未生成。
 
 - 2026-09-17：依使用者要求，Cadi 新製作色系改為紅焰版；實際資產為 `assets/characters/cadi_red.png`（原訊息的 `cadi/_red.png` 不存在）。更新 AGENTS、H3 skill、共用 registry、registry 模板及資產索引；外觀依新版圖，持續燃燒／非固體動態保留。既有 H3 提示詞、各段 registry／manifest 與生成說明全部保留；劇情及分段進度不變。

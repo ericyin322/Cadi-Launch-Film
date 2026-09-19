@@ -13,8 +13,4 @@
 - MiniMax H3 提示詞必須獨立存於對應 SEG 目錄，且僅在該段 Storyboard 確認後製作。
 - 該段沒出場的角色或場景：不上傳參考圖、不編 `<Picture N>` 索引、提示詞一個字都不提；沒有排除宣告也沒有保留槽（H3 無否定運算子，提到就會被畫出來）。詳見 `.agents/skills/h3-scene-prompt/SKILL.md` 的 Absent Objects 一節，由 `check_prompt.py` 強制。
 
-
-
-
-
-
+- 2026-09-19：虛擬工廠（SEG-04～SEG-12）統一採 `assets/environments/virtual-factory-description-v01.txt` 的英文文字場景；使用方式見 `assets/environments/virtual-factory-usage-v01.md` 及根目錄 registry `project.virtual_factory`。工廠不上傳參考圖、不編圖片索引。場景建立運鏡與既有鏡頭運鏡分開套用；室內只描述當鏡可見內容。既有稿保留，更新另建新版。
