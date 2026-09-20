@@ -7,7 +7,7 @@
     "主管",
     "技術發表會觀眾"
   ],
-  "source_of_truth": "screenplay/master-storyboard-v0.11.md",
+  "source_of_truth": "screenplay/master-storyboard-v0.12.md",
   "video_prompt_target": "MiniMax H3",
   "storyboard_style": "黑白漫畫式線稿（僅限 Storyboard 前期圖，不進 H3 提示詞）",
   "final_video_style": "寫實真人電影質感；H3 逐字文字見 cast_registry.yaml project.visual_style",
@@ -249,8 +249,16 @@
     {
       "id": "SEG-12",
       "storyboard": "v01",
-      "approval": "pending_batch_review",
+      "approval": "storyboard_v01_outdated_revision_pending",
       "h3": "todo",
+      "screenplay": "v0.12",
+      "screenplay_approval": "approved_by_user_revision",
+      "brief": "segments/SEG-12/brief-v02.md",
+      "screenplay_notes": "承接SEG-11同一風扇場景；女主角滿意致謝，Cadi回應下次仍會幫忙，女主角整理衣服。完整Placement布局拉遠後轉場顯示於辦公室電腦；後方機位中女主角起身並關閉螢幕。SEG-13僅同步黑畫面轉場。",
+      "duration_seconds": 19,
+      "time_range": "04:26–04:45",
+      "timing_status": "dialogue_and_transition_pending_readthrough",
+      "storyboard_notes": "v01已過時；新版須呈現同一風扇旁致謝、Cadi回應、整理衣服、布局轉入辦公室電腦及關閉螢幕。",
       "environment_description_file": "assets/environments/virtual-factory-description-v01.txt",
       "environment_reference_mode": "text_only",
       "environment_binding": "segments/SEG-12/factory-scene-binding-v01.md"
