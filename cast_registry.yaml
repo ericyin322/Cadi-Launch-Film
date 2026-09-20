@@ -178,6 +178,23 @@ assets:
       transport backpack and compact body proportions. Its shell and joints reflect
       the physical lighting of the scene.'
 
+  finn:
+    priority: 100
+    file: assets/characters/agent4-finn.png
+    role: identity
+    binding: Its appearance, proportions, and colors follow
+    summon_tokens:
+    - finn
+    canonical: Finn, a compact tracked research robot with a rounded rectangular white
+      head and body, a glossy black face display, two luminous blue oval eyes, a small
+      blue expressive mouth, black articulated arms and hands, a circular turbine-like
+      mechanism centered on its chest, gold fasteners, blue status lights, and twin black
+      tank-tread bases.
+    retention: 'fully preserved: its white shell, black face display, blue eyes and mouth,
+      black articulated arms and hands, chest turbine, gold fasteners, blue status lights,
+      tracked base and compact body proportions. Its shell, joints and treads reflect the
+      physical lighting of the scene.'
+
 segments:
   - id: "S03a"
     scene: 3

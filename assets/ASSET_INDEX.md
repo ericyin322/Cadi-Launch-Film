@@ -9,6 +9,7 @@ SEG-02B v08 新增待提供資產：`software/phone-home-reference-v01.png`，�
 
 | 檔案 | 用途 | 可參考 | 不可直接沿用 |
 |---|---|---|---|
+| `characters/agent4-finn.png` | SEG-11 Finn 身分；取代穿白袍的研究型機器人／研究員 | 白色方形機身、黑色面部螢幕、藍色發光眼睛與嘴、胸前渦輪結構、履帶底盤、黑色關節、金色扣件、藍色燈條、比例與表情 | 背景、文字、排版、多視角人物數量及參考圖畫風；成片畫風依 registry |
 | `characters/agent5-ray.png` | SEG-10 Ray 身分；SEG-11 連續性延續，取代小花 | 角色外觀、比例與身分特徵 | 背景、文字、排版及參考圖畫風；成片畫風依 registry |
 | `blender/cpu-motion-v07/01-scatter-rise-v07.mp4`、`01-scatter-rise-v07.blend` | SEG-07 零件排列動作參考 | 散開、灑落、逐步就位與平面布局 | 角色身分、白底預演材質與成片畫風 |
 | `characters/agent3-drop.png` | SEG-06 drop 身分，取代小白；SEG-07開頭延續 | 白色水滴形頭部、藍眼、白色機身、黑色關節、藍色水滴胸核、比例及關節 | 背景、水花裝飾、文字、排版、多視角人物數量 |

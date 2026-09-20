@@ -7,7 +7,7 @@
     "主管",
     "技術發表會觀眾"
   ],
-  "source_of_truth": "screenplay/master-storyboard-v0.10.md",
+  "source_of_truth": "screenplay/master-storyboard-v0.11.md",
   "video_prompt_target": "MiniMax H3",
   "storyboard_style": "黑白漫畫式線稿（僅限 Storyboard 前期圖，不進 H3 提示詞）",
   "final_video_style": "寫實真人電影質感；H3 逐字文字見 cast_registry.yaml project.visual_style",
@@ -234,9 +234,13 @@
       "environment_description_file": "assets/environments/virtual-factory-description-v01.txt",
       "environment_reference_mode": "text_only",
       "environment_binding": "segments/SEG-11/factory-scene-binding-v01.md",
-      "screenplay": "v0.10_continuity_adjustment",
-      "screenplay_notes": "僅將交付資料與回送結果的角色由小花改為 Ray；原事件與對白內容不變。",
-      "character_reference": "assets/characters/agent5-ray.png"
+      "screenplay": "v0.11_finn_character_revision",
+      "screenplay_notes": "穿白袍的研究型機器人／研究員改為 Finn；Finn 接收資料、確認限制、執行 Rib 運算並把結果交還 Ray。Ray 的資料往返職能、原事件、台詞與時間不變。",
+      "brief": "segments/SEG-11/brief-v02.md",
+      "character_references": [
+        "assets/characters/agent4-finn.png",
+        "assets/characters/agent5-ray.png"
+      ]
     },
     {
       "id": "SEG-12",
