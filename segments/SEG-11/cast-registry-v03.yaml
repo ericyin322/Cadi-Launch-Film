@@ -462,7 +462,6 @@ segments:
     environment_description_file: assets/environments/virtual-factory-description-v01.txt
     beat: 運算核心顯露為龐大煉丹爐；Ray驚訝；火光與鍋爐燃燒；爆鳴後Finn交付丹藥般結果
     continues_from: seg11-a
-
   - id: seg11-c
     scene: 11
     seed: 8101

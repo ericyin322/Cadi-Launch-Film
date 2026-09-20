@@ -1,0 +1,32 @@
+subject_definitions:
+<Subject 1> is Ray, a compact white humanoid service robot with a rounded rectangular head, a glossy black face display, two luminous yellow oval eyes, a small yellow expressive mouth, twin gold lightning-bolt antennae, dark circular side modules with gold rims, black articulated joints, a gold lightning-bolt chest emblem, and a rectangular transport backpack bearing a gold lightning symbol. Its appearance, proportions, and colors follow <Picture 1>.
+<Subject 2> is Finn, a compact tracked research robot with a rounded rectangular white head and body, a glossy black face display, two luminous blue oval eyes, a small blue expressive mouth, black articulated arms and hands, a circular turbine-like mechanism centered on its chest, gold fasteners, blue status lights, and twin black tank-tread bases. Its appearance, proportions, and colors follow <Picture 2>.
+
+summary:
+[reference generation] A 13-second interior sequence featuring <Subject 1> and <Subject 2>. The camera follows the active computation pathways and reveals that the machine is an enormous industrial alchemical furnace. Ray reacts in amazement as fire erupts and the boiler roars. A contained explosion marks completion; the shot cuts back as Finn retrieves a luminous pill-like result and hands it to Ray.
+
+retention_analysis:
+<Subject 1> / <Picture 1>: fully_preserved - fully preserved: its white shell, black face display, yellow eyes and mouth, twin lightning antennae, gold accents, chest emblem, dark articulated limbs, transport backpack and compact body proportions. Its shell and joints reflect the physical lighting of the scene.
+<Subject 2> / <Picture 2>: fully_preserved - fully preserved: its white shell, black face display, blue eyes and mouth, black articulated arms and hands, chest turbine, gold fasteners, blue status lights, tracked base and compact body proportions. Its shell, joints and treads reflect the physical lighting of the scene.
+Each image supplies one character identity; the timeline supplies the immense furnace architecture, firelight, camera movement, reactions and physical handoff.
+
+detailed_description:
+Photorealistic live-action cinema footage shot on a digital cinema camera with prime lenses: natural skin texture with visible pores, real fabric weave, physically accurate reflections, shallow depth of field and subtle film grain.
+
+[Shot 1] Continue inside the same clean research laboratory at the instant the AI optimization begins. Ray <Picture 1> stands left of the transfer platform and Finn <Picture 2> is beside it at screen-right. Thin cyan data streams leave the three spatial engineering layers and enter illuminated conduits running toward what first appears to be a compact dark computation core. Cool laboratory light reflects on both white shells while a deeper mechanical rumble begins beneath the room tone.
+[0s-2s] The camera glides forward along the bright conduits toward the computation machine. Ray and Finn recede behind the moving camera as the conduits climb across layered black-metal panels. Internal gears begin turning and the machine's hum deepens into a rhythmic industrial pulse.
+[2s-5s] Circular armor plates retract in concentric stages. The camera continues inward and discovers that the visible workstation is only the front of an enormous multi-story industrial alchemical furnace: a towering blackened-bronze cylindrical body, stacked ring mechanisms, thick pressure pipes, red-hot seams, a vast lower firebox and a central cauldron chamber. The scale expands far beyond the original compact façade.
+[5s-7s] The camera cranes rapidly upward beside the furnace, revealing level after level of pipes and rotating collars. Orange fire bursts intermittently from controlled side ports. Below, the boiler burns with dense, roaring flames that illuminate the chamber from underneath and cast moving amber reflections across metal and glass.
+[7s-10s] At the top of the rise, the camera arcs outward and tilts down until Ray's face enters the near foreground with the colossal furnace behind it. Ray's luminous yellow eyes widen into large ovals and its small yellow mouth opens in a clear expression of astonishment. Pressure gauges pulse, the furnace shudders once, and several ports flare at different heights while Finn watches the cycle calmly from beside the platform.
+
+[Shot 2] At 00:10.000, one contained pressure-release explosion lands as a single deep boom with a brief orange-white flash, triggering a hard cut back to a medium two-shot of Ray and Finn at the transfer platform. The machine remains intact and continues a low after-rumble.
+[10s-12s] A small sealed hatch beside Finn opens with a short burst of warm vapor. One luminous pill-like calculation result rolls into a shallow metal receiver. The object is a single smooth metallic pellet with a warm gold core and thin cyan data lines. Finn catches it carefully in one open hand.
+[12s-13s] Finn turns and places the same pill-like result into Ray's waiting palm. Ray closes its fingers securely around it, still wide-eyed but now focused. Finn releases only after the handoff is stable. End on the glowing result held between them, ready to be carried onward.
+
+Negative constraints: no subtitles, no readable text, no extra fingers or limbs, no deformed limbs, no duplicate characters, no shaky camera, no looping.
+
+overall_soundscape:
+Clean laboratory ambience evolves into deep gear rotation, pressure pulses, rising furnace rumble, intermittent fire bursts and a roaring boiler. One contained explosion boom and brief pressure release mark completion, followed by a hatch click, warm vapor hiss, pellet contact and quiet joint servos. There is no dialogue.
+
+non_diegetic_music:
+N/A.
