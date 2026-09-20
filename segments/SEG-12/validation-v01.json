@@ -1,0 +1,32 @@
+{
+  "a": {
+    "exit_code": 0,
+    "summary": "13 passed, 0 warnings, 0 failed",
+    "characters": 5844,
+    "duration_seconds": 12,
+    "beats_continuous": true,
+    "reference_files_exist": true,
+    "picture_order": [
+      "assets/characters/heroine-photo-reference-v01.png",
+      "assets/characters/cadi_red.png"
+    ],
+    "dialogue_exact_match": true,
+    "same_fan_and_single_rib_continuity": true
+  },
+  "b": {
+    "exit_code": 0,
+    "summary": "12 passed, 0 warnings, 0 failed",
+    "characters": 3880,
+    "duration_seconds": 7,
+    "beats_continuous": true,
+    "reference_files_exist": true,
+    "picture_order": [
+      "assets/characters/heroine-photo-reference-v01.png"
+    ],
+    "layout_to_office_monitor_transition": true,
+    "rear_view_rise_and_monitor_shutdown": true
+  },
+  "total_duration_seconds": 19,
+  "storyboard_override": "explicit_user_request_2026-09-20",
+  "video_generated": false
+}

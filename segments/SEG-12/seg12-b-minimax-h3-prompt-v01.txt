@@ -1,0 +1,26 @@
+subject_definitions:
+<Subject 1> is the female protagonist, a 20-something East Asian female mechanical R&D engineer. She has long, straight, center-parted black hair and wears a tailored taupe-gray blazer, an ivory crew-neck top, and loose light-colored trousers. She is professional, composed, and places a high value on immaculate grooming. Her face, hair, and clothing follow <Picture 1>.
+
+summary:
+[reference generation] A 7-second continuous pullback transition begins on the completed Placement layout, reveals that the full layout is displayed on an office computer monitor, then settles behind <Subject 1> as she rises from her chair and the monitor powers off.
+
+retention_analysis:
+<Subject 1> / <Picture 1>: fully_preserved - fully preserved: her facial features, long straight center-parted black hair, tailored taupe-gray blazer, ivory crew-neck top, loose light-colored trousers, body proportions, professional composure, and immaculate grooming must remain consistent. She is a real person with real skin, real fabric and real lighting inside the scene described by the timeline.
+The image supplies the engineer's identity and clothing. The timeline supplies the completed layout, office, monitor, rear composition, continuous pullback and screen shutdown.
+
+detailed_description:
+Photorealistic live-action cinema footage shot on a digital cinema camera with prime lenses: natural skin texture with visible pores, real fabric weave, physically accurate reflections, shallow depth of field and subtle film grain.
+
+[Shot 1] The opening frame is filled by the completed top-down Placement layout under crisp cyan-white engineering light. The fixed laptop cooling fan with its single completed rectangular Rib, processor, memory modules, storage module and cooling assembly all occupy their final precise positions on one clean mechanical layout. No people are visible in this opening view. The camera is already pulling straight backward at a smooth, accelerating pace while keeping the layout centered and level.
+[0s-2s] As the pullback continues, the complete layout becomes smaller without changing geometry or position. Fine cyan guide lines and restrained depth shading keep every component legible as one finished arrangement. The edges of a dark computer-display bezel begin to enter all four sides of frame.
+[2s-4s] The pullback reveals that the entire layout is an active visualization on a widescreen office computer monitor. The luminous virtual engineering light resolves naturally into the monitor's cyan glow, while the surrounding real office emerges: a cool-gray desk, keyboard, office chair and muted early-evening ambient light. The transition remains one continuous spatial reveal rather than a hard cut.
+[4s-6s] The camera settles into a medium-wide rear view behind the female protagonist <Picture 1>, seated squarely at the desk and looking at the full layout on the monitor. Her long straight center-parted black hair falls neatly down the back of her tailored taupe-gray blazer. She places both hands lightly on the chair arms and begins to rise with controlled, unhurried movement.
+[6s-7s] She reaches a stable standing posture behind the chair. At that exact moment the computer monitor dims rapidly from the completed layout to a uniform black screen, leaving a faint realistic reflection of the office light on the glass. Hold the final rear composition for the last fraction of a second.
+
+Negative constraints: no subtitles, no readable text, no extra fingers or limbs, no deformed limbs, no duplicate characters, no shaky camera, no looping, no abrupt cut, no broken transition.
+
+overall_soundscape:
+The distant virtual-workshop hum narrows into a soft electronic tone during the pullback, then resolves into quiet office ventilation, a subtle chair movement and one clean monitor power-down sound. No dialogue.
+
+non_diegetic_music:
+N/A.

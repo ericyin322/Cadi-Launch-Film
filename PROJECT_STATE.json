@@ -250,7 +250,20 @@
       "id": "SEG-12",
       "storyboard": "v01",
       "approval": "storyboard_v01_outdated_revision_pending",
-      "h3": "todo",
+      "h3": "a_v01_b_v01_ready_video_unverified",
+      "h3_storyboard_override": "explicit_user_request_2026-09-20",
+      "h3_notes": "segments/SEG-12/minimax-h3-generation-notes-v01.md；A 12秒＋B 7秒，seed 8201；A使用女主角＋Cadi，B只使用女主角；A 13項、B 12項通過，0警告、0失敗。",
+      "h3_total_duration_seconds": 19,
+      "h3_segment_durations_seconds": {
+        "a": 12,
+        "b": 7
+      },
+      "h3_prompts": [
+        "segments/SEG-12/seg12-a-minimax-h3-prompt-v01.txt",
+        "segments/SEG-12/seg12-b-minimax-h3-prompt-v01.txt"
+      ],
+      "prompt_registry": "segments/SEG-12/cast-registry-v01.yaml",
+      "reference_manifest": "segments/SEG-12/reference-manifest-v01.json",
       "screenplay": "v0.12",
       "screenplay_approval": "approved_by_user_revision",
       "brief": "segments/SEG-12/brief-v02.md",
