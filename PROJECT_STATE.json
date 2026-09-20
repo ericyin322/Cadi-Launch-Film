@@ -7,7 +7,7 @@
     "主管",
     "技術發表會觀眾"
   ],
-  "source_of_truth": "screenplay/master-storyboard-v0.8.md",
+  "source_of_truth": "screenplay/master-storyboard-v0.10.md",
   "video_prompt_target": "MiniMax H3",
   "storyboard_style": "黑白漫畫式線稿（僅限 Storyboard 前期圖，不進 H3 提示詞）",
   "final_video_style": "寫實真人電影質感；H3 逐字文字見 cast_registry.yaml project.visual_style",
@@ -152,8 +152,11 @@
     },
     {
       "id": "SEG-09",
+      "screenplay": "v0.9",
+      "screenplay_approval": "approved_by_user_revision",
+      "screenplay_notes": "依使用者確認的 Blender v06／H3 v01 更新：Cadi彈指、Creo力量亮相、接住墜落風扇、五台協同搬運與落位、俯瞰完整布局、Cadi降至已放妥風扇旁。全段26秒、無台詞；DLG-24–26停用。",
       "storyboard": "v01",
-      "approval": "pending_batch_review",
+      "approval": "storyboard_v01_outdated_revision_pending",
       "h3": "a_v01_b_v01_ready_video_unverified",
       "environment_description_file": "assets/environments/virtual-factory-description-v01.txt",
       "environment_reference_mode": "text_only",
@@ -187,25 +190,53 @@
       ],
       "reference_manifest": "segments/SEG-09/reference-manifest-v01.json",
       "h3_notes": "segments/SEG-09/minimax-h3-generation-notes-v01.md",
-      "brief": "segments/SEG-09/brief-v02.md"
+      "brief": "segments/SEG-09/brief-v03.md"
     },
     {
       "id": "SEG-10",
+      "screenplay": "v0.10",
+      "screenplay_notes": "2026-09-20：依使用者指示更新 SEG-10：共同檢查已落位風扇、指出無法承受10的壓強、提議 Rib 結構 AI 最佳化、確認 ABS／壓強10／Gap 1.5、女主角同意後派 Ray 抱模型資料箱入研究所。完整保留五句對白，新增 DLG-27A／27B。正式主檔升至 v0.10，新增 brief-v02，舊檔保留；SEG-11 僅同步小花→Ray 的角色連續性。Ray 參考 assets/characters/agent5-ray.png。SEG-10 原26秒待試讀校時，單位未指定；SEG-10／11 Storyboard v01 已過時，H3未製作。",
       "storyboard": "v01",
-      "approval": "pending_batch_review",
-      "h3": "todo",
+      "approval": "storyboard_v01_outdated_revision_pending",
+      "h3": "a_b_c_v01_ready_video_unverified",
       "environment_description_file": "assets/environments/virtual-factory-description-v01.txt",
       "environment_reference_mode": "text_only",
-      "environment_binding": "segments/SEG-10/factory-scene-binding-v01.md"
+      "environment_binding": "segments/SEG-10/factory-scene-binding-v01.md",
+      "screenplay_approval": "approved_by_user_revision",
+      "brief": "segments/SEG-10/brief-v02.md",
+      "storyboard_notes": "新版須呈現共同檢查、強度不足、參數確認與同意、Ray 派工。",
+      "timing_status": "h3_38_seconds_original_26_second_slot_pending_retiming",
+      "duration_seconds": 26,
+      "time_range": "03:34–04:00",
+      "character_reference": "assets/characters/agent5-ray.png",
+      "h3_storyboard_override": "explicit_user_request_after_text_revision_2026-09-20",
+      "h3_prompts": [
+        "segments/SEG-10/seg10-a-minimax-h3-prompt-v01.txt",
+        "segments/SEG-10/seg10-b-minimax-h3-prompt-v01.txt",
+        "segments/SEG-10/seg10-c-minimax-h3-prompt-v01.txt"
+      ],
+      "reference_manifest": "segments/SEG-10/reference-manifest-v01.json",
+      "h3_notes": "segments/SEG-10/minimax-h3-generation-notes-v01.md",
+      "prompt_registry": "segments/SEG-10/cast-registry-v01.yaml",
+      "h3_duration_seconds": 38,
+      "h3_segment_durations_seconds": {
+        "a": 13,
+        "b": 15,
+        "c": 10
+      },
+      "timing_notes": "H3製作配置13＋15＋10秒；主劇本及後段原時間碼保留待重排，配音與嘴型未實測。"
     },
     {
       "id": "SEG-11",
       "storyboard": "v01",
-      "approval": "pending_batch_review",
+      "approval": "storyboard_v01_outdated_character_revision_pending",
       "h3": "todo",
       "environment_description_file": "assets/environments/virtual-factory-description-v01.txt",
       "environment_reference_mode": "text_only",
-      "environment_binding": "segments/SEG-11/factory-scene-binding-v01.md"
+      "environment_binding": "segments/SEG-11/factory-scene-binding-v01.md",
+      "screenplay": "v0.10_continuity_adjustment",
+      "screenplay_notes": "僅將交付資料與回送結果的角色由小花改為 Ray；原事件與對白內容不變。",
+      "character_reference": "assets/characters/agent5-ray.png"
     },
     {
       "id": "SEG-12",
@@ -223,7 +254,7 @@
       "h3": "todo"
     }
   ],
-  "duration_status": "planned_300_seconds_retiming_pending_seg04_bc_split",
+  "duration_status": "planned_300_seconds_retiming_pending_seg04_bc_split_and_seg10_readthrough",
   "character_visual_updates": {
     "cadi": {
       "effective_date": "2026-09-17",

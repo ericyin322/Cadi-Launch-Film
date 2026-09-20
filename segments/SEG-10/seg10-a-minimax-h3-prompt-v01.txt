@@ -1,0 +1,31 @@
+subject_definitions:
+<Subject 1> is the female protagonist, a 20-something East Asian female mechanical R&D engineer. She has long, straight, center-parted black hair and wears a tailored taupe-gray blazer, an ivory crew-neck top, and loose light-colored trousers. She is professional, composed, and places a high value on immaculate grooming. Her face, hair, and clothing follow <Picture 1>.
+<Subject 2> is Cadi, a small flying robot mascot. Its head is composed of actively burning, ethereal red plasma fire with orange-gold inner tongues and a warm white luminous center that continuously flickers, dances, and undulates with rising wisps and subtle luminous embers (an energetic plasma flame, completely non-solid, with zero gelatinous or jelly-like surface tension). Within the dynamic flame sit two oversized oval warm-white eyes with dark red rims and a tiny mouth, atop a dark charcoal-gray segmented robot body with red joint accents and a glowing circular warm-white chest core with a gold-orange rim. Its height is approximately half of the female protagonist's upper body. Its design, proportions, and colors follow <Picture 2>.
+
+summary:
+[reference generation] A 13-second sequence featuring <Subject 1>, <Subject 2>. The two inspect a seated fan inside and out; the engineer identifies inadequate strength and Cadi proposes AI Rib optimization.
+
+retention_analysis:
+<Subject 1> / <Picture 1>: fully_preserved - fully preserved: her facial features, long straight center-parted black hair, tailored taupe-gray blazer, ivory crew-neck top, loose light-colored trousers, body proportions, professional composure, and immaculate grooming must remain consistent. She is a real person with real skin, real fabric and real lighting inside the scene described by the timeline.
+<Subject 2> / <Picture 2>: fully_preserved - fully preserved: its actively burning red plasma fire head with orange-gold inner tongues and a warm white luminous center, continuous flickering combustion, soft rising flame tongues, subtle luminous embers, wind-drag during movement, upward licking and dissipation while hovering, oversized oval warm-white eyes with dark red rims, tiny mouth, dark charcoal-gray segmented robot body with red joint accents, body proportions, and glowing circular warm-white chest core with a gold-orange rim must remain consistent. It is lit by the same real lighting as the scene described by the timeline.
+Each image supplies one character identity; the timeline supplies physical location, lighting and blocking.
+
+detailed_description:
+Photorealistic live-action cinema footage shot on a digital cinema camera with prime lenses: natural skin texture with visible pores, real fabric weave, physically accurate reflections, shallow depth of field and subtle film grain.
+
+[Shot 1] A settled medium-wide view at the edge of a giant laptop cooling fan already seated in its placement. The female protagonist <Picture 1> stands screen-left beside Cadi <Picture 2>, hovering screen-right. The fan casing occupies the lower foreground; its original size and position remain fixed. White-gray metal dock walls, exposed pipes and a glass-railed walkway form the visible interior. Warm overhead light from upper right and soft cyan fill from left reflect across the casing.
+[0s-2s] The camera makes a short, slow lateral move along the outer rim. The woman leans toward the casing and traces its outer edge with her gaze. Cadi floats alongside her at the same level, looking at the same surface; his rising red and orange-gold fire wisps trail gently behind his movement.
+[2s-4s] Both lower their gaze through the existing opening to inspect the inner structure. She tilts her head for a clear view, and Cadi dips slightly to follow her line of sight. Keep the fixed rim in the foreground so their changing viewpoints reveal the inside through the opening.
+[4s-5s] The camera settles. The woman stops scanning, raises one finger toward the inspected structural area and takes a short breath. Cadi follows her fingertip. Quiet clothing movement and soft hovering servos remain audible.
+[5s-9s] The female protagonist <Subject 1> (S1), in a clear, composed adult female Mandarin voice that becomes suddenly firm, says: <d>[Mandarin Chinese] 這裡的強度不夠，無法承受10的壓強</d> Her lips synchronize precisely; the pointing hand stays steady and Cadi watches the indicated area.
+[Shot 2] At 00:09.000, cut to a closer two-shot from the same side of the fan, keeping the woman left and Cadi right with the rim along the bottom.
+[9s-10s] Cadi's warm-white eyes widen and his tiny mouth opens briefly; he nods once and raises a hand in a quick gesture of realization. His completely non-solid fire keeps flickering, licking upward and dissipating above his eyes.
+[10s-13s] Cadi <Subject 2> (S2), in a bright, playful yet professional childlike Mandarin voice, immediately suggests: <d>[Mandarin Chinese] 該啟動Rib結構AI最佳化!</d> His tiny mouth follows the words. He turns toward the woman and finishes with his hand at chest height; she listens, gaze held on him. End in this stable conversational composition.
+
+Negative constraints: no subtitles, no extra fingers or limbs, no deformed limbs, no shaky camera, no looping; no rubbery, gelatinous, solid jelly texture; no solid glass surface on the plasma head.
+
+overall_soundscape:
+Quiet ventilation, subtle hovering and joint servos, and close, intelligible Mandarin dialogue. Mouth movements synchronize with each assigned speaker. Speech follows the timeline in order, at natural conversational speed. Gentle clothing movement accompanies the inspection and gestures.
+
+non_diegetic_music:
+N/A.

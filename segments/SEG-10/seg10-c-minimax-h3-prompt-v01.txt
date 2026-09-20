@@ -1,0 +1,34 @@
+subject_definitions:
+<Subject 1> is the female protagonist, a 20-something East Asian female mechanical R&D engineer. She has long, straight, center-parted black hair and wears a tailored taupe-gray blazer, an ivory crew-neck top, and loose light-colored trousers. She is professional, composed, and places a high value on immaculate grooming. Her face, hair, and clothing follow <Picture 1>.
+<Subject 2> is Cadi, a small flying robot mascot. Its head is composed of actively burning, ethereal red plasma fire with orange-gold inner tongues and a warm white luminous center that continuously flickers, dances, and undulates with rising wisps and subtle luminous embers (an energetic plasma flame, completely non-solid, with zero gelatinous or jelly-like surface tension). Within the dynamic flame sit two oversized oval warm-white eyes with dark red rims and a tiny mouth, atop a dark charcoal-gray segmented robot body with red joint accents and a glowing circular warm-white chest core with a gold-orange rim. Its height is approximately half of the female protagonist's upper body. Its design, proportions, and colors follow <Picture 2>.
+<Subject 3> is Ray, a compact white humanoid service robot with a rounded rectangular head, a glossy black face display, two luminous yellow oval eyes, a small yellow expressive mouth, twin gold lightning-bolt antennae, dark circular side modules with gold rims, black articulated joints, a gold lightning-bolt chest emblem, and a rectangular transport backpack bearing a gold lightning symbol. Its appearance, proportions, and colors follow <Picture 3>.
+
+summary:
+[reference generation] A 10-second sequence featuring <Subject 1>, <Subject 2>, <Subject 3>. After approval, Cadi summons and instructs Ray, who lifts the model-data box and runs into the research facility.
+
+retention_analysis:
+<Subject 1> / <Picture 1>: fully_preserved - fully preserved: her facial features, long straight center-parted black hair, tailored taupe-gray blazer, ivory crew-neck top, loose light-colored trousers, body proportions, professional composure, and immaculate grooming must remain consistent. She is a real person with real skin, real fabric and real lighting inside the scene described by the timeline.
+<Subject 2> / <Picture 2>: fully_preserved - fully preserved: its actively burning red plasma fire head with orange-gold inner tongues and a warm white luminous center, continuous flickering combustion, soft rising flame tongues, subtle luminous embers, wind-drag during movement, upward licking and dissipation while hovering, oversized oval warm-white eyes with dark red rims, tiny mouth, dark charcoal-gray segmented robot body with red joint accents, body proportions, and glowing circular warm-white chest core with a gold-orange rim must remain consistent. It is lit by the same real lighting as the scene described by the timeline.
+<Subject 3> / <Picture 3>: fully_preserved - fully preserved: its white shell, black face display, yellow eyes and mouth, twin lightning antennae, gold accents, chest emblem, dark articulated limbs, transport backpack and compact body proportions. Its shell and joints reflect the physical lighting of the scene.
+Each image supplies one character identity; the timeline supplies physical location, lighting and blocking.
+
+detailed_description:
+Photorealistic live-action cinema footage shot on a digital cinema camera with prime lenses: natural skin texture with visible pores, real fabric weave, physically accurate reflections, shallow depth of field and subtle film grain.
+
+A bright futuristic engineering district beneath a blue sky with white clouds. A glowing cyan transport avenue leads toward a monumental tower surrounded by enormous horizontal rings. Multilevel automated workshops line both sides, combining dense Taiwanese and Hong Kong streetscapes with white-gray metal facades, exposed pipes, glass platforms, and vertical orange engineering signs. Elevated cyan rails connect the buildings. Yellow industrial robot arms operate inside warm-lit workshops, small white service robots move along terraces, and hovering disc-shaped carriers transport luminous translucent cubes. Green rooftop planters soften the architecture. Natural sunlight creates realistic metal and glass reflections.
+
+[Shot 1] Begin beside the seated giant laptop cooling fan at the open edge of the dock, with the female protagonist <Picture 1> at screen-left and Cadi <Picture 2> at center-right, already turning his gaze right after her approval. The fixed fan rim fills the lower foreground. The doorway marked “Rib 研究所” stands across the adjoining walkway at screen-right; a compact model-data box rests beside its threshold. Sunlight from upper right and cyan light from street-left continue the established lighting.
+[0s-1s] Cadi raises his right hand and beckons toward the doorway. The woman follows the gesture with her eyes. His red fire streams softly with the turn, orange-gold tongues rising around the warm-white center.
+[1s-2s] The camera pans a short distance right to reveal Ray <Picture 3> stepping forward at the research doorway. Its white shell and gold accents catch the light. Ray looks toward Cadi and plants both feet beside the box; the woman remains visible at the left edge.
+[2s-4s] Cadi <Subject 2> (S1), in a bright, playful yet professional childlike Mandarin voice, directs Ray: <d>[Mandarin Chinese] Ray，收集必要模型資訊，</d> He gestures toward the model-data box. Ray tracks his hand, and the woman watches quietly beside the fan.
+[4s-7s] Cadi <Subject 2> (S1) completes the instruction: <d>[Mandarin Chinese] 送進 Rib 運算服務。</d> His hand finishes pointing toward the entrance. His completely non-solid fire keeps licking upward and releasing fine luminous embers. Ray turns toward the box, bends its knees and places both hands securely beneath its sides.
+[7s-8s] Ray lifts the same box against its chest, straightening its legs while keeping the load level. Its fingers hold the box securely. A short handling sound accompanies the lift.
+[8s-10s] Ray pivots toward the entrance and runs through the open doorway carrying the box with both arms. Its short alternating steps quicken while the box stays braced against its chest. The camera eases toward the doorway. Cadi lowers his hand beside the fixed fan, the woman watches, and Ray crosses into the doorway at the end. Running footsteps carry into the next scene.
+
+Negative constraints: no subtitles, no extra fingers or limbs, no deformed limbs, no shaky camera, no looping; no rubbery, gelatinous, solid jelly texture; no solid glass surface on the plasma head.
+
+overall_soundscape:
+Quiet ventilation, subtle hovering and joint servos, and close, intelligible Mandarin dialogue. Natural speech follows the timeline with synchronized mouth movement. Soft box contact and accelerating footsteps accompany the visible handling and run.
+
+non_diegetic_music:
+N/A.

@@ -161,6 +161,23 @@ assets:
       black articulated joints, blue-lit side modules, water-drop chest emblem and body proportions. Its
       white shell reflects the physical district lighting.'
 
+  ray:
+    priority: 90
+    file: assets/characters/agent5-ray.png
+    role: identity
+    binding: Its appearance, proportions, and colors follow
+    summon_tokens:
+    - ray
+    canonical: Ray, a compact white humanoid service robot with a rounded rectangular
+      head, a glossy black face display, two luminous yellow oval eyes, a small yellow
+      expressive mouth, twin gold lightning-bolt antennae, dark circular side modules
+      with gold rims, black articulated joints, a gold lightning-bolt chest emblem,
+      and a rectangular transport backpack bearing a gold lightning symbol.
+    retention: 'fully preserved: its white shell, black face display, yellow eyes and
+      mouth, twin lightning antennae, gold accents, chest emblem, dark articulated limbs,
+      transport backpack and compact body proportions. Its shell and joints reflect
+      the physical lighting of the scene.'
+
 segments:
   - id: "S03a"
     scene: 3
@@ -361,3 +378,43 @@ segments:
     environment_description_file: assets/environments/virtual-factory-description-v01.txt
     prompt: segments/SEG-04/seg04-a-minimax-h3-prompt-v02.txt
     prompt_registry: segments/SEG-04/cast-registry-v07.yaml
+
+  - id: seg10-a
+    scene: 10
+    seed: 8001
+    duration_seconds: 13
+    cast:
+    - heroine
+    - cadi
+    prompt: segments/SEG-10/seg10-a-minimax-h3-prompt-v01.txt
+    prompt_registry: segments/SEG-10/cast-registry-v01.yaml
+    environment: virtual_factory
+    environment_description_file: assets/environments/virtual-factory-description-v01.txt
+    beat: 檢查風扇、強度不足與最佳化建議
+  - id: seg10-b
+    scene: 10
+    seed: 8001
+    duration_seconds: 15
+    cast:
+    - heroine
+    - cadi
+    prompt: segments/SEG-10/seg10-b-minimax-h3-prompt-v01.txt
+    prompt_registry: segments/SEG-10/cast-registry-v01.yaml
+    environment: virtual_factory
+    environment_description_file: assets/environments/virtual-factory-description-v01.txt
+    beat: 完整參數、服務與執行同意
+    continues_from: seg10-a
+  - id: seg10-c
+    scene: 10
+    seed: 8001
+    duration_seconds: 10
+    cast:
+    - heroine
+    - cadi
+    - ray
+    prompt: segments/SEG-10/seg10-c-minimax-h3-prompt-v01.txt
+    prompt_registry: segments/SEG-10/cast-registry-v01.yaml
+    environment: virtual_factory
+    environment_description_file: assets/environments/virtual-factory-description-v01.txt
+    beat: 招手、Ray現身、派工、抱箱跑入研究所
+    continues_from: seg10-b

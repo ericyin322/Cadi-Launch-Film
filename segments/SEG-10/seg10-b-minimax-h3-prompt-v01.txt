@@ -1,0 +1,30 @@
+subject_definitions:
+<Subject 1> is the female protagonist, a 20-something East Asian female mechanical R&D engineer. She has long, straight, center-parted black hair and wears a tailored taupe-gray blazer, an ivory crew-neck top, and loose light-colored trousers. She is professional, composed, and places a high value on immaculate grooming. Her face, hair, and clothing follow <Picture 1>.
+<Subject 2> is Cadi, a small flying robot mascot. Its head is composed of actively burning, ethereal red plasma fire with orange-gold inner tongues and a warm white luminous center that continuously flickers, dances, and undulates with rising wisps and subtle luminous embers (an energetic plasma flame, completely non-solid, with zero gelatinous or jelly-like surface tension). Within the dynamic flame sit two oversized oval warm-white eyes with dark red rims and a tiny mouth, atop a dark charcoal-gray segmented robot body with red joint accents and a glowing circular warm-white chest core with a gold-orange rim. Its height is approximately half of the female protagonist's upper body. Its design, proportions, and colors follow <Picture 2>.
+
+summary:
+[reference generation] A 15-second sequence featuring <Subject 1>, <Subject 2>. Cadi states the ABS, pressure and gap parameters, requests permission, and the engineer agrees.
+
+retention_analysis:
+<Subject 1> / <Picture 1>: fully_preserved - fully preserved: her facial features, long straight center-parted black hair, tailored taupe-gray blazer, ivory crew-neck top, loose light-colored trousers, body proportions, professional composure, and immaculate grooming must remain consistent. She is a real person with real skin, real fabric and real lighting inside the scene described by the timeline.
+<Subject 2> / <Picture 2>: fully_preserved - fully preserved: its actively burning red plasma fire head with orange-gold inner tongues and a warm white luminous center, continuous flickering combustion, soft rising flame tongues, subtle luminous embers, wind-drag during movement, upward licking and dissipation while hovering, oversized oval warm-white eyes with dark red rims, tiny mouth, dark charcoal-gray segmented robot body with red joint accents, body proportions, and glowing circular warm-white chest core with a gold-orange rim must remain consistent. It is lit by the same real lighting as the scene described by the timeline.
+Each image supplies one character identity; the timeline supplies physical location, lighting and blocking.
+
+detailed_description:
+Photorealistic live-action cinema footage shot on a digital cinema camera with prime lenses: natural skin texture with visible pores, real fabric weave, physically accurate reflections, shallow depth of field and subtle film grain.
+
+[Shot 1] Continue a stable medium two-shot beside the same seated giant laptop cooling fan. The female protagonist <Picture 1> remains screen-left, facing Cadi <Picture 2> at screen-right. His raised hand is already at chest height. Keep the same fan rim in the lower foreground and the same white-gray metal walls, exposed pipes and glass-railed walkway behind them. Warm overhead light comes from upper right with cyan fill from left. The fan remains fixed throughout.
+[0s-3s] Cadi turns his palm slightly upward and begins one continuous explanation. Cadi <Subject 2> (S1), in a bright, playful yet professional childlike Mandarin voice with precise technical pronunciation, says: <d>[Mandarin Chinese] 在材料為ABS，壓強要10，</d> He articulates the letters and number clearly. The woman watches his face, lips resting, shoulders composed.
+[3s-5s] The camera starts a very slow, short push toward the pair. Cadi <Subject 2> (S1) continues at the same volume and cadence: <d>[Mandarin Chinese] Gap為1.5，</d> He marks the parameter with one small fingertip gesture. His actively burning red plasma fire has orange-gold inner tongues and a warm white luminous center, continuously flickering and undulating.
+[5s-8s] Cadi <Subject 2> (S1) continues the same sentence: <d>[Mandarin Chinese] 我會將這組參數送到</d> His hand makes a compact forward sweep while he maintains eye contact with the woman. The camera keeps both faces and the stationary rim visible.
+[8s-11s] Cadi <Subject 2> (S1) continues: <d>[Mandarin Chinese] AI Rib 最佳化服務，</d> He completes the hand sweep and holds his palm open. The woman follows his gesture and returns her gaze to his eyes. The same warm-white and gold-orange chest core stays luminous.
+[11s-14s] Cadi <Subject 2> (S1) finishes with a light questioning inflection: <d>[Mandarin Chinese] 要我接著執行嗎</d> He lowers his hand slightly and holds an attentive hover. Upward flame tongues and subtle embers dissipate naturally from his completely non-solid head. The camera finishes its gentle push and settles before the reply.
+[14s-15s] The female protagonist <Subject 1> (S2), in a clear, composed adult female Mandarin voice, nods once and answers: <d>[Mandarin Chinese] 好的</d> Her mouth follows the short reply. Cadi watches her nod, then begins turning his gaze toward screen-right. End with both still beside the fixed fan.
+
+Negative constraints: no subtitles, no extra fingers or limbs, no deformed limbs, no shaky camera, no looping; no rubbery, gelatinous, solid jelly texture; no solid glass surface on the plasma head.
+
+overall_soundscape:
+Quiet ventilation, subtle hovering and joint servos, and close, intelligible Mandarin dialogue. Mouth movements synchronize with each assigned speaker. Speech follows the timeline in order, at natural conversational speed. Gentle clothing movement accompanies the inspection and gestures.
+
+non_diegetic_music:
+N/A.

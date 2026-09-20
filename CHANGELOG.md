@@ -1,3 +1,11 @@
+## 2026-09-20｜SEG-10 H3 A／B／C v01
+
+- 2026-09-20：使用者確認SEG-10修訂並直接要求H3，新增A／B／C v01（13＋15＋10秒，共38秒）。完整保留五句對白；A/B女主角與紅焰Cadi兩圖，C新增Ray為Picture 3。新增分段registry、manifest、生成說明與驗證紀錄；A/B各13、C14項通過，0警告、0失敗，對白逐字及時間連續性另驗通過。Storyboard v01仍過時，直接H3授權已記錄；影片未生成。原26秒時槽及全片時間待校正。
+
+## 2026-09-20｜SEG-10 強度檢查與 Ray 派工
+
+- 2026-09-20：依使用者指示更新 SEG-10：共同檢查已落位風扇、指出無法承受10的壓強、提議 Rib 結構 AI 最佳化、確認 ABS／壓強10／Gap 1.5、女主角同意後派 Ray 抱模型資料箱入研究所。完整保留五句對白，新增 DLG-27A／27B。正式主檔升至 v0.10，新增 brief-v02，舊檔保留；SEG-11 僅同步小花→Ray 的角色連續性。Ray 參考 assets/characters/agent5-ray.png。SEG-10 原26秒待試讀校時，單位未指定；SEG-10／11 Storyboard v01 已過時，H3未製作。
+
 ## 2026-09-20｜SEG-09 H3 A/B v01
 
 - 2026-09-20：依使用者確認SEG09 Blender v06並直接要求H3，新增A/B v01各13秒，五圖順序為Cadi、Creo、接風扇、全布局搬運、Cadi在已放風扇旁；已備妥圖3/5截圖及圖4拉遠重渲染、registry／manifest／生成說明。五組17–18秒完成落位，搬運時空位、落位後單一零件固定。A/B各13通過、2已解釋提示、0失敗；未生成H3影片。
@@ -197,3 +205,8 @@
 - `check_prompt.py`：新增 `check_style`（2D／animation／cel／drawing style／illustrated／design sheet／storyboard 等字眼 FAIL、負面表列否定真人 FAIL、visual_style 逐字比對）；`NEGATIVE_ALLOW` 移除 live-action／photoreal。
 - 範本、`AGENTS.md`、`PROJECT_STATE.json`、`ASSET_INDEX.md` 同步。既有提示詞未改版。
 - SEG-02 依新規則出 A v05／B v06：畫風句逐字取自 visual_style、刪除 drawing style 否定句與 illustrated 字眼；A 改掛 heroine-photo-reference-v01.png；registry 與 manifest 路徑同步。兩段 12 passed／0 warn／0 fail。
+## 2026-09-20｜正式文字分鏡升至 v0.9
+
+- 依使用者指示，以已確認的SEG-09 Blender v06／H3 v01更新正式文字分鏡；新增 `screenplay/master-storyboard-v0.9.md`，v0.8保留。
+- SEG-09改為26秒無台詞的Cadi彈指、Creo力量亮相、接風扇、五台協同搬運落位、俯瞰布局及Cadi降至風扇旁；同步更新分段表、EV-15／16、DLG-24–26狀態與09→10連續性。
+- SEG-10鏡頭35–36只做必要銜接修正：對已落位風扇執行試排驗證；鏡頭37–38與DLG-27–29不變。
