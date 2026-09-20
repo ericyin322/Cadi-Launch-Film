@@ -7,7 +7,7 @@
     "主管",
     "技術發表會觀眾"
   ],
-  "source_of_truth": "screenplay/master-storyboard-v0.12.md",
+  "source_of_truth": "screenplay/master-storyboard-v0.13.md",
   "video_prompt_target": "MiniMax H3",
   "storyboard_style": "黑白漫畫式線稿（僅限 Storyboard 前期圖，不進 H3 提示詞）",
   "final_video_style": "寫實真人電影質感；H3 逐字文字見 cast_registry.yaml project.visual_style",
@@ -267,7 +267,7 @@
       "screenplay": "v0.12",
       "screenplay_approval": "approved_by_user_revision",
       "brief": "segments/SEG-12/brief-v02.md",
-      "screenplay_notes": "承接SEG-11同一風扇場景；女主角滿意致謝，Cadi回應下次仍會幫忙，女主角整理衣服。完整Placement布局拉遠後轉場顯示於辦公室電腦；後方機位中女主角起身並關閉螢幕。SEG-13僅同步黑畫面轉場。",
+      "screenplay_notes": "承接SEG-11同一風扇場景；女主角滿意致謝，Cadi回應下次仍會幫忙，女主角整理衣服。完整Placement布局拉遠後轉場顯示於辦公室電腦；後方機位中女主角起身並關閉螢幕。接續SEG-13時，女主角帶著銀色HP筆電前往會議室。",
       "duration_seconds": 19,
       "time_range": "04:26–04:45",
       "timing_status": "dialogue_and_transition_pending_readthrough",
@@ -278,12 +278,17 @@
     },
     {
       "id": "SEG-13",
+      "screenplay": "v0.13",
+      "screenplay_approval": "approved_by_user_revision",
       "storyboard": "v01",
-      "approval": "pending_batch_review",
-      "h3": "todo"
+      "approval": "storyboard_outdated_pending_v02",
+      "h3": "todo",
+      "time_range": "04:45–05:00",
+      "timing_status": "dialogue_and_montage_pending_readthrough",
+      "storyboard_notes": "v01已過時；新版須呈現凌亂多人會議室、2:30指針時鐘、銀色HP筆電、Placement 3D投影、HP長官反應、窗外太陽及Cadi右下飛入眨眼後向上飛離。"
     }
   ],
-  "duration_status": "planned_300_seconds_retiming_pending_seg04_bc_split_and_seg10_readthrough",
+  "duration_status": "planned_300_seconds_retiming_pending_seg04_bc_split_seg10_and_seg13_readthrough",
   "character_visual_updates": {
     "cadi": {
       "effective_date": "2026-09-17",

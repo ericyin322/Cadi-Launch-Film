@@ -1,5 +1,7 @@
 # 已確認創作決策
 
+- 2026-09-20：依使用者指示更新 SEG-13。女主角抱著銀色 HP 筆電回到多人會議室；地面滿是文件、桌面凌亂，牆上指針時鐘顯示 2:30。她一邊清出桌面、一邊攤平筆電，對 HP 長官說「HP的各位長官久等了，我們立刻開始placement review吧。」筆電射出一道光並展開完整 Placement 3D 影像，眾人驚訝；鏡頭拉遠，以輕快音樂帶過女主角自信解說及長官頻頻點頭，再拉出窗外看見太陽、轉成白畫面。Cadi 從右下角飛入、俏皮眨眼後向上飛離。此決定取代原「第二場只有公司同仁、沒有客戶」與片尾口號／畫外音設定。正式主檔升至 v0.13，新增 brief-v02；Storyboard v01 已過時，H3 尚未製作。
+
 - 2026-09-20：使用者直接要求生成 SEG-12 H3，授權略過已過時 Storyboard v01。新增 A／B v01（12＋7秒，共19秒）：A 只掛女主角與紅焰 Cadi，完成兩句指定對白及整理衣服；B 只掛女主角，從無角色的完整 Placement 布局拉遠轉入辦公室電腦畫面，再以後方機位呈現女主角起身與螢幕關閉。工廠與辦公室皆以文字建立，不上傳場景圖。A 13項、B 12項通過，均0警告、0失敗；影片未生成。
 
 - 2026-09-20：依使用者指示更新 SEG-12。承接 SEG-11 結尾的同一風扇場景，女主角從風扇旁起身，以滿足表情說「這次的工作我非常滿意，謝謝。」；Cadi 回答「不客氣，下次需要幫忙我依然會在。」女主角站定並整理衣服。鏡頭拉遠完整 Placement 布局，再轉場為辦公室電腦上的布局畫面；後方機位中女主角從辦公椅起身，電腦螢幕關閉。正式主檔升至 v0.12，新增 brief-v02；SEG-13 僅同步黑畫面轉場，其餘劇情不變。Storyboard v01 已過時，19秒待校時，H3 尚未製作。
@@ -70,7 +72,7 @@
 - MiniMax H3 圖片標籤規則：往後所有 MiniMax H3 提示詞一律使用本專案採用的 `<Picture i>` 語法，不得只寫角色名稱而省略圖片標籤。固定 `<Picture 1>` 為女主角身分參考，實體路徑為 `assets/characters/Gemini_Generated_Image_6rilce6rilce6ril.jpg`；固定 `<Picture 2>` 為 Cadi 身分參考，實體路徑為 `assets/characters/cadi Design Sheet.jpg`；固定 `<Picture 3>` 為虛擬工廠，但實體圖片路徑尚待使用者指定。三段指定的 `subject_definitions` 英文原文必須逐字出現在每一份提示詞中，不得改寫或省略。`<Picture 1>` 與 `<Picture 2>` 另須出現在 `retention_analysis`，並在鏡頭敘述中每次首次提及女主角或 Cadi 時以 `the female protagonist <Picture 1>`、`Cadi <Picture 2>` 明確綁定；若角色或虛擬工廠不在該 SEG 出場，保留宣告並於保留分析及負面限制中明確禁止入鏡。其他新增圖片參考由 `<Picture 4>` 起依序編號，且每張圖片只能有一個明確主要用途，另須註明應保留與不可沿用的內容。
 - 舊版 Cadi 火焰提示詞規則（色系已由 2026-09-17 紅焰版決策取代；既有稿保留）：當時規定往後所有 Cadi 出場的 MiniMax H3 提示詞，都必須把頭部描述成持續燃燒、非固體的青藍電漿火焰，而不能只寫成「半透明火焰形頭部」。正向描述需包含 `actively burning, ethereal cyan-blue plasma fire`、`continuously flickers, dances, and undulates`、上升的柔軟火舌／微光餘燼，以及移動時隨風拖曳、懸停時向上舔動與消散的可觀察動態；材質排除需明寫 `completely non-solid`，並禁止 `rubbery, gelatinous, solid jelly texture` 與 `solid glass surface`。這組特徵應在 `subject_definitions`、`retention_analysis`、鏡頭內動作描述與負面限制中重申，但眼睛、小嘴、深藍機器身體與胸口光核仍須保持一致。
 - 第一場會議：外部客戶的機械強度／CAE 會議；客戶僅為無五官輪廓。
-- 第二場會議：公司內部 Placement 會議；只有同仁與主管，沒有客戶。
+- 第二場會議：HP 長官參與的 Placement Review；此設定自 v0.13 起取代「只有公司同仁、沒有客戶」。
 - GP、Placement、Rib：本身沒有操作畫面，以獨立科幻工程建築及純運算視覺呈現。
 - 技術站點：採台灣／香港高密度街區與直式招牌概念，可獨立替換。
 - Creo：以灰白介面結構轉譯為 CAD 船塢，透過凸起立體按鈕啟動。

@@ -1,3 +1,7 @@
+## 2026-09-20｜SEG-13 HP Placement Review 與片尾更新
+
+- 依使用者指示僅更新 SEG-13：女主角抱著銀色 HP 筆電回到凌亂的多人會議室，牆上時鐘顯示 2:30；清出桌面、攤平筆電並向 HP 長官宣布開始 placement review。筆電投射完整 Placement 3D 影像，眾人驚訝；以輕快音樂呈現女主角自信解說與長官點頭，鏡頭再拉出窗外見太陽並轉白，Cadi 從右下角飛入眨眼後向上飛離。新增 `master-storyboard-v0.13.md` 與 `brief-v02.md`，v0.12及Storyboard v01保留；新版 Storyboard 與 H3 待製作，15秒待校時。
+
 ## 2026-09-20｜SEG-12 H3 A／B v01
 
 - 依使用者直接授權，略過已過時 Storyboard v01，新增 SEG-12 Ref2VA A／B v01（12＋7秒，共19秒）。A使用女主角、紅焰Cadi兩圖，完成滿意致謝、Cadi回應與整理衣服；B只使用女主角一圖，完成完整Placement布局拉遠成辦公室電腦畫面、後方機位起身與螢幕關閉。新增registry、reference manifest、生成說明與驗證紀錄；A 13項、B 12項通過，均0警告、0失敗。影片未生成。
