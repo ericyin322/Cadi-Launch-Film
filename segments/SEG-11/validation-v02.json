@@ -1,0 +1,32 @@
+{
+  "a": {
+    "exit_code": 0,
+    "summary": "13 passed, 0 warnings, 0 failed",
+    "characters": 5062,
+    "duration_seconds": 13,
+    "beats_continuous": true,
+    "reference_files_exist": true,
+    "picture_order": [
+      "assets/characters/agent5-ray.png",
+      "assets/characters/agent4-finn.png"
+    ]
+  },
+  "b": {
+    "exit_code": 0,
+    "summary": "14 passed, 0 warnings, 0 failed",
+    "characters": 6894,
+    "duration_seconds": 13,
+    "beats_continuous": true,
+    "reference_files_exist": true,
+    "picture_order": [
+      "assets/characters/heroine-photo-reference-v01.png",
+      "assets/characters/cadi_red.png",
+      "assets/characters/agent5-ray.png"
+    ],
+    "finn_absent": true,
+    "single_fan_rib_growth": true,
+    "heroine_happy_nod": true
+  },
+  "dialogue_exact_match": true,
+  "total_duration_seconds": 26
+}

@@ -1,0 +1,57 @@
+{
+  "mode": "Ref2VA",
+  "source": "user-directed SEG-11 H3 revision based on screenplay/master-storyboard-v0.11.md",
+  "seed": 8101,
+  "aspect_ratio": "16:9",
+  "total_duration_seconds": 26,
+  "environment_reference_mode": "text_only",
+  "segments": {
+    "seg11-a": {
+      "duration_seconds": 13,
+      "prompt": "segments/SEG-11/seg11-a-minimax-h3-prompt-v02.txt",
+      "images": [
+        {
+          "picture": 1,
+          "slot": "ref_image_0",
+          "asset": "ray",
+          "file": "assets/characters/agent5-ray.png",
+          "role": "identity"
+        },
+        {
+          "picture": 2,
+          "slot": "ref_image_1",
+          "asset": "finn",
+          "file": "assets/characters/agent4-finn.png",
+          "role": "identity"
+        }
+      ]
+    },
+    "seg11-b": {
+      "duration_seconds": 13,
+      "prompt": "segments/SEG-11/seg11-b-minimax-h3-prompt-v02.txt",
+      "images": [
+        {
+          "picture": 1,
+          "slot": "ref_image_0",
+          "asset": "heroine",
+          "file": "assets/characters/heroine-photo-reference-v01.png",
+          "role": "identity"
+        },
+        {
+          "picture": 2,
+          "slot": "ref_image_1",
+          "asset": "cadi",
+          "file": "assets/characters/cadi_red.png",
+          "role": "identity"
+        },
+        {
+          "picture": 3,
+          "slot": "ref_image_2",
+          "asset": "ray",
+          "file": "assets/characters/agent5-ray.png",
+          "role": "identity"
+        }
+      ]
+    }
+  }
+}

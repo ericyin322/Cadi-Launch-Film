@@ -1,3 +1,7 @@
+## 2026-09-20｜SEG-11 H3 A／B v02
+
+- A更新兩句指定台詞，並將掃描內容改為殼體厚度、Gap距離、材質三層；B重構為Ray回到SEG-10同一風扇場景，風扇殼體內側長出單根矩形結構Rib，Cadi回報完成，女主角開心點頭。A掛Ray＋Finn，B掛女主角＋Cadi＋Ray；新增registry、manifest、生成說明及驗證紀錄。A 13項、B 14項通過，0警告、0失敗；v01保留，影片未生成。
+
 ## 2026-09-20｜SEG-11 H3 A／B v01
 
 - 依使用者直接授權，新增 SEG-11 Ref2VA A／B v01（13＋13秒，共26秒）。A使用Ray、Finn兩圖；B使用Cadi、Ray、Finn三圖。新增分段registry、reference manifest、生成說明及驗證紀錄；完整保留三句對白，A 13項、B 14項通過，均為0警告、0失敗。Storyboard v01角色仍過時，影片未生成。

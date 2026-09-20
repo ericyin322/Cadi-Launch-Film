@@ -1,0 +1,29 @@
+subject_definitions:
+<Subject 1> is Ray, a compact white humanoid service robot with a rounded rectangular head, a glossy black face display, two luminous yellow oval eyes, a small yellow expressive mouth, twin gold lightning-bolt antennae, dark circular side modules with gold rims, black articulated joints, a gold lightning-bolt chest emblem, and a rectangular transport backpack bearing a gold lightning symbol. Its appearance, proportions, and colors follow <Picture 1>.
+<Subject 2> is Finn, a compact tracked research robot with a rounded rectangular white head and body, a glossy black face display, two luminous blue oval eyes, a small blue expressive mouth, black articulated arms and hands, a circular turbine-like mechanism centered on its chest, gold fasteners, blue status lights, and twin black tank-tread bases. Its appearance, proportions, and colors follow <Picture 2>.
+
+summary:
+[reference generation] A 13-second interior sequence featuring <Subject 1> and <Subject 2>. Ray delivers shell-thickness, Gap-distance and material data to Finn, who scans the three data groups, confirms completeness and starts AI optimization.
+
+retention_analysis:
+<Subject 1> / <Picture 1>: fully_preserved - fully preserved: its white shell, black face display, yellow eyes and mouth, twin lightning antennae, gold accents, chest emblem, dark articulated limbs, transport backpack and compact body proportions. Its shell and joints reflect the physical lighting of the scene.
+<Subject 2> / <Picture 2>: fully_preserved - fully preserved: its white shell, black face display, blue eyes and mouth, black articulated arms and hands, chest turbine, gold fasteners, blue status lights, tracked base and compact body proportions. Its shell, joints and treads reflect the physical lighting of the scene.
+Each image supplies one character identity; the timeline supplies the clean research interior, physical lighting, actions and blocking.
+
+detailed_description:
+Photorealistic live-action cinema footage shot on a digital cinema camera with prime lenses: natural skin texture with visible pores, real fabric weave, physically accurate reflections, shallow depth of field and subtle film grain.
+
+[Shot 1] A stable medium-wide interior view inside a clean, serious research laboratory. A large dark metallic computation core fills the rear center, surrounded by white-gray wall panels, inset cyan guide lights, glass instrument surfaces and warm practical lamps. Ray <Picture 1> enters from screen-left already carrying the compact model-data box against its chest. Finn <Picture 2> waits screen-right in front of the core, its tracked base aligned squarely with the workstation. The camera makes a restrained forward glide at chest height; cool cyan reflections meet warm overhead light on both white shells.
+[0s-1s] Ray completes the last step into the room, slows beside Finn and turns the box so its secured top faces the workstation. Finn rolls forward half a body length and raises both articulated hands toward the delivery. Soft footsteps, tread movement and the low computation hum are audible.
+[1s-5s] Ray <Subject 1> (S1), in a clear, energetic and precise youthful Mandarin voice, says: <d>[Mandarin Chinese] 殼體厚度、Gap距離、材質資料都在這裡，請計算可行 Rib。</d> Its yellow mouth light moves in precise synchronization. While speaking, Ray lowers the same box onto a waist-high transfer platform without releasing it prematurely. Finn watches the box and the speaker in turn.
+[5s-7s] Ray releases the box only after it is stable. Finn places both hands beside it; a narrow cyan scan passes across the sealed surface. The camera eases closer from the same side, keeping Ray at left, Finn at right and the computation core centered behind them.
+[7s-9s] Three distinct translucent engineering layers rise above the platform in sequence: a shell-thickness surface map, measured Gap-distance bands and a material-property field. Finn's blue eyes narrow analytically as its hands separate the layers and rotate them into alignment. The graphics remain spatial engineering geometry rather than readable interface text.
+[9s-13s] Finn <Subject 2> (S2), in a calm, analytical adult Mandarin voice with a subtle electronic clarity, says: <d>[Mandarin Chinese] 條件完整。開始AI最佳化運算。</d> Its blue mouth light synchronizes precisely. Finn turns one hand toward the computation core; the three layers stream into the core as narrow light bands, and the machine's internal glow rises steadily. Ray stands clear of the platform and watches the transfer finish. End on Finn facing the active core with Ray waiting beside it.
+
+Negative constraints: no subtitles, no readable text, no extra fingers or limbs, no deformed limbs, no duplicate characters, no shaky camera, no looping.
+
+overall_soundscape:
+Clean laboratory room tone, low ventilation, a continuous restrained computation hum, soft tread movement, compact footsteps, transfer-platform contact and a focused scan tone. Both Mandarin voices remain close, intelligible and synchronized to their assigned mouth lights.
+
+non_diegetic_music:
+N/A.
