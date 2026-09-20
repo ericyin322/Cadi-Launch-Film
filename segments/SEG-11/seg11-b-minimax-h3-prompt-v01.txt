@@ -1,0 +1,36 @@
+subject_definitions:
+<Subject 1> is Cadi, a small flying robot mascot. Its head is composed of actively burning, ethereal red plasma fire with orange-gold inner tongues and a warm white luminous center that continuously flickers, dances, and undulates with rising wisps and subtle luminous embers (an energetic plasma flame, completely non-solid, with zero gelatinous or jelly-like surface tension). Within the dynamic flame sit two oversized oval warm-white eyes with dark red rims and a tiny mouth, atop a dark charcoal-gray segmented robot body with red joint accents and a glowing circular warm-white chest core with a gold-orange rim. Its design, proportions, and colors follow <Picture 1>.
+<Subject 2> is Ray, a compact white humanoid service robot with a rounded rectangular head, a glossy black face display, two luminous yellow oval eyes, a small yellow expressive mouth, twin gold lightning-bolt antennae, dark circular side modules with gold rims, black articulated joints, a gold lightning-bolt chest emblem, and a rectangular transport backpack bearing a gold lightning symbol. Its appearance, proportions, and colors follow <Picture 2>.
+<Subject 3> is Finn, a compact tracked research robot with a rounded rectangular white head and body, a glossy black face display, two luminous blue oval eyes, a small blue expressive mouth, black articulated arms and hands, a circular turbine-like mechanism centered on its chest, gold fasteners, blue status lights, and twin black tank-tread bases. Its appearance, proportions, and colors follow <Picture 3>.
+
+summary:
+[reference generation] A 13-second sequence in which Finn filters the Rib candidates and returns the result to Ray; Ray sends it to Cadi, who completes the assembly.
+
+retention_analysis:
+<Subject 1> / <Picture 1>: fully_preserved - fully preserved: its actively burning red plasma fire head with orange-gold inner tongues and a warm white luminous center, continuous flickering combustion, soft rising flame tongues, subtle luminous embers, wind-drag during movement, upward licking and dissipation while hovering, oversized oval warm-white eyes with dark red rims, tiny mouth, dark charcoal-gray segmented robot body with red joint accents, body proportions, and glowing circular warm-white chest core with a gold-orange rim must remain consistent. It is lit by the same real lighting as the scene described by the timeline.
+<Subject 2> / <Picture 2>: fully_preserved - fully preserved: its white shell, black face display, yellow eyes and mouth, twin lightning antennae, gold accents, chest emblem, dark articulated limbs, transport backpack and compact body proportions. Its shell and joints reflect the physical lighting of the scene.
+<Subject 3> / <Picture 3>: fully_preserved - fully preserved: its white shell, black face display, blue eyes and mouth, black articulated arms and hands, chest turbine, gold fasteners, blue status lights, tracked base and compact body proportions. Its shell, joints and treads reflect the physical lighting of the scene.
+Each image supplies one character identity; the timeline supplies lighting, actions and blocking.
+
+detailed_description:
+Photorealistic live-action cinema footage shot on a digital cinema camera with prime lenses: natural skin texture with visible pores, real fabric weave, physically accurate reflections, shallow depth of field and subtle film grain.
+
+[Shot 1] A close three-quarter view of the active computation core inside the clean research laboratory. Finn <Picture 3> is screen-right at the control platform; Ray <Picture 2> waits screen-left. In the core, slender candidate Rib structures extend across a translucent mechanical volume. Cyan core light and warm practical lamps reflect on their white shells.
+[0s-2s] The candidates grow smoothly between mounting points. Finn separates both hands to control the evaluation as the camera makes a slow, short arc over Finn's right shoulder.
+[2s-4s] Conflicting candidates turn red and retract. Valid candidates remain, change to cyan and lock into a clean pattern. Finn's blue eyes brighten and the core gives one completion tone.
+[4s-6s] The result contracts into one luminous cartridge. Finn lifts it with both hands and places it into Ray's waiting hands; Ray secures the same cartridge before Finn releases it.
+
+A bright futuristic engineering district beneath a blue sky with white clouds. A glowing cyan transport avenue leads toward a monumental tower surrounded by enormous horizontal rings. Multilevel automated workshops line both sides, combining dense Taiwanese and Hong Kong streetscapes with white-gray metal facades, exposed pipes, glass platforms, and vertical orange engineering signs. Elevated cyan rails connect the buildings. Yellow industrial robot arms operate inside warm-lit workshops, small white service robots move along terraces, and hovering disc-shaped carriers transport luminous translucent cubes. Green rooftop planters soften the architecture. Natural sunlight creates realistic metal and glass reflections.
+
+[Shot 2] At 00:06.000, cut outside to the research doorway beside the central transport avenue. Ray emerges screen-left with the cartridge. Cadi <Picture 1> hovers screen-right beside the open gray-white Creo spatial model. Sunlight comes from upper right; cyan avenue light fills from lower left.
+[6s-8s] Ray takes two quick steps and throws the cartridge in a clean chest-height arc. The camera tracks it laterally. Cadi's warm-white eyes follow it; his red and orange-gold fire streams backward with the catch.
+[8s-9s] Cadi catches it with both hands, turns continuously and guides it into the Creo space. It becomes a narrow cyan data stream entering the mechanical model. Ray watches from the doorway.
+[9s-13s] Approved Rib structures extend into the model and lock at the retained cyan positions. Cadi <Subject 1> (S1), in a bright, playful yet professional childlike Mandarin voice, says: <d>[Mandarin Chinese] Rib 已組裝完成，避開 Connector、風道與禁佈區。</d> His tiny mouth synchronizes precisely while his completely non-solid flame flickers, licks upward and sheds subtle luminous embers. He presents the stable completed assembly through the final frame.
+
+Negative constraints: no subtitles, no readable text, no extra fingers or limbs, no deformed limbs, no duplicate characters, no shaky camera, no looping; no rubbery, gelatinous, solid jelly texture; no solid glass surface on the plasma head.
+
+overall_soundscape:
+Low computation hum, light servos and one completion tone inside; distant machinery, avenue energy, footsteps, throw, catch and assembly-lock sounds outside. Cadi's Mandarin dialogue is close, intelligible and synchronized.
+
+non_diegetic_music:
+N/A.

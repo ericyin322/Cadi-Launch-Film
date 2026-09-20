@@ -230,7 +230,10 @@
       "id": "SEG-11",
       "storyboard": "v01",
       "approval": "storyboard_v01_outdated_character_revision_pending",
-      "h3": "todo",
+      "h3": "a_v01_b_v01_ready_video_unverified",
+      "h3_storyboard_override": "explicit_user_request_2026-09-20",
+      "h3_notes": "segments/SEG-11/minimax-h3-generation-notes-v01.md；A 13秒＋B 13秒，seed 8101；A使用Ray＋Finn，B使用Cadi＋Ray＋Finn；檢查0警告、0失敗。",
+      "h3_total_duration_seconds": 26,
       "environment_description_file": "assets/environments/virtual-factory-description-v01.txt",
       "environment_reference_mode": "text_only",
       "environment_binding": "segments/SEG-11/factory-scene-binding-v01.md",
@@ -238,6 +241,7 @@
       "screenplay_notes": "穿白袍的研究型機器人／研究員改為 Finn；Finn 接收資料、確認限制、執行 Rib 運算並把結果交還 Ray。Ray 的資料往返職能、原事件、台詞與時間不變。",
       "brief": "segments/SEG-11/brief-v02.md",
       "character_references": [
+        "assets/characters/cadi_red.png",
         "assets/characters/agent4-finn.png",
         "assets/characters/agent5-ray.png"
       ]

@@ -1,0 +1,30 @@
+{
+  "a": {
+    "exit_code": 0,
+    "summary": "13 passed, 0 warnings, 0 failed",
+    "characters": 5152,
+    "duration_seconds": 13,
+    "beats_continuous": true,
+    "reference_files_exist": true,
+    "picture_order": [
+      "assets/characters/agent5-ray.png",
+      "assets/characters/agent4-finn.png"
+    ]
+  },
+  "b": {
+    "exit_code": 0,
+    "summary": "14 passed, 0 warnings, 0 failed",
+    "characters": 6697,
+    "duration_seconds": 13,
+    "beats_continuous": true,
+    "reference_files_exist": true,
+    "picture_order": [
+      "assets/characters/cadi_red.png",
+      "assets/characters/agent5-ray.png",
+      "assets/characters/agent4-finn.png"
+    ]
+  },
+  "dialogue_exact_match": true,
+  "factory_description_exact_match_in_b": true,
+  "total_duration_seconds": 26
+}

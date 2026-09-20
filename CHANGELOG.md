@@ -1,3 +1,7 @@
+## 2026-09-20｜SEG-11 H3 A／B v01
+
+- 依使用者直接授權，新增 SEG-11 Ref2VA A／B v01（13＋13秒，共26秒）。A使用Ray、Finn兩圖；B使用Cadi、Ray、Finn三圖。新增分段registry、reference manifest、生成說明及驗證紀錄；完整保留三句對白，A 13項、B 14項通過，均為0警告、0失敗。Storyboard v01角色仍過時，影片未生成。
+
 ## 2026-09-20｜SEG-11 研究員改為 Finn
 
 - 依使用者指示，將 SEG-11 原穿白袍的研究型機器人／研究員改為 Finn，身分參考 `assets/characters/agent4-finn.png`。Finn 接收 Ray 送達的資料、確認限制、執行 Rib 運算並交還結果；台詞、事件、時間與前後段連續性不變。正式主檔升至 v0.11，新增 brief-v02；Storyboard v01 已過時，H3 尚未製作。
