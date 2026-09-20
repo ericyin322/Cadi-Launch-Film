@@ -1,3 +1,7 @@
+## 2026-09-20｜SEG-13 H3 A／B v01
+
+- 依使用者直接授權略過已過時 Storyboard v01，新增 SEG-13 Ref2VA A／B v01。A 15秒，只掛女主角圖，完成凌亂會議室、2:30時鐘、HP筆電指定台詞、Placement 3D投影、長官反應、解說點頭及太陽轉白；B 5秒，只掛紅焰Cadi圖，完成右下飛入、單次眨眼與向上飛離。新增cast registry、reference manifest、生成說明與驗證紀錄；A／B各12項通過，0警告、0失敗。總長20秒，較原15秒時槽多5秒，影片未生成。
+
 ## 2026-09-20｜SEG-13 HP Placement Review 與片尾更新
 
 - 依使用者指示僅更新 SEG-13：女主角抱著銀色 HP 筆電回到凌亂的多人會議室，牆上時鐘顯示 2:30；清出桌面、攤平筆電並向 HP 長官宣布開始 placement review。筆電投射完整 Placement 3D 影像，眾人驚訝；以輕快音樂呈現女主角自信解說與長官點頭，鏡頭再拉出窗外見太陽並轉白，Cadi 從右下角飛入眨眼後向上飛離。新增 `master-storyboard-v0.13.md` 與 `brief-v02.md`，v0.12及Storyboard v01保留；新版 Storyboard 與 H3 待製作，15秒待校時。

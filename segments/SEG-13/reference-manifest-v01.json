@@ -1,0 +1,37 @@
+{
+  "mode": "Ref2VA",
+  "source": "screenplay/master-storyboard-v0.13.md with explicit user authorization to generate H3 before a revised storyboard",
+  "seed": 8301,
+  "aspect_ratio": "16:9",
+  "total_duration_seconds": 20,
+  "timing_note": "A 15 seconds plus B 5 seconds; exceeds the current 15-second story slot and requires final-film retiming.",
+  "environment_reference_mode": "text_only",
+  "segments": {
+    "seg13-a": {
+      "duration_seconds": 15,
+      "prompt": "segments/SEG-13/seg13-a-minimax-h3-prompt-v01.txt",
+      "images": [
+        {
+          "picture": 1,
+          "slot": "ref_image_0",
+          "asset": "heroine",
+          "file": "assets/characters/heroine-photo-reference-v01.png",
+          "role": "identity"
+        }
+      ]
+    },
+    "seg13-b": {
+      "duration_seconds": 5,
+      "prompt": "segments/SEG-13/seg13-b-minimax-h3-prompt-v01.txt",
+      "images": [
+        {
+          "picture": 1,
+          "slot": "ref_image_0",
+          "asset": "cadi",
+          "file": "assets/characters/cadi_red.png",
+          "role": "identity"
+        }
+      ]
+    }
+  }
+}

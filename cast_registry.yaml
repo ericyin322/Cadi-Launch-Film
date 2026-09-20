@@ -487,3 +487,24 @@ segments:
     prompt_registry: segments/SEG-12/cast-registry-v01.yaml
     beat: 完整Placement布局拉遠成辦公室電腦畫面；後方機位中女主角起身、螢幕關閉
     continues_from: seg12-a
+
+  - id: seg13-a
+    scene: 13
+    seed: 8301
+    duration_seconds: 15
+    cast:
+    - heroine
+    prompt: segments/SEG-13/seg13-a-minimax-h3-prompt-v01.txt
+    prompt_registry: segments/SEG-13/cast-registry-v01.yaml
+    beat: 女主角抱HP筆電回到凌亂會議室；2:30時鐘；清桌攤平筆電並說指定台詞；Placement 3D投影、驚訝反應、自信解說與點頭；拉出窗外見太陽並轉白
+    continues_from: seg12-b
+  - id: seg13-b
+    scene: 13
+    seed: 8301
+    duration_seconds: 5
+    cast:
+    - cadi
+    prompt: segments/SEG-13/seg13-b-minimax-h3-prompt-v01.txt
+    prompt_registry: segments/SEG-13/cast-registry-v01.yaml
+    beat: 白畫面中Cadi從右下角飛入，俏皮眨眼後向上飛離
+    continues_from: seg13-a

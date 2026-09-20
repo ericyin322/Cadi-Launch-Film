@@ -1,0 +1,27 @@
+subject_definitions:
+<Subject 1> is Cadi, a small flying robot mascot. Its head is composed of actively burning, ethereal red plasma fire with orange-gold inner tongues and a warm white luminous center that continuously flickers, dances, and undulates with rising wisps and subtle luminous embers (an energetic plasma flame, completely non-solid, with zero gelatinous or jelly-like surface tension). Within the dynamic flame sit two oversized oval warm-white eyes with dark red rims and a tiny mouth, atop a dark charcoal-gray segmented robot body with red joint accents and a glowing circular warm-white chest core with a gold-orange rim. Its design, proportions, and colors follow <Picture 1>.
+
+summary:
+[reference generation] A 5-second pure-white end tag features <Subject 1> flying diagonally into frame from the lower-right corner, pausing for one playful wink toward the camera, then accelerating upward and leaving through the top edge while the upbeat instrumental ending resolves.
+
+retention_analysis:
+<Subject 1> / <Picture 1>: fully_preserved - fully preserved: its actively burning red plasma fire head with orange-gold inner tongues and a warm white luminous center, continuous flickering combustion, soft rising flame tongues, subtle luminous embers, wind-drag during movement, upward licking and dissipation while hovering, oversized oval warm-white eyes with dark red rims, tiny mouth, dark charcoal-gray segmented robot body with red joint accents, body proportions, and glowing circular warm-white chest core with a gold-orange rim must remain consistent. It is lit by the same real lighting as the scene described by the timeline.
+The image supplies the mascot identity, colors and proportions. The timeline supplies the pure-white field, lower-right entrance, playful wink, upward exit, flight timing and camera lock-off.
+
+detailed_description:
+Photorealistic live-action cinema footage shot on a digital cinema camera with prime lenses: natural skin texture with visible pores, real fabric weave, physically accurate reflections, shallow depth of field and subtle film grain.
+
+[Shot 1] Begin on the evenly illuminated pure-white field inherited from the preceding sunlight bloom. The frame is completely still and the camera remains locked. Cadi <Picture 1> enters from beyond the lower-right corner on a smooth diagonal flight path toward the lower-right third of frame.
+[0s-1s] <Subject 1> rises into clear view from the lower-right corner. Its dark charcoal-gray segmented body tilts slightly into the flight, its red joint accents and gold-orange chest-core rim remain crisp, and its circular warm-white chest core glows steadily.
+[1s-2s] It decelerates into a buoyant hover at the lower-right third while facing the camera. The actively burning red plasma head streams backward, with orange-gold inner tongues around the warm-white center, soft trailing tips and a few subtle luminous embers dissipating behind it.
+[2s-3s] It turns its face squarely toward the viewer and performs one unmistakably playful wink: one warm-white eye closes fully, holds for a fraction of a second, then reopens while the other eye remains open. Its tiny mouth forms a cheerful smile. The completely non-solid flame resumes upward licking, continuous flickering and gentle tip dissipation.
+[3s-4s] Immediately after the eye reopens, Cadi pitches upward and accelerates in a clean rising arc through the center-right of frame. Its arms tuck slightly beside the body, and the red plasma fire stretches into a longer wind-dragged plume.
+[4s-5s] The glowing chest core leaves a brief soft warm reflection in the white field as Cadi exits completely through the top edge before the final half-second. Hold the empty pure-white frame as the music lands on its final bright note.
+
+Negative constraints: no subtitles, no captions, no watermark, no extra limbs, no duplicated subject, no deformed body, no shaky camera, no looping; no rubbery, gelatinous, solid jelly texture; no solid glass surface on the plasma head.
+
+overall_soundscape:
+A light, precise hovering resonance accompanies the entrance and steadies during the wink. A soft rising air sweep follows the upward acceleration, ending cleanly when the subject exits. No dialogue.
+
+non_diegetic_music:
+Continue the light upbeat instrumental cue from the preceding segment without a restart. Muted guitar, soft hand percussion and warm marimba accents carry the entrance; one playful high marimba note aligns with the wink, followed by a short rising flourish and a clean bright final chord as the frame becomes empty white.

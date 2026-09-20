@@ -1,0 +1,32 @@
+subject_definitions:
+<Subject 1> is the female protagonist, a 20-something East Asian female mechanical R&D engineer. She has long, straight, center-parted black hair and wears a tailored taupe-gray blazer, an ivory crew-neck top, and loose light-colored trousers. She is professional, composed, and places a high value on immaculate grooming. Her face, hair, and clothing follow <Picture 1>.
+
+summary:
+[reference generation] A 15-second live-action meeting-room sequence follows <Subject 1> carrying a silver HP laptop into a crowded, disordered conference room at 2:30. She clears a space, opens the laptop flat while delivering the specified Mandarin line, reveals a luminous full Placement model, confidently explains it as surprised senior executives nod, then the camera pulls outside toward the sun until the image becomes pure white.
+
+retention_analysis:
+<Subject 1> / <Picture 1>: fully_preserved - fully preserved: her facial features, long straight center-parted black hair, tailored taupe-gray blazer, ivory crew-neck top, loose light-colored trousers, body proportions, professional composure, and immaculate grooming must remain consistent. She is a real person with real skin, real fabric and real lighting inside the scene described by the timeline.
+The image supplies the engineer's identity and clothing. The timeline supplies the crowded conference room, scattered documents, disordered tabletop, analog clock, silver HP laptop, senior executives, airborne Placement model, reactions, camera path and sunlight transition.
+
+detailed_description:
+Photorealistic live-action cinema footage shot on a digital cinema camera with prime lenses: natural skin texture with visible pores, real fabric weave, physically accurate reflections, shallow depth of field and subtle film grain.
+
+[Shot 1] A cool-gray corporate conference room in natural mid-afternoon light. Eight senior East Asian corporate executives in restrained business attire sit around a long table. Loose engineering documents cover much of the floor; stacked reports, folders, pens and cups make the tabletop visibly disordered. A round analog wall clock is clearly framed above the group, with the minute hand pointing straight down at six and the hour hand halfway between two and three, unmistakably showing 2:30. The female protagonist <Picture 1> enters through the door at screen-left carrying a closed silver HP laptop against her torso, the round chrome HP logo centered on the outward-facing lid.
+[0s-3s] The camera tracks backward at chest height as <Subject 1> walks directly toward the near end of the table with quick, controlled steps. Her expression is focused and newly confident. The executives turn toward her. Papers on the floor remain scattered and still; the clock remains visible long enough to read the hand positions.
+[3s-5s] She reaches the table, lowers the closed laptop onto a stable patch, and uses her free hand to slide a loose stack of documents and two pens sideways, clearing one rectangular area without throwing anything. The camera arcs slightly to her front three-quarter side, keeping her face, hands and the laptop visible.
+[5s-9s] In one continuous action, she opens the silver laptop hinge through 180 degrees until the keyboard and display lie flat across the cleared tabletop. While clearing the last page and flattening the laptop, <Subject 1> (S1), in a warm, composed adult Mandarin voice with crisp professional pacing, addresses the seated executives: <d>[Mandarin Chinese] HP的各位長官久等了，我們立刻開始placement review吧</d> Her lips synchronize precisely, her gaze moves across the group, and she finishes the sentence exactly as both palms release the fully opened laptop.
+
+[Shot 2] At 00:09.000, cut to a low tabletop three-quarter view facing the laptop and the executives beyond it.
+[9s-11s] A concentrated warm-white beam rises from the flat laptop display and unfolds into a complete luminous 3D Placement model above the table: processor, memory modules, storage module, cooling assembly and the fixed cooling fan with one rectangular structural Rib, all held in one coherent engineering arrangement. Cyan-white guide light reflects naturally on faces, glassware and brushed metal. The executives lean back, widen their eyes and exchange unmistakably surprised expressions before looking up at the model.
+[11s-13s] The camera begins a smooth accelerating dolly backward into a wide view. Bright, light instrumental music enters. The engineer stands beside the floating model with relaxed shoulders and an assured smile, pointing to successive areas as she gives an inaudible confident explanation under the music. The executives follow her gestures and nod repeatedly in agreement.
+
+[Shot 3] At 00:13.000, maintain the backward motion and pass cleanly through the conference-room window into the exterior.
+[13s-15s] The room rapidly recedes behind reflective glass while the camera tilts upward toward the bright afternoon sun. Sunlight blooms across the lens, expands smoothly from warm gold to clean white, and fills the entire frame by exactly 15 seconds. End on an evenly illuminated pure-white field with the music continuing across the transition.
+
+Negative constraints: no subtitles, no captions, no watermark, no extra fingers or limbs, no deformed hands, no duplicate principal subject, no shaky camera, no looping.
+
+overall_soundscape:
+Quiet conference-room ventilation, subdued room murmur at the entrance, measured footsteps, paper sliding, a soft laptop hinge movement and a restrained projection activation tone. The specified Mandarin line is close, intelligible and precisely synchronized. Once the music enters, the engineer's later explanation remains visually apparent but is inaudible; only faint room reactions and soft nodding movement remain beneath the score. Exterior air replaces the room tone during the pull through the window.
+
+non_diegetic_music:
+At exactly 11 seconds, a light, upbeat instrumental cue begins with crisp muted guitar, soft hand percussion and warm marimba accents at a moderate tempo. It supports the confident explanation and nodding montage, then sustains one bright resolving chord through the sunlight bloom and across the final white frame.
