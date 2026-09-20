@@ -1,0 +1,47 @@
+{
+  "mode": "Ref2VA",
+  "source": "assets/blender/seg09-creo-dock-v06/creo-dock-animation-v06.blend",
+  "segments": {
+    "a": 13,
+    "b": 13
+  },
+  "seed": 7901,
+  "images": [
+    {
+      "picture": 1,
+      "slot": "ref_image_0",
+      "asset": "cadi",
+      "file": "assets/characters/cadi_red.png",
+      "role": "identity"
+    },
+    {
+      "picture": 2,
+      "slot": "ref_image_1",
+      "asset": "creo_robot",
+      "file": "assets/characters/creo-robot-concept/creo-robot-concept-v01.png",
+      "role": "identity"
+    },
+    {
+      "picture": 3,
+      "slot": "ref_image_2",
+      "asset": "catch_anchor",
+      "file": "segments/SEG-09/references-v01/picture-03-fan-catch-v01.png",
+      "role": "pose_and_scale"
+    },
+    {
+      "picture": 4,
+      "slot": "ref_image_3",
+      "asset": "layout_anchor",
+      "file": "segments/SEG-09/references-v01/picture-04-carry-layout-wide-v01.png",
+      "role": "spatial_layout_and_carrying"
+    },
+    {
+      "picture": 5,
+      "slot": "ref_image_4",
+      "asset": "arrival_anchor",
+      "file": "segments/SEG-09/references-v01/picture-05-cadi-fan-placed-v01.png",
+      "role": "final_composition"
+    }
+  ],
+  "picture4_note": "v06第396幀動作狀態，另以拉遠機位重渲染以完整呈現布局；非原影片逐幀擷取。"
+}

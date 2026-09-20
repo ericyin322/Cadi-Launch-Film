@@ -1,0 +1,37 @@
+subject_definitions:
+<Subject 1> is Cadi, a small flying robot mascot. Its head is composed of actively burning, ethereal red plasma fire with orange-gold inner tongues and a warm white luminous center that continuously flickers, dances, and undulates with rising wisps and subtle luminous embers (an energetic plasma flame, completely non-solid, with zero gelatinous or jelly-like surface tension). Within the dynamic flame sit two oversized oval warm-white eyes with dark red rims and a tiny mouth, atop a dark charcoal-gray segmented robot body with red joint accents and a glowing circular warm-white chest core with a gold-orange rim. Its design, proportions, and colors follow <Picture 1>.
+<Subject 2> is Creo Robot, a massive industrial humanoid with broad rounded off-white shoulder armor, heavy elongated forearms, large articulated dark-metal hands, short sturdy legs, exposed gunmetal joints, green joint rings, a small rectangular head with a dark face panel and a single vertical warm-white optic, and a black-and-green cube emblem on the shoulder. Its appearance follows <Picture 2>; the lead carrier and four fellow carriers share this identity.
+<Picture 3> is the lead carrier's giant-fan catch pose and relative-scale anchor.
+<Picture 4> is the elevated wide spatial anchor for five carriers, their cargo, the rectangular placement plane and its component locations.
+<Picture 5> is the spatial anchor for Cadi beside the installed right-hand fan and the fan's final footprint.
+
+summary:
+[reference generation] A 13-second continuation: five Creo carriers finish transporting and placing their components almost together, then withdraw; the camera follows Cadi upward over the complete layout and down beside the installed fan.
+
+retention_analysis:
+<Subject 1> / <Picture 1>: fully_preserved - preserve identity, body proportions, red-orange burning plasma, warm-white eyes and core, dark armor and red joints. Flame tongues trail in flight and rise and dissipate during hovering; realistic shared scene lighting.
+<Subject 2> / <Picture 2>: fully_preserved - preserve the shoulder silhouette, small head, vertical optic, green accents, articulated hands and heavy mechanical proportions on all five carriers.
+<Picture 3>: partially_preserved - use the supported fan orientation, size relationship and hand contact as the physical reference for the lead carrier and its cargo.
+<Picture 4>: partially_preserved - preserve the relative footprint and arrangement of components, five work routes and wide viewing direction. Current component positions follow the timed transport and placement states.
+<Picture 5>: partially_preserved - preserve Cadi-to-fan scale and the installed fan footprint. Its settled relationship is reached at the end of the placement sequence.
+Character identity comes from <Picture 1> and <Picture 2>. References <Picture 3>, <Picture 4> and <Picture 5> supply spatial relationships and poses. Surfaces are physically detailed metal, with realistic contact shadows and reflections.
+
+detailed_description:
+Photorealistic live-action cinema footage shot on a digital cinema camera with prime lenses: natural skin texture with visible pores, real fabric weave, physically accurate reflections, shallow depth of field and subtle film grain.
+Inside a monumental engineering dock: white-gray structural metal, exposed service pipes, green structural accents, warm industrial lights and soft cyan fill reflecting across the floor. Deep side aisles frame a large rectangular placement platform. Use photographic industrial materials and coherent real lighting throughout.
+[Shot 1] A continuous rising tracking shot inside the same dock. Cadi <Picture 1> is already flying ahead; the five Creo Robots <Picture 2> are already striding toward their mapped placement locations. Preserve their forward momentum and stable cargo support from the previous motion.
+[0s-2s] Follow Cadi deeper into the work bay, then begin a smooth upward crane. Reveal all five carriers in the spatial arrangement of <Picture 4>. The lead robot carries the same right-hand fan supported as in <Picture 3>. The other four carry the left memory module, CPU plate, SSD and upper cooling component. Their receiving footprints remain clear. Preserve the platform's orientation and the relative component positions.
+[2s-4s] Continue rising while the carriers reach their respective receiving locations and align each component horizontally over its own footprint. Both hands remain under each load. Preserve a single continuous instance of every transported component, with coherent rigid geometry and steady scale. The other installed components stay fixed on the platform.
+[4s-5s] In one closely coordinated placement wave, the left memory module contacts its receiving position first, the CPU plate follows, then the lead right-hand fan, the SSD and the upper cooling component. Complete all five placements within this one-second interval. Show a controlled final vertical descent, physical contact, subtle weight transfer and a short settling hold. Each piece now occupies its own correct position in the complete layout.
+[5s-7s] With all five components resting securely, the robots unload their hands, open their grip, withdraw their forearms and step backward. Their hands separate visibly from the stationary components. The lead fan remains exactly at the right-hand footprint shown in <Picture 5>. The four fellow carriers continue to the platform's outer aisles, leaving the completed layout clearly visible.
+[7s-9s] Reach a high, wide overhead view that holds the entire rectangular placement and both dock aisles inside frame. Cadi hovers above the layout as his non-solid flame flickers upward. Show the complete arrangement: the long rear strip, both fan housings, paired memory modules, CPU plate, SSD, cooling elements and surrounding connectors, all fixed in the reference positions established by <Picture 4>. All five carriers have empty hands and stand clear of the installed pieces.
+[9s-11s] The camera follows Cadi in a smooth descending arc toward the installed right-hand fan. Preserve the same side of the platform and continuous orientation. Cadi's red-orange flame streams upward against the descent; the installed fan and every neighboring component remain motionless.
+[11s-13s] Ease into the final composition of <Picture 5>: Cadi hovering beside the fully placed fan, warm-white eyes directed toward its housing, with a small approving gesture. The fan is already seated and stable throughout this arrival. Settle the camera and hold the composition while the flame tongues continue to flicker and dissipate. The completed placement is maintained through the end.
+
+Negative constraints: no subtitles, no extra fingers or limbs, no deformed limbs, no shaky camera, no looping; no rubbery, gelatinous, solid jelly texture; no solid glass surface on the plasma head.
+
+overall_soundscape:
+N/A. Silent throughout.
+
+non_diegetic_music:
+N/A.

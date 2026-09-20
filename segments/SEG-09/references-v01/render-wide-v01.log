@@ -1,0 +1,8 @@
+00:00.047  reports          | WARNING Unable to open 'C:\Users\u\AppData\Roaming\Blender Foundation\Blender\5.2\config\userpref.blend': Permission denied
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+00:00.328  blend            | Read blend: "C:\Users\u\Documents\Codex\Cadi-Launch-Film\assets\blender\seg09-creo-dock-v06\creo-dock-animation-v06.blend"
+00:01.875  render           | Saved: 'C:\Users\u\Documents\Codex\Cadi-Launch-Film\segments\SEG-09\references-v01\picture-04-carry-layout-wide-v01.png'
+Unable to delete file
+Unable to delete file
+
+Blender quit

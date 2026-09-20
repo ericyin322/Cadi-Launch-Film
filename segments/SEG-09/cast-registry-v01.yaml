@@ -1,0 +1,116 @@
+project:
+  title: Cadi Launch Film
+  aspect_ratio: '16:9'
+  frames_per_segment: 依實際節點13秒設定
+  label_style: paired
+  section_style: detailed
+  visual_style: 'Photorealistic live-action cinema footage shot on a digital cinema
+    camera with prime lenses: natural skin texture with visible pores, real fabric
+    weave, physically accurate reflections, shallow depth of field and subtle film
+    grain.'
+  virtual_factory:
+    description_file: assets/environments/virtual-factory-description-v01.txt
+    usage_file: assets/environments/virtual-factory-usage-v01.md
+    reference_mode: text_only
+    applies_to:
+    - SEG-04
+    - SEG-05
+    - SEG-06
+    - SEG-07
+    - SEG-08
+    - SEG-09
+    - SEG-10
+    - SEG-11
+    - SEG-12
+    environment_description: A bright futuristic engineering district beneath a blue
+      sky with white clouds. A glowing cyan transport avenue leads toward a monumental
+      tower surrounded by enormous horizontal rings. Multilevel automated workshops
+      line both sides, combining dense Taiwanese and Hong Kong streetscapes with white-gray
+      metal facades, exposed pipes, glass platforms, and vertical orange engineering
+      signs. Elevated cyan rails connect the buildings. Yellow industrial robot arms
+      operate inside warm-lit workshops, small white service robots move along terraces,
+      and hovering disc-shaped carriers transport luminous translucent cubes. Green
+      rooftop planters soften the architecture. Natural sunlight creates realistic
+      metal and glass reflections.
+    establishing_camera: The camera slowly glides forward, keeping the central tower
+      centered as the city operates in an orderly rhythm.
+    camera_policy: Use establishing_camera only for district establishing views; preserve
+      shot-specific camera directions.
+    interior_policy: Use only visible materials and lighting for interior-only shots;
+      use the district paragraph in street-visible shots.
+assets:
+  cadi:
+    summon_tokens:
+    - cadi
+    - mascot
+    - plasma
+    - flame head
+    - robot
+    - chest core
+    priority: 1
+    file: assets/characters/cadi_red.png
+    role: identity
+    binding: Its design, proportions, and colors follow
+    canonical: Cadi, a small flying robot mascot. Its head is composed of actively
+      burning, ethereal red plasma fire with orange-gold inner tongues and a warm
+      white luminous center that continuously flickers, dances, and undulates with
+      rising wisps and subtle luminous embers (an energetic plasma flame, completely
+      non-solid, with zero gelatinous or jelly-like surface tension). Within the dynamic
+      flame sit two oversized oval warm-white eyes with dark red rims and a tiny mouth,
+      atop a dark charcoal-gray segmented robot body with red joint accents and a
+      glowing circular warm-white chest core with a gold-orange rim.
+    retention: 'fully preserved: its actively burning red plasma fire head with orange-gold
+      inner tongues and a warm white luminous center, continuous flickering combustion,
+      soft rising flame tongues, subtle luminous embers, wind-drag during movement,
+      upward licking and dissipation while hovering, oversized oval warm-white eyes
+      with dark red rims, tiny mouth, dark charcoal-gray segmented robot body with
+      red joint accents, body proportions, and glowing circular warm-white chest core
+      with a gold-orange rim must remain consistent. It is lit by the same real lighting
+      as the scene described by the timeline.'
+    extra_negatives:
+    - rubbery, gelatinous, solid jelly texture
+    - solid glass surface
+  creo_robot:
+    priority: 2
+    file: assets/characters/creo-robot-concept/creo-robot-concept-v01.png
+    canonical: Creo Robot, a massive industrial humanoid with broad rounded off-white
+      shoulder armor, heavy elongated forearms, large articulated dark-metal hands,
+      short sturdy legs, exposed gunmetal joints, green joint rings, a small rectangular
+      head with a dark face panel and a single vertical warm-white optic, and a black-and-green
+      cube emblem on the shoulder.
+    role: identity
+  catch_anchor:
+    priority: 3
+    file: segments/SEG-09/references-v01/picture-03-fan-catch-v01.png
+    role: pose_and_scale
+  layout_anchor:
+    priority: 4
+    file: segments/SEG-09/references-v01/picture-04-carry-layout-wide-v01.png
+    role: spatial_layout_and_carrying
+  arrival_anchor:
+    priority: 5
+    file: segments/SEG-09/references-v01/picture-05-cadi-fan-placed-v01.png
+    role: final_composition
+segments:
+- id: seg09-a
+  scene: 9
+  seed: 7901
+  duration_seconds: 13
+  cast:
+  - cadi
+  - creo_robot
+  - catch_anchor
+  - layout_anchor
+  - arrival_anchor
+  prompt: segments/SEG-09/seg09-a-minimax-h3-prompt-v01.txt
+- id: seg09-b
+  scene: 9
+  seed: 7901
+  duration_seconds: 13
+  cast:
+  - cadi
+  - creo_robot
+  - catch_anchor
+  - layout_anchor
+  - arrival_anchor
+  prompt: segments/SEG-09/seg09-b-minimax-h3-prompt-v01.txt

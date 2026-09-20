@@ -1,6 +1,6 @@
 {
   "project": "Cadi-Launch-Film",
-  "updated": "2026-09-19",
+  "updated": "2026-09-20",
   "duration_seconds": 300,
   "audience": [
     "上級",
@@ -154,18 +154,40 @@
       "id": "SEG-09",
       "storyboard": "v01",
       "approval": "pending_batch_review",
-      "h3": "todo",
+      "h3": "a_v01_b_v01_ready_video_unverified",
       "environment_description_file": "assets/environments/virtual-factory-description-v01.txt",
       "environment_reference_mode": "text_only",
       "environment_binding": "segments/SEG-09/factory-scene-binding-v01.md",
-      "blender_concept": {
-        "version": "v01",
-        "status": "concept_previs_pending_user_review",
-        "concept": "方案二：重型軌道船塢進站，Creo Robot專用操作",
-        "blend": "assets/blender/seg09-creo-dock-v01/creo-dock-v01.blend",
-        "preview": "assets/blender/seg09-creo-dock-v01/creo-dock-previs-v01.mp4",
-        "notes": "獨立12秒白模預演；未替換正式劇本與Storyboard；未製作H3。"
-      }
+      "blender_concept": "seg09-creo-dock-v06 五組零件約同時落位，26秒動畫預演；v01–v05保留",
+      "blender_previs": {
+        "version": "v06",
+        "directory": "assets/blender/seg09-creo-dock-v06",
+        "blend": "assets/blender/seg09-creo-dock-v06/creo-dock-animation-v06.blend",
+        "video": "assets/blender/seg09-creo-dock-v06/seg09-creo-dock-animation-v06.mp4",
+        "fps": 24,
+        "frames": 624,
+        "duration_seconds": 26,
+        "status": "rendered_pending_user_review",
+        "layout_source": "assets/blender/cpu-motion-v07/01-scatter-rise-v07.blend frame360",
+        "revision": "其餘四台Creo同步搬運並放置，五組零件於17–18秒落位，Cadi抵達時全部已完成；無重複零件。",
+        "visibility_verified_frames": 624,
+        "fan_placement_frame": 420,
+        "fan_release_frame": 446,
+        "worker_placement_frames": [
+          408,
+          414,
+          426,
+          432
+        ]
+      },
+      "h3_storyboard_override": "explicit_user_request_after_blender_v06_2026-09-20",
+      "h3_prompts": [
+        "segments/SEG-09/seg09-a-minimax-h3-prompt-v01.txt",
+        "segments/SEG-09/seg09-b-minimax-h3-prompt-v01.txt"
+      ],
+      "reference_manifest": "segments/SEG-09/reference-manifest-v01.json",
+      "h3_notes": "segments/SEG-09/minimax-h3-generation-notes-v01.md",
+      "brief": "segments/SEG-09/brief-v02.md"
     },
     {
       "id": "SEG-10",

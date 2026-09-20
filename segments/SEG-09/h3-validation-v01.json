@@ -1,0 +1,19 @@
+{
+  "a": {
+    "passed": 13,
+    "warnings": 2,
+    "failed": 0,
+    "characters": 6425
+  },
+  "b": {
+    "passed": 13,
+    "warnings": 2,
+    "failed": 0,
+    "characters": 6966
+  },
+  "warnings_explained": [
+    "使用者指定5張圖，保留原順序",
+    "Picture3–5為構圖錨點，非額外角色身份"
+  ],
+  "video_generated": false
+}
