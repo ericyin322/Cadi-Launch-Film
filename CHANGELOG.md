@@ -1,3 +1,7 @@
+## 2026-09-21｜SEG-08 H3 A／B v01
+
+- 依使用者直接要求，略過尚未製作的新版 Storyboard，新增 SEG-08 Ref2VA A／B v01（12＋10秒，共22秒，seed 7801）。A 為 Cadi 托起整片發光布局平面平移到漂浮躺椅前並微傾展示、女主角坐起前傾端詳、食指空中筆畫並咕噥 DLG-20；B 為金黃零件水平側移一小段後停住維持亮顯、其餘零件不動，接女主角 DLG-21 與 Cadi DLG-22。兩段 cast 只有女主角與 Cadi（ref_image_0／ref_image_1），drop 不入鏡且提示詞一字不提；工廠維持純文字場景。B 的 `<Video 1>` 明寫只用 02-cpu-move-highlight-v07 的移動與停住段，零件停在新位置。新增 `cast-registry-v01.yaml`、`reference-manifest-v01.json` 與生成說明 v01；A／B 各13項通過，0警告、0失敗。影片未生成。
+
 ## 2026-09-21｜SEG-08 女主角微調 CPU 並確認 placement
 
 - 依使用者指示改寫 SEG-08：Cadi 把 drop 在 SEG-07 排好的布局（一整片發光平面）帶到女主角面前，女主角坐起端詳、以食指朝布局筆畫並咕噥「或許 cpu 往旁邊移動一點……」；CPU 金黃亮顯水平側移後停在新位置，女主角思考後說「好，使用這一版 placement。」Cadi 回「好的，我來啟動 Creo。」取消原上移 3 mm、限制條件與重算、新舊結果比較；新增鏡頭29A，DLG-20–22 改寫、DLG-23 停用不重用。正式主檔升至 v0.15（v0.14 保留），新增 `segments/SEG-08/brief-v02.md`；動作參考 `assets/blender/cpu-motion-v07/02-cpu-move-highlight-v07.mp4`，只採用移動與停住段（約0.6–1.6秒），回位段不使用。drop 不入鏡。SEG-09 僅同步鏡頭31 承接句與 08→09 聲音橋，動作與26秒不變。Storyboard v01 已過時，22 秒待校時，H3 未製作。

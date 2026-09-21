@@ -145,7 +145,7 @@
       "id": "SEG-08",
       "storyboard": "v01",
       "approval": "storyboard_v01_outdated_revision_pending",
-      "h3": "todo",
+      "h3": "a_v01_b_v01_ready_video_unverified",
       "environment_description_file": "assets/environments/virtual-factory-description-v01.txt",
       "environment_reference_mode": "text_only",
       "environment_binding": "segments/SEG-08/factory-scene-binding-v01.md",
@@ -171,7 +171,15 @@
       "motion_reference_usage": "只採用移動＋停住段（約0.6–1.6秒）；1.6秒後CPU回位段不使用，CPU停在新位置。",
       "absent_characters": [
         "drop"
-      ]
+      ],
+      "h3_storyboard_override": "explicit_user_request_after_text_revision_2026-09-21",
+      "h3_notes": "segments/SEG-08/minimax-h3-generation-notes-v01.md；A 12秒＋B 10秒，seed 7801，heroine＋cadi 兩圖，drop 不入鏡",
+      "h3_prompts": [
+        "segments/SEG-08/seg08-a-minimax-h3-prompt-v01.txt",
+        "segments/SEG-08/seg08-b-minimax-h3-prompt-v01.txt"
+      ],
+      "reference_manifest": "segments/SEG-08/reference-manifest-v01.json",
+      "prompt_registry": "segments/SEG-08/cast-registry-v01.yaml"
     },
     {
       "id": "SEG-09",
