@@ -371,8 +371,8 @@ segments:
     cast:
     - heroine
     - cadi
-    prompt: segments/SEG-07/seg07-b-minimax-h3-prompt-v06.txt
-    prompt_registry: segments/SEG-07/cast-registry-v06.yaml
+    prompt: segments/SEG-07/seg07-b-minimax-h3-prompt-v07.txt
+    prompt_registry: segments/SEG-07/cast-registry-v07.yaml
     reference_images:
     - label: <Picture 3>
       file: ''
