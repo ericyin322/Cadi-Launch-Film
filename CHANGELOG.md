@@ -1,3 +1,10 @@
+## 2026-09-21｜人物設定正式併入 master storyboard v0.16
+
+- 新建 `screenplay/master-storyboard-v0.16.md`，保留 v0.15。鎖定設定更新為紅焰 Cadi，並納入 hapa、hana、drop、Ray、Finn 的身分與資產基準。
+- SEG-05 正式採用已授權版本：hapa 回答後向左飛離、hana 回答後向右飛離；女主角不出場；末鏡攝影機環繞 Cadi 約180度，Cadi 準備前往下一站。
+- 為維持必要連續性，SEG-06 正式承接 Cadi 單獨抵達 drop 站、hapa／hana 親自交付資料後飛離，以及 drop 開始彙整。同步更新時長表、事件覆蓋、跨段連續性與技術模組名稱。
+- README 與 PROJECT_STATE 的唯一劇情來源切換至 v0.16；既有 Storyboard、H3 與版本快照不回改。
+
 ## 2026-09-21｜SEG-08 H3 A／B v01
 
 - 依使用者直接要求，略過尚未製作的新版 Storyboard，新增 SEG-08 Ref2VA A／B v01（12＋10秒，共22秒，seed 7801）。A 為 Cadi 托起整片發光布局平面平移到漂浮躺椅前並微傾展示、女主角坐起前傾端詳、食指空中筆畫並咕噥 DLG-20；B 為金黃零件水平側移一小段後停住維持亮顯、其餘零件不動，接女主角 DLG-21 與 Cadi DLG-22。兩段 cast 只有女主角與 Cadi（ref_image_0／ref_image_1），drop 不入鏡且提示詞一字不提；工廠維持純文字場景。B 的 `<Video 1>` 明寫只用 02-cpu-move-highlight-v07 的移動與停住段，零件停在新位置。新增 `cast-registry-v01.yaml`、`reference-manifest-v01.json` 與生成說明 v01；A／B 各13項通過，0警告、0失敗。影片未生成。
