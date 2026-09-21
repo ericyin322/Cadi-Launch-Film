@@ -354,14 +354,14 @@ segments:
     cast:
     - cadi
     - drop
-    prompt: segments/SEG-07/seg07-a-minimax-h3-prompt-v03.txt
-    prompt_registry: segments/SEG-07/cast-registry-v03.yaml
+    prompt: segments/SEG-07/seg07-a-minimax-h3-prompt-v04.txt
+    prompt_registry: segments/SEG-07/cast-registry-v04.yaml
     reference_videos:
     - label: <Video 1>
       file: assets/blender/cpu-motion-v07/01-scatter-rise-v07.mp4
       role: scatter_motion_and_final_layout
     environment: virtual_factory
-    environment_description_file: assets/environments/virtual-factory-description-v01.txt
+    environment_description_file: assets/environments/virtual-factory-description-v02.txt
 
   - id: seg07-b
     scene: 7
@@ -371,16 +371,16 @@ segments:
     cast:
     - heroine
     - cadi
-    - drop
-    prompt: segments/SEG-07/seg07-b-minimax-h3-prompt-v03.txt
-    prompt_registry: segments/SEG-07/cast-registry-v03.yaml
-    reference_videos:
-    - label: <Video 1>
-      file: assets/blender/cpu-motion-v07/01-scatter-rise-v07.mp4
-      role: final_layout
+    prompt: segments/SEG-07/seg07-b-minimax-h3-prompt-v06.txt
+    prompt_registry: segments/SEG-07/cast-registry-v06.yaml
+    reference_images:
+    - label: <Picture 3>
+      file: ''
+      status: pending_user_reference
+      role: exact_final_layout
     continues_from: seg07-a
     environment: virtual_factory
-    environment_description_file: assets/environments/virtual-factory-description-v01.txt
+    environment_description_file: assets/environments/virtual-factory-description-v02.txt
 
   - id: seg04-a
     scene: 4

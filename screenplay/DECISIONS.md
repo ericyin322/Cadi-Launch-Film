@@ -1,5 +1,11 @@
 # 已確認創作決策
 
+- 2026-09-21：依使用者要求，SEG-07 B H3 v06 將最終布局參考由 Video 1 改為待提供的 Picture 3；B 不再引用或上傳影片。女主角站姿、Cadi、場景 v02、12秒與 DLG-19 保留，drop 不出場。
+
+- 2026-09-21：依使用者修正，SEG-07 B 升為 H3 v05，只保留站姿女主角與 Cadi；移除 drop 的所有文字、動作、Picture／Subject 索引及上傳圖片。A v04、B 12秒、seed 7701、場景 v02、台詞及完成布局影片參考保留；新增 registry／manifest／生成說明 v05，影片未生成。
+
+- 2026-09-21：依使用者要求新增 SEG-07 H3 A／B v04。兩段採最新虛擬工廠場景描述 v02；B 段女主角改為站在工作區近左側觀看布局，移除躺椅與坐姿。這是 SEG-07 H3 製作覆寫，其餘劇情事件、14＋12秒、seed 7701、DLG-19、圖片順序及動作參考不變；A 13項、B 14項通過，均0警告、0失敗，影片未生成。
+
 - 2026-09-21：依使用者指示將 SEG-07 已確認修訂正式套用至 master storyboard，建立 v0.17 並保留 v0.16。鏡頭24–27正式改為 drop 查看資料、展開立體影像、全部零件灑落至水平平面並排成完整發光布局，Cadi 邀請躺椅上的女主角觀看；DLG-18 停用不重用，DLG-19 維持「這是最新版的placement，您覺得如何」。同步更新段落表、EV-12、對白統計、06→07 連續性、README 與 PROJECT_STATE；其他 SEG 劇情不變。
 
 - 2026-09-21：依使用者指示將人物設定更新正式套用至 master storyboard，建立 v0.16 並保留 v0.15。鎖定設定使用 `cadi_red.png` 的紅焰 Cadi，新增 hapa、hana、drop、Ray、Finn 身分基準。SEG-05 正式採用 hapa 左飛、hana 右飛、女主角不出場及末鏡環繞 Cadi 準備前往下一站；SEG-06 僅做必要連續性同步，承接 Cadi 單獨抵達 drop 站與兩位 Agent 交付資料。README、PROJECT_STATE、PROGRESS、CHANGELOG 已同步，既有 Storyboard／H3／registry／manifest 快照不回改。

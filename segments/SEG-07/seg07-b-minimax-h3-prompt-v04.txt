@@ -1,0 +1,36 @@
+subject_definitions:
+<Subject 1> is the female protagonist, a 20-something East Asian female mechanical R&D engineer. She has long, straight, center-parted black hair and wears a tailored taupe-gray blazer, an ivory crew-neck top, and loose light-colored trousers. She is professional, composed, and places a high value on immaculate grooming. Her face, hair, and clothing follow <Picture 1>.
+<Subject 2> is Cadi, a small flying robot mascot. Its head is composed of actively burning, ethereal red plasma fire with orange-gold inner tongues and a warm white luminous center that continuously flickers, dances, and undulates with rising wisps and subtle luminous embers (an energetic plasma flame, completely non-solid, with zero gelatinous or jelly-like surface tension). Within the dynamic flame sit two oversized oval warm-white eyes with dark red rims and a tiny mouth, atop a dark charcoal-gray segmented robot body with red joint accents and a glowing circular warm-white chest core with a gold-orange rim. Its design, proportions, and colors follow <Picture 2>.
+<Subject 3> is drop, a compact white humanoid service robot with a smooth solid white teardrop-shaped head tapering to one rounded peak, two large blue eyes, a small expressive mouth, white armored body panels, black articulated joints, circular blue-lit side modules, and a glowing blue water-drop emblem centered on its chest. Its appearance, proportions, and colors follow <Picture 3>.
+<Video 1> supplies the completed planar arrangement at its ending as the stable composition reference for the holographic placement throughout this clip.
+
+summary:
+[reference generation] Cadi invites the standing protagonist to review the stable placement; drop watches.
+
+retention_analysis:
+<Subject 1> / <Picture 1>: fully_preserved - fully preserved: her facial features, long straight center-parted black hair, tailored taupe-gray blazer, ivory crew-neck top, loose light-colored trousers, body proportions, professional composure, and immaculate grooming must remain consistent. She is a real person with real skin, real fabric and real lighting inside the scene described by the timeline.
+<Subject 2> / <Picture 2>: fully_preserved - fully preserved: its actively burning red plasma fire head with orange-gold inner tongues and a warm white luminous center, continuous flickering combustion, soft rising flame tongues, subtle luminous embers, wind-drag during movement, upward licking and dissipation while hovering, oversized oval warm-white eyes with dark red rims, tiny mouth, dark charcoal-gray segmented robot body with red joint accents, body proportions, and glowing circular warm-white chest core with a gold-orange rim must remain consistent. It is lit by the same real lighting as the scene described by the timeline.
+<Subject 3> / <Picture 3>: fully_preserved - fully preserved: its solid teardrop head silhouette, blue eyes, small mouth, white armor, black articulated joints, blue-lit side modules, water-drop chest emblem and body proportions. Its white shell reflects the physical district lighting.
+<Video 1>: partially_preserved - Retain the completed end-state arrangement throughout 0-12 seconds, holding each component at its final position. Transfer only placement motion and configuration; use the timeline for camera, surroundings and lighting.
+
+detailed_description:
+Photorealistic live-action cinema footage shot on a digital cinema camera with prime lenses: natural skin texture with visible pores, real fabric weave, physically accurate reflections, shallow depth of field and subtle film grain.
+
+A bright futuristic engineering district beneath a blue sky with white clouds. A glowing cyan transport avenue leads toward a monumental tower surrounded by enormous horizontal rings. Multilevel automated workshops line both sides, combining dense high-rise urban streetscapes with white-gray metal facades, exposed pipes, glass platforms, and vertical orange engineering signs. Elevated cyan rails connect the buildings. Yellow industrial robot arms operate inside warm-lit workshops, small white service robots move along terraces, and hovering disc-shaped carriers transport luminous translucent cubes. Green rooftop planters soften the architecture. Natural sunlight creates realistic metal and glass reflections.
+A circular canopy covers a metal workbench: warm upper-right light, cyan left fill. A rectangular holographic placement plane floats above it with volumetric components and cyan edges.
+[Shot 1] Begin on the same elevated three-quarter view of the completed rectangular holographic layout, all components already stationary in the final arrangement of <Video 1>. Cadi <Picture 2> hovers at screen-left and drop <Picture 3> stands at screen-right beside the workbench. Preserve the long rear edge at the top, warm light from upper right and cyan fill from street-left.
+[0s-2s] Hold the completed placement. Cadi studies the result; drop rests its hands near the workbench.
+[2s-4s] The camera makes a slow, shallow backward dolly, keeping the entire plane centered and preserving its orientation. Cadi's non-solid red plasma flame flickers continuously; orange-gold tongues rise around a warm-white center and shed embers above his warm-white eyes with dark red rims.
+[4s-6s] Continue the slow dolly. Cadi looks up and turns near-left; drop stays behind the table at right.
+[Shot 2] At 00:06.000, cut wider: the female protagonist <Picture 1> stands upright at near-left beside the work area, facing the holographic placement. Cadi <Picture 2> hovers between her and the layout; drop <Picture 3> remains at far right.
+[6s-8s] Cadi turns toward her, presenting the placement with an open hand. Non-solid flame wisps trail during his turn, then rise. She remains standing with balanced posture, arms relaxed, and looks directly at the parts; drop watches.
+[8s-11s] <Subject 2> (S1), in a bright, playful yet professional childlike Mandarin voice, says clearly at a natural pace: <d>[Mandarin Chinese] 這是最新版的placement，您覺得如何</d> His tiny mouth moves in sync within the burning fire as he holds the presenting gesture. The standing protagonist keeps her attention on the layout. The music lowers beneath the complete sentence.
+[11s-12s] Cadi finishes and watches her attentively. She stays upright, studying the placement and poised to inspect a component. drop and all components remain steady.
+
+Negative constraints: no subtitles, no extra fingers or limbs, no deformed limbs, no shaky camera, no looping; no rubbery, gelatinous, solid jelly texture; no solid glass surface on the plasma head.
+
+overall_soundscape:
+Low district ventilation and transport hum, quiet joint servos and restrained holographic data tones. Clear close Mandarin dialogue with restrained street reverberation; keep the spoken invitation intelligible.
+
+non_diegetic_music:
+Light, energetic 112 BPM instrumental music with plucked synth, warm bass and soft electronic percussion; lower beneath speech.

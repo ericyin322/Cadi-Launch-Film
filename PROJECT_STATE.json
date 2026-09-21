@@ -118,13 +118,13 @@
       "id": "SEG-07",
       "storyboard": "v01",
       "approval": "storyboard_v01_outdated_revision_pending",
-      "h3": "text_factory_updated_video_unverified",
+      "h3": "a_v04_b_v06_final_layout_image_pending",
       "storyboard_notes": "v01已過時；新版須呈現drop看資料、立體零件灑落排好、Cadi邀請女主角觀看。",
       "brief": "segments/SEG-07/brief-v02.md",
       "screenplay": "v0.17",
-      "screenplay_override": null,
+      "screenplay_override": "H3 B v06 production override: heroine stands beside the work area; drop is absent; final layout uses Picture 3",
       "screenplay_approval": "approved_by_user_revision",
-      "screenplay_notes": "已正式併入 master-storyboard-v0.17.md。承接SEG06；DLG-18停用，DLG-19為「這是最新版的placement，您覺得如何」。鏡頭27帶出躺椅上的女主角以接SEG08。",
+      "screenplay_notes": "已正式併入 master-storyboard-v0.17.md。承接SEG06；DLG-18停用，DLG-19為「這是最新版的placement，您覺得如何」。H3 B v06 採女主角站姿、drop不出場，最終布局改用Picture 3。",
       "duration_seconds": 26,
       "time_range": "02:20–02:46",
       "timing_status": "original_slot_retained_pending_readthrough",
@@ -133,15 +133,15 @@
         "assets/blender/cpu-motion-v07/01-scatter-rise-v07.blend"
       ],
       "h3_storyboard_override": "explicit_user_request_after_text_revision_2026-09-17",
-      "h3_notes": "segments/SEG-07/minimax-h3-generation-notes-v03.md",
-      "environment_description_file": "assets/environments/virtual-factory-description-v01.txt",
+      "h3_notes": "segments/SEG-07/minimax-h3-generation-notes-v06.md",
+      "environment_description_file": "assets/environments/virtual-factory-description-v02.txt",
       "environment_reference_mode": "text_only",
-      "environment_binding": "segments/SEG-07/factory-scene-binding-v01.md",
+      "environment_binding": "segments/SEG-07/factory-scene-binding-v02.md",
       "h3_prompts": [
-        "segments/SEG-07/seg07-a-minimax-h3-prompt-v03.txt",
-        "segments/SEG-07/seg07-b-minimax-h3-prompt-v03.txt"
+        "segments/SEG-07/seg07-a-minimax-h3-prompt-v04.txt",
+        "segments/SEG-07/seg07-b-minimax-h3-prompt-v06.txt"
       ],
-      "reference_manifest": "segments/SEG-07/reference-manifest-v03.json"
+      "reference_manifest": "segments/SEG-07/reference-manifest-v06.json"
     },
     {
       "id": "SEG-08",

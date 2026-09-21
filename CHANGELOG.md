@@ -1,5 +1,16 @@
 # 修改紀錄
 
+## 2026-09-21｜SEG-07 B H3 v06：最終布局改用圖片
+
+- B 段移除 `<Video 1>` 與影片上傳，改以待提供的 `<Picture 3>` 鎖定最終布局的零件、比例、間距、位置與平面方向。Picture 1／2 維持女主角與 Cadi；drop 不出場。新增 prompt、registry、manifest 與生成說明 v06，圖片路徑待補。
+
+- 2026-09-21：依使用者修正，SEG-07 B 升為 H3 v05，只保留站姿女主角與 Cadi；移除 drop 的所有文字、動作、Picture／Subject 索引及上傳圖片。A v04、B 12秒、seed 7701、場景 v02、台詞及完成布局影片參考保留；新增 registry／manifest／生成說明 v05，影片未生成。
+
+## 2026-09-21｜SEG-07 H3 v04：最新場景與 B 段站姿
+
+- 新增 SEG-07 A／B H3 v04，套用 `virtual-factory-description-v02.txt`；B 段女主角改為站在工作區近左側觀看布局，移除躺椅與坐姿。時長、seed、指定台詞、圖片上傳順序與動作影片用途不變。
+- 新增 `cast-registry-v04.yaml`、`reference-manifest-v04.json`、`factory-scene-binding-v02.md` 與生成說明 v04；更新根 registry、PROJECT_STATE、PROGRESS 與本段 revisions。A 13項、B 14項通過，均0警告、0失敗；舊版保留，影片未生成。
+
 ## 2026-09-21｜虛擬工廠共用描述 v02
 
 - 新建 `assets/environments/virtual-factory-description-v02.txt` 與 `virtual-factory-usage-v02.md`，移除台灣／香港及其英文地名字樣，改以 `dense high-rise urban streetscapes` 保留高密度垂直街區意象。
