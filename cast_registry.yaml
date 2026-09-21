@@ -382,6 +382,42 @@ segments:
     environment: virtual_factory
     environment_description_file: assets/environments/virtual-factory-description-v02.txt
 
+  - id: seg08-a
+    scene: 8
+    seed: 7801
+    duration_seconds: 13
+    frame_setting: 依實際節點秒數設定
+    cast:
+    - heroine
+    - cadi
+    prompt: segments/SEG-08/seg08-a-minimax-h3-prompt-v02.txt
+    prompt_registry: segments/SEG-08/cast-registry-v02.yaml
+    reference_videos:
+    - label: <Video 1>
+      file: assets/blender/cpu-motion-v07/01-scatter-rise-v07.mp4
+      role: completed_layout_composition
+    continues_from: seg07-b
+    environment: virtual_factory
+    environment_description_file: assets/environments/virtual-factory-description-v02.txt
+
+  - id: seg08-b
+    scene: 8
+    seed: 7801
+    duration_seconds: 10
+    frame_setting: 依實際節點秒數設定
+    cast:
+    - heroine
+    - cadi
+    prompt: segments/SEG-08/seg08-b-minimax-h3-prompt-v02.txt
+    prompt_registry: segments/SEG-08/cast-registry-v02.yaml
+    reference_videos:
+    - label: <Video 1>
+      file: assets/blender/cpu-motion-v07/02-cpu-move-highlight-v07.mp4
+      role: cpu_lateral_move_and_hold
+    continues_from: seg08-a
+    environment: virtual_factory
+    environment_description_file: assets/environments/virtual-factory-description-v02.txt
+
   - id: seg04-a
     scene: 4
     seed: 7401
