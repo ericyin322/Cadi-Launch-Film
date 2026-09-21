@@ -34,7 +34,7 @@
       "id": "SEG-03",
       "storyboard": "v01",
       "approval": "storyboard_v01_outdated_revision_pending",
-      "h3": "a_v02_b_v02_ready_video_unverified",
+      "h3": "a_v03_b_v02_ready_video_unverified",
       "screenplay": "v0.8",
       "screenplay_approval": "approved_by_user_revision",
       "brief": "segments/SEG-03/brief-v02.md",
@@ -180,13 +180,13 @@
         "drop"
       ],
       "h3_storyboard_override": "explicit_user_request_after_text_revision_2026-09-21",
-      "h3_notes": "segments/SEG-08/minimax-h3-generation-notes-v02.md；A 13秒＋B 10秒，seed 7801；A／B女主角均為站姿，A 12–13秒持續對placement比劃；heroine＋cadi兩圖，drop不入鏡",
+      "h3_notes": "segments/SEG-08/minimax-h3-generation-notes-v03.md；A 13秒＋B 10秒，seed 7801；A以heroine、cadi、placement_2D三張圖片生成，不再使用布局Video參考；B維持v02與CPU移動Video參考；drop不入鏡",
       "h3_prompts": [
-        "segments/SEG-08/seg08-a-minimax-h3-prompt-v02.txt",
+        "segments/SEG-08/seg08-a-minimax-h3-prompt-v03.txt",
         "segments/SEG-08/seg08-b-minimax-h3-prompt-v02.txt"
       ],
-      "reference_manifest": "segments/SEG-08/reference-manifest-v02.json",
-      "prompt_registry": "segments/SEG-08/cast-registry-v02.yaml"
+      "reference_manifest": "segments/SEG-08/reference-manifest-v03.json",
+      "prompt_registry": "segments/SEG-08/cast-registry-v03.yaml"
     },
     {
       "id": "SEG-09",

@@ -6,3 +6,4 @@
 | 2026-09-21 | v02 | 依使用者指示修改 | Cadi 把 drop 排好的發光布局帶給女主角；女主角筆畫要求 CPU 往旁邊移一點，CPU 側移停住後確認採用，Cadi 回應啟動 Creo；取消上移 3 mm 與重算。影響範圍：本 SEG，另同步 SEG-09 鏡頭31 承接句與 08→09 聲音橋 |
 | 2026-09-21 | H3 v01 | 依使用者要求製作 | 新增 A 12秒／B 10秒 Ref2VA 提示詞、cast-registry-v01、reference-manifest-v01 與生成說明 v01；seed 7801，cast 僅女主角與 Cadi。影響範圍：本 SEG |
 | 2026-09-21 | v03／H3 v02 | 依使用者指示修改 | A／B 女主角均改為站姿，承接 SEG-07 B v07 末端；A 延長為13秒，12–13秒持續對 placement 比劃；B 其餘劇情與10秒配置不變。新建 brief v03、H3 A／B v02、registry／manifest／場景綁定／生成說明 v02；工廠文字升至 v02。影響範圍：SEG-08，另僅同步 SEG-07→08 連續性文字 |
+| 2026-09-21 | H3 A v03 | 依使用者指示修改 | A 段移除完成布局 `<Video 1>`，改以上傳 `assets/placement/placement_2D.png` 為 `<Picture 3>`，鎖定完整布局的零件、比例、間距、位置、輪廓、配色分組與平面方向；女主角站姿、13秒、12–13秒持續比劃及其餘劇情不變。B v02 不變。新增 registry／manifest／生成說明 v03。 |

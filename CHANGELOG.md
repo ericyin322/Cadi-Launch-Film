@@ -1,5 +1,11 @@
 # 修改紀錄
 
+## 2026-09-21｜SEG-08 A H3 v03：布局改用圖片參考
+
+- A 段移除完成布局的 `<Video 1>`，改以上傳 `assets/placement/placement_2D.png` 為 `<Picture 3>`；圖片只負責完整布局的零件身分、比例、間距、位置、輪廓、配色分組與矩形平面方向。
+- A 的女主角站姿、13秒、12–13秒持續對 placement 比劃、DLG-20 與其他劇情均不變；B 維持 v02。
+- 新增 A prompt v03、cast registry v03、reference manifest v03 與生成說明 v03；舊版保留，影片未生成。
+
 ## 2026-09-21｜SEG-08 站姿修訂與 H3 A／B v02
 
 - A 段承接 SEG-07 B v07 末端站姿：女主角站著端詳 Placement，9–12秒咕噥並比劃，12–13秒持續對 Placement 比劃；A 由12秒改為13秒。
