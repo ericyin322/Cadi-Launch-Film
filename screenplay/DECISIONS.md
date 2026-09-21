@@ -1,5 +1,7 @@
 # 已確認創作決策
 
+- 2026-09-21：依使用者指示將 SEG-07 已確認修訂正式套用至 master storyboard，建立 v0.17 並保留 v0.16。鏡頭24–27正式改為 drop 查看資料、展開立體影像、全部零件灑落至水平平面並排成完整發光布局，Cadi 邀請躺椅上的女主角觀看；DLG-18 停用不重用，DLG-19 維持「這是最新版的placement，您覺得如何」。同步更新段落表、EV-12、對白統計、06→07 連續性、README 與 PROJECT_STATE；其他 SEG 劇情不變。
+
 - 2026-09-21：依使用者指示將人物設定更新正式套用至 master storyboard，建立 v0.16 並保留 v0.15。鎖定設定使用 `cadi_red.png` 的紅焰 Cadi，新增 hapa、hana、drop、Ray、Finn 身分基準。SEG-05 正式採用 hapa 左飛、hana 右飛、女主角不出場及末鏡環繞 Cadi 準備前往下一站；SEG-06 僅做必要連續性同步，承接 Cadi 單獨抵達 drop 站與兩位 Agent 交付資料。README、PROJECT_STATE、PROGRESS、CHANGELOG 已同步，既有 Storyboard／H3／registry／manifest 快照不回改。
 
 - 2026-09-20：依使用者指示更新 SEG-11 正式劇情，原H3 B順延為C並新增B。B承接A運算場景，鏡頭沿計算機器向內延伸並向上拉，揭露多層樓高的龐大煉丹爐式核心；Ray露出驚訝表情，爐口不時竄火、鍋爐熊熊燃燒，爆炸巨響與橙白閃光後硬切回Ray、Finn，Finn把丹藥般的運算結果交給Ray。正式主檔升至v0.14，新增brief-v03及H3 A／B／C v03，各13秒、合計39秒；A/B各13項、C14項通過，0警告、0失敗。原26秒時槽與後段時間待校正，影片未生成。

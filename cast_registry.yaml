@@ -10,8 +10,8 @@ project:
     Photorealistic live-action cinema footage shot on a digital cinema camera with prime lenses: natural skin texture with visible pores, real fabric weave, physically accurate reflections, shallow depth of field and subtle film grain.
 
   virtual_factory:
-    description_file: assets/environments/virtual-factory-description-v01.txt
-    usage_file: assets/environments/virtual-factory-usage-v01.md
+    description_file: assets/environments/virtual-factory-description-v02.txt
+    usage_file: assets/environments/virtual-factory-usage-v02.md
     reference_mode: text_only
     applies_to:
     - SEG-04
@@ -25,7 +25,7 @@ project:
     - SEG-12
     environment_description: A bright futuristic engineering district beneath a blue sky with white clouds. A glowing
       cyan transport avenue leads toward a monumental tower surrounded by enormous horizontal rings. Multilevel automated
-      workshops line both sides, combining dense Taiwanese and Hong Kong streetscapes with white-gray metal facades,
+      workshops line both sides, combining dense high-rise urban streetscapes with white-gray metal facades,
       exposed pipes, glass platforms, and vertical orange engineering signs. Elevated cyan rails connect the buildings.
       Yellow industrial robot arms operate inside warm-lit workshops, small white service robots move along terraces,
       and hovering disc-shaped carriers transport luminous translucent cubes. Green rooftop planters soften the architecture.

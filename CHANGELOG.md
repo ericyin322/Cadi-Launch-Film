@@ -1,3 +1,15 @@
+# 修改紀錄
+
+## 2026-09-21｜虛擬工廠共用描述 v02
+
+- 新建 `assets/environments/virtual-factory-description-v02.txt` 與 `virtual-factory-usage-v02.md`，移除台灣／香港及其英文地名字樣，改以 `dense high-rise urban streetscapes` 保留高密度垂直街區意象。
+- README、根 `cast_registry.yaml` 與 `PROJECT_STATE.json` 的正式入口已切換至 v02；v01、既有 H3 提示詞及各段 registry／manifest 快照保留不回改。
+
+## 2026-09-21｜SEG-07 正式併入 master storyboard v0.17
+
+- 新建 `screenplay/master-storyboard-v0.17.md`，保留 v0.16。將已確認的 `segments/SEG-07/brief-v02.md` 正式寫入鏡頭24–27：drop 查看 Spec／GP 資料、展開立體影像、全部零件灑落並排成水平發光布局，Cadi 邀請躺椅上的女主角評估。
+- 停用 DLG-18 且不重用編號；DLG-19 保留「這是最新版的placement，您覺得如何」。同步更新段落表、EV-12、對白統計與 06→07 連續性。README 與 PROJECT_STATE 的唯一劇情來源切換至 v0.17；既有 Storyboard、H3、brief 與舊版主檔不回改。
+
 ## 2026-09-21｜人物設定正式併入 master storyboard v0.16
 
 - 新建 `screenplay/master-storyboard-v0.16.md`，保留 v0.15。鎖定設定更新為紅焰 Cadi，並納入 hapa、hana、drop、Ray、Finn 的身分與資產基準。
@@ -78,8 +90,6 @@
 - 新增 `assets/blender/seg09-creo-dock-v02/`：場景 `SEG09_Creo_Dock_v02`、`build-v02.py`、5 張關鍵機位定裝圖、接觸表與 `shot-manifest-v02.json`。
 - 內容：Creo Robot 下夾胸亮相、巨型筆電風扇墜落與接住、CAD 船塢縱深、多台 Robot 搬運巨型零件、70x40m placement 布局板、Cadi 火焰代理飛行動線。
 - `seg09-creo-dock-v01` 原樣保留；劇本、Storyboard、cast_registry 與其他 SEG 未變更。
-
-# 修改紀錄
 
 - 2026-09-19：依使用者要求完成SEG-09方案二Blender白模預演v01（重型軌道船塢、Creo Robot操作台、煞停慣性、展開匯入），新增可編輯blend、12秒預演與檢視圖於assets/blender/seg09-creo-dock-v01。概念待評估；正式劇本、Storyboard與H3狀態不變。
 

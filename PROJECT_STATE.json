@@ -7,7 +7,7 @@
     "主管",
     "技術發表會觀眾"
   ],
-  "source_of_truth": "screenplay/master-storyboard-v0.16.md",
+  "source_of_truth": "screenplay/master-storyboard-v0.17.md",
   "video_prompt_target": "MiniMax H3",
   "storyboard_style": "黑白漫畫式線稿（僅限 Storyboard 前期圖，不進 H3 提示詞）",
   "final_video_style": "寫實真人電影質感；H3 逐字文字見 cast_registry.yaml project.visual_style",
@@ -121,9 +121,10 @@
       "h3": "text_factory_updated_video_unverified",
       "storyboard_notes": "v01已過時；新版須呈現drop看資料、立體零件灑落排好、Cadi邀請女主角觀看。",
       "brief": "segments/SEG-07/brief-v02.md",
-      "screenplay_override": "segments/SEG-07/brief-v02.md",
+      "screenplay": "v0.17",
+      "screenplay_override": null,
       "screenplay_approval": "approved_by_user_revision",
-      "screenplay_notes": "承接SEG06；DLG-18停用，DLG-19改為「這是最新版的placement，您覺得如何」。鏡頭27帶出躺椅上的女主角以接SEG08。",
+      "screenplay_notes": "已正式併入 master-storyboard-v0.17.md。承接SEG06；DLG-18停用，DLG-19為「這是最新版的placement，您覺得如何」。鏡頭27帶出躺椅上的女主角以接SEG08。",
       "duration_seconds": 26,
       "time_range": "02:20–02:46",
       "timing_status": "original_slot_retained_pending_readthrough",
@@ -351,8 +352,8 @@
     }
   },
   "virtual_factory_environment": {
-    "description_file": "assets/environments/virtual-factory-description-v01.txt",
-    "usage_file": "assets/environments/virtual-factory-usage-v01.md",
+    "description_file": "assets/environments/virtual-factory-description-v02.txt",
+    "usage_file": "assets/environments/virtual-factory-usage-v02.md",
     "reference_mode": "text_only",
     "applies_to": [
       "SEG-04",
@@ -365,7 +366,7 @@
       "SEG-11",
       "SEG-12"
     ],
-    "environment_description": "A bright futuristic engineering district beneath a blue sky with white clouds. A glowing cyan transport avenue leads toward a monumental tower surrounded by enormous horizontal rings. Multilevel automated workshops line both sides, combining dense Taiwanese and Hong Kong streetscapes with white-gray metal facades, exposed pipes, glass platforms, and vertical orange engineering signs. Elevated cyan rails connect the buildings. Yellow industrial robot arms operate inside warm-lit workshops, small white service robots move along terraces, and hovering disc-shaped carriers transport luminous translucent cubes. Green rooftop planters soften the architecture. Natural sunlight creates realistic metal and glass reflections.",
+    "environment_description": "A bright futuristic engineering district beneath a blue sky with white clouds. A glowing cyan transport avenue leads toward a monumental tower surrounded by enormous horizontal rings. Multilevel automated workshops line both sides, combining dense high-rise urban streetscapes with white-gray metal facades, exposed pipes, glass platforms, and vertical orange engineering signs. Elevated cyan rails connect the buildings. Yellow industrial robot arms operate inside warm-lit workshops, small white service robots move along terraces, and hovering disc-shaped carriers transport luminous translucent cubes. Green rooftop planters soften the architecture. Natural sunlight creates realistic metal and glass reflections.",
     "establishing_camera": "The camera slowly glides forward, keeping the central tower centered as the city operates in an orderly rhythm.",
     "camera_policy": "Use establishing_camera only for district establishing views; preserve shot-specific camera directions.",
     "interior_policy": "Use only visible materials and lighting for interior-only shots; use the district paragraph in street-visible shots."
