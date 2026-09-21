@@ -1,13 +1,13 @@
 {
   "project": "Cadi-Launch-Film",
-  "updated": "2026-09-20",
+  "updated": "2026-09-21",
   "duration_seconds": 300,
   "audience": [
     "上級",
     "主管",
     "技術發表會觀眾"
   ],
-  "source_of_truth": "screenplay/master-storyboard-v0.14.md",
+  "source_of_truth": "screenplay/master-storyboard-v0.15.md",
   "video_prompt_target": "MiniMax H3",
   "storyboard_style": "黑白漫畫式線稿（僅限 Storyboard 前期圖，不進 H3 提示詞）",
   "final_video_style": "寫實真人電影質感；H3 逐字文字見 cast_registry.yaml project.visual_style",
@@ -144,17 +144,40 @@
     {
       "id": "SEG-08",
       "storyboard": "v01",
-      "approval": "pending_batch_review",
+      "approval": "storyboard_v01_outdated_revision_pending",
       "h3": "todo",
       "environment_description_file": "assets/environments/virtual-factory-description-v01.txt",
       "environment_reference_mode": "text_only",
-      "environment_binding": "segments/SEG-08/factory-scene-binding-v01.md"
+      "environment_binding": "segments/SEG-08/factory-scene-binding-v01.md",
+      "screenplay": "v0.15",
+      "screenplay_approval": "approved_by_user_revision",
+      "screenplay_notes": "Cadi 把 drop 排好的發光布局帶到女主角面前；女主角端詳後以手指筆畫，咕噥「或許 cpu 往旁邊移動一點……」；CPU 金黃亮顯水平側移後停住；女主角確認「好，使用這一版 placement。」Cadi 回「好的，我來啟動 Creo。」原上移3mm與重算取消，DLG-23停用不重用。drop 不入鏡。",
+      "brief": "segments/SEG-08/brief-v02.md",
+      "screenplay_override": "segments/SEG-08/brief-v02.md",
+      "storyboard_notes": "v01已過時；新版須呈現Cadi托發光布局、女主角端詳與筆畫、CPU側移停住、確認採用。",
+      "duration_seconds": 22,
+      "time_range": "02:46–03:08",
+      "timing_status": "original_slot_retained_pending_readthrough",
+      "shots": [
+        "鏡頭28",
+        "鏡頭29",
+        "鏡頭29A",
+        "鏡頭30"
+      ],
+      "motion_references": [
+        "assets/blender/cpu-motion-v07/02-cpu-move-highlight-v07.mp4",
+        "assets/blender/cpu-motion-v07/02-cpu-move-highlight-v07.blend"
+      ],
+      "motion_reference_usage": "只採用移動＋停住段（約0.6–1.6秒）；1.6秒後CPU回位段不使用，CPU停在新位置。",
+      "absent_characters": [
+        "drop"
+      ]
     },
     {
       "id": "SEG-09",
       "screenplay": "v0.9",
       "screenplay_approval": "approved_by_user_revision",
-      "screenplay_notes": "依使用者確認的 Blender v06／H3 v01 更新：Cadi彈指、Creo力量亮相、接住墜落風扇、五台協同搬運與落位、俯瞰完整布局、Cadi降至已放妥風扇旁。全段26秒、無台詞；DLG-24–26停用。",
+      "screenplay_notes": "依使用者確認的 Blender v06／H3 v01 更新：Cadi彈指、Creo力量亮相、接住墜落風扇、五台協同搬運與落位、俯瞰完整布局、Cadi降至已放妥風扇旁。全段26秒、無台詞；DLG-24–26停用。（2026-09-21：鏡頭31 承接句改為 Cadi「我來啟動 Creo」，其餘不變。）",
       "storyboard": "v01",
       "approval": "storyboard_v01_outdated_revision_pending",
       "h3": "a_v01_b_v01_ready_video_unverified",
