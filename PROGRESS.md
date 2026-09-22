@@ -1,5 +1,7 @@
 # 製作進度
 
+- 2026-09-22：依使用者指示將 SEG-07／08 的 drop 工站改為室內，新增 `assets/environments/室內.jpg` 圖片參考並在四個 H3 生成單元實際上傳。SEG-07 更新為 A v05／B v08、registry／manifest／生成說明 v08；SEG-08 更新為 A v05／B v03、registry／manifest／生成說明 v05。既有劇情、動作、台詞、seed 與時長不變；舊版虛擬工廠文字場景提示詞保留。SEG-07 B 最終布局圖仍待提供，影片未生成。
+
 - 2026-09-21：依使用者要求完成 SEG-08 A 動作修訂與 H3 v04。Placement 全程留在工作桌面，Cadi 懸停於右側、雙手自然垂放，不托拿布局；A 前半女主角認真查看 Placement，後半只以食指指向 CPU、手小幅移動並說 DLG-20，12–13秒放下手、挺直身體，恢復直立站姿。B v02 與 CPU 側移後續劇情不變。新增 brief-v04、master-storyboard-v0.19、A prompt／registry／manifest／生成說明 v04；影片未生成。
 
 - 2026-09-21：依使用者要求將 SEG-08 A 的布局參考由 `<Video 1>` 改為 `<Picture 3>`，圖片為 `assets/placement/placement_2D.png`。新增 A H3 v03、cast-registry-v03、reference-manifest-v03 與生成說明 v03；A 上傳順序為女主角、Cadi、placement 圖，影片參考完全移除。站姿、13秒、12–13秒持續比劃、台詞與其餘劇情不變；B 維持 v02。
@@ -63,7 +65,7 @@
 
 - 2026-09-19：SEG-06依使用者要求重製H3 A／B v03（15＋9秒），DLG-14改為「最新 Spec 已取得。固有項目標綠，新增參數已標黃。」同步卡片顏色語意並移除兩項數量限制；重新讀取目前工廠文字，場景內容與v02相同。新增brief、registry、manifest與生成說明v03；舊版保留，影片未生成。
 
-更新日期：2026-09-21
+更新日期：2026-09-22
 
 - 2026-09-19：依使用者要求將已確認英文工廠描述納為 SEG-04～12 共用文字場景。新增場景原文、套用規則與各段綁定；SEG04 A v02／B v07／C v02、SEG05 A/B v04、SEG06 A/B v02、SEG07 A/B v03已加入場景，並依既有規則使用紅焰Cadi。SEG04取消工廠參考圖，流程圖改Picture 3；各段新增registry／manifest／生成說明。SEG08～12待H3製作時套用，室內鏡頭只描述可見內容；原劇情、台詞、時間節點及舊檔保留。影片未生成。
 

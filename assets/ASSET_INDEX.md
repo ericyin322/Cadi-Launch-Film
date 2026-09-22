@@ -1,5 +1,7 @@
 # 資產索引
 
+- 2026-09-22：`assets/environments/室內.jpg` 為 SEG-07／08 的 drop 室內工站場景參考，實際上傳給 H3。可沿用落地窗、灰色拋光地坪、白色牆頂、矩形柱、線性暖白燈槽、空間透視與窗外朦朧高樓；工作桌及全息設備依劇情加入。不可把參考圖本身的空屋狀態當作劇情限制，成片畫風仍以各段 registry 的 `project.visual_style` 為準。此段專用場景覆蓋 SEG-07／08 舊版虛擬工廠街區文字場景，舊稿保留。
+
 - 2026-09-19：虛擬工廠（SEG-04～SEG-12）統一採 `assets/environments/virtual-factory-description-v01.txt` 的英文文字場景；使用方式見 `assets/environments/virtual-factory-usage-v01.md` 及根目錄 registry `project.virtual_factory`。工廠不上傳參考圖、不編圖片索引。場景建立運鏡與既有鏡頭運鏡分開套用；室內只描述當鏡可見內容。既有稿保留，更新另建新版。
 
 

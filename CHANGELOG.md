@@ -1,5 +1,12 @@
 # 修改紀錄
 
+## 2026-09-22｜SEG-07／08 drop 工站改為室內圖片場景
+
+- 依使用者指示，以 `assets/environments/室內.jpg` 取代 SEG-07／08 舊版虛擬工廠街區文字場景，並把該圖納入每個 H3 生成單元的實際上傳索引。
+- SEG-07 新增 A v05／B v08、`cast-registry-v08.yaml`、`reference-manifest-v08.json`、室內場景綁定與生成說明 v08。A 室內圖為 Picture 3；B 因 Picture 3 保留給最終布局，室內圖為 Picture 4。
+- SEG-08 新增 A v05／B v03、`cast-registry-v05.yaml`、`reference-manifest-v05.json`、室內場景綁定與生成說明 v05。A 室內圖為 Picture 4；B 室內圖為 Picture 3。
+- 劇情、動作、台詞、seed、時長、Placement 與動作影片用途均不變；舊檔保留。SEG-07 B 最終布局圖仍待提供，影片未生成。
+
 ## 2026-09-21｜SEG-08 A 動作修訂與 H3 v04
 
 - Placement 全程留在工作桌面，Cadi 懸停於右側、雙手自然垂放，不托拿布局。

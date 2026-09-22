@@ -33,4 +33,4 @@ minimax-h3-prompt-v02.md
 
 ## 虛擬工廠場景
 
-共用英文描述：`assets/environments/virtual-factory-description-v02.txt`；套用規則：`assets/environments/virtual-factory-usage-v02.md`。SEG-04～12使用純文字工廠場景；現行提示詞與上傳順序以根目錄registry及各段最新manifest為準。
+共用英文描述：`assets/environments/virtual-factory-description-v02.txt`；套用規則：`assets/environments/virtual-factory-usage-v02.md`。SEG-04～12原則上使用純文字工廠場景；SEG-07／08 自 2026-09-22 起改用 `assets/environments/室內.jpg` 圖片場景參考。現行提示詞與上傳順序以根目錄 registry 及各段最新 manifest 為準。

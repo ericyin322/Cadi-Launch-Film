@@ -1,0 +1,72 @@
+project:
+  title: Cadi Launch Film
+  aspect_ratio: '16:9'
+  label_style: paired
+  section_style: detailed
+  visual_style: 'Photorealistic live-action cinema footage shot on a digital cinema camera with prime lenses: natural skin texture with visible pores, real fabric weave, physically accurate reflections, shallow depth of field and subtle film grain.'
+  indoor_workstation:
+    file: assets/environments/室內.jpg
+    reference_mode: image
+    applies_to: [SEG-08]
+    canonical: 'the bright minimalist indoor workstation in the assigned picture: a long open room with floor-to-ceiling windows along the left wall, a polished gray concrete floor, smooth white walls and ceiling, recessed linear warm-white light channels, clean rectangular columns, and a hazy high-rise city view outside.'
+
+assets:
+  heroine:
+    priority: 10
+    file: assets/characters/heroine-photo-reference-v01.png
+    role: identity
+    binding: Her face, hair, and clothing follow
+    canonical: the female protagonist, a 20-something East Asian female mechanical R&D engineer. She has long, straight, center-parted black hair and wears a tailored taupe-gray blazer, an ivory crew-neck top, and loose light-colored trousers. She is professional, composed, and places a high value on immaculate grooming.
+    retention: 'fully preserved: her facial features, long straight center-parted black hair, tailored taupe-gray blazer, ivory crew-neck top, loose light-colored trousers, body proportions, professional composure, and immaculate grooming must remain consistent. She is a real person with real skin, real fabric and real lighting inside the scene described by the timeline.'
+  cadi:
+    priority: 20
+    summon_tokens: [cadi, mascot, plasma, flame head, robot, chest core]
+    file: assets/characters/cadi_red.png
+    role: identity
+    binding: Its design, proportions, and colors follow
+    canonical: Cadi, a small flying robot mascot. Its head is composed of actively burning, ethereal red plasma fire with orange-gold inner tongues and a warm white luminous center that continuously flickers, dances, and undulates with rising wisps and subtle luminous embers (an energetic plasma flame, completely non-solid, with zero gelatinous or jelly-like surface tension). Within the dynamic flame sit two oversized oval warm-white eyes with dark red rims and a tiny mouth, atop a dark charcoal-gray segmented robot body with red joint accents and a glowing circular warm-white chest core with a gold-orange rim. Its height is approximately half of the female protagonist's upper body.
+    retention: 'fully preserved: its actively burning red plasma fire head with orange-gold inner tongues and a warm white luminous center, continuous flickering combustion, soft rising flame tongues, subtle luminous embers, wind-drag during movement, upward licking and dissipation while hovering, oversized oval warm-white eyes with dark red rims, tiny mouth, dark charcoal-gray segmented robot body with red joint accents, body proportions, and glowing circular warm-white chest core with a gold-orange rim must remain consistent. It is lit by the same real lighting as the scene described by the timeline.'
+    extra_negatives:
+      - rubbery, gelatinous, solid jelly texture
+      - solid glass surface
+  layout_ref:
+    priority: 30
+    file: assets/placement/placement_2D.png
+    role: exact_final_layout
+    binding: Its exact component identities, proportions, spacing, positions, silhouettes, color grouping, and rectangular plane orientation follow
+    canonical: the completed holographic placement layout. Its exact component identities, proportions, spacing, positions, silhouettes, color grouping, and rectangular plane orientation follow
+    retention: Preserve the exact component identities, proportions, spacing, positions, silhouettes, color grouping and rectangular orientation; render them as a stable volumetric holographic placement under the scene lighting.
+  indoor_workstation:
+    priority: 40
+    file: assets/environments/室內.jpg
+    role: environment_reference
+    binding: Its architecture, room layout, materials, lighting and window placement follow
+    canonical: the bright minimalist indoor workstation
+    retention: 'Preserve the long open perspective, left-side floor-to-ceiling window wall, polished gray floor, smooth white architectural surfaces, clean rectangular columns, recessed linear light channels and hazy city view.'
+
+segments:
+  - id: seg08-a
+    scene: 8
+    seed: 7801
+    duration_seconds: 13
+    cast: [heroine, cadi, layout_ref, indoor_workstation]
+    prompt: segments/SEG-08/seg08-a-minimax-h3-prompt-v05.txt
+    prompt_registry: segments/SEG-08/cast-registry-v05.yaml
+    reference_images:
+      - {label: '<Picture 3>', file: 'assets/placement/placement_2D.png', role: exact_final_layout}
+      - {label: '<Picture 4>', file: 'assets/environments/室內.jpg', role: environment_reference}
+    continues_from: seg07-b
+    environment: indoor_workstation
+  - id: seg08-b
+    scene: 8
+    seed: 7801
+    duration_seconds: 10
+    cast: [heroine, cadi, indoor_workstation]
+    prompt: segments/SEG-08/seg08-b-minimax-h3-prompt-v03.txt
+    prompt_registry: segments/SEG-08/cast-registry-v05.yaml
+    reference_images:
+      - {label: '<Picture 3>', file: 'assets/environments/室內.jpg', role: environment_reference}
+    reference_videos:
+      - {label: '<Video 1>', file: 'assets/blender/cpu-motion-v07/02-cpu-move-highlight-v07.mp4', role: cpu_lateral_move_and_hold}
+    continues_from: seg08-a
+    environment: indoor_workstation
