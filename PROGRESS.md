@@ -1,5 +1,7 @@
 # 製作進度
 
+- 2026-09-22：依使用者指示完成 SEG-09 B H3 v05；A 維持 v02。Creo Robot 放置後朝 placement-creo 北側離開，北側定義為 Picture 2 畫面上方／遠端；Robot 起步離場與攝影機後拉、升高、下俯同步進行。Placement 明確直接平放在船塢地面，綠色基底與地面連續接觸，四周為同一高度地坪。新增 brief v07、prompt／registry／manifest／生成說明／驗證紀錄 v05；A 相容性14項、B 13項通過，均0警告、0失敗；影片未生成。
+
 - 2026-09-22：依使用者指示完成 SEG-09 B H3 v04；A 維持 v02。B 開頭只聚焦 Creo Robot 腰部以上，雙手向畫面下緣之外完成放置，以沉重金屬重擊、低頻共振與肩臂回震表達接觸；接著 Robot 直起身、轉身，走出鏡頭。工作區淨空後再拉遠升高，展示 placement-creo 完整布局。B 上傳素材與 v03 相同，新增 brief v06、prompt／registry／manifest／生成說明／驗證紀錄 v04；A 相容性14項、B 13項通過，均0警告、0失敗；影片未生成。
 
 - 2026-09-22：依使用者指示完成 SEG-09 B H3 v03；A 維持 v02。B 保留 Creo 船塢，改為兩鏡：Creo Robot 放下沉重右側風扇零件的接觸瞬間特寫，加入沉重金屬重擊、低頻衝擊與短暫結構共振；接著不切鏡拉遠升高，展示 `assets/placement/Screenshot 2026-09-21 164040.png` 定義的完整 Placement。B 僅上傳 Creo Robot 與 placement-creo 兩圖，不使用 Cadi、純白房間或舊動作影片。新增 brief v05、B prompt v03、registry／manifest／生成說明／驗證紀錄 v03；A 相容性 14項、B 13項通過，均0警告、0失敗；影片未生成。

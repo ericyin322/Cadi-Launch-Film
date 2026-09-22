@@ -1,0 +1,23 @@
+{
+  "date": "2026-09-22",
+  "registry": "segments/SEG-09/cast-registry-v05.yaml",
+  "checks": [
+    {
+      "segment": "seg09-a",
+      "prompt": "segments/SEG-09/seg09-a-minimax-h3-prompt-v02.txt",
+      "passed": 14,
+      "warnings": 0,
+      "failed": 0,
+      "status": "compatible_with_v05_registry"
+    },
+    {
+      "segment": "seg09-b",
+      "prompt": "segments/SEG-09/seg09-b-minimax-h3-prompt-v05.txt",
+      "passed": 13,
+      "warnings": 0,
+      "failed": 0,
+      "characters": 6034
+    }
+  ],
+  "result": "passed"
+}

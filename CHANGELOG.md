@@ -1,5 +1,12 @@
 # 修改紀錄
 
+## 2026-09-22｜SEG-09 B 北側同步離場與地面 Placement
+
+- 新增 SEG-09B H3 v05；A 維持 v02，時長、seed 與上傳素材不變。
+- Creo Robot 朝 placement-creo 北側深處離開；Picture 2 畫面上方／遠端明確定義為北側。
+- Robot 起步與攝影機後拉升高同步發生，離場與 Placement 揭露成為同一段連續運動。
+- placement-creo 直接平放在船塢地面，綠色基底具有連續地面接觸與真實接觸陰影。新增 brief v07、registry／manifest／生成說明與驗證紀錄 v05；A 相容性14項、B 13項通過，均0警告、0失敗；舊檔保留，影片未生成。
+
 ## 2026-09-22｜SEG-09 B 上半身放置與 Creo Robot 離場
 
 - SEG-09A 維持 v02；新增 B prompt v04，場景、13 秒時長、seed 與 placement-creo 參考圖不變。
