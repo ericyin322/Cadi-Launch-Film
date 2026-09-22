@@ -1,0 +1,25 @@
+{
+  "environment": {"mode": "image_reference", "file": "assets/environments/純白房間.png", "role": "pure_white_room"},
+  "segments": [
+    {
+      "id": "seg07-a", "mode": "Ref2VA", "seconds": 14, "seed": 7701,
+      "prompt": "segments/SEG-07/seg07-a-minimax-h3-prompt-v07.txt",
+      "images": [
+        {"slot": "ref_image_0", "label": "<Picture 1>", "asset": "cadi", "file": "assets/characters/cadi_red.png"},
+        {"slot": "ref_image_1", "label": "<Picture 2>", "asset": "drop", "file": "assets/characters/agent3-drop.png"},
+        {"slot": "ref_image_2", "label": "<Picture 3>", "asset": "pure_white_room", "file": "assets/environments/純白房間.png", "role": "environment_reference"}
+      ],
+      "videos": [{"label": "<Video 1>", "file": "assets/blender/cpu-motion-v07/01-scatter-rise-v07.mp4", "role": "scatter_motion_and_final_layout"}]
+    },
+    {
+      "id": "seg07-b", "mode": "Ref2VA", "seconds": 12, "seed": 7701,
+      "prompt": "segments/SEG-07/seg07-b-minimax-h3-prompt-v10.txt",
+      "images": [
+        {"slot": "ref_image_0", "label": "<Picture 1>", "asset": "heroine", "file": "assets/characters/heroine-photo-reference-v01.png"},
+        {"slot": "ref_image_1", "label": "<Picture 2>", "asset": "cadi", "file": "assets/characters/cadi_red.png"},
+        {"slot": "ref_image_2", "label": "<Picture 3>", "asset": "layout_ref", "file": "", "status": "pending_user_reference", "role": "exact_final_layout"},
+        {"slot": "ref_image_3", "label": "<Picture 4>", "asset": "pure_white_room", "file": "assets/environments/純白房間.png", "role": "environment_reference"}
+      ]
+    }
+  ]
+}

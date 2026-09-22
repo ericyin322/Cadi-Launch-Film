@@ -118,11 +118,11 @@
       "id": "SEG-07",
       "storyboard": "v01",
       "approval": "storyboard_v01_outdated_revision_pending",
-      "h3": "a_v05_b_v08_indoor_reference_ready_final_layout_image_pending",
+      "h3": "a_v07_b_v10_pure_white_room_reference_ready_final_layout_image_pending",
       "storyboard_notes": "v01已過時；新版須呈現drop看資料、立體零件灑落排好、Cadi邀請女主角觀看。",
       "brief": "segments/SEG-07/brief-v02.md",
       "screenplay": "v0.19",
-      "screenplay_override": "H3 B v07 production override: heroine stands then bends slightly to inspect the placement; drop is absent; final layout uses Picture 3",
+      "screenplay_override": "H3 B v10 production override: heroine stands then bends slightly to inspect the placement; drop is absent; final layout uses Picture 3; pure-white room uses Picture 4; placement hovers horizontally in the room center",
       "screenplay_approval": "approved_by_user_revision",
       "screenplay_notes": "已併入 master-storyboard-v0.18.md。承接SEG06；DLG-18停用，DLG-19為「這是最新版的placement，您覺得如何」。為銜接SEG-08，鏡頭27同步H3 B v07：女主角站在工作區近左側，稍微彎腰端詳Placement；drop不出場，最終布局使用Picture 3。",
       "duration_seconds": 26,
@@ -133,30 +133,33 @@
         "assets/blender/cpu-motion-v07/01-scatter-rise-v07.blend"
       ],
       "h3_storyboard_override": "explicit_user_request_after_text_revision_2026-09-17",
-      "h3_notes": "segments/SEG-07/minimax-h3-generation-notes-v08.md",
-      "environment_reference_file": "assets/environments/室內.jpg",
+      "h3_notes": "segments/SEG-07/minimax-h3-generation-notes-v10.md",
+      "environment_reference_file": "assets/environments/純白房間.png",
       "environment_reference_mode": "image_reference",
-      "environment_binding": "segments/SEG-07/indoor-scene-binding-v01.md",
+      "environment_binding": "segments/SEG-07/pure-white-room-binding-v01.md",
+      "placement_support": "horizontal_hover_in_room_center_at_waist_to_chest_height",
       "h3_prompts": [
-        "segments/SEG-07/seg07-a-minimax-h3-prompt-v05.txt",
-        "segments/SEG-07/seg07-b-minimax-h3-prompt-v08.txt"
+        "segments/SEG-07/seg07-a-minimax-h3-prompt-v07.txt",
+        "segments/SEG-07/seg07-b-minimax-h3-prompt-v10.txt"
       ],
-      "reference_manifest": "segments/SEG-07/reference-manifest-v08.json",
-      "prompt_registry": "segments/SEG-07/cast-registry-v08.yaml"
+      "reference_manifest": "segments/SEG-07/reference-manifest-v10.json",
+      "prompt_registry": "segments/SEG-07/cast-registry-v10.yaml"
     },
     {
       "id": "SEG-08",
       "storyboard": "v01",
       "approval": "storyboard_v01_outdated_revision_pending",
-      "h3": "a_v05_b_v03_indoor_reference_ready_video_unverified",
-      "environment_reference_file": "assets/environments/室內.jpg",
+      "h3": "a_v07_b_v05_pure_white_room_reference_ready_video_unverified",
+      "environment_reference_file": "assets/environments/純白房間.png",
       "environment_reference_mode": "image_reference",
-      "environment_binding": "segments/SEG-08/indoor-scene-binding-v01.md",
+      "environment_binding": "segments/SEG-08/pure-white-room-binding-v01.md",
+      "placement_support": "horizontal_hover_in_room_center_at_waist_to_chest_height",
       "screenplay": "v0.18",
       "screenplay_approval": "approved_by_user_revision",
       "screenplay_notes": "承接SEG-07 B v07末端站姿；Placement全程留在工作桌面，Cadi在旁等待、不托拿。A前半女主角認真查看布局，後半僅以食指指向CPU、手小幅移動並說DLG-20，說完放下手、恢復直立站姿。CPU側移、確認採用與啟動Creo等後續劇情不變。",
       "brief": "segments/SEG-08/brief-v04.md",
       "screenplay_override": "segments/SEG-08/brief-v04.md",
+      "h3_production_override": "H3 A v07 and B v05 use assets/environments/純白房間.png; placement hovers horizontally at waist-to-chest height in the room center instead of resting on a workbench",
       "storyboard_notes": "v01已過時；新版須呈現桌面Placement、Cadi雙手垂放、女主角先認真查看再小幅指向CPU說話、說完恢復直立站姿，以及後續CPU側移與確認採用。",
       "duration_seconds": 22,
       "time_range": "02:46–03:08",
@@ -181,13 +184,13 @@
         "drop"
       ],
       "h3_storyboard_override": "explicit_user_request_after_text_revision_2026-09-21",
-      "h3_notes": "segments/SEG-08/minimax-h3-generation-notes-v05.md；A 13秒＋B 10秒，seed 7801；四段均改用 assets/environments/室內.jpg 圖片場景參考；A保留heroine、cadi、placement_2D並新增室內圖，B保留heroine、cadi與CPU動作影片並新增室內圖；drop不入鏡",
+      "h3_notes": "segments/SEG-08/minimax-h3-generation-notes-v07.md；A 13秒＋B 10秒，seed 7801；改用 assets/environments/純白房間.png 圖片場景參考；Placement 在房間中央水平懸浮；A保留heroine、cadi、placement_2D，B保留heroine、cadi與CPU動作影片；drop不入鏡",
       "h3_prompts": [
-        "segments/SEG-08/seg08-a-minimax-h3-prompt-v05.txt",
-        "segments/SEG-08/seg08-b-minimax-h3-prompt-v03.txt"
+        "segments/SEG-08/seg08-a-minimax-h3-prompt-v07.txt",
+        "segments/SEG-08/seg08-b-minimax-h3-prompt-v05.txt"
       ],
-      "reference_manifest": "segments/SEG-08/reference-manifest-v05.json",
-      "prompt_registry": "segments/SEG-08/cast-registry-v05.yaml"
+      "reference_manifest": "segments/SEG-08/reference-manifest-v07.json",
+      "prompt_registry": "segments/SEG-08/cast-registry-v07.yaml"
     },
     {
       "id": "SEG-09",
@@ -379,11 +382,13 @@
     "segment_overrides": {
       "SEG-07": {
         "mode": "image_reference",
-        "file": "assets/environments/室內.jpg"
+        "file": "assets/environments/純白房間.png",
+        "placement_support": "horizontal_hover_in_room_center"
       },
       "SEG-08": {
         "mode": "image_reference",
-        "file": "assets/environments/室內.jpg"
+        "file": "assets/environments/純白房間.png",
+        "placement_support": "horizontal_hover_in_room_center"
       }
     }
   }

@@ -204,14 +204,14 @@ assets:
       positions, silhouettes, color grouping, and rectangular plane orientation follow
     retention: Preserve the exact component identities, proportions, spacing, positions, silhouettes, color grouping
       and rectangular orientation; render them as a stable volumetric holographic placement under the scene lighting.
-  indoor_workstation:
+  pure_white_room:
     priority: 120
-    file: assets/environments/室內.jpg
+    file: assets/environments/純白房間.png
     role: environment_reference
-    binding: Its architecture, room layout, materials, lighting and window placement follow
-    canonical: the bright minimalist indoor workstation
-    retention: Preserve the long open perspective, left-side floor-to-ceiling window wall, polished gray floor,
-      smooth white architectural surfaces, clean rectangular columns, recessed linear light channels and hazy city view.
+    binding: Its symmetrical white architecture, lighting, wall panels, ceiling recess and floor reflections follow
+    canonical: the pure-white futuristic room
+    retention: Preserve the empty symmetrical composition, seamless white panels, pale reflective floor, rounded recessed
+      ceiling tray, warm-white perimeter lights, chamfered corners and paired slim black ventilation slots.
 
 segments:
   - id: "S03a"
@@ -372,18 +372,18 @@ segments:
     cast:
     - cadi
     - drop
-    - indoor_workstation
-    prompt: segments/SEG-07/seg07-a-minimax-h3-prompt-v05.txt
-    prompt_registry: segments/SEG-07/cast-registry-v08.yaml
+    - pure_white_room
+    prompt: segments/SEG-07/seg07-a-minimax-h3-prompt-v07.txt
+    prompt_registry: segments/SEG-07/cast-registry-v10.yaml
     reference_images:
     - label: <Picture 3>
-      file: assets/environments/室內.jpg
+      file: assets/environments/純白房間.png
       role: environment_reference
     reference_videos:
     - label: <Video 1>
       file: assets/blender/cpu-motion-v07/01-scatter-rise-v07.mp4
       role: scatter_motion_and_final_layout
-    environment: indoor_workstation
+    environment: pure_white_room
 
   - id: seg07-b
     scene: 7
@@ -394,19 +394,19 @@ segments:
     - heroine
     - cadi
     - layout_ref
-    - indoor_workstation
-    prompt: segments/SEG-07/seg07-b-minimax-h3-prompt-v08.txt
-    prompt_registry: segments/SEG-07/cast-registry-v08.yaml
+    - pure_white_room
+    prompt: segments/SEG-07/seg07-b-minimax-h3-prompt-v10.txt
+    prompt_registry: segments/SEG-07/cast-registry-v10.yaml
     reference_images:
     - label: <Picture 3>
       file: ''
       status: pending_user_reference
       role: exact_final_layout
     - label: <Picture 4>
-      file: assets/environments/室內.jpg
+      file: assets/environments/純白房間.png
       role: environment_reference
     continues_from: seg07-a
-    environment: indoor_workstation
+    environment: pure_white_room
 
   - id: seg08-a
     scene: 8
@@ -417,18 +417,18 @@ segments:
     - heroine
     - cadi
     - layout_ref
-    - indoor_workstation
-    prompt: segments/SEG-08/seg08-a-minimax-h3-prompt-v05.txt
-    prompt_registry: segments/SEG-08/cast-registry-v05.yaml
+    - pure_white_room
+    prompt: segments/SEG-08/seg08-a-minimax-h3-prompt-v07.txt
+    prompt_registry: segments/SEG-08/cast-registry-v07.yaml
     reference_images:
     - label: <Picture 3>
       file: assets/placement/placement_2D.png
       role: exact_final_layout
     - label: <Picture 4>
-      file: assets/environments/室內.jpg
+      file: assets/environments/純白房間.png
       role: environment_reference
     continues_from: seg07-b
-    environment: indoor_workstation
+    environment: pure_white_room
 
   - id: seg08-b
     scene: 8
@@ -438,19 +438,19 @@ segments:
     cast:
     - heroine
     - cadi
-    - indoor_workstation
-    prompt: segments/SEG-08/seg08-b-minimax-h3-prompt-v03.txt
-    prompt_registry: segments/SEG-08/cast-registry-v05.yaml
+    - pure_white_room
+    prompt: segments/SEG-08/seg08-b-minimax-h3-prompt-v05.txt
+    prompt_registry: segments/SEG-08/cast-registry-v07.yaml
     reference_images:
     - label: <Picture 3>
-      file: assets/environments/室內.jpg
+      file: assets/environments/純白房間.png
       role: environment_reference
     reference_videos:
     - label: <Video 1>
       file: assets/blender/cpu-motion-v07/02-cpu-move-highlight-v07.mp4
       role: cpu_lateral_move_and_hold
     continues_from: seg08-a
-    environment: indoor_workstation
+    environment: pure_white_room
 
   - id: seg04-a
     scene: 4

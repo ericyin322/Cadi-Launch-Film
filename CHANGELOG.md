@@ -1,5 +1,19 @@
 # 修改紀錄
 
+## 2026-09-22｜SEG-07／08 更新純白房間
+
+- 場景參考更新為 `assets/environments/純白房間.png`，納入四個 H3 生成單元的實際上傳索引。
+- Placement 維持在房間中央、腰胸高度水平懸浮；純白房間保留對稱牆板、反光地面、圓角天花凹槽、暖白燈線與兩側細黑通風縫。
+- SEG-07 新增 A v07／B v10、registry／manifest／生成說明 v10；SEG-08 新增 A v07／B v05、registry／manifest／生成說明 v07。舊版保留。
+- 劇情、角色動作、台詞、seed、時長與動作影片用途不變。SEG-07 B 最終布局圖仍待提供，影片未生成。
+
+## 2026-09-22｜SEG-07／08 更新日式室內與中央懸浮 Placement
+
+- 場景參考由 `assets/environments/室內.jpg` 更新為 `assets/environments/日式.jpg`，納入四個 H3 生成單元的實際上傳索引。
+- Placement 改為在房間中央、腰胸高度水平懸浮，底下保留空間；後方盆栽維持可見。移除現行提示詞中的工作桌依附設定。
+- SEG-07 新增 A v06／B v09、registry／manifest／生成說明 v09；SEG-08 新增 A v06／B v04、registry／manifest／生成說明 v06。舊版保留。
+- 劇情、角色動作、台詞、seed、時長與動作影片用途不變。SEG-07 B 最終布局圖仍待提供，影片未生成。
+
 ## 2026-09-22｜SEG-07／08 drop 工站改為室內圖片場景
 
 - 依使用者指示，以 `assets/environments/室內.jpg` 取代 SEG-07／08 舊版虛擬工廠街區文字場景，並把該圖納入每個 H3 生成單元的實際上傳索引。
