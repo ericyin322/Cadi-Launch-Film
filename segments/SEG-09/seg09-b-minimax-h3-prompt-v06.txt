@@ -1,0 +1,33 @@
+subject_definitions:
+<Subject 1> is Creo Robot, a massive industrial humanoid with broad rounded off-white shoulder armor, heavy elongated forearms, large articulated dark-metal hands, short sturdy legs, exposed gunmetal joints, green joint rings, a small rectangular head with a dark face panel and a single vertical warm-white optic, and a black-and-green cube emblem on the shoulder. Its appearance follows <Picture 1>.
+<Subject 2> is the completed physical placement assembly, including the green rectangular base, two large gray cooling-fan housings at the right, the long green modules at the left, the central processor and memory arrays, the pale rear strip, the cyan upper-right module, and the smaller surrounding connectors. Its component identities, relative proportions, spacing, positions, silhouettes, color grouping, and rectangular plane orientation follow <Picture 2>. The assembly lies directly on the Creo dock floor. For screen geography, the top far edge of <Picture 2> defines the north side of the placement.
+<Picture 2> anchors [Shot 2]'s elevated three-quarter view, north orientation, and floor-level arrangement.
+
+summary:
+[reference generation + keyframe completion] In the Creo dock, an upper-body shot shows <Subject 1> completing a heavy lowering action below frame. Already standing on bare floor outside the north edge of <Subject 2>, it turns outward and walks into the north aisle while the camera simultaneously pulls back and rises.
+
+retention_analysis:
+<Subject 1> / <Picture 1> (appears in both shots): fully_preserved - preserve its armor, heavy forearms, articulated hands, joints, green rings, small head, vertical optic, shoulder emblem, and weight-bearing proportions.
+<Subject 2> / <Picture 2> ([Shot 2]): fully_preserved - preserve every component identity, scale, spacing, position, silhouette, color group, rectangular orientation, and north-side geography as solid hardware resting directly on the dock floor.
+<Picture 2> ([Shot 2] final composition): fully_preserved - retain its elevated three-quarter direction and readable floor-level placement.
+
+detailed_description:
+Photorealistic live-action cinema footage shot on a digital cinema camera with prime lenses: natural skin texture with visible pores, real fabric weave, physically accurate reflections, shallow depth of field and subtle film grain.
+
+The clip remains inside the monumental Creo engineering dock: white-gray metal, exposed service pipes, green accents, warm practical lights, cyan floor reflections, and deep side aisles. <Subject 2> lies directly on the dock floor at the same level as the aisles. Its green base maintains continuous ground contact and firm contact shadows.
+[Shot 1] Tight medium close-up centered on the upper body of <Subject 1> <Picture 1>. Frame from the robot's waist upward: its small head, broad armored shoulders, chest, heavy forearms and articulated hands dominate the composition. The camera stays level at chest height. The lower work area lies beyond the bottom edge. The robot leans forward under substantial weight, looking downward as its hands travel below frame.
+[0s-2s] The shoulders lower, elbows bend and wrists rotate inward in one controlled action. Both hands pass completely beneath the bottom edge while the torso compresses under the load. Its optic stays aimed downward; servo strain and joint creaks build tension.
+[2s-3s] A single deep metallic thud and low-frequency impact sound from below frame. Vibration travels through the forearms into the shoulders; the torso rebounds slightly and settles. The robot opens its hands below frame, then draws them back upward empty.
+[Shot 2] At 00:03.000, cut to a medium three-quarter view from the south side. <Subject 1> stands on the bare dock floor immediately beyond the north outside edge of the green rectangular base. The top far edge of <Picture 2> is north. Both feet are planted in the clear exterior floor strip north of that edge, with visible floor clearance separating each foot from the green base. The robot pivots outward, turning its back to the placement and facing deeper into the north aisle. At the same instant as its first outward step, the camera starts one continuous smooth dolly backward, rising crane and gentle downward tilt.
+[3s-6s] The robot takes three heavy steps directly away from the north edge into the clear north aisle. Its entire route stays on the bare dock floor outside the green rectangular boundary, and the visible clearance between its feet and the base increases with every step. Its shoulders counter-rotate, empty arms swing with mechanical inertia, and each footfall produces a muted boom. Simultaneously, the widening camera reveals all components and the green base. <Subject 2> stays motionless with firm ground contact.
+[6s-8s] <Subject 1> continues deeper into the north aisle and passes beyond the top edge of frame. Without pausing, the camera keeps dollying backward and rising to expose the complete placement and surrounding floor.
+[8s-11s] Continue the same uninterrupted pullback into the elevated three-quarter direction defined by <Picture 2>. The dock floor remains visible as one continuous surface around all four edges of the green base. Both side aisles and the north aisle frame the complete arrangement. Strong perspective parallax preserves the exact relative positions and north orientation from <Picture 2>.
+[11s-13s] Ease the camera to a complete stop on the final composition anchored by <Picture 2>. Hold the entire floor-level placement inside frame with clean margins, realistic ground contact shadows and physical reflections. Every installed component remains perfectly still through the final frame.
+
+Negative constraints: no subtitles, no readable text, no extra fingers or limbs, no deformed limbs, no duplicate robot, no duplicate component, no shaky camera, no looping, no slow motion.
+
+overall_soundscape:
+Low dock ventilation, distant machinery hum, restrained hydraulic servo movement and subtle metal creaks continue throughout. At 00:02.000, one prominent deep metallic thud with a dense bass impact and short floor-borne resonance sounds from below frame. Three muted heavy footfalls accompany the simultaneous outward north-side exit and camera pullback, then recede into the north aisle. No voices.
+
+non_diegetic_music:
+N/A.

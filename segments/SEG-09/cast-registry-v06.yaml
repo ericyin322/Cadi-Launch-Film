@@ -1,0 +1,68 @@
+project:
+  title: Cadi Launch Film
+  aspect_ratio: '16:9'
+  label_style: paired
+  section_style: detailed
+  visual_style: 'Photorealistic live-action cinema footage shot on a digital cinema camera with prime lenses: natural skin texture with visible pores, real fabric weave, physically accurate reflections, shallow depth of field and subtle film grain.'
+  virtual_factory:
+    description_file: assets/environments/virtual-factory-description-v02.txt
+    usage_file: assets/environments/virtual-factory-usage-v02.md
+    reference_mode: text_only
+    applies_to: [SEG-09]
+    interior_policy: Use only the visible white-gray structural metal, exposed service pipes, green structural accents, warm industrial practical lights and soft cyan floor reflections of the Creo dock.
+
+assets:
+  cadi:
+    priority: 10
+    file: assets/characters/cadi_red.png
+    role: identity
+    binding: Its design, proportions, and colors follow
+    canonical: Cadi, a small flying robot mascot. Its head is composed of actively burning, ethereal red plasma fire with orange-gold inner tongues and a warm white luminous center that continuously flickers, dances, and undulates with rising wisps and subtle luminous embers (an energetic plasma flame, completely non-solid, with zero gelatinous or jelly-like surface tension). Within the dynamic flame sit two oversized oval warm-white eyes with dark red rims and a tiny mouth, atop a dark charcoal-gray segmented robot body with red joint accents and a glowing circular warm-white chest core with a gold-orange rim.
+    retention: 'fully preserved: its actively burning red plasma fire head with orange-gold inner tongues and a warm white luminous center, continuous flickering combustion, soft rising flame tongues, subtle luminous embers, wind-drag during movement, upward licking and dissipation while hovering, oversized oval warm-white eyes with dark red rims, tiny mouth, dark charcoal-gray segmented robot body with red joint accents, body proportions, and glowing circular warm-white chest core with a gold-orange rim must remain consistent. It is lit by the same real lighting as the scene described by the timeline.'
+    extra_negatives: [rubbery, gelatinous, solid jelly texture, solid glass surface]
+  creo_robot:
+    priority: 20
+    file: assets/characters/creo-robot-concept/creo-robot-concept-v01.png
+    role: identity
+    binding: Its appearance follows
+    canonical: Creo Robot, a massive industrial humanoid with broad rounded off-white shoulder armor, heavy elongated forearms, large articulated dark-metal hands, short sturdy legs, exposed gunmetal joints, green joint rings, a small rectangular head with a dark face panel and a single vertical warm-white optic, and a black-and-green cube emblem on the shoulder.
+    retention: Preserve the broad off-white shoulder armor, heavy elongated forearms, large articulated dark-metal hands, short sturdy legs, exposed gunmetal joints, green joint rings, small rectangular head, vertical warm-white optic, shoulder emblem and massive weight-bearing proportions.
+  pure_white_room:
+    priority: 30
+    file: assets/environments/純白房間.png
+    role: opening_environment_reference
+    binding: Its symmetrical white architecture, lighting, wall panels, ceiling recess and floor reflections follow
+    canonical: the pure-white futuristic room
+    retention: Preserve the empty symmetrical composition, seamless white panels, pale reflective floor, rounded recessed ceiling tray, warm-white perimeter lights, chamfered corners and paired slim black ventilation slots.
+  placement_creo:
+    priority: 40
+    file: assets/placement/Screenshot 2026-09-21 164040.png
+    role: exact_final_layout_and_composition
+    binding: Its component identities, relative proportions, spacing, positions, silhouettes, color grouping, rectangular plane orientation and elevated three-quarter composition follow
+    canonical: the completed physical placement assembly, including the green rectangular base, two large gray cooling-fan housings at the right, the long green modules at the left, the central processor and memory arrays, the pale rear strip, the cyan upper-right module, and the smaller surrounding connectors.
+    retention: Preserve every visible component identity, relative scale, spacing, position, silhouette, color group, full rectangular orientation and elevated three-quarter viewing direction; render the arrangement as solid physical engineering hardware resting directly on the Creo dock floor, with the top far edge of the reference defining its north side.
+segments:
+  - id: seg09-a
+    scene: 9
+    seed: 7901
+    duration_seconds: 13
+    cast: [cadi, creo_robot, pure_white_room]
+    prompt: segments/SEG-09/seg09-a-minimax-h3-prompt-v02.txt
+    reference_images:
+      - {label: '<Picture 1>', file: 'assets/characters/cadi_red.png', role: identity}
+      - {label: '<Picture 2>', file: 'assets/characters/creo-robot-concept/creo-robot-concept-v01.png', role: identity}
+      - {label: '<Picture 3>', file: 'assets/environments/純白房間.png', role: opening_environment_reference}
+    reference_videos:
+      - {label: '<Video 1>', file: 'segments/SEG-09/reference-videos-v02/seg09-a-motion-reference-v02.mp4', role: motion_and_camera_weak_reference, derived_from: 'assets/blender/seg09-creo-dock-v06/seg09-creo-dock-animation-v06.mp4'}
+    environment_sequence: pure_white_room_to_creo_dock_on_whip_pan
+  - id: seg09-b
+    scene: 9
+    seed: 7901
+    duration_seconds: 13
+    cast: [creo_robot, placement_creo]
+    prompt: segments/SEG-09/seg09-b-minimax-h3-prompt-v06.txt
+    reference_images:
+      - {label: '<Picture 1>', file: 'assets/characters/creo-robot-concept/creo-robot-concept-v01.png', role: identity}
+      - {label: '<Picture 2>', file: 'assets/placement/Screenshot 2026-09-21 164040.png', role: exact_final_layout_and_composition}
+    continues_from: seg09-a
+    environment: creo_dock_text_only
