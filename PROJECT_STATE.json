@@ -199,7 +199,7 @@
       "screenplay_notes": "依使用者確認的 Blender v06 動作版本及 2026-09-22 場景轉換指示更新：Cadi在純白房間彈指，攝影機向右快速轉鏡；Creo Robot第一次清晰入鏡時已位於Creo船塢。後續力量亮相、接住墜落風扇、五台協同搬運與落位、俯瞰完整布局、Cadi降至已放妥風扇旁不變。全段26秒、無台詞；DLG-24–26停用。",
       "storyboard": "v01",
       "approval": "storyboard_v01_outdated_revision_pending",
-      "h3": "a_v02_b_v03_heavy_part_closeup_to_placement_creo_reveal_ready_unverified",
+      "h3": "a_v02_b_v04_upper_body_placement_robot_exit_to_placement_creo_reveal_ready_unverified",
       "environment_description_file": "assets/environments/virtual-factory-description-v02.txt",
       "environment_reference_mode": "opening_image_then_text_only_dock",
       "environment_binding": "segments/SEG-09/scene-transition-binding-v02.md",
@@ -225,17 +225,17 @@
           432
         ]
       },
-      "h3_storyboard_override": "explicit_user_request_seg09b_two_shot_heavy_placement_and_placement_creo_reveal_2026-09-22",
+      "h3_storyboard_override": "explicit_user_request_seg09b_upper_body_placement_robot_turn_and_exit_2026-09-22",
       "h3_prompts": [
         "segments/SEG-09/seg09-a-minimax-h3-prompt-v02.txt",
-        "segments/SEG-09/seg09-b-minimax-h3-prompt-v03.txt"
+        "segments/SEG-09/seg09-b-minimax-h3-prompt-v04.txt"
       ],
-      "reference_manifest": "segments/SEG-09/reference-manifest-v03.json",
-      "prompt_registry": "segments/SEG-09/cast-registry-v03.yaml",
-      "h3_notes": "segments/SEG-09/minimax-h3-generation-notes-v03.md",
-      "brief": "segments/SEG-09/brief-v05.md",
+      "reference_manifest": "segments/SEG-09/reference-manifest-v04.json",
+      "prompt_registry": "segments/SEG-09/cast-registry-v04.yaml",
+      "h3_notes": "segments/SEG-09/minimax-h3-generation-notes-v04.md",
+      "brief": "segments/SEG-09/brief-v06.md",
       "motion_reference_usage": "A 沿用前半 13 秒影片作 weak_reference；B v03 不使用影片，只上傳 Creo Robot 身分圖與 placement-creo 完整布局圖。",
-      "seg09_b_revision": "13 秒兩鏡：沉重風扇零件落位特寫與重擊聲；不切鏡拉遠升高，展示 placement-creo 完整布局。"
+      "seg09_b_revision": "13 秒三鏡：腰部以上呈現放置動作，零件位於畫面下緣之外並以重擊聲表現；Creo Robot 轉身走出鏡頭；工作區淨空後拉遠升高展示 placement-creo 完整布局。"
     },
     {
       "id": "SEG-10",

@@ -1,5 +1,12 @@
 # 修改紀錄
 
+## 2026-09-22｜SEG-09 B 上半身放置與 Creo Robot 離場
+
+- SEG-09A 維持 v02；新增 B prompt v04，場景、13 秒時長、seed 與 placement-creo 參考圖不變。
+- 放置鏡頭改為只取 Creo Robot 腰部以上；雙手伸到畫面下緣之外，以重擊聲、低頻共振和肩臂回震表達放下動作。
+- Robot 放置後直起身、轉身，沿側通道走出鏡頭；工作區淨空後再拉遠升高展示完整 Placement。
+- 新增 brief v06、registry／manifest／生成說明與驗證紀錄 v04；A 相容性14項、B 13項通過，均0警告、0失敗；舊檔保留，影片未生成。
+
 ## 2026-09-22｜SEG-09 B 重物落位特寫與 Placement 拉遠展示
 
 - SEG-09A 維持 v02；只新增 B prompt v03，場景仍是 Creo 船塢，時長 13 秒、seed 7901 不變。

@@ -1,0 +1,31 @@
+{
+  "mode": "Ref2VA",
+  "seed": 7901,
+  "segments": [
+    {
+      "id": "seg09-a",
+      "seconds": 13,
+      "prompt": "segments/SEG-09/seg09-a-minimax-h3-prompt-v02.txt",
+      "images": [
+        {"slot": "ref_image_0", "label": "<Picture 1>", "asset": "cadi", "file": "assets/characters/cadi_red.png", "role": "identity"},
+        {"slot": "ref_image_1", "label": "<Picture 2>", "asset": "creo_robot", "file": "assets/characters/creo-robot-concept/creo-robot-concept-v01.png", "role": "identity"},
+        {"slot": "ref_image_2", "label": "<Picture 3>", "asset": "pure_white_room", "file": "assets/environments/純白房間.png", "role": "opening_environment_reference"}
+      ],
+      "videos": [
+        {"label": "<Video 1>", "file": "segments/SEG-09/reference-videos-v02/seg09-a-motion-reference-v02.mp4", "role": "motion_and_camera_weak_reference", "derived_from": "assets/blender/seg09-creo-dock-v06/seg09-creo-dock-animation-v06.mp4", "source_window_seconds": [0, 13]}
+      ]
+    },
+    {
+      "id": "seg09-b",
+      "seconds": 13,
+      "prompt": "segments/SEG-09/seg09-b-minimax-h3-prompt-v04.txt",
+      "images": [
+        {"slot": "ref_image_0", "label": "<Picture 1>", "asset": "creo_robot", "file": "assets/characters/creo-robot-concept/creo-robot-concept-v01.png", "role": "identity"},
+        {"slot": "ref_image_1", "label": "<Picture 2>", "asset": "placement_creo", "file": "assets/placement/Screenshot 2026-09-21 164040.png", "role": "exact_final_layout_and_composition"}
+      ],
+      "videos": []
+    }
+  ],
+  "reference_policy": "SEG-09A remains unchanged at v02. SEG-09B uses only the Creo Robot identity image and the placement-creo final-layout image. The opening crop shows the robot from the waist upward with its hands moving below frame; after the robot turns and exits, the placement is revealed.",
+  "supersedes_for_seg09_b": "segments/SEG-09/reference-manifest-v03.json"
+}
