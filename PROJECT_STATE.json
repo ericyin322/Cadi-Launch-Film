@@ -7,7 +7,7 @@
     "主管",
     "技術發表會觀眾"
   ],
-  "source_of_truth": "screenplay/master-storyboard-v0.18.md",
+  "source_of_truth": "screenplay/master-storyboard-v0.19.md",
   "video_prompt_target": "MiniMax H3",
   "storyboard_style": "黑白漫畫式線稿（僅限 Storyboard 前期圖，不進 H3 提示詞）",
   "final_video_style": "寫實真人電影質感；H3 逐字文字見 cast_registry.yaml project.visual_style",
@@ -34,7 +34,7 @@
       "id": "SEG-03",
       "storyboard": "v01",
       "approval": "storyboard_v01_outdated_revision_pending",
-      "h3": "a_v03_b_v02_ready_video_unverified",
+      "h3": "a_v04_b_v02_ready_video_unverified",
       "screenplay": "v0.8",
       "screenplay_approval": "approved_by_user_revision",
       "brief": "segments/SEG-03/brief-v02.md",
@@ -121,7 +121,7 @@
       "h3": "a_v04_b_v07_final_layout_image_pending",
       "storyboard_notes": "v01已過時；新版須呈現drop看資料、立體零件灑落排好、Cadi邀請女主角觀看。",
       "brief": "segments/SEG-07/brief-v02.md",
-      "screenplay": "v0.18",
+      "screenplay": "v0.19",
       "screenplay_override": "H3 B v07 production override: heroine stands then bends slightly to inspect the placement; drop is absent; final layout uses Picture 3",
       "screenplay_approval": "approved_by_user_revision",
       "screenplay_notes": "已併入 master-storyboard-v0.18.md。承接SEG06；DLG-18停用，DLG-19為「這是最新版的placement，您覺得如何」。為銜接SEG-08，鏡頭27同步H3 B v07：女主角站在工作區近左側，稍微彎腰端詳Placement；drop不出場，最終布局使用Picture 3。",
@@ -153,10 +153,10 @@
       "environment_binding": "segments/SEG-08/factory-scene-binding-v02.md",
       "screenplay": "v0.18",
       "screenplay_approval": "approved_by_user_revision",
-      "screenplay_notes": "承接SEG-07 B v07末端站姿；Cadi把drop排好的發光布局帶到女主角面前，女主角保持站姿端詳與筆畫，H3 A的12–13秒仍持續對placement比劃；CPU金黃亮顯水平側移後停住；女主角站著確認採用，Cadi回應啟動Creo。其餘劇情不變。",
-      "brief": "segments/SEG-08/brief-v03.md",
-      "screenplay_override": "segments/SEG-08/brief-v03.md",
-      "storyboard_notes": "v01已過時；新版須呈現Cadi托發光布局、女主角全程站姿端詳與筆畫、CPU側移停住、站姿確認採用。",
+      "screenplay_notes": "承接SEG-07 B v07末端站姿；Placement全程留在工作桌面，Cadi在旁等待、不托拿。A前半女主角認真查看布局，後半僅以食指指向CPU、手小幅移動並說DLG-20，說完放下手、恢復直立站姿。CPU側移、確認採用與啟動Creo等後續劇情不變。",
+      "brief": "segments/SEG-08/brief-v04.md",
+      "screenplay_override": "segments/SEG-08/brief-v04.md",
+      "storyboard_notes": "v01已過時；新版須呈現桌面Placement、Cadi雙手垂放、女主角先認真查看再小幅指向CPU說話、說完恢復直立站姿，以及後續CPU側移與確認採用。",
       "duration_seconds": 22,
       "time_range": "02:46–03:08",
       "timing_status": "h3_23_seconds_original_22_second_slot_pending_edit_trim",
@@ -180,13 +180,13 @@
         "drop"
       ],
       "h3_storyboard_override": "explicit_user_request_after_text_revision_2026-09-21",
-      "h3_notes": "segments/SEG-08/minimax-h3-generation-notes-v03.md；A 13秒＋B 10秒，seed 7801；A以heroine、cadi、placement_2D三張圖片生成，不再使用布局Video參考；B維持v02與CPU移動Video參考；drop不入鏡",
+      "h3_notes": "segments/SEG-08/minimax-h3-generation-notes-v04.md；A 13秒＋B 10秒，seed 7801；A以heroine、cadi、placement_2D三張圖片生成，Placement留在桌面，女主角先看、再小幅指向CPU說話、最後恢復直立站姿；B維持v02；drop不入鏡",
       "h3_prompts": [
-        "segments/SEG-08/seg08-a-minimax-h3-prompt-v03.txt",
+        "segments/SEG-08/seg08-a-minimax-h3-prompt-v04.txt",
         "segments/SEG-08/seg08-b-minimax-h3-prompt-v02.txt"
       ],
-      "reference_manifest": "segments/SEG-08/reference-manifest-v03.json",
-      "prompt_registry": "segments/SEG-08/cast-registry-v03.yaml"
+      "reference_manifest": "segments/SEG-08/reference-manifest-v04.json",
+      "prompt_registry": "segments/SEG-08/cast-registry-v04.yaml"
     },
     {
       "id": "SEG-09",

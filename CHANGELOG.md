@@ -1,5 +1,11 @@
 # 修改紀錄
 
+## 2026-09-21｜SEG-08 A 動作修訂與 H3 v04
+
+- Placement 全程留在工作桌面，Cadi 懸停於右側、雙手自然垂放，不托拿布局。
+- A 前半女主角認真查看 Placement；後半只以食指指向 CPU，手做小幅度控制移動並說 DLG-20；12–13秒放下手、挺直上半身，恢復直立站姿。
+- B v02、CPU 側移、確認採用與啟動 Creo 等後續劇情不變。新增 `brief-v04.md`、`master-storyboard-v0.19.md`、A prompt／registry／manifest／生成說明 v04；舊版保留，影片未生成。
+
 ## 2026-09-21｜SEG-08 A H3 v03：布局改用圖片參考
 
 - A 段移除完成布局的 `<Video 1>`，改以上傳 `assets/placement/placement_2D.png` 為 `<Picture 3>`；圖片只負責完整布局的零件身分、比例、間距、位置、輪廓、配色分組與矩形平面方向。

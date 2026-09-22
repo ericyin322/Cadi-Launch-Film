@@ -1,0 +1,193 @@
+project:
+  title: Cadi Launch Film
+  aspect_ratio: '16:9'
+  frames_per_segment: 362
+  label_style: paired
+  section_style: detailed
+  visual_style: 'Photorealistic live-action cinema footage shot on a digital cinema camera with prime lenses: natural
+    skin texture with visible pores, real fabric weave, physically accurate reflections, shallow depth of field
+    and subtle film grain.'
+  virtual_factory:
+    description_file: assets/environments/virtual-factory-description-v02.txt
+    usage_file: assets/environments/virtual-factory-usage-v02.md
+    reference_mode: text_only
+    applies_to:
+    - SEG-04
+    - SEG-05
+    - SEG-06
+    - SEG-07
+    - SEG-08
+    - SEG-09
+    - SEG-10
+    - SEG-11
+    - SEG-12
+    environment_description: A bright futuristic engineering district beneath a blue sky with white clouds. A glowing
+      cyan transport avenue leads toward a monumental tower surrounded by enormous horizontal rings. Multilevel
+      automated workshops line both sides, combining dense high-rise urban streetscapes with white-gray metal
+      facades, exposed pipes, glass platforms, and vertical orange engineering signs. Elevated cyan rails
+      connect the buildings. Yellow industrial robot arms operate inside warm-lit workshops, small white service
+      robots move along terraces, and hovering disc-shaped carriers transport luminous translucent cubes. Green
+      rooftop planters soften the architecture. Natural sunlight creates realistic metal and glass reflections.
+    establishing_camera: The camera slowly glides forward, keeping the central tower centered as the city operates
+      in an orderly rhythm.
+    camera_policy: Use establishing_camera only for district establishing views; preserve shot-specific camera directions.
+    interior_policy: Use only visible materials and lighting for interior-only shots; use the district paragraph
+      in street-visible shots.
+assets:
+  heroine:
+    priority: 10
+    file: assets/characters/heroine-photo-reference-v01.png
+    role: identity
+    binding: Her face, hair, and clothing follow
+    canonical: the female protagonist, a 20-something East Asian female mechanical R&D engineer. She has long, straight,
+      center-parted black hair and wears a tailored taupe-gray blazer, an ivory crew-neck top, and loose light-colored
+      trousers. She is professional, composed, and places a high value on immaculate grooming.
+    retention: 'fully preserved: her facial features, long straight center-parted black hair, tailored taupe-gray
+      blazer, ivory crew-neck top, loose light-colored trousers, body proportions, professional composure, and immaculate
+      grooming must remain consistent. She is a real person with real skin, real fabric and real lighting inside
+      the scene described by the timeline.'
+  cadi:
+    summon_tokens:
+    - cadi
+    - mascot
+    - plasma
+    - flame head
+    - robot
+    - chest core
+    priority: 20
+    file: assets/characters/cadi_red.png
+    role: identity
+    binding: Its design, proportions, and colors follow
+    canonical: Cadi, a small flying robot mascot. Its head is composed of actively burning, ethereal red plasma
+      fire with orange-gold inner tongues and a warm white luminous center that continuously flickers, dances, and
+      undulates with rising wisps and subtle luminous embers (an energetic plasma flame, completely non-solid, with
+      zero gelatinous or jelly-like surface tension). Within the dynamic flame sit two oversized oval warm-white
+      eyes with dark red rims and a tiny mouth, atop a dark charcoal-gray segmented robot body with red joint accents
+      and a glowing circular warm-white chest core with a gold-orange rim. Its height is approximately half of the
+      female protagonist's upper body.
+    retention: 'fully preserved: its actively burning red plasma fire head with orange-gold inner tongues and a
+      warm white luminous center, continuous flickering combustion, soft rising flame tongues, subtle luminous embers,
+      wind-drag during movement, upward licking and dissipation while hovering, oversized oval warm-white eyes with
+      dark red rims, tiny mouth, dark charcoal-gray segmented robot body with red joint accents, body proportions,
+      and glowing circular warm-white chest core with a gold-orange rim must remain consistent. It is lit by the
+      same real lighting as the scene described by the timeline.'
+    extra_negatives:
+    - rubbery, gelatinous, solid jelly texture
+    - solid glass surface
+  teams_ui:
+    summon_tokens:
+    - teams
+    - group-chat interface
+    - message bubble
+    priority: 30
+    file: assets/software/teams-ui-reference-v01.png
+    role: interface
+    binding: Its layout, colors, icons and bubble styling follow
+    canonical: 'the group-chat interface reference: a team-chat screen with a dark violet-navy header bar carrying
+      the chat title and call icons, a white message area, round colleague avatars down screen-left, and light incoming
+      bubbles beside them.'
+    retention: 'fully preserved: header bar, title placement, call icons, avatar column, bubble shape, corner radius,
+      spacing and type scale. Do not copy the reference''s own sample messages, sender names, timestamps, unread
+      badges, photo avatars or side panels; all visible text comes from the segment''s specified lines.'
+  phone_home:
+    priority: 40
+    file: assets/software/phone-home-reference-v01.png
+    role: interface
+    binding: Its wallpaper and Teams app icon placement follow
+    canonical: the unlocked phone home screen, with the wallpaper and the Teams app icon in the positions shown
+      by the supplied home-screen reference.
+    retention: Preserve the wallpaper, icon appearance, icon size and icon position within the phone display. The
+      email notification is layered above this home screen.
+  workflow:
+    priority: 60
+    file: ''
+    role: workflow_graphic
+    status: pending_user_reference
+    binding: Its node layout, connections, labels and symbols follow
+    canonical: the workflow reference displayed on a floating virtual screen.
+    retention: Preserve the supplied node layout, connection directions, labels and symbols; keep the entire workflow
+      readable on a virtual screen between the two speakers.
+  hapa:
+    priority: 70
+    summon_tokens:
+    - hapa
+    file: assets/characters/agent2-hapa.png
+    role: identity
+    binding: Its appearance, proportions, and colors follow
+    canonical: hapa, a compact white humanoid service robot with a rounded head, two large green eyes, a small expressive
+      mouth, two upright leaf-shaped ear fins with green insets, black circular side modules with green rims, black
+      articulated joints, and a green leaf emblem centered on its chest.
+    retention: 'fully preserved: its facial features, head silhouette, ear fins, side modules, chest emblem, accent
+      colors, articulated limbs and body proportions. Its white shell and dark joints have physically accurate reflections
+      under the district lighting.'
+  hana:
+    priority: 80
+    summon_tokens:
+    - hana
+    file: assets/characters/agent1-hana.png
+    role: identity
+    binding: Its appearance, proportions, and colors follow
+    canonical: hana, a compact white humanoid service robot with a rounded head, two large reddish-brown eyes, a
+      small expressive mouth, pale petal-shaped ear fins, black circular side modules with pink rims, trailing pink
+      ribbons, black articulated joints, and a cherry-blossom emblem centered on its chest.
+    retention: 'fully preserved: its facial features, head silhouette, ear fins, side modules, chest emblem, accent
+      colors, articulated limbs and body proportions. Its white shell and dark joints have physically accurate reflections
+      under the district lighting.'
+  drop:
+    priority: 25
+    summon_tokens:
+    - drop
+    file: assets/characters/agent3-drop.png
+    role: identity
+    binding: Its appearance, proportions, and colors follow
+    canonical: drop, a compact white humanoid service robot with a smooth solid white teardrop-shaped head tapering
+      to one rounded peak, two large blue eyes, a small expressive mouth, white armored body panels, black articulated
+      joints, circular blue-lit side modules, and a glowing blue water-drop emblem centered on its chest.
+    retention: 'fully preserved: its solid teardrop head silhouette, blue eyes, small mouth, white armor, black
+      articulated joints, blue-lit side modules, water-drop chest emblem and body proportions. Its white shell reflects
+      the physical district lighting.'
+  layout_ref:
+    priority: 90
+    file: assets/placement/placement_2D.png
+    role: exact_final_layout
+    binding: Its exact component identities, proportions, spacing, positions, silhouettes, color grouping, and rectangular plane orientation follow
+    canonical: the completed holographic placement layout. Its exact component identities, proportions, spacing,
+      positions, silhouettes, color grouping, and rectangular plane orientation follow
+    retention: Preserve the exact component identities, proportions, spacing, positions, silhouettes, color grouping
+      and rectangular orientation; render them as a stable volumetric holographic placement under the scene lighting.
+segments:
+- id: seg08-a
+  scene: 8
+  seed: 7801
+  duration_seconds: 13
+  frame_setting: 依實際節點秒數設定
+  cast:
+  - heroine
+  - cadi
+  - layout_ref
+  prompt: segments/SEG-08/seg08-a-minimax-h3-prompt-v04.txt
+  prompt_registry: segments/SEG-08/cast-registry-v04.yaml
+  reference_images:
+  - label: <Picture 3>
+    file: assets/placement/placement_2D.png
+    role: exact_final_layout
+  continues_from: seg07-b
+  environment: virtual_factory
+  environment_description_file: assets/environments/virtual-factory-description-v02.txt
+- id: seg08-b
+  scene: 8
+  seed: 7801
+  duration_seconds: 10
+  frame_setting: 依實際節點秒數設定
+  cast:
+  - heroine
+  - cadi
+  prompt: segments/SEG-08/seg08-b-minimax-h3-prompt-v02.txt
+  prompt_registry: segments/SEG-08/cast-registry-v04.yaml
+  reference_videos:
+  - label: <Video 1>
+    file: assets/blender/cpu-motion-v07/02-cpu-move-highlight-v07.mp4
+    role: cpu_lateral_move_and_hold
+  continues_from: seg08-a
+  environment: virtual_factory
+  environment_description_file: assets/environments/virtual-factory-description-v02.txt

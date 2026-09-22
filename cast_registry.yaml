@@ -401,8 +401,8 @@ segments:
     - heroine
     - cadi
     - layout_ref
-    prompt: segments/SEG-08/seg08-a-minimax-h3-prompt-v03.txt
-    prompt_registry: segments/SEG-08/cast-registry-v03.yaml
+    prompt: segments/SEG-08/seg08-a-minimax-h3-prompt-v04.txt
+    prompt_registry: segments/SEG-08/cast-registry-v04.yaml
     reference_images:
     - label: <Picture 3>
       file: assets/placement/placement_2D.png
@@ -420,7 +420,7 @@ segments:
     - heroine
     - cadi
     prompt: segments/SEG-08/seg08-b-minimax-h3-prompt-v02.txt
-    prompt_registry: segments/SEG-08/cast-registry-v03.yaml
+    prompt_registry: segments/SEG-08/cast-registry-v04.yaml
     reference_videos:
     - label: <Video 1>
       file: assets/blender/cpu-motion-v07/02-cpu-move-highlight-v07.mp4

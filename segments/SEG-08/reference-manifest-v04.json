@@ -1,0 +1,64 @@
+{
+  "environment": {
+    "mode": "text_only",
+    "description_file": "assets/environments/virtual-factory-description-v02.txt"
+  },
+  "segments": [
+    {
+      "id": "seg08-a",
+      "mode": "Ref2VA",
+      "seconds": 13,
+      "seed": 7801,
+      "prompt": "segments/SEG-08/seg08-a-minimax-h3-prompt-v04.txt",
+      "images": [
+        {
+          "slot": "ref_image_0",
+          "label": "<Picture 1>",
+          "asset": "heroine",
+          "file": "assets/characters/heroine-photo-reference-v01.png"
+        },
+        {
+          "slot": "ref_image_1",
+          "label": "<Picture 2>",
+          "asset": "cadi",
+          "file": "assets/characters/cadi_red.png"
+        },
+        {
+          "slot": "ref_image_2",
+          "label": "<Picture 3>",
+          "asset": "layout_ref",
+          "file": "assets/placement/placement_2D.png",
+          "role": "exact_final_layout"
+        }
+      ]
+    },
+    {
+      "id": "seg08-b",
+      "mode": "Ref2VA",
+      "seconds": 10,
+      "seed": 7801,
+      "prompt": "segments/SEG-08/seg08-b-minimax-h3-prompt-v02.txt",
+      "images": [
+        {
+          "slot": "ref_image_0",
+          "label": "<Picture 1>",
+          "asset": "heroine",
+          "file": "assets/characters/heroine-photo-reference-v01.png"
+        },
+        {
+          "slot": "ref_image_1",
+          "label": "<Picture 2>",
+          "asset": "cadi",
+          "file": "assets/characters/cadi_red.png"
+        }
+      ],
+      "videos": [
+        {
+          "label": "<Video 1>",
+          "file": "assets/blender/cpu-motion-v07/02-cpu-move-highlight-v07.mp4",
+          "role": "cpu_lateral_move_and_hold"
+        }
+      ]
+    }
+  ]
+}
