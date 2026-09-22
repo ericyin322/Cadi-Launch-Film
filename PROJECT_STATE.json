@@ -1,13 +1,13 @@
 {
   "project": "Cadi-Launch-Film",
-  "updated": "2026-09-21",
+  "updated": "2026-09-22",
   "duration_seconds": 300,
   "audience": [
     "上級",
     "主管",
     "技術發表會觀眾"
   ],
-  "source_of_truth": "screenplay/master-storyboard-v0.19.md",
+  "source_of_truth": "screenplay/master-storyboard-v0.20.md",
   "video_prompt_target": "MiniMax H3",
   "storyboard_style": "黑白漫畫式線稿（僅限 Storyboard 前期圖，不進 H3 提示詞）",
   "final_video_style": "寫實真人電影質感；H3 逐字文字見 cast_registry.yaml project.visual_style",
@@ -194,15 +194,15 @@
     },
     {
       "id": "SEG-09",
-      "screenplay": "v0.9",
+      "screenplay": "v0.20",
       "screenplay_approval": "approved_by_user_revision",
-      "screenplay_notes": "依使用者確認的 Blender v06／H3 v01 更新：Cadi彈指、Creo力量亮相、接住墜落風扇、五台協同搬運與落位、俯瞰完整布局、Cadi降至已放妥風扇旁。全段26秒、無台詞；DLG-24–26停用。（2026-09-21：鏡頭31 承接句改為 Cadi「我來啟動 Creo」，其餘不變。）",
+      "screenplay_notes": "依使用者確認的 Blender v06 動作版本及 2026-09-22 場景轉換指示更新：Cadi在純白房間彈指，攝影機向右快速轉鏡；Creo Robot第一次清晰入鏡時已位於Creo船塢。後續力量亮相、接住墜落風扇、五台協同搬運與落位、俯瞰完整布局、Cadi降至已放妥風扇旁不變。全段26秒、無台詞；DLG-24–26停用。",
       "storyboard": "v01",
       "approval": "storyboard_v01_outdated_revision_pending",
-      "h3": "a_v01_b_v01_ready_video_unverified",
-      "environment_description_file": "assets/environments/virtual-factory-description-v01.txt",
-      "environment_reference_mode": "text_only",
-      "environment_binding": "segments/SEG-09/factory-scene-binding-v01.md",
+      "h3": "a_v02_b_v02_white_room_to_dock_motion_video_ready_unverified",
+      "environment_description_file": "assets/environments/virtual-factory-description-v02.txt",
+      "environment_reference_mode": "opening_image_then_text_only_dock",
+      "environment_binding": "segments/SEG-09/scene-transition-binding-v02.md",
       "blender_concept": "seg09-creo-dock-v06 五組零件約同時落位，26秒動畫預演；v01–v05保留",
       "blender_previs": {
         "version": "v06",
@@ -225,14 +225,16 @@
           432
         ]
       },
-      "h3_storyboard_override": "explicit_user_request_after_blender_v06_2026-09-20",
+      "h3_storyboard_override": "explicit_user_request_scene_transition_and_video_reference_2026-09-22",
       "h3_prompts": [
-        "segments/SEG-09/seg09-a-minimax-h3-prompt-v01.txt",
-        "segments/SEG-09/seg09-b-minimax-h3-prompt-v01.txt"
+        "segments/SEG-09/seg09-a-minimax-h3-prompt-v02.txt",
+        "segments/SEG-09/seg09-b-minimax-h3-prompt-v02.txt"
       ],
-      "reference_manifest": "segments/SEG-09/reference-manifest-v01.json",
-      "h3_notes": "segments/SEG-09/minimax-h3-generation-notes-v01.md",
-      "brief": "segments/SEG-09/brief-v03.md"
+      "reference_manifest": "segments/SEG-09/reference-manifest-v02.json",
+      "prompt_registry": "segments/SEG-09/cast-registry-v02.yaml",
+      "h3_notes": "segments/SEG-09/minimax-h3-generation-notes-v02.md",
+      "brief": "segments/SEG-09/brief-v04.md",
+      "motion_reference_usage": "原MP4分切為A／B各13秒上傳檔；weak_reference，只保留動作、時序、承重反應、搬運路線與運鏡。"
     },
     {
       "id": "SEG-10",

@@ -1,5 +1,12 @@
 # 修改紀錄
 
+## 2026-09-22｜SEG-09 純白房間轉 Creo 船塢與影片弱參考
+
+- Cadi 彈指鏡頭改在 `assets/environments/純白房間.png`；攝影機快速向右轉，Creo Robot 第一次清晰入鏡時已進入 Creo 船塢。
+- H3 A／B v02 由 `assets/blender/seg09-creo-dock-v06/seg09-creo-dock-animation-v06.mp4` 分切兩支 13 秒上傳檔，分別只參考前半與後半的動作、時序、承重反應、搬運路線與運鏡。
+- 移除 v01 三張 Blender 場景構圖圖的新版上傳，船塢改由正向文字建立；原 `.blend`、MP4 與 H3 v01 全部保留。
+- 新增 brief v04、`master-storyboard-v0.20.md`、A／B prompt v02、registry、manifest、場景綁定、生成說明與驗證紀錄。A 14項、B 13項通過，均0警告、0失敗；影片未生成。
+
 ## 2026-09-22｜SEG-07／08 更新純白房間
 
 - 場景參考更新為 `assets/environments/純白房間.png`，納入四個 H3 生成單元的實際上傳索引。

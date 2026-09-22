@@ -1,5 +1,7 @@
 # 製作進度
 
+- 2026-09-22：完成 SEG-09 場景轉換與 H3 v02。Cadi 在純白房間彈指，鏡頭向右快速轉動並在動態模糊中切換；Creo Robot 第一次清晰入鏡時已位於 Creo 船塢。由 `seg09-creo-dock-animation-v06.mp4` 分切 A／B 各13秒上傳檔，作弱動作／運鏡參考；移除 v01 三張 Blender 場景構圖圖，原 `.blend` 與 MP4 不修改。新增 brief v04、master-storyboard v0.20、prompt／registry／manifest／場景綁定／生成說明 v02；A 14項、B 13項通過，均0警告、0失敗。影片未生成。
+
 - 2026-09-22：SEG-07／08 場景參考更新為 `assets/environments/純白房間.png`，Placement 維持房間中央、腰胸高度水平懸浮。SEG-07 更新為 A v07／B v10、registry／manifest／生成說明 v10；SEG-08 更新為 A v07／B v05、registry／manifest／生成說明 v07。劇情、台詞、seed 與時長不變；四份提示詞均通過檢查，0警告、0失敗。SEG-07 B 最終布局圖仍待提供，影片未生成。
 
 - 2026-09-22：SEG-07／08 場景參考由 `室內.jpg` 更新為 `assets/environments/日式.jpg`，Placement 改為在房間中央、腰胸高度水平懸浮，不再依附工作桌。SEG-07 更新為 A v06／B v09、registry／manifest／生成說明 v09；SEG-08 更新為 A v06／B v04、registry／manifest／生成說明 v06。劇情、台詞、seed 與時長不變；四份提示詞均通過檢查，0警告、0失敗。SEG-07 B 最終布局圖仍待提供，影片未生成。

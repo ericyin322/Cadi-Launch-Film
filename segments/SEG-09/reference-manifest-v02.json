@@ -1,0 +1,39 @@
+{
+  "mode": "Ref2VA",
+  "source": "assets/blender/seg09-creo-dock-v06/creo-dock-animation-v06.blend",
+  "reference_video": "assets/blender/seg09-creo-dock-v06/seg09-creo-dock-animation-v06.mp4",
+  "seed": 7901,
+  "segments": [
+    {
+      "id": "seg09-a",
+      "seconds": 13,
+      "prompt": "segments/SEG-09/seg09-a-minimax-h3-prompt-v02.txt",
+      "images": [
+        {"slot": "ref_image_0", "label": "<Picture 1>", "asset": "cadi", "file": "assets/characters/cadi_red.png", "role": "identity"},
+        {"slot": "ref_image_1", "label": "<Picture 2>", "asset": "creo_robot", "file": "assets/characters/creo-robot-concept/creo-robot-concept-v01.png", "role": "identity"},
+        {"slot": "ref_image_2", "label": "<Picture 3>", "asset": "pure_white_room", "file": "assets/environments/純白房間.png", "role": "opening_environment_reference"}
+      ],
+      "videos": [
+        {"label": "<Video 1>", "file": "segments/SEG-09/reference-videos-v02/seg09-a-motion-reference-v02.mp4", "role": "motion_and_camera_weak_reference", "derived_from": "assets/blender/seg09-creo-dock-v06/seg09-creo-dock-animation-v06.mp4", "source_window_seconds": [0, 13]}
+      ]
+    },
+    {
+      "id": "seg09-b",
+      "seconds": 13,
+      "prompt": "segments/SEG-09/seg09-b-minimax-h3-prompt-v02.txt",
+      "images": [
+        {"slot": "ref_image_0", "label": "<Picture 1>", "asset": "cadi", "file": "assets/characters/cadi_red.png", "role": "identity"},
+        {"slot": "ref_image_1", "label": "<Picture 2>", "asset": "creo_robot", "file": "assets/characters/creo-robot-concept/creo-robot-concept-v01.png", "role": "identity"}
+      ],
+      "videos": [
+        {"label": "<Video 1>", "file": "segments/SEG-09/reference-videos-v02/seg09-b-motion-reference-v02.mp4", "role": "motion_and_camera_weak_reference", "derived_from": "assets/blender/seg09-creo-dock-v06/seg09-creo-dock-animation-v06.mp4", "source_window_seconds": [13, 26]}
+      ]
+    }
+  ],
+  "reference_policy": "Use the video only for temporal choreography, body mechanics, cargo routes and camera movement. Target identity and environments are defined by the image references and prompt timeline.",
+  "removed_v01_stills": [
+    "segments/SEG-09/references-v01/picture-03-fan-catch-v01.png",
+    "segments/SEG-09/references-v01/picture-04-carry-layout-wide-v01.png",
+    "segments/SEG-09/references-v01/picture-05-cadi-fan-placed-v01.png"
+  ]
+}

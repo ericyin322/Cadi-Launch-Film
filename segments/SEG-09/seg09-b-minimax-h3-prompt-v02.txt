@@ -1,0 +1,33 @@
+subject_definitions:
+<Subject 1> is Cadi, a small flying robot mascot. Its head is composed of actively burning, ethereal red plasma fire with orange-gold inner tongues and a warm white luminous center that continuously flickers, dances, and undulates with rising wisps and subtle luminous embers (an energetic plasma flame, completely non-solid, with zero gelatinous or jelly-like surface tension). Within the dynamic flame sit two oversized oval warm-white eyes with dark red rims and a tiny mouth, atop a dark charcoal-gray segmented robot body with red joint accents and a glowing circular warm-white chest core with a gold-orange rim. Its design, proportions, and colors follow <Picture 1>.
+<Subject 2> is Creo Robot, a massive industrial humanoid with broad rounded off-white shoulder armor, heavy elongated forearms, large articulated dark-metal hands, short sturdy legs, exposed gunmetal joints, green joint rings, a small rectangular head with a dark face panel and a single vertical warm-white optic, and a black-and-green cube emblem on the shoulder. Its appearance follows <Picture 2>; the lead carrier and four fellow carriers share this identity.
+<Video 1> is a 13-second motion-reference clip derived from the final half of the Blender previs, supplying five-carrier transport, coordinated placement, release and withdrawal, the overhead reveal, and Cadi's descending arc beside the installed right-hand fan.
+
+summary:
+[reference generation] Inside the same monumental Creo dock, five <Subject 2> carriers complete the coordinated component placement, release their loads and withdraw; the camera follows Cadi upward over the completed layout and down beside the installed fan. <Video 1> guides the final 13 seconds of motion timing and camera movement.
+
+retention_analysis:
+<Subject 1> / <Picture 1> (appears throughout): fully_preserved - preserve identity, body proportions, actively burning red plasma fire with orange-gold inner tongues and a warm-white center, warm-white eyes and core, dark armor and red joints. Flame tongues trail in flight and rise and dissipate while hovering under the dock's real lighting.
+<Subject 2> / <Picture 2> (appears throughout): fully_preserved - preserve the shoulder silhouette, small head, vertical optic, green accents, articulated hands and heavy mechanical proportions on all five carriers.
+<Video 1> (13–26 second motion structure): weak_reference - retain only the five work routes, placement order, hand-to-load mechanics, withdrawal timing, rising overhead camera path and final descending arc. Target-frame identity, surfaces, lighting and spatial appearance follow the picture-bound subjects and the Creo dock defined in the timeline.
+
+detailed_description:
+Photorealistic live-action cinema footage shot on a digital cinema camera with prime lenses: natural skin texture with visible pores, real fabric weave, physically accurate reflections, shallow depth of field and subtle film grain.
+
+The entire clip takes place inside the same monumental Creo engineering dock established after the turn in the preceding clip: white-gray structural metal, exposed service pipes, green structural accents, warm industrial practical lights and soft cyan reflections across the floor. Deep side aisles frame one large rectangular placement platform. All surfaces use physically detailed metal, coherent contact shadows and realistic reflections.
+[Shot 1] A continuous rising tracking shot follows Cadi <Picture 1> deeper into the work bay. Five Creo Robots <Picture 2> are already carrying their respective rigid components toward separate mapped receiving positions, preserving the forward momentum at the end of the preceding clip.
+[0s-2s] Follow Cadi along the central line, then begin a smooth upward crane. The lead carrier supports the same right-hand fan with both palms; the other four carry the left memory module, CPU plate, SSD and upper cooling component. Every receiving footprint is open and clearly separated from the moving cargo.
+[2s-4s] Continue rising as the carriers reach their own positions and align each component horizontally above its matching footprint. Both hands stay under every load. Every transported component remains one continuous instance with rigid geometry and steady scale; the components already seated on the platform remain fixed.
+[4s-5s] Follow <Video 1>'s closely coordinated placement wave: the left memory module contacts first, followed by the CPU plate, the lead right-hand fan, the SSD and the upper cooling component. Complete all five contacts within this one-second interval using controlled vertical descent, visible weight transfer and a short settling hold. Each component now occupies its correct location.
+[5s-7s] All five carriers unload their hands, open their grips, withdraw their forearms and step backward. Their hands separate visibly from the stationary components. The four fellow carriers continue toward the outer aisles, leaving the completed rectangular layout unobstructed.
+[7s-9s] The crane reaches a high wide overhead view with the entire placement platform and both dock aisles inside frame. Cadi hovers above the center while its non-solid flame flickers upward. The complete arrangement is readable: the long rear strip, both fan housings, paired memory modules, CPU plate, SSD, cooling elements and surrounding connectors, all fixed. The five carriers stand clear with empty hands.
+[9s-11s] Follow the camera path of <Video 1> as Cadi descends in one smooth arc toward the installed right-hand fan. Maintain the platform's orientation and side continuity. Its red-orange fire streams opposite the descent while every installed component remains motionless.
+[11s-13s] Ease into a steady medium-wide composition of Cadi hovering beside the fully seated fan. Cadi directs its warm-white eyes toward the housing and makes one compact approving hand gesture. The camera decelerates to a complete stop; the fan and neighboring components stay fixed while the flame tongues continue rising and dissipating through the final frame.
+
+Negative constraints: no subtitles, no readable text, no extra fingers or limbs, no deformed limbs, no duplicate characters or cargo, no shaky camera, no looping; no rubbery, gelatinous, solid jelly texture; no solid glass surface on the plasma head.
+
+overall_soundscape:
+N/A. Silent throughout.
+
+non_diegetic_music:
+N/A.
