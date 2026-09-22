@@ -1,5 +1,12 @@
 # 修改紀錄
 
+## 2026-09-22｜SEG-09 B 重物落位特寫與 Placement 拉遠展示
+
+- SEG-09A 維持 v02；只新增 B prompt v03，場景仍是 Creo 船塢，時長 13 秒、seed 7901 不變。
+- 第一鏡特寫 Creo Robot 將沉重的右側冷卻風扇零件放入定位；接觸瞬間加入沉重金屬落地聲、低頻衝擊與短暫結構共振。
+- 第二鏡不切鏡，攝影機後拉、升高並向下俯視，以 `assets/placement/Screenshot 2026-09-21 164040.png` 為完整 Placement 與最終構圖基準。
+- B 只上傳 Creo Robot 與 placement-creo 兩圖，不再使用 Cadi、純白房間或舊版動作影片。新增 brief v05、registry／manifest／生成說明與驗證紀錄 v03；A 相容性 14項、B 13項通過，均0警告、0失敗；舊檔保留，影片未生成。
+
 ## 2026-09-22｜SEG-09 純白房間轉 Creo 船塢與影片弱參考
 
 - Cadi 彈指鏡頭改在 `assets/environments/純白房間.png`；攝影機快速向右轉，Creo Robot 第一次清晰入鏡時已進入 Creo 船塢。

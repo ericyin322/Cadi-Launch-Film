@@ -1,5 +1,7 @@
 # 製作進度
 
+- 2026-09-22：依使用者指示完成 SEG-09 B H3 v03；A 維持 v02。B 保留 Creo 船塢，改為兩鏡：Creo Robot 放下沉重右側風扇零件的接觸瞬間特寫，加入沉重金屬重擊、低頻衝擊與短暫結構共振；接著不切鏡拉遠升高，展示 `assets/placement/Screenshot 2026-09-21 164040.png` 定義的完整 Placement。B 僅上傳 Creo Robot 與 placement-creo 兩圖，不使用 Cadi、純白房間或舊動作影片。新增 brief v05、B prompt v03、registry／manifest／生成說明／驗證紀錄 v03；A 相容性 14項、B 13項通過，均0警告、0失敗；影片未生成。
+
 - 2026-09-22：完成 SEG-09 場景轉換與 H3 v02。Cadi 在純白房間彈指，鏡頭向右快速轉動並在動態模糊中切換；Creo Robot 第一次清晰入鏡時已位於 Creo 船塢。由 `seg09-creo-dock-animation-v06.mp4` 分切 A／B 各13秒上傳檔，作弱動作／運鏡參考；移除 v01 三張 Blender 場景構圖圖，原 `.blend` 與 MP4 不修改。新增 brief v04、master-storyboard v0.20、prompt／registry／manifest／場景綁定／生成說明 v02；A 14項、B 13項通過，均0警告、0失敗。影片未生成。
 
 - 2026-09-22：SEG-07／08 場景參考更新為 `assets/environments/純白房間.png`，Placement 維持房間中央、腰胸高度水平懸浮。SEG-07 更新為 A v07／B v10、registry／manifest／生成說明 v10；SEG-08 更新為 A v07／B v05、registry／manifest／生成說明 v07。劇情、台詞、seed 與時長不變；四份提示詞均通過檢查，0警告、0失敗。SEG-07 B 最終布局圖仍待提供，影片未生成。

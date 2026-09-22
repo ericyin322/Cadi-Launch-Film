@@ -1,0 +1,32 @@
+subject_definitions:
+<Subject 1> is Creo Robot, a massive industrial humanoid with broad rounded off-white shoulder armor, heavy elongated forearms, large articulated dark-metal hands, short sturdy legs, exposed gunmetal joints, green joint rings, a small rectangular head with a dark face panel and a single vertical warm-white optic, and a black-and-green cube emblem on the shoulder. Its appearance follows <Picture 1>.
+<Subject 2> is the completed physical placement assembly, including the green rectangular base, two large gray cooling-fan housings at the right, the long green modules at the left, the central processor and memory arrays, the pale rear strip, the cyan upper-right module, and the smaller surrounding connectors. Its component identities, relative proportions, spacing, positions, silhouettes, color grouping, and rectangular plane orientation follow <Picture 2>.
+<Picture 2> is the final composition anchor for [Shot 2], defining the three-quarter elevated view and the complete placement arrangement revealed inside the Creo dock.
+
+summary:
+[reference generation + keyframe completion] Inside the monumental Creo dock, <Subject 1> lowers one heavy cooling-fan component into its exact receiving position with a weighty impact; the camera then pulls far back to reveal <Subject 2> in the complete arrangement and elevated three-quarter composition defined by <Picture 2>.
+
+retention_analysis:
+<Subject 1> / <Picture 1> (appears in [Shot 1] and at the edge of [Shot 2]): fully_preserved - preserve the broad off-white shoulder armor, heavy elongated forearms, large articulated dark-metal hands, short sturdy legs, exposed gunmetal joints, green joint rings, small rectangular head, vertical warm-white optic, shoulder emblem, and massive weight-bearing proportions.
+<Subject 2> / <Picture 2> (revealed in [Shot 2]): fully_preserved - preserve every visible component identity, relative scale, spacing, position, silhouette, color group, and the full rectangular orientation. Render the arrangement as solid physical engineering hardware seated on the placement platform under the dock's coherent practical lighting.
+<Picture 2> ([Shot 2] final composition): fully_preserved - converge on the same elevated three-quarter viewing direction and keep the entire completed rectangular placement readable within frame.
+
+detailed_description:
+Photorealistic live-action cinema footage shot on a digital cinema camera with prime lenses: natural skin texture with visible pores, real fabric weave, physically accurate reflections, shallow depth of field and subtle film grain.
+
+The entire clip remains inside the monumental Creo engineering dock: white-gray structural metal, exposed service pipes, green structural accents, warm industrial practical lights, soft cyan reflections across the floor, and deep side aisles surrounding one large rectangular placement platform. The lighting remains stable across both shots, with strong contact shadows and realistic reflections on the heavy metal surfaces.
+[Shot 1] Extreme close-up at platform height on <Subject 1> <Picture 1> completing the placement of one massive gray cooling-fan housing from <Subject 2>. The frame contains the robot's two large articulated hands, heavy forearms, the lower edge of its off-white torso, the descending fan housing, and the exact receiving footprint beneath it. The fan is the same rigid component that was being carried at the end of the preceding clip. The camera holds nearly still with a subtle low-frequency vibration from the machinery.
+[0s-2s] Both dark-metal palms support the fan housing from underneath. Hydraulic wrists flex under the load as the robot lowers it in one controlled vertical movement. The receiving footprint remains clearly visible until the component reaches it; the rigid housing keeps constant geometry, orientation, and scale.
+[2s-4s] The fan housing makes full contact with the platform. At the exact contact frame, a deep heavy metallic thud and dense low-frequency impact hit sound together, followed by a short structural resonance through the platform. The housing settles once by only a few millimeters, then becomes completely stationary. The robot's fingers open, its palms separate cleanly from the component, and its forearms begin to withdraw. A brief dust tremor and tiny vibration in nearby metal edges communicate weight without obscuring the geometry.
+[Shot 2] At 00:04.000, without cutting, the camera begins a smooth rapid dolly backward combined with a rising crane and a gentle tilt downward. Start tight on the newly seated fan, pass the withdrawing hands of <Subject 1>, then expand the field of view across the platform. The robot remains a single figure near the outer edge and steps back once to clear the layout.
+[4s-8s] The pullback progressively reveals the neighboring fan housing, central processor, memory arrays, long left-side modules, rear strip, cyan upper-right module, small perimeter connectors, and the green rectangular base. Each component of <Subject 2> is already fully seated and remains motionless. Strong perspective parallax exposes the dock's depth while maintaining the layout's exact relative positions from <Picture 2>.
+[8s-11s] The camera continues rising into the elevated three-quarter direction defined by <Picture 2>. Both side aisles and the white-gray dock structure enter the frame around the placement platform. The complete arrangement becomes readable as one coherent assembly, with the two large gray fan housings prominent at right and every smaller component in its exact mapped position.
+[11s-13s] Ease the camera to a complete stop on the final composition anchored by <Picture 2>. Hold the entire rectangular placement inside frame with clean margins, realistic contact shadows, and physical reflections. <Subject 1> stands clear at the outer edge with empty open hands while the completed placement remains perfectly still through the final frame.
+
+Negative constraints: no subtitles, no readable text, no extra fingers or limbs, no deformed limbs, no duplicate robot, no duplicate component, no shaky camera, no looping, no slow motion.
+
+overall_soundscape:
+Low dock ventilation, distant machinery hum, restrained hydraulic servo movement, and subtle metal creaks continue throughout. At 00:02.000, the component contact produces one prominent deep metallic thud with a dense bass impact and short platform resonance; the impact decays naturally under the pullback. No voices.
+
+non_diegetic_music:
+N/A.
