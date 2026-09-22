@@ -1,0 +1,34 @@
+subject_definitions:
+<Subject 1> is the female protagonist, a 20-something East Asian female mechanical R&D engineer. She has long, straight, center-parted black hair and wears a tailored taupe-gray blazer, an ivory crew-neck top, and loose light-colored trousers. She is professional, composed, and places a high value on immaculate grooming. Her face, hair, and clothing follow <Picture 1>.
+<Subject 2> is Cadi, a small flying robot mascot. Its head is composed of actively burning, ethereal red plasma fire with orange-gold inner tongues and a warm white luminous center that continuously flickers, dances, and undulates with rising wisps and subtle luminous embers (an energetic plasma flame, completely non-solid, with zero gelatinous or jelly-like surface tension). Within the dynamic flame sit two oversized oval warm-white eyes with dark red rims and a tiny mouth, atop a dark charcoal-gray segmented robot body with red joint accents and a glowing circular warm-white chest core with a gold-orange rim. Its height is approximately half of the female protagonist's upper body. Its design, proportions, and colors follow <Picture 2>.
+<Subject 3> is the completed holographic placement layout. Its exact component identities, proportions, spacing, positions, silhouettes, color grouping, and rectangular plane orientation follow <Picture 3>.
+<Subject 4> is the minimalist Japanese-inspired technology room in <Picture 4>: a symmetrical white interior with textured walls, a dark polished reflective floor, thin cyan and warm-white luminous lines tracing the ceiling, walls and floor, a wooden lattice panel on the left, and a sculpted bonsai on a low wooden plinth centered in the rear alcove.
+
+summary:
+[reference generation] Inside <Subject 4>, the placement defined by <Picture 3> hovers in the center while the standing protagonist studies it, points to the CPU, speaks, then returns upright.
+
+retention_analysis:
+<Subject 1> / <Picture 1>: fully_preserved - fully preserved: her facial features, long straight center-parted black hair, tailored taupe-gray blazer, ivory crew-neck top, loose light-colored trousers, body proportions, professional composure, and immaculate grooming must remain consistent. She is a real person with real skin, real fabric and real lighting inside the scene described by the timeline.
+<Subject 2> / <Picture 2>: fully_preserved - fully preserved: its actively burning red plasma fire head with orange-gold inner tongues and a warm white luminous center, continuous flickering combustion, soft rising flame tongues, subtle luminous embers, wind-drag during movement, upward licking and dissipation while hovering, oversized oval warm-white eyes with dark red rims, tiny mouth, dark charcoal-gray segmented robot body with red joint accents, body proportions, and glowing circular warm-white chest core with a gold-orange rim must remain consistent. It is lit by the same real lighting as the scene described by the timeline.
+<Subject 3> / <Picture 3>: fully_preserved - Preserve the exact component identities, proportions, spacing, positions, silhouettes, color grouping and rectangular orientation throughout 0-13 seconds. Render it as a stable volumetric holographic placement suspended horizontally in midair.
+<Subject 4> / <Picture 4>: fully_preserved - Preserve the symmetrical white room, textured surfaces, dark reflective floor, cyan and warm-white perimeter light lines, left wooden lattice panel, rear alcove, low wooden plinth and centered sculpted bonsai. Keep open space around the hovering placement.
+
+detailed_description:
+Photorealistic live-action cinema footage shot on a digital cinema camera with prime lenses: natural skin texture with visible pores, real fabric weave, physically accurate reflections, shallow depth of field and subtle film grain.
+
+The entire clip takes place inside <Subject 4> from <Picture 4>. The camera faces the symmetrical rear alcove. Cyan and warm-white light lines reflect across the dark floor; the wooden lattice stays frame-left and the sculpted bonsai remains visible on its rear plinth. The completed placement floats horizontally at waist-to-chest height in the open center foreground with clear space beneath it.
+[Shot 1] Begin on a medium-wide three-quarter view. The placement is a translucent rectangle with cyan edges carrying all components in the exact arrangement of <Picture 3>. The female protagonist <Picture 1> stands at screen-left. Cadi <Picture 2> hovers at screen-right, separate from the plane, with both hands relaxed. The room's luminous geometry frames them.
+[0s-3s] Standing, the female protagonist studies the suspended placement with a concentrated expression. Her eyes cross the full arrangement. Every component and the plane remain fixed. Cadi watches; its non-solid red plasma flame flickers upward and sheds subtle embers.
+[3s-6s] The camera slowly pushes toward her and the placement. She inclines slightly toward the plane and examines the spacing in silence. Cyan light crosses her face and blazer and reflects on the floor. Cadi stays at screen-right with relaxed hands.
+[Shot 2] At 00:06.000, cut closer across the hovering plane: the female protagonist <Picture 1> is framed behind the glowing components at screen-left; Cadi <Picture 2> remains at the far-right edge with hands lowered. The lattice and rear bonsai stay softly visible.
+[6s-8s] Keeping her serious gaze on the layout, she raises her right hand and extends only her index finger toward the CPU component. Her fingertip stops with a small air gap above it; the hand makes only a small, controlled adjustment to indicate that single CPU.
+[8s-12s] Holding the pointing pose with only a slight fingertip movement, <Subject 1> (S1) murmurs quietly in a low, thinking adult Mandarin voice: <d>[Mandarin Chinese] 或許cpu往旁邊移動一點</d> Her lips synchronize precisely. The placement stays level and motionless while Cadi listens without moving its hands.
+[12s-13s] She lowers her right hand, straightens and returns to a balanced upright stance. Her eyes remain on the CPU; Cadi and the suspended placement hold steady through the final frame.
+
+Negative constraints: no subtitles, no readable text, no extra fingers or limbs, no deformed limbs, no duplicate characters, no shaky camera, no looping; no rubbery, gelatinous, solid jelly texture; no solid glass surface on the plasma head.
+
+overall_soundscape:
+Quiet climate-control airflow, faint enclosed-room ambience, restrained servo movement, a soft sustained holographic tone and slight fabric movement. The murmured Mandarin line stays close, low and intelligible.
+
+non_diegetic_music:
+Light, sparse 96 BPM instrumental bed with soft plucked synth and warm bass, falling to near silence under the murmured line.
