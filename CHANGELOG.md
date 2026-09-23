@@ -1,5 +1,11 @@
 # 修改紀錄
 
+## 2026-09-23｜SEG-04 A H3 v05：改用參考圖（Ref2VA）
+
+- 上傳女主角（Picture 1）與 cadi_red.png（Picture 2），同 B 段；流程圖不在 A 出場，不上傳。
+- 改為六區段格式；時間軸同 v04。新增 cast-registry／reference-manifest／生成說明／validation v10，根目錄 registry 與狀態同步。
+- A 13 項通過、0 警告、0 失敗；v04 保留。
+
 ## 2026-09-23｜SEG-04 A H3 v04：依最新規則補齊區段
 
 - 補 `subject_definitions`、`retention_analysis`（registry 逐字），畫風置於 [Shot 1] 開頭，新增 Negative constraints。

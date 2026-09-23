@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-23",
+  "checker": ".agents/skills/h3-scene-prompt/scripts/check_prompt.py",
+  "registry": "segments/SEG-04/cast-registry-v10.yaml",
+  "results": [
+    {
+      "segment": "seg04-a",
+      "prompt": "segments/SEG-04/seg04-a-minimax-h3-prompt-v05.txt",
+      "passed": 13,
+      "warnings": 0,
+      "failed": 0,
+      "characters": 6948
+    },
+    {
+      "segment": "seg04-b",
+      "prompt": "segments/SEG-04/seg04-b-minimax-h3-prompt-v08.txt",
+      "passed": 14,
+      "warnings": 0,
+      "failed": 0,
+      "characters": 6946
+    },
+    {
+      "segment": "seg04-c",
+      "prompt": "segments/SEG-04/seg04-c-minimax-h3-prompt-v03.txt",
+      "passed": 14,
+      "warnings": 0,
+      "failed": 0,
+      "characters": 6993
+    }
+  ]
+}

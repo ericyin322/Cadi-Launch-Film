@@ -1,0 +1,86 @@
+{
+  "environment": {
+    "mode": "text_only",
+    "description_file": "assets/environments/virtual-factory-description-v02.txt"
+  },
+  "segments": [
+    {
+      "id": "seg04-b",
+      "mode": "Ref2VA",
+      "seconds": 8,
+      "seed": 7401,
+      "prompt": "segments/SEG-04/seg04-b-minimax-h3-prompt-v08.txt",
+      "images": [
+        {
+          "slot": "ref_image_0",
+          "label": "<Picture 1>",
+          "asset": "heroine",
+          "file": "assets/characters/heroine-photo-reference-v01.png"
+        },
+        {
+          "slot": "ref_image_1",
+          "label": "<Picture 2>",
+          "asset": "cadi",
+          "file": "assets/characters/cadi_red.png"
+        },
+        {
+          "slot": "ref_image_2",
+          "label": "<Picture 3>",
+          "asset": "workflow",
+          "file": ""
+        }
+      ],
+      "videos": []
+    },
+    {
+      "id": "seg04-c",
+      "mode": "Ref2VA",
+      "seconds": 15,
+      "seed": 7401,
+      "prompt": "segments/SEG-04/seg04-c-minimax-h3-prompt-v03.txt",
+      "images": [
+        {
+          "slot": "ref_image_0",
+          "label": "<Picture 1>",
+          "asset": "heroine",
+          "file": "assets/characters/heroine-photo-reference-v01.png"
+        },
+        {
+          "slot": "ref_image_1",
+          "label": "<Picture 2>",
+          "asset": "cadi",
+          "file": "assets/characters/cadi_red.png"
+        },
+        {
+          "slot": "ref_image_2",
+          "label": "<Picture 3>",
+          "asset": "workflow",
+          "file": ""
+        }
+      ],
+      "videos": []
+    },
+    {
+      "id": "seg04-a",
+      "mode": "Ref2VA",
+      "seconds": 15,
+      "seed": 7401,
+      "prompt": "segments/SEG-04/seg04-a-minimax-h3-prompt-v05.txt",
+      "images": [
+        {
+          "slot": "ref_image_0",
+          "label": "<Picture 1>",
+          "asset": "heroine",
+          "file": "assets/characters/heroine-photo-reference-v01.png"
+        },
+        {
+          "slot": "ref_image_1",
+          "label": "<Picture 2>",
+          "asset": "cadi",
+          "file": "assets/characters/cadi_red.png"
+        }
+      ],
+      "videos": []
+    }
+  ]
+}

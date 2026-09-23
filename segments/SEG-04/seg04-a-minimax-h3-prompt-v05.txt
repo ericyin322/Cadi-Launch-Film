@@ -1,0 +1,36 @@
+subject_definitions:
+<Subject 1> is the female protagonist, a 20-something East Asian female mechanical R&D engineer. She has long, straight, center-parted black hair and wears a tailored taupe-gray blazer, an ivory crew-neck top, and loose light-colored trousers. She is professional, composed, and places a high value on immaculate grooming. Her face, hair, and clothing follow <Picture 1>.
+<Subject 2> is Cadi, a small flying robot mascot. Its head is composed of actively burning, ethereal red plasma fire with orange-gold inner tongues and a warm white luminous center that continuously flickers, dances, and undulates with rising wisps and subtle luminous embers (an energetic plasma flame, completely non-solid, with zero gelatinous or jelly-like surface tension). Within the dynamic flame sit two oversized oval warm-white eyes with dark red rims and a tiny mouth, atop a dark charcoal-gray segmented robot body with red joint accents and a glowing circular warm-white chest core with a gold-orange rim. Its height is approximately half of the female protagonist's upper body. Its design, proportions, and colors follow <Picture 2>.
+
+summary:
+[reference generation] A continuous shot: a one-second white opening with flame-shaped edge light gives way to a red-orange light sweep revealing the virtual factory; Cadi snaps a lounge setup into place and the engineer sits, followed by a settled hold.
+
+retention_analysis:
+<Subject 1> / <Picture 1> (from 1s to the end of [Shot 1]): fully_preserved - face, hair, clothing, proportions and professional composure; real skin and fabric under scene lighting.
+<Subject 2> / <Picture 2> (from 1s to the end of [Shot 1]): fully_preserved - fully preserved: its actively burning red plasma fire head with orange-gold inner tongues and a warm white luminous center, continuous flickering combustion, soft rising flame tongues, subtle luminous embers, wind-drag during movement, upward licking and dissipation while hovering, oversized oval warm-white eyes with dark red rims, tiny mouth, dark charcoal-gray segmented robot body with red joint accents, body proportions, and glowing circular warm-white chest core with a gold-orange rim must remain consistent. It is lit by the same real lighting as the scene described by the timeline.
+
+detailed_description:
+Photorealistic live-action cinema footage shot on a digital cinema camera with prime lenses: natural skin texture with visible pores, real fabric weave, physically accurate reflections, shallow depth of field and subtle film grain.
+
+A bright futuristic engineering district beneath a blue sky with white clouds. A glowing cyan transport avenue leads toward a monumental tower surrounded by enormous horizontal rings. Multilevel automated workshops line both sides, combining dense high-rise urban streetscapes with white-gray metal facades, exposed pipes, glass platforms, and vertical orange engineering signs. Elevated cyan rails connect the buildings. Yellow industrial robot arms operate inside warm-lit workshops, small white service robots move along terraces, and hovering disc-shaped carriers transport luminous translucent cubes. Green rooftop planters soften the architecture. Natural sunlight creates realistic metal and glass reflections.
+16:9.
+
+[Shot 1] One continuous shot with no internal cut. The female protagonist <Picture 1>, <Subject 1>, and Cadi <Picture 2>, <Subject 2>, appear once the white opening clears. The surrounding factory follows the text-defined district architecture and spatial layout.
+
+[0s-1s] Opening: the whole 16:9 frame is an evenly glowing pure white field. Around all four frame edges, soft red and orange-gold flame-shaped light effects flicker and lick inward with a few warm luminous embers drifting upward, while the center stays pure white. Hold this white opening steadily for the full second.
+
+[1s-5s] The white glow and the flame-shaped edge light recede outward as a warm red-orange light sweep, clearing as <Subject 1> steps onto the southern observation deck of the district. A central floating transit lane leads deep into the city. The camera begins 1.5 meters behind and to her right in a 35mm medium-wide view and performs a tracking shot forward with small amplitude at slow speed while pedestaling up slightly, revealing the full district with the distant ring tower centered. She begins with her shoulders subtly lowered from fatigue; as the city appears, her eyebrows lift, she takes a soft breath, and her posture returns upright. Cadi <Subject 2> flies out from beside her right shoulder along the central lane, his red flame tongues trailing backward in flight, turns back to check her reaction, then returns to hover in front of her, flame rising softly.
+
+[5s-10s] Without cutting, the camera continues in a smooth clockwise arc around her right side, ending in a medium two-shot from her front-right. Cadi raises his right hand and snaps his fingers. The snap triggers a floating platform to rise from below; a refined vacation lounge chair unfolds first, a simple parasol opens second, and a side table with one drink and one straw rises last, each appearing in sequence. She leans back slightly in mild surprise, her shoulders relax, a restrained smile forms, and she sits naturally in the chair, her right hand near the drink.
+
+[10s-12s] The camera eases to a stop at her front-right, seated eye height. Cadi hovers screen-left and slowly raises both hands to chest height, palms turning upward as if about to present something. She settles back and looks toward Cadi with calm attention. His actively burning, ethereal red plasma fire keeps flickering and rising from his completely non-solid head; all props stay in place.
+
+[12s-15s] Hold a stable medium two-shot: she stays seated under the parasol, right hand near the drink; Cadi hovers with both hands raised at chest height, mouth closed. Only subtle breathing, gentle flame flicker and distant city motion continue. End on this exact stable composition.
+
+Negative constraints: no readable text, no subtitles, no logos, no extra fingers, no deformed limbs, no duplicate characters, no object penetration, no mirrored layout, no shaky camera, no cuts, no looping, no rubbery, gelatinous, solid jelly texture, no solid glass surface.
+
+overall_soundscape:
+During the white opening a soft warm airy flame whoosh sustains; as the red-orange light sweep recedes it resolves into the low continuous hum of a large automated factory, distant service-robot wheels, and luminous packages sliding along data rails. Cadi's finger snap is crisp and centered, followed in sequence by a magnetic platform rise, a precise mechanical chair unfolding, a light parasol click, and the gentle placement of a drink on the side table. The engineer gives one quiet surprised breath and a relaxed exhale. From 10s only the steady factory hum and a faint flame crackle remain; no spoken dialogue occurs in this clip.
+
+non_diegetic_music:
+N/A
