@@ -1,0 +1,33 @@
+subject_definitions:
+<Subject 1> is the exact SEG-10 A ending composition: a photorealistic East Asian woman with long center-parted black hair and a taupe-gray suit leans from frame-left over the large cooling fan, her palm flat on its top plate; the fan fills the right foreground, a long pale module lies behind it, and the deep Creo dock aisle recedes through the center background. The exact first-frame composition, camera position, lens perspective, woman-to-fan position, pose, hand contact, lighting and dock background follow <Picture 1>.
+<Subject 2> is Cadi, a small flying robot mascot. Its head is composed of actively burning, ethereal red plasma fire with orange-gold inner tongues and a warm white luminous center that continuously flickers, dances, and undulates with rising wisps and subtle luminous embers (an energetic plasma flame, completely non-solid, with zero gelatinous or jelly-like surface tension). Within the dynamic flame sit two oversized oval warm-white eyes with dark red rims and a tiny mouth, atop a dark charcoal-gray segmented robot body with red joint accents and a glowing circular warm-white chest core with a gold-orange rim. Its height is approximately half of the female protagonist's upper body. Its design, proportions, and colors follow <Picture 2>.
+<Subject 3> is Ray, a compact white humanoid service robot with a rounded rectangular head, a glossy black face display, two luminous yellow oval eyes, a small yellow expressive mouth, twin gold lightning-bolt antennae, dark circular side modules with gold rims, black articulated joints, a gold lightning-bolt chest emblem, and a rectangular transport backpack bearing a gold lightning symbol. Its appearance, proportions, and colors follow <Picture 3>.
+<Subject 4> is the larger upper-right cooling-fan housing and its immediately adjacent placement geometry. It is a broad low-profile gray housing with a rounded outer corner, a straight inner edge, a large concentric circular top structure, a raised central circular cap, and a thin layered sidewall, resting within the green placement base. Its exact shape, relative scale, top profile, edge thickness, position and spacing follow <Picture 4>.
+
+summary:
+[keyframe completion + reference generation] A 13-second Creo-dock continuation whose exact first frame is <Picture 1>. <Subject 2> flies in and announces the fan Rib AI optimization service. <Subject 3> arrives, salutes, receives the data and immediately accelerates toward frame-left.
+
+retention_analysis:
+<Subject 1> / <Picture 1>: fully_preserved - use it as the exact first frame and preserve its camera, lens, woman and fan positions, pose, hand contact, lighting, component layout and receding dock aisle.
+<Subject 2> / <Picture 2>: fully_preserved - preserve Cadi's identity, red non-solid flame and body proportions.
+<Subject 3> / <Picture 3>: fully_preserved - preserve Ray's identity, backpack and compact proportions.
+<Subject 4> / <Picture 4>: partially_preserved - preserve the fan's exact rounded silhouette, concentric top, central cap, sidewall, scale and local placement geometry within the first-frame composition.
+
+detailed_description:
+Photorealistic live-action cinema footage shot on a digital cinema camera with prime lenses: natural skin texture with visible pores, real fabric weave, physically accurate reflections, shallow depth of field and subtle film grain.
+
+[Shot 1] The target video begins exactly from <Picture 1>. Match it pixel-compositionally at 0.0 seconds: the female engineer stays at frame-left, leaning over the fan with her palm flat on its top plate; the large cooling fan fills the right foreground; the pale module lies behind it; the polished Creo dock aisle, overhead cranes, warm ceiling lamps and cyan floor reflections recede through the center background. <Picture 4> supplies the fan's rounded housing, concentric top, central cap and edge thickness while <Picture 1> controls the opening camera and all subject positions.
+[0s-2s] Hold the exact <Picture 1> frame briefly. Cadi <Picture 2> then flies into view from outside the upper edge, descending along a short curve toward the open space above the fan's rear-left side. Its red flame streams backward during flight. Cadi brakes and settles into a hover above the green base, behind the woman's shoulder and clear of her hand.
+[2s-5s] Cadi turns toward the fan and raises one hand. Cadi <Subject 2> (S1), in a bright, playful yet professional childlike Mandarin voice, says: <d>[Mandarin Chinese] 我來啟動風扇Rib AI 最佳化服務</d> Its tiny mouth synchronizes exactly. The woman maintains the opening pose and palm contact from <Picture 1>.
+[5s-7s] A gold-white motion streak rushes in from the right side of the dock aisle. It brakes beside Cadi and resolves into Ray <Picture 3>, with one brief afterimage trailing toward frame-right. The opening camera position and the woman-to-fan relationship remain stable.
+[7s-9s] Ray plants both feet, straightens and gives Cadi one crisp formal salute. Cadi faces Ray while hovering. The woman stays focused on the fan.
+[9s-11s] Cadi projects a compact warm-white and cyan engineering-data capsule. Ray lowers the salute, receives it securely with both hands and closes its grip against its chest. At the instant the transfer completes, Ray turns its head, torso and feet directly toward frame-left.
+[11s-13s] Ray immediately launches into a straight leftward sprint. Its first leftward step is readable, then its white-and-gold silhouette stretches into a horizontal afterimage pointing toward screen-left. Ray crosses the left half of the frame and exits completely through the left edge while carrying the capsule. The camera remains locked to the <Picture 1> composition on the woman, fan and hovering Cadi.
+
+Negative constraints: no subtitles, no readable text, no extra limbs, no deformed joints, no shaky camera, no slow motion, no looping; no rubbery, gelatinous, solid jelly texture; no solid glass surface on the plasma head.
+
+overall_soundscape:
+Low Creo-dock ventilation, distant crane servos and a soft electrical hum continue throughout. Cadi's entry creates one soft aerial sweep and hover-brake sound. Its Mandarin dialogue is clean and synchronized. Ray's right-side arrival and leftward departure create opposing directional air snaps, fast metallic footfalls, one salute joint click and one data-transfer confirmation pulse.
+
+non_diegetic_music:
+N/A.
