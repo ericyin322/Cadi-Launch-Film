@@ -1,5 +1,12 @@
 # 修改紀錄
 
+## 2026-09-23｜SEG-06 H3 A／B v04：純白房間、殘影開場、15 秒緩衝
+
+- 新建 `screenplay/master-storyboard-v0.24.md`（v0.23 保留）與 `segments/SEG-06/brief-v04.md`，只改 SEG-06 與 05→06／06→07 連續性描述。
+- drop 工作站改為純白房間（上傳圖），移除工作台，資料浮空；A 開場 Cadi 背後殘影轉場；hapa／hana 左緣進出。
+- 新增 A／B prompt v04、cast-registry／reference-manifest／生成說明／validation v04、pure-white-room-binding-v01；根目錄 registry、manifest.csv、PROJECT_STATE、README 同步。
+- A 6969 字元 16 通過／1 軟警告；B 6951 字元 14 通過；均 0 失敗。影片未生成。
+
 ## 2026-09-23｜SEG-05 劇情微調與 H3 A／B v06：Agent 從建築飛出、更動資訊標黃
 
 - 依使用者指示新建 `screenplay/master-storyboard-v0.23.md`（v0.22 保留）與 `segments/SEG-05/brief-v04.md`，只改 SEG-05。

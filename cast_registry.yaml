@@ -359,32 +359,40 @@ segments:
     scene: 6
     seed: 7601
     duration_seconds: 15
-    frame_setting: 依實際節點15秒設定計算
+    frame_setting: 15秒／362幀；正片取0–14秒
     cast:
     - cadi
     - drop
     - hapa
     - hana
-    prompt: segments/SEG-06/seg06-a-minimax-h3-prompt-v03.txt
-    beat: Cadi抵達並揮手；hapa／hana交付Spec／GP後飛離。
-    prompt_registry: segments/SEG-06/cast-registry-v03.yaml
-    environment: virtual_factory
-    environment_description_file: assets/environments/virtual-factory-description-v01.txt
+    - pure_white_room
+    prompt: segments/SEG-06/seg06-a-minimax-h3-prompt-v04.txt
+    beat: Cadi背後高速前飛，殘影轉入純白房間；揮手；hapa／hana左緣飛入交付Spec／GP（浮空）後左緣飛離。
+    prompt_registry: segments/SEG-06/cast-registry-v04.yaml
+    reference_images:
+    - label: <Picture 5>
+      file: assets/environments/純白房間.png
+      role: environment_reference
+    environment: pure_white_room
 
   - id: seg06-b
     scene: 6
     seed: 7601
-    duration_seconds: 9
-    frame_setting: 依實際節點9秒設定計算
+    duration_seconds: 15
+    frame_setting: 15秒／362幀；正片取0–10秒
     cast:
     - cadi
     - drop
-    prompt: segments/SEG-06/seg06-b-minimax-h3-prompt-v03.txt
-    beat: Cadi交代彙整原則，drop開始交叉驗證。
-    prompt_registry: segments/SEG-06/cast-registry-v03.yaml
+    - pure_white_room
+    prompt: segments/SEG-06/seg06-b-minimax-h3-prompt-v04.txt
+    beat: Cadi交代彙整原則，drop開始交叉驗證浮空資料。
+    prompt_registry: segments/SEG-06/cast-registry-v04.yaml
+    reference_images:
+    - label: <Picture 3>
+      file: assets/environments/純白房間.png
+      role: environment_reference
     continues_from: seg06-a
-    environment: virtual_factory
-    environment_description_file: assets/environments/virtual-factory-description-v01.txt
+    environment: pure_white_room
 
   - id: seg07-a
     scene: 7

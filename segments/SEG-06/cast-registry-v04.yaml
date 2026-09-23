@@ -1,0 +1,81 @@
+project:
+  title: Cadi Launch Film
+  aspect_ratio: '16:9'
+  frames_per_segment: 362
+  label_style: paired
+  section_style: detailed
+  visual_style: 'Photorealistic live-action cinema footage shot on a digital cinema camera with prime lenses: natural skin texture with visible pores, real fabric weave, physically accurate reflections, shallow depth of field and subtle film grain.'
+  pure_white_room:
+    file: assets/environments/純白房間.png
+    reference_mode: image
+    applies_to: [SEG-06, SEG-07, SEG-08]
+
+assets:
+  cadi:
+    priority: 20
+    summon_tokens: [cadi, mascot, plasma, flame head, robot, chest core]
+    file: assets/characters/cadi_red.png
+    role: identity
+    binding: Its design, proportions, and colors follow
+    canonical: Cadi, a small flying robot mascot. Its head is composed of actively burning, ethereal red plasma fire with orange-gold inner tongues and a warm white luminous center that continuously flickers, dances, and undulates with rising wisps and subtle luminous embers (an energetic plasma flame, completely non-solid, with zero gelatinous or jelly-like surface tension). Within the dynamic flame sit two oversized oval warm-white eyes with dark red rims and a tiny mouth, atop a dark charcoal-gray segmented robot body with red joint accents and a glowing circular warm-white chest core with a gold-orange rim.
+    retention: 'fully preserved: its actively burning red plasma fire head with orange-gold inner tongues and a warm white luminous center, continuous flickering combustion, soft rising flame tongues, subtle luminous embers, wind-drag during movement, upward licking and dissipation while hovering, oversized oval warm-white eyes with dark red rims, tiny mouth, dark charcoal-gray segmented robot body with red joint accents, body proportions, and glowing circular warm-white chest core with a gold-orange rim must remain consistent. It is lit by the same real lighting as the scene described by the timeline.'
+    voice: in a bright, playful yet professional childlike Mandarin voice
+    extra_negatives:
+    - rubbery, gelatinous, solid jelly texture
+    - solid glass surface
+  drop:
+    priority: 25
+    summon_tokens: [drop]
+    file: assets/characters/agent3-drop.png
+    role: identity
+    binding: Its appearance, proportions, and colors follow
+    canonical: drop, a compact white humanoid service robot with a smooth solid white teardrop-shaped head tapering to one rounded peak, two large blue eyes, a small expressive mouth, white armored body panels, black articulated joints, circular blue-lit side modules, and a glowing blue water-drop emblem centered on its chest.
+    retention: 'fully preserved: its solid teardrop head silhouette, blue eyes, small mouth, white armor, black articulated joints, blue-lit side modules, water-drop chest emblem and body proportions. Its white shell reflects the physical indoor lighting.'
+  hapa:
+    priority: 70
+    summon_tokens: [hapa]
+    file: assets/characters/agent2-hapa.png
+    role: identity
+    binding: Its appearance, proportions, and colors follow
+    canonical: hapa, a compact white humanoid service robot with a rounded head, two large green eyes, a small expressive mouth, two upright leaf-shaped ear fins with green insets, black circular side modules with green rims, black articulated joints, and a green leaf emblem centered on its chest.
+    retention: 'fully preserved: its facial features, head silhouette, ear fins, side modules, chest emblem, accent colors, articulated limbs and body proportions. Its white shell and dark joints reflect the physical indoor lighting.'
+  hana:
+    priority: 80
+    summon_tokens: [hana]
+    file: assets/characters/agent1-hana.png
+    role: identity
+    binding: Its appearance, proportions, and colors follow
+    canonical: hana, a compact white humanoid service robot with a rounded head, two large reddish-brown eyes, a small expressive mouth, pale petal-shaped ear fins, black circular side modules with pink rims, trailing pink ribbons, black articulated joints, and a cherry-blossom emblem centered on its chest.
+    retention: 'fully preserved: its facial features, head silhouette, ear fins, side modules, chest emblem, accent colors, articulated limbs and body proportions. Its white shell and dark joints reflect the physical indoor lighting.'
+  pure_white_room:
+    priority: 120
+    file: assets/environments/純白房間.png
+    role: environment_reference
+    binding: Its symmetrical white architecture, lighting, wall panels, ceiling recess and floor reflections follow
+    canonical: the pure-white futuristic room
+    retention: Preserve the empty symmetrical composition, seamless white panels, pale reflective floor, rounded recessed ceiling tray, warm-white perimeter lights, chamfered corners and paired slim black ventilation slots.
+
+segments:
+  - id: seg06-a
+    scene: 6
+    seed: 7601
+    duration_seconds: 15
+    frames: 362
+    edit_use: 0-14s
+    cast: [cadi, drop, hapa, hana, pure_white_room]
+    prompt: segments/SEG-06/seg06-a-minimax-h3-prompt-v04.txt
+    prompt_registry: segments/SEG-06/cast-registry-v04.yaml
+    beat: Cadi 背後跟拍高速前飛，殘影轉入純白房間；揮手招呼；hapa／hana 自左緣飛入交付 Spec／GP（浮空）後由左緣飛離。
+    environment: pure_white_room
+  - id: seg06-b
+    scene: 6
+    seed: 7601
+    duration_seconds: 15
+    frames: 362
+    edit_use: 0-10s
+    cast: [cadi, drop, pure_white_room]
+    prompt: segments/SEG-06/seg06-b-minimax-h3-prompt-v04.txt
+    prompt_registry: segments/SEG-06/cast-registry-v04.yaml
+    beat: Cadi 交代彙整原則，drop 開始交叉驗證浮空資料；10–15 秒穩定停留緩衝。
+    continues_from: seg06-a
+    environment: pure_white_room

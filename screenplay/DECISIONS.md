@@ -127,3 +127,4 @@
 
 - 2026-09-15：成片畫風定為寫實真人電影質感，H3 逐字句存於 `cast_registry.yaml` 的 `project.visual_style`，不再從參考圖推斷。原因：skill 指示「從參考圖推斷畫風」，而女主角參考是插畫設計表，導致提示詞反覆出現 2D animation／cel shading；v07 為壓插畫感寫的「its drawing style … replaced」同樣會召喚畫風。女主角 H3 身分圖改為設計表右下寫實棚拍裁切 `heroine-photo-reference-v01.png`；check_prompt.py 新增畫風字眼檢查與 visual_style 逐字比對。
 - 2026-09-23：依使用者指示僅修訂 SEG-03，來源升至 v0.22，保留 v0.21。(1) Cadi 由青藍焰改為紅焰版（cadi_red.png），螢幕火光與結尾光掃鏡改為紅橙暖光，SEG-04 開頭「掃光退去」同步改色以維持連續性；(2) Cadi 聲音描述統一為「in a bright, playful yet professional childlike Mandarin voice」；(3) DLG-06A 改為「接到一個棘手的任務，你看一下。」；(4) Cadi 讀完郵件後新增驚訝表情，再接 0.5 秒思考停頓；(5) DLG-06B 刪去「主題是 placement 會議」。維持 21 秒；DLG-06B 縮短約1.5秒，可吸收驚訝表情時間。H3 A／B v02 過時，待確認後製作新版。
+- 2026-09-23：依使用者指示，SEG-06 的 drop 工作站改為純白房間（`assets/environments/純白房間.png`），空房不設工作台，資料全程浮空以銜接 SEG-07；開場為 Cadi 背後高速前飛、一開始即處於殘影中再定格為純白房間，不交代工廠街區；hapa、hana 由畫面左緣進出。A／B 各15秒生成，正片14＋10秒。正式來源升至 v0.24。

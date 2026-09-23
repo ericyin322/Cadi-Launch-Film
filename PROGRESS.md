@@ -1,5 +1,7 @@
 # 製作進度
 
+- 2026-09-23：依使用者指示完成 SEG-06 H3 A／B v04（v03 保留），來源升至 `master-storyboard-v0.24.md`、新增 brief-v04。drop 工作站改為純白房間（實際上傳 `assets/environments/純白房間.png`），空房無工作台、Spec／GP 資料浮空並銜接 SEG-07 A；A 開場為 Cadi 背後高速前飛，一開始即在殘影中，0–2 秒閃換定格於純白房間；hapa／hana 由畫面左緣進出。Cadi 紅焰、聲音統一句；台詞 DLG-14–17 不變。A／B 各15秒／362幀，正片 A0–14＋B0–10＝24秒、seed 7601。A 16項通過、1項五圖軟警告、0失敗；B 14項通過、0警告、0失敗。影片未生成。
+
 - 2026-09-23：SEG-04 A 改為 Ref2VA，H3 v05（v04 保留）：沿用 B 的女主角與紅焰 Cadi 參考圖（Picture 1／2），流程圖不在 A 出場故不上傳；六區段格式同 B，時間軸與 v04 相同（15 秒生成、正片 0–10 秒）。新增 registry／manifest／生成說明／驗證 v10。A 13項通過、0警告、0失敗。影片未生成。
 
 - 2026-09-23：SEG-04 A 依最新規則改寫為 H3 v04（v03 保留）：補齊 subject_definitions／retention_analysis（registry canonical／retention 逐字），畫風置於 [Shot 1] 開頭；改 15 秒／362 幀生成、5 個時間段，正片取 0–10 秒，10–15 秒為 Cadi 抬手準備展示的銜接緩衝；新增 Negative constraints。新增 registry／manifest／生成說明／驗證 v09。A 8項通過、2項預期警告、0失敗；B v08、C v03 不變。影片未生成。

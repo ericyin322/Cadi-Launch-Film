@@ -7,7 +7,7 @@
     "主管",
     "技術發表會觀眾"
   ],
-  "source_of_truth": "screenplay/master-storyboard-v0.23.md",
+  "source_of_truth": "screenplay/master-storyboard-v0.24.md",
   "video_prompt_target": "MiniMax H3",
   "storyboard_style": "黑白漫畫式線稿（僅限 Storyboard 前期圖，不進 H3 提示詞）",
   "final_video_style": "寫實真人電影質感；H3 逐字文字見 cast_registry.yaml project.visual_style",
@@ -101,28 +101,31 @@
     },
     {
       "id": "SEG-06",
-      "screenplay": "v0.16",
+      "screenplay": "v0.24",
       "storyboard": "v02",
       "approval": "storyboard_v02_pending_user_review",
-      "h3": "a_v03_b_v03_dialogue_updated_video_unverified",
+      "h3": "a_v04_b_v04_pure_white_room_video_unverified",
       "time_range": "01:56–02:20",
-      "brief": "segments/SEG-06/brief-v03.md",
+      "brief": "segments/SEG-06/brief-v04.md",
       "character_revision": "explicit_user_request_2026-09-17",
       "duration_seconds": 24,
       "timing_status": "original_slot_retained_pending_readthrough",
-      "screenplay_notes": "Cadi 直飛 drop 站點並打招呼；hana／hapa 直接交付資料後飛離，drop 接手彙整。 2026-09-19：DLG-14改為「最新 Spec 已取得。固有項目標綠，新增參數已標黃。」",
+      "screenplay_notes": "Cadi 直飛 drop 站點並打招呼；hana／hapa 直接交付資料後飛離，drop 接手彙整。 2026-09-19：DLG-14改為「最新 Spec 已取得。固有項目標綠，新增參數已標黃。」 2026-09-23：drop 工作站改純白房間（無工作台、資料浮空）；開場 Cadi 背後殘影轉場；hapa／hana 左緣進出。",
       "screenplay_approval": "approved_by_user_revision",
       "storyboard_notes": "六格已完成：抵達、招呼、hapa交付Spec、hana交付GP、兩Agent離場、drop彙整。純黑白；v01與初稿保留。",
-      "h3_storyboard_override": "explicit_user_request_after_storyboard_v02_2026-09-17",
-      "h3_notes": "segments/SEG-06/minimax-h3-generation-notes-v03.md",
-      "environment_description_file": "assets/environments/virtual-factory-description-v01.txt",
-      "environment_reference_mode": "text_only",
-      "environment_binding": "segments/SEG-06/factory-scene-binding-v01.md",
+      "h3_storyboard_override": "explicit_user_request_2026-09-23",
+      "h3_notes": "segments/SEG-06/minimax-h3-generation-notes-v04.md",
+      "environment_description_file": "",
+      "environment_reference_mode": "image",
+      "environment_binding": "segments/SEG-06/pure-white-room-binding-v01.md",
       "h3_prompts": [
-        "segments/SEG-06/seg06-a-minimax-h3-prompt-v03.txt",
-        "segments/SEG-06/seg06-b-minimax-h3-prompt-v03.txt"
+        "segments/SEG-06/seg06-a-minimax-h3-prompt-v04.txt",
+        "segments/SEG-06/seg06-b-minimax-h3-prompt-v04.txt"
       ],
-      "reference_manifest": "segments/SEG-06/reference-manifest-v03.json"
+      "reference_manifest": "segments/SEG-06/reference-manifest-v04.json",
+      "storyboard_status": "v02_outdated_pure_white_room",
+      "environment_file": "assets/environments/純白房間.png",
+      "h3_generation": "A/B 各15秒362幀；正片 A0–14＋B0–10＝24秒"
     },
     {
       "id": "SEG-07",

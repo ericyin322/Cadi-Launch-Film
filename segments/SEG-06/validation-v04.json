@@ -1,0 +1,9 @@
+{
+  "date": "2026-09-23",
+  "checker": ".agents/skills/h3-scene-prompt/scripts/check_prompt.py",
+  "registry": "segments/SEG-06/cast-registry-v04.yaml",
+  "results": [
+    {"segment": "seg06-a", "prompt": "segments/SEG-06/seg06-a-minimax-h3-prompt-v04.txt", "passed": 16, "warnings": 1, "warning_notes": "五張參考圖超過建議值4（軟警告）", "failed": 0, "characters": 6969},
+    {"segment": "seg06-b", "prompt": "segments/SEG-06/seg06-b-minimax-h3-prompt-v04.txt", "passed": 14, "warnings": 0, "failed": 0, "characters": 6951}
+  ]
+}
