@@ -1,0 +1,56 @@
+{
+  "environment": {
+    "mode": "text_only",
+    "description_file": "assets/environments/virtual-factory-description-v02.txt"
+  },
+  "segments": [
+    {
+      "id": "seg05-a",
+      "mode": "Ref2VA",
+      "seconds": 15,
+      "frames": 362,
+      "edit_use_seconds": "0-14",
+      "seed": 7501,
+      "prompt": "segments/SEG-05/seg05-a-minimax-h3-prompt-v06.txt",
+      "images": [
+        {
+          "slot": "ref_image_0",
+          "label": "<Picture 1>",
+          "asset": "cadi",
+          "file": "assets/characters/cadi_red.png"
+        },
+        {
+          "slot": "ref_image_1",
+          "label": "<Picture 2>",
+          "asset": "hapa",
+          "file": "assets/characters/agent2-hapa.png"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "id": "seg05-b",
+      "mode": "Ref2VA",
+      "seconds": 15,
+      "frames": 362,
+      "edit_use_seconds": "0-12",
+      "seed": 7501,
+      "prompt": "segments/SEG-05/seg05-b-minimax-h3-prompt-v06.txt",
+      "images": [
+        {
+          "slot": "ref_image_0",
+          "label": "<Picture 1>",
+          "asset": "cadi",
+          "file": "assets/characters/cadi_red.png"
+        },
+        {
+          "slot": "ref_image_1",
+          "label": "<Picture 2>",
+          "asset": "hana",
+          "file": "assets/characters/agent1-hana.png"
+        }
+      ],
+      "videos": []
+    }
+  ]
+}

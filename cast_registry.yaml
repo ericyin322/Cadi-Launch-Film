@@ -334,9 +334,9 @@ segments:
     cast:
     - cadi
     - hapa
-    prompt: segments/SEG-05/seg05-a-minimax-h3-prompt-v05.txt
-    beat: Cadi派hapa向左飛離；15秒生成，正片0–14秒。
-    prompt_registry: segments/SEG-05/cast-registry-v05.yaml
+    prompt: segments/SEG-05/seg05-a-minimax-h3-prompt-v06.txt
+    beat: hapa從左側SPEC／HTTP建築飛出，Cadi派工後向左飛離；15秒生成，正片0–14秒。
+    prompt_registry: segments/SEG-05/cast-registry-v06.yaml
     environment: virtual_factory
     environment_description_file: assets/environments/virtual-factory-description-v02.txt
 
@@ -349,9 +349,9 @@ segments:
     - cadi
     - hana
     continues_from: seg05-a
-    prompt: segments/SEG-05/seg05-b-minimax-h3-prompt-v05.txt
-    beat: Cadi派hana向右飛離；180度環繞Cadi，準備前往下一站；15秒生成，正片0–12秒。
-    prompt_registry: segments/SEG-05/cast-registry-v05.yaml
+    prompt: segments/SEG-05/seg05-b-minimax-h3-prompt-v06.txt
+    beat: hana從右側GP辨識建築飛出，Cadi派工後向右飛離；180度環繞Cadi，準備前往下一站；15秒生成，正片0–12秒。
+    prompt_registry: segments/SEG-05/cast-registry-v06.yaml
     environment: virtual_factory
     environment_description_file: assets/environments/virtual-factory-description-v02.txt
 

@@ -1,5 +1,12 @@
 # 修改紀錄
 
+## 2026-09-23｜SEG-05 劇情微調與 H3 A／B v06：Agent 從建築飛出、更動資訊標黃
+
+- 依使用者指示新建 `screenplay/master-storyboard-v0.23.md`（v0.22 保留）與 `segments/SEG-05/brief-v04.md`，只改 SEG-05。
+- hapa 改從左側掛 SPEC／HTTP 直式招牌的建築開口飛出；hana 改從右側掛 GP 辨識直式招牌的建築開口飛出。
+- DLG-10 改為「hapa，透過 HTTP 取得最新 Spec；正確資訊標綠，更動資訊標黃。」
+- 新增 A／B prompt v06、cast-registry／reference-manifest／生成說明／validation v06；A 6786、B 6975 字元，各 13 項通過、0 警告、0 失敗。時長、seed、上傳圖不變；v05 保留，影片未生成。
+
 ## 2026-09-23｜SEG-05 H3 A／B v05：紅焰 Cadi、聲音統一、15 秒緩衝
 
 - Cadi 全段紅焰（cadi_red.png、根目錄 canonical）；聲音逐字統一為「in a bright, playful yet professional childlike Mandarin voice」。

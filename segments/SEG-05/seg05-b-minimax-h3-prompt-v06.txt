@@ -1,0 +1,36 @@
+subject_definitions:
+<Subject 1> is Cadi, a small flying robot mascot. Its head is composed of actively burning, ethereal red plasma fire with orange-gold inner tongues and a warm white luminous center that continuously flickers, dances, and undulates with rising wisps and subtle luminous embers (an energetic plasma flame, completely non-solid, with zero gelatinous or jelly-like surface tension). Within the dynamic flame sit two oversized oval warm-white eyes with dark red rims and a tiny mouth, atop a dark charcoal-gray segmented robot body with red joint accents and a glowing circular warm-white chest core with a gold-orange rim. Its design, proportions, and colors follow <Picture 1>.
+<Subject 2> is hana, a compact white humanoid service robot with a rounded head, two large reddish-brown eyes, a small expressive mouth, pale petal-shaped ear fins, black circular side modules with pink rims, trailing pink ribbons, black articulated joints, and a cherry-blossom emblem centered on its chest. Its appearance, proportions, and colors follow <Picture 2>.
+
+summary:
+[reference generation] A 15-second sequence: hana flies out of a right-side building, Cadi dispatches it toward screen-right, then the camera orbits behind him as he prepares for the next station.
+
+retention_analysis:
+<Subject 1> / <Picture 1>: fully_preserved - fully preserved: its actively burning red plasma fire head with orange-gold inner tongues and a warm white luminous center, continuous flickering combustion, soft rising flame tongues, subtle luminous embers, wind-drag during movement, upward licking and dissipation while hovering, oversized oval warm-white eyes with dark red rims, tiny mouth, dark charcoal-gray segmented robot body with red joint accents, body proportions, and glowing circular warm-white chest core with a gold-orange rim must remain consistent. It is lit by the same real lighting as the scene described by the timeline.
+<Subject 2> / <Picture 2> ([Shot 1], 0s-8s): fully_preserved - fully preserved: its facial features, head silhouette, ear fins, side modules, chest emblem, accent colors, articulated limbs and body proportions. Its white shell and dark joints have physically accurate reflections under the district lighting.
+Each image supplies one character identity. The timeline supplies the physical location and blocking.
+
+detailed_description:
+Photorealistic live-action cinema footage shot on a digital cinema camera with prime lenses: natural skin texture with visible pores, real fabric weave, physically accurate reflections, shallow depth of field and subtle film grain.
+
+A bright futuristic engineering district beneath a blue sky with white clouds. A glowing cyan transport avenue leads toward a monumental tower surrounded by enormous horizontal rings. Multilevel automated workshops line both sides, combining dense high-rise urban streetscapes with white-gray metal facades, exposed pipes, glass platforms, and vertical orange engineering signs. Elevated cyan rails connect the buildings. Yellow industrial robot arms operate inside warm-lit workshops, small white service robots move along terraces, and hovering disc-shaped carriers transport luminous translucent cubes. Green rooftop planters soften the architecture. Natural sunlight creates realistic metal and glass reflections.
+The central route extends north. Physical light and reflections integrate the mechanical bodies into the location. 16:9.
+
+[Shot 1] Medium-wide view continuing Cadi <Picture 1>'s turn toward screen-right. Screen-right stands a multilevel workshop building bearing the vertical GP 辨識 sign, with a wide opening beside the right-hand route. Leave room at the right edge for departure.
+[0s-2s] Cadi sweeps his right hand toward the building; its opening lights up and hana <Picture 2>, with petal-shaped ear fins, pink ribbons and a blossom chest emblem, flies out of it and hovers at the route entrance facing him. <Subject 1> (S1), in a bright, playful yet professional childlike Mandarin voice, begins: <d>[Mandarin Chinese] hana，取得 GP 圖，</d> His actively burning, ethereal red plasma fire with orange-gold inner tongues and a warm white luminous center continuously flickers, dances, and undulates, with soft rising tongues and luminous embers.
+[2s-4s] The camera drifts slightly right and settles on both faces. <Subject 1> (S1) continues in the same voice: <d>[Mandarin Chinese] 送入辨識服務，</d> hana follows the gesture with its eyes, ribbons drifting gently.
+[4s-6s] <Subject 1> (S1) completes the instruction: <d>[Mandarin Chinese] 回傳 Connector 座標。</d> Cadi holds his hand toward the route. His completely non-solid fire licks upward and dissipates while hovering; his chest core maintains a steady warm-white glow with a gold-orange rim.
+[6s-8s] <Subject 2> (S2), in a nimble, bright Mandarin voice with light electronic resonance, answers during the first second: <d>[Mandarin Chinese] 馬上處理！</d> Its mouth moves with the words. hana turns toward screen-right and immediately accelerates out through the right frame edge by 8 seconds, ribbons trailing left with the airflow. A short flight whoosh pans right and fades.
+
+[Shot 2] At 00:08.000, cut to a medium hero view of Cadi <Picture 1>, centered above the dispatch platform. The northbound street extends behind him. His mouth settles into a confident expression.
+[8s-10s] Begin one smooth 180-degree horizontal camera orbit around Cadi at a constant radius and level horizon. Move from his front through a side profile; the street facades slide in clear parallax while his body remains centered and oriented along the northbound route. His soft flame tongues rise and dissipate into subtle embers.
+[10s-12s] Continue the same camera arc and ease to a stop behind Cadi, revealing the northbound route ahead over his shoulders. Cadi lifts slightly, angles his torso forward and fixes his gaze on the next station along the channel, poised to fly. Airflow draws his plasma wisps gently backward.
+[12s-15s] Hold the camera locked behind Cadi. He stays centered in the same forward-leaning hover, gaze fixed ahead, with only gentle flame flicker, rising embers and distant route traffic. End on this stable departure-ready frame.
+
+Negative constraints: no subtitles, no extra fingers or limbs, no deformed limbs, no shaky camera, no looping; no rubbery, gelatinous, solid jelly texture; no solid glass surface on the plasma head.
+
+overall_soundscape:
+Low district ventilation and transport hum beneath clear spatially placed dialogue. Brief directional flight whooshes follow the timeline beneath speech. Cadi's fire carries a faint continuous crackle. From 10s a soft airflow along the northbound route rises and sustains through the final hold.
+
+non_diegetic_music:
+A light, energetic instrumental bed at 112 BPM with plucked synthesizer notes, warm bass and restrained electronic percussion. Keep a steady forward pulse; duck beneath speech, open slightly for the orbit and sustain through the final hold.
