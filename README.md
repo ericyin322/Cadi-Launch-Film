@@ -4,7 +4,7 @@
 
 ## 工作原則
 
-- `screenplay/master-storyboard-v0.20.md` 是目前唯一劇情來源。
+- `screenplay/master-storyboard-v0.21.md` 是目前唯一劇情來源。
 - 每個 `SEG-xx` 是可獨立修改、替換或重新生成的模組。
 - 修改既有分段時建立新版本，不覆蓋已保留的圖片。
 - 新增段落時可使用 `SEG-07A` 等暫時編號；確定全片節奏後再統一重編。
@@ -13,7 +13,7 @@
 
 ## 主要入口
 
-- [完整文字分鏡](screenplay/master-storyboard-v0.20.md)
+- [完整文字分鏡](screenplay/master-storyboard-v0.21.md)
 - [已確認創作決策](screenplay/DECISIONS.md)
 - [製作進度](PROGRESS.md)
 - [機器可讀狀態](PROJECT_STATE.json)

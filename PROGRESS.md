@@ -1,5 +1,7 @@
 # 製作進度
 
+- 2026-09-23：依使用者指示更新 SEG-10 劇情並建立 `master-storyboard-v0.21.md`、`brief-v03.md`。女主角依 `assets/placement/Screenshot 2026-09-22 165319.png` 的藍色圓柱比例與站位走到 placement-creo 風扇旁，蹲下端詳並觸摸風扇頂部，說「這個風扇的強度不足」；Cadi 回應「我來啟動風扇Rib AI 最佳化服務」；Ray 以殘影衝入、向 Cadi 敬禮、接過資料，再以殘影衝刺離鏡。舊版參數確認、同意與模型資料箱內容取消。SEG-11 劇情不變；SEG-10 Storyboard v01 與 H3 A／B／C v01 標為過時，待新版 Storyboard 確認後再製作提示詞。原26秒時槽待校時。
+
 - 2026-09-22：完成 SEG-09 B H3 v06 小幅路徑修正；A 維持 v02。Creo Robot 第二鏡位於 placement-creo 北側外緣之外的裸露船塢地面，雙腳與綠色基底保持可見間距，背對 Placement 向外走入北側通道；整條腳步路徑位於基底邊界之外。同步拉遠、地面 Placement、13 秒與素材不變。新增 brief v08、prompt／registry／manifest／生成說明／驗證紀錄 v06；A 相容性14項、B 13項通過，均0警告、0失敗；影片未生成。
 
 - 2026-09-22：依使用者指示完成 SEG-09 B H3 v05；A 維持 v02。Creo Robot 放置後朝 placement-creo 北側離開，北側定義為 Picture 2 畫面上方／遠端；Robot 起步離場與攝影機後拉、升高、下俯同步進行。Placement 明確直接平放在船塢地面，綠色基底與地面連續接觸，四周為同一高度地坪。新增 brief v07、prompt／registry／manifest／生成說明／驗證紀錄 v05；A 相容性14項、B 13項通過，均0警告、0失敗；影片未生成。

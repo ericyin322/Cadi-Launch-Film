@@ -1,5 +1,13 @@
 # 修改紀錄
 
+## 2026-09-23｜SEG-10 風扇近看與 Ray 殘影派工
+
+- 新建 `screenplay/master-storyboard-v0.21.md` 與 `segments/SEG-10/brief-v03.md`，保留舊版。
+- 女主角依指定 placement-creo 比例圖走到風扇旁，蹲下端詳並觸摸風扇頂部；對白改為「這個風扇的強度不足」。
+- Cadi 對白改為「我來啟動風扇Rib AI 最佳化服務」。Ray 改為殘影衝入、向 Cadi 敬禮、接過資料，再以殘影衝刺離鏡。
+- 取消舊版 ABS／壓強10／Gap1.5／執行同意／模型資料箱內容；SEG-11 劇情不變，只更新資料交接連續性。
+- SEG-10 Storyboard v01 與 H3 A／B／C v01 標記過時；本輪未製作新版 Storyboard 或 H3。同步更新 README、PROGRESS、PROJECT_STATE、DECISIONS 與資產索引。
+
 ## 2026-09-22｜SEG-09 B 北側外緣離場路徑
 
 - 新增 SEG-09B H3 v06；其餘時間、素材、同步拉遠與地面 Placement 設定不變。

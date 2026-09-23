@@ -1,13 +1,13 @@
 {
   "project": "Cadi-Launch-Film",
-  "updated": "2026-09-22",
+  "updated": "2026-09-23",
   "duration_seconds": 300,
   "audience": [
     "上級",
     "主管",
     "技術發表會觀眾"
   ],
-  "source_of_truth": "screenplay/master-storyboard-v0.20.md",
+  "source_of_truth": "screenplay/master-storyboard-v0.21.md",
   "video_prompt_target": "MiniMax H3",
   "storyboard_style": "黑白漫畫式線稿（僅限 Storyboard 前期圖，不進 H3 提示詞）",
   "final_video_style": "寫實真人電影質感；H3 逐字文字見 cast_registry.yaml project.visual_style",
@@ -239,21 +239,22 @@
     },
     {
       "id": "SEG-10",
-      "screenplay": "v0.10",
-      "screenplay_notes": "2026-09-20：依使用者指示更新 SEG-10：共同檢查已落位風扇、指出無法承受10的壓強、提議 Rib 結構 AI 最佳化、確認 ABS／壓強10／Gap 1.5、女主角同意後派 Ray 抱模型資料箱入研究所。完整保留五句對白，新增 DLG-27A／27B。正式主檔升至 v0.10，新增 brief-v02，舊檔保留；SEG-11 僅同步小花→Ray 的角色連續性。Ray 參考 assets/characters/agent5-ray.png。SEG-10 原26秒待試讀校時，單位未指定；SEG-10／11 Storyboard v01 已過時，H3未製作。",
+      "screenplay": "v0.21_seg10_revision",
+      "screenplay_notes": "2026-09-23：女主角依指定比例圖走到 placement-creo 風扇旁，蹲下端詳並伸手觸摸風扇頂部，說「這個風扇的強度不足」；Cadi 回應「我來啟動風扇Rib AI 最佳化服務」；Ray 以殘影高速進場、向 Cadi 敬禮、接過資料，再以殘影衝刺離鏡。舊版 ABS／壓強10／Gap1.5／詢問同意／模型資料箱內容取消。SEG-11 劇情不變，只以 Ray 已取得風扇模型資料銜接。",
       "storyboard": "v01",
       "approval": "storyboard_v01_outdated_revision_pending",
-      "h3": "a_b_c_v01_ready_video_unverified",
+      "h3": "a_b_c_v01_outdated_by_screenplay_v0.21",
       "environment_description_file": "assets/environments/virtual-factory-description-v01.txt",
       "environment_reference_mode": "text_only",
       "environment_binding": "segments/SEG-10/factory-scene-binding-v01.md",
       "screenplay_approval": "approved_by_user_revision",
-      "brief": "segments/SEG-10/brief-v02.md",
-      "storyboard_notes": "新版須呈現共同檢查、強度不足、參數確認與同意、Ray 派工。",
-      "timing_status": "h3_38_seconds_original_26_second_slot_pending_retiming",
+      "brief": "segments/SEG-10/brief-v03.md",
+      "storyboard_notes": "新版須呈現指定人物比例與站位、女主角走近風扇、蹲下端詳並觸摸頂部、兩句新台詞，以及 Ray 殘影進場敬禮、接資料、殘影離鏡。",
+      "timing_status": "revised_screenplay_original_26_second_slot_pending_storyboard_and_retiming",
       "duration_seconds": 26,
       "time_range": "03:34–04:00",
       "character_reference": "assets/characters/agent5-ray.png",
+      "placement_scale_reference": "assets/placement/Screenshot 2026-09-22 165319.png",
       "h3_storyboard_override": "explicit_user_request_after_text_revision_2026-09-20",
       "h3_prompts": [
         "segments/SEG-10/seg10-a-minimax-h3-prompt-v01.txt",
@@ -269,7 +270,7 @@
         "b": 15,
         "c": 10
       },
-      "timing_notes": "H3製作配置13＋15＋10秒；主劇本及後段原時間碼保留待重排，配音與嘴型未實測。"
+      "timing_notes": "原 H3 v01 的13＋15＋10秒配置已因劇情改寫而過時；主劇本暫留26秒時槽，待新版 Storyboard 確認後再規劃 H3 與校時。"
     },
     {
       "id": "SEG-11",
