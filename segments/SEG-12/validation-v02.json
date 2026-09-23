@@ -1,0 +1,47 @@
+{
+  "date": "2026-09-23",
+  "checker": ".agents/skills/h3-scene-prompt/scripts/check_prompt.py",
+  "registry": "segments/SEG-12/cast-registry-v02.yaml",
+  "results": [
+    {
+      "segment": "seg12-a-v02",
+      "prompt": "segments/SEG-12/seg12-a-minimax-h3-prompt-v02.txt",
+      "passed": 16,
+      "warnings": 1,
+      "failed": 0,
+      "characters": 6882,
+      "warning": "Five reference images exceed the soft limit of four."
+    },
+    {
+      "segment": "seg12-b-v02",
+      "prompt": "segments/SEG-12/seg12-b-minimax-h3-prompt-v02.txt",
+      "passed": 16,
+      "warnings": 1,
+      "failed": 0,
+      "characters": 6826,
+      "warning": "Five reference images exceed the soft limit of four."
+    },
+    {
+      "segment": "seg12-c-v01",
+      "prompt": "segments/SEG-12/seg12-c-minimax-h3-prompt-v01.txt",
+      "passed": 15,
+      "warnings": 0,
+      "failed": 0,
+      "characters": 6271
+    },
+    {
+      "segment": "seg12-d-v01",
+      "prompt": "segments/SEG-12/seg12-d-minimax-h3-prompt-v01.txt",
+      "passed": 12,
+      "warnings": 0,
+      "failed": 0,
+      "characters": 3933
+    }
+  ],
+  "manual_checks": {
+    "heroine_position": "A/B/C place the crouched heroine in the green gap between the larger and smaller fans, immediately left of the larger fan.",
+    "dialogue": "DLG-32A kept verbatim: 已收到最佳 rib 資料，現在開始生成rib。 DLG-33/33A unchanged.",
+    "rib_generation": "B shows cyan wireframe mesh first (2-7s), then bottom-up solidification into gray metal (7-10s), ending on rib-done layout (six Ribs).",
+    "absent_objects": "Ray is named only in A; B/C/D do not mention it."
+  }
+}

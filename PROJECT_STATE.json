@@ -7,7 +7,7 @@
     "主管",
     "技術發表會觀眾"
   ],
-  "source_of_truth": "screenplay/master-storyboard-v0.25.md",
+  "source_of_truth": "screenplay/master-storyboard-v0.26.md",
   "video_prompt_target": "MiniMax H3",
   "storyboard_style": "黑白漫畫式線稿（僅限 Storyboard 前期圖，不進 H3 提示詞）",
   "final_video_style": "寫實真人電影質感；H3 逐字文字見 cast_registry.yaml project.visual_style",
@@ -291,8 +291,8 @@
       "approval": "storyboard_v01_outdated_character_revision_pending",
       "h3": "a_v04_b_v04_c_v03_ready_video_unverified",
       "h3_storyboard_override": "explicit_user_request_2026-09-20",
-      "h3_notes": "segments/SEG-11/minimax-h3-generation-notes-v04.md；A／B v04、C v03，各13秒，seed 8101。A／B 上傳 Ray、Finn、科技煉丹爐.jpg（Picture 3）；Ray殘影高速進房、Finn把資料丟入煉丹爐、爐體特寫轟鳴、Finn從爐內取丹交Ray。A/B各14項通過，0警告、0失敗。原26秒時槽待校正。",
-      "h3_total_duration_seconds": 39,
+      "h3_notes": "segments/SEG-11/minimax-h3-generation-notes-v04.md；A／B v04、C v03，各13秒，seed 8101。A／B 上傳 Ray、Finn、科技煉丹爐.jpg（Picture 3）；Ray殘影高速進房、Finn把資料丟入煉丹爐、爐體特寫轟鳴、Finn從爐內取丹交Ray。A/B各14項通過，0警告、0失敗。原26秒時槽待校正。；2026-09-23 起 C v03 停用（Ray 回程與 Rib 生成移入 SEG-12）。",
+      "h3_total_duration_seconds": 26,
       "h3_segment_durations_seconds": {
         "a": 13,
         "b": 13,
@@ -315,31 +315,42 @@
       "id": "SEG-12",
       "storyboard": "v01",
       "approval": "storyboard_v01_outdated_revision_pending",
-      "h3": "a_v01_b_v01_ready_video_unverified",
-      "h3_storyboard_override": "explicit_user_request_2026-09-20",
-      "h3_notes": "segments/SEG-12/minimax-h3-generation-notes-v01.md；A 12秒＋B 7秒，seed 8201；A使用女主角＋Cadi，B只使用女主角；A 13項、B 12項通過，0警告、0失敗。",
-      "h3_total_duration_seconds": 19,
+      "h3": "a_v02_b_v02_c_v01_d_v01_ready_video_unverified",
+      "h3_storyboard_override": "explicit_user_request_2026-09-23",
+      "h3_notes": "segments/SEG-12/minimax-h3-generation-notes-v02.md",
+      "h3_total_duration_seconds": 44,
       "h3_segment_durations_seconds": {
         "a": 12,
-        "b": 7
+        "b": 13,
+        "c": 12,
+        "d": 7
       },
       "h3_prompts": [
-        "segments/SEG-12/seg12-a-minimax-h3-prompt-v01.txt",
-        "segments/SEG-12/seg12-b-minimax-h3-prompt-v01.txt"
+        "segments/SEG-12/seg12-a-minimax-h3-prompt-v02.txt",
+        "segments/SEG-12/seg12-b-minimax-h3-prompt-v02.txt",
+        "segments/SEG-12/seg12-c-minimax-h3-prompt-v01.txt",
+        "segments/SEG-12/seg12-d-minimax-h3-prompt-v01.txt"
       ],
-      "prompt_registry": "segments/SEG-12/cast-registry-v01.yaml",
-      "reference_manifest": "segments/SEG-12/reference-manifest-v01.json",
-      "screenplay": "v0.12",
+      "prompt_registry": "segments/SEG-12/cast-registry-v02.yaml",
+      "reference_manifest": "segments/SEG-12/reference-manifest-v02.json",
+      "screenplay": "v0.26_seg12_revision",
       "screenplay_approval": "approved_by_user_revision",
-      "brief": "segments/SEG-12/brief-v02.md",
-      "screenplay_notes": "承接SEG-11同一風扇場景；女主角滿意致謝，Cadi回應下次仍會幫忙，女主角整理衣服。完整Placement布局拉遠後轉場顯示於辦公室電腦；後方機位中女主角起身並關閉螢幕。接續SEG-13時，女主角帶著銀色HP筆電前往會議室。",
+      "brief": "segments/SEG-12/brief-v03.md",
+      "screenplay_notes": "2026-09-23：承接 SEG-10 船塢，女主角仍蹲在大型與小風扇之間；Ray 殘影帶回結果交給 Cadi 後離鏡；Cadi 說「已收到最佳 rib 資料，現在開始生成rib。」；六根 Rib 先網格後實體（rib not yet／rib done）；女主角看後滿意致謝、Cadi 回應、整理衣服不變；辦公室轉場不變。SEG-11 鏡頭42 停用。",
       "duration_seconds": 19,
       "time_range": "04:26–04:45",
-      "timing_status": "dialogue_and_transition_pending_readthrough",
-      "storyboard_notes": "v01已過時；新版須呈現同一風扇旁致謝、Cadi回應、整理衣服、布局轉入辦公室電腦及關閉螢幕。",
-      "environment_description_file": "assets/environments/virtual-factory-description-v01.txt",
-      "environment_reference_mode": "text_only",
-      "environment_binding": "segments/SEG-12/factory-scene-binding-v01.md"
+      "timing_status": "h3_44_seconds_exceeds_original_19_second_slot_pending_retiming",
+      "storyboard_notes": "v01已過時；新版須呈現 Ray 送回結果、六根 Rib 網格→實體、致謝、整理衣服及辦公室轉場。",
+      "environment_description_file": "assets/environments/virtual-factory-description-v02.txt",
+      "environment_reference_mode": "creo_dock_text_only",
+      "environment_binding": "segments/SEG-12/factory-scene-binding-v02.md",
+      "validation": "segments/SEG-12/validation-v02.json",
+      "placement_references": [
+        "assets/placement/Screenshot 2026-09-22 165319.png",
+        "assets/placement/bottom view 3_1.png",
+        "assets/placement/bottom view- rib not yet.png",
+        "assets/placement/bottom view- rib done.png"
+      ]
     },
     {
       "id": "SEG-13",

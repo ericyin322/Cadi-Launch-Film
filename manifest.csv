@@ -13,3 +13,7 @@ seg06-a,6,,15,7601,"assets/characters/cadi_red.png|assets/characters/agent3-drop
 seg06-b,6,,15,7601,"assets/characters/cadi_red.png|assets/characters/agent3-drop.png|assets/environments/純白房間.png"
 seg07-a,7,,14,7701,assets/characters/cadi_red.png|assets/characters/agent3-drop.png
 seg07-b,7,,12,7701,assets/characters/heroine-photo-reference-v01.png|assets/characters/cadi_red.png|assets/characters/agent3-drop.png
+seg12-a-v02,12,,12,8201,"assets/characters/heroine-photo-reference-v01.png|assets/characters/cadi_red.png|assets/characters/agent5-ray.png|assets/placement/Screenshot 2026-09-22 165319.png|assets/placement/bottom view 3_1.png"
+seg12-b-v02,12,,13,8201,"assets/characters/heroine-photo-reference-v01.png|assets/characters/cadi_red.png|assets/placement/Screenshot 2026-09-22 165319.png|assets/placement/bottom view- rib not yet.png|assets/placement/bottom view- rib done.png"
+seg12-c-v01,12,,12,8201,"assets/characters/heroine-photo-reference-v01.png|assets/characters/cadi_red.png|assets/placement/Screenshot 2026-09-22 165319.png|assets/placement/bottom view- rib done.png"
+seg12-d-v01,12,,7,8201,"assets/characters/heroine-photo-reference-v01.png"

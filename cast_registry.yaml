@@ -633,6 +633,107 @@ segments:
     beat: 完整Placement布局拉遠成辦公室電腦畫面；後方機位中女主角起身、螢幕關閉
     continues_from: seg12-a
 
+  - id: seg12-a-v02
+    scene: 12
+    seed: 8201
+    duration_seconds: 12
+    cast:
+    - heroine
+    - cadi
+    - ray
+    - fan_placement
+    - placement_angle
+    prompt: segments/SEG-12/seg12-a-minimax-h3-prompt-v02.txt
+    prompt_registry: segments/SEG-12/cast-registry-v02.yaml
+    continues_from: seg10-b-v04
+    beat: 承接SEG-10船塢；女主角仍蹲在兩風扇之間；Ray殘影送回結果交給Cadi後離鏡；Cadi宣布開始生成rib
+    reference_images:
+    - label: <Picture 1>
+      file: assets/characters/heroine-photo-reference-v01.png
+      role: identity
+    - label: <Picture 2>
+      file: assets/characters/cadi_red.png
+      role: identity
+    - label: <Picture 3>
+      file: assets/characters/agent5-ray.png
+      role: identity
+    - label: <Picture 4>
+      file: assets/placement/Screenshot 2026-09-22 165319.png
+      role: heroine_position_between_fans_and_scale
+    - label: <Picture 5>
+      file: assets/placement/bottom view 3_1.png
+      role: seg10_camera_angle_continuity
+  - id: seg12-b-v02
+    scene: 12
+    seed: 8201
+    duration_seconds: 13
+    cast:
+    - heroine
+    - cadi
+    - fan_placement
+    - rib_view_pre
+    - rib_view_post
+    prompt: segments/SEG-12/seg12-b-minimax-h3-prompt-v02.txt
+    prompt_registry: segments/SEG-12/cast-registry-v02.yaml
+    continues_from: seg12-a-v02
+    beat: 六根Rib先青色網格再實體化，終態對齊rib done；女主角看後滿意
+    reference_images:
+    - label: <Picture 1>
+      file: assets/characters/heroine-photo-reference-v01.png
+      role: identity
+    - label: <Picture 2>
+      file: assets/characters/cadi_red.png
+      role: identity
+    - label: <Picture 3>
+      file: assets/placement/Screenshot 2026-09-22 165319.png
+      role: heroine_position_between_fans_and_scale
+    - label: <Picture 4>
+      file: assets/placement/bottom view- rib not yet.png
+      role: camera_layout_and_pre_rib_state
+    - label: <Picture 5>
+      file: assets/placement/bottom view- rib done.png
+      role: final_rib_count_position_and_shape
+  - id: seg12-c-v01
+    scene: 12
+    seed: 8201
+    duration_seconds: 12
+    cast:
+    - heroine
+    - cadi
+    - fan_placement
+    - rib_view_post
+    prompt: segments/SEG-12/seg12-c-minimax-h3-prompt-v01.txt
+    prompt_registry: segments/SEG-12/cast-registry-v02.yaml
+    continues_from: seg12-b-v02
+    beat: 女主角起身滿意致謝、Cadi回應、女主角整理衣服
+    reference_images:
+    - label: <Picture 1>
+      file: assets/characters/heroine-photo-reference-v01.png
+      role: identity
+    - label: <Picture 2>
+      file: assets/characters/cadi_red.png
+      role: identity
+    - label: <Picture 3>
+      file: assets/placement/Screenshot 2026-09-22 165319.png
+      role: heroine_position_between_fans_and_scale
+    - label: <Picture 4>
+      file: assets/placement/bottom view- rib done.png
+      role: final_rib_count_position_and_shape
+  - id: seg12-d-v01
+    scene: 12
+    seed: 8201
+    duration_seconds: 7
+    cast:
+    - heroine
+    prompt: segments/SEG-12/seg12-d-minimax-h3-prompt-v01.txt
+    prompt_registry: segments/SEG-12/cast-registry-v02.yaml
+    continues_from: seg12-c-v01
+    beat: 完整Placement布局拉遠成辦公室電腦畫面；女主角起身、螢幕關閉
+    reference_images:
+    - label: <Picture 1>
+      file: assets/characters/heroine-photo-reference-v01.png
+      role: identity
+
   - id: seg13-a
     scene: 13
     seed: 8301
@@ -642,7 +743,7 @@ segments:
     prompt: segments/SEG-13/seg13-a-minimax-h3-prompt-v01.txt
     prompt_registry: segments/SEG-13/cast-registry-v01.yaml
     beat: 女主角抱HP筆電回到凌亂會議室；2:30時鐘；清桌攤平筆電並說指定台詞；Placement 3D投影、驚訝反應、自信解說與點頭；拉出窗外見太陽並轉白
-    continues_from: seg12-b
+    continues_from: seg12-d-v01
   - id: seg13-b
     scene: 13
     seed: 8301

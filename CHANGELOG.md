@@ -1,5 +1,12 @@
 # 修改紀錄
 
+## 2026-09-23｜SEG-12 劇情微調與 H3 A／B v02＋C／D v01：Ray 送回結果、Rib 網格→實體
+
+- 新建 `screenplay/master-storyboard-v0.26.md`（v0.25 保留）與 `segments/SEG-12/brief-v03.md`；SEG-11 鏡頭42（H3 C v03）因內容移入 SEG-12 而停用，DLG-32 停用、新增 DLG-32A。
+- 女主角位置依 `Screenshot 2026-09-22 165319.png`（大型與小風扇之間）；Rib 生成前／後依 `bottom view- rib not yet.png`、`bottom view- rib done.png`（六根 Rib）。
+- 新增 A／B prompt v02、C／D prompt v01、cast-registry／reference-manifest／生成說明／validation v02、factory-scene-binding-v02；根目錄 registry、PROJECT_STATE、PROGRESS 同步。
+- A 6882、B 6826、C 6271、D 3933 字元；A／B 各16通過1軟警告，C 15、D 12 通過，均0失敗。影片未生成。
+
 ## 2026-09-23｜SEG-06 H3 A／B v04：純白房間、殘影開場、15 秒緩衝
 
 - 新建 `screenplay/master-storyboard-v0.24.md`（v0.23 保留）與 `segments/SEG-06/brief-v04.md`，只改 SEG-06 與 05→06／06→07 連續性描述。
