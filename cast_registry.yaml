@@ -511,7 +511,7 @@ segments:
       file: assets/placement/bottom view 3_1.png
       role: exact_camera_angle_and_composition
     beat: 女主角開場已在風扇旁，立即蹲下端詳、觸摸頂部並說強度不足；沿bottom view 3_1角度。
-  - id: seg10-b-v03
+  - id: seg10-b-v04
     scene: 10
     seed: 8001
     duration_seconds: 13
@@ -521,8 +521,8 @@ segments:
     - ray
     - fan_placement
     - placement_angle
-    prompt: segments/SEG-10/seg10-b-minimax-h3-prompt-v03.txt
-    prompt_registry: segments/SEG-10/cast-registry-v03.yaml
+    prompt: segments/SEG-10/seg10-b-minimax-h3-prompt-v04.txt
+    prompt_registry: segments/SEG-10/cast-registry-v04.yaml
     environment: creo_dock_text_only
     environment_description_file: assets/environments/virtual-factory-description-v02.txt
     reference_images:
@@ -541,7 +541,7 @@ segments:
     - label: <Picture 5>
       file: assets/placement/bottom view 3_1.png
       role: exact_camera_angle_and_composition
-    beat: 沿bottom view 3_1角度；Cadi啟動服務，Ray殘影進場敬禮、接資料後殘影離鏡。
+    beat: 鎖定女主角位於大型風扇左側綠色空隙；Cadi從鏡頭外飛入後啟動服務，Ray殘影進場敬禮、接資料後殘影離鏡。
     continues_from: seg10-a-v03
 
   - id: seg11-a
@@ -556,7 +556,7 @@ segments:
     environment: virtual_factory
     environment_description_file: assets/environments/virtual-factory-description-v01.txt
     beat: Ray交付殼體厚度、Gap距離與材質資料；Finn確認後開始AI最佳化運算
-    continues_from: seg10-b-v03
+    continues_from: seg10-b-v04
   - id: seg11-b
     scene: 11
     seed: 8101

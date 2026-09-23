@@ -243,10 +243,10 @@
       "screenplay_notes": "2026-09-23：女主角依指定比例圖走到 placement-creo 風扇旁，蹲下端詳並伸手觸摸風扇頂部，說「這個風扇的強度不足」；Cadi 回應「我來啟動風扇Rib AI 最佳化服務」；Ray 以殘影高速進場、向 Cadi 敬禮、接過資料，再以殘影衝刺離鏡。舊版 ABS／壓強10／Gap1.5／詢問同意／模型資料箱內容取消。SEG-11 劇情不變，只以 Ray 已取得風扇模型資料銜接。",
       "storyboard": "v01",
       "approval": "storyboard_v01_outdated_revision_pending",
-      "h3": "a_v03_b_v03_no_approach_bottom_view_angle_ready_video_unverified",
+      "h3": "a_v03_b_v04_position_continuity_cadi_entry_ready_video_unverified",
       "environment_description_file": "assets/environments/virtual-factory-description-v02.txt",
       "environment_reference_mode": "text_only",
-      "environment_binding": "segments/SEG-10/factory-scene-binding-v03.md",
+      "environment_binding": "segments/SEG-10/factory-scene-binding-v04.md",
       "screenplay_approval": "approved_by_user_revision",
       "brief": "segments/SEG-10/brief-v03.md",
       "storyboard_notes": "新版須呈現指定人物比例與站位、女主角走近風扇、蹲下端詳並觸摸頂部、兩句新台詞，以及 Ray 殘影進場敬禮、接資料、殘影離鏡。",
@@ -259,17 +259,18 @@
       "h3_storyboard_override": "explicit_user_request_after_text_revision_2026-09-23",
       "h3_prompts": [
         "segments/SEG-10/seg10-a-minimax-h3-prompt-v03.txt",
-        "segments/SEG-10/seg10-b-minimax-h3-prompt-v03.txt"
+        "segments/SEG-10/seg10-b-minimax-h3-prompt-v04.txt"
       ],
-      "reference_manifest": "segments/SEG-10/reference-manifest-v03.json",
-      "h3_notes": "segments/SEG-10/minimax-h3-generation-notes-v03.md",
-      "prompt_registry": "segments/SEG-10/cast-registry-v03.yaml",
+      "reference_manifest": "segments/SEG-10/reference-manifest-v04.json",
+      "h3_notes": "segments/SEG-10/minimax-h3-generation-notes-v04.md",
+      "prompt_registry": "segments/SEG-10/cast-registry-v04.yaml",
+      "validation": "segments/SEG-10/validation-v04.json",
       "h3_duration_seconds": 26,
       "h3_segment_durations_seconds": {
         "a": 13,
         "b": 13
       },
-      "timing_notes": "H3 v03 維持 A／B 各13秒、合計26秒。A取消0–3秒走入，開場已在風扇旁並直接蹲下；A／B新增bottom view 3_1.png鎖定placement-creo角度，原Screenshot繼續鎖定風扇形狀。影片與嘴型未驗證。"
+      "timing_notes": "A維持v03、B升為v04，兩段各13秒。B開場鎖定女主角蹲在大型風扇正左側綠色空隙、右手搭在風扇頂板左上區；Cadi於0–2秒從畫面上緣外飛入，2–5秒說話。影片與嘴型未驗證。"
     },
     {
       "id": "SEG-11",

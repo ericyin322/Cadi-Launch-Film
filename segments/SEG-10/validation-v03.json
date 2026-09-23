@@ -1,0 +1,34 @@
+{
+  "date": "2026-09-23",
+  "checker": ".agents/skills/h3-scene-prompt/scripts/check_prompt.py",
+  "registry": "segments/SEG-10/cast-registry-v03.yaml",
+  "results": [
+    {
+      "segment": "seg10-a-v03",
+      "prompt": "segments/SEG-10/seg10-a-minimax-h3-prompt-v03.txt",
+      "passed": 14,
+      "warnings": 0,
+      "failed": 0,
+      "characters": 5565
+    },
+    {
+      "segment": "seg10-b-v03",
+      "prompt": "segments/SEG-10/seg10-b-minimax-h3-prompt-v03.txt",
+      "passed": 16,
+      "warnings": 1,
+      "failed": 0,
+      "characters": 6910,
+      "warning": "Five required reference images exceed the recommended soft limit of four. All five remain because three visible character identities, the user-specified fan-shape source, and the user-specified camera-angle source have distinct required roles."
+    }
+  ],
+  "manual_checks": {
+    "a_opening": "The heroine is already stationary beside the fan at 0s and immediately crouches; the prompt contains no approach or walking action.",
+    "camera_angle": "Both A and B upload assets/placement/bottom view 3_1.png and preserve its camera azimuth, downward tilt, framing, perspective and component overlap.",
+    "fan_shape": "Both A and B continue to upload assets/placement/Screenshot 2026-09-22 165319.png for the fan shape and scale.",
+    "duration": "13 + 13 = 26 seconds",
+    "dialogue": [
+      "這個風扇的強度不足",
+      "我來啟動風扇Rib AI 最佳化服務"
+    ]
+  }
+}

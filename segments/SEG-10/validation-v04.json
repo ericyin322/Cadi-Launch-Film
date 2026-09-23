@@ -1,0 +1,28 @@
+{
+  "date": "2026-09-23",
+  "checker": ".agents/skills/h3-scene-prompt/scripts/check_prompt.py",
+  "registry": "segments/SEG-10/cast-registry-v04.yaml",
+  "results": [
+    {
+      "segment": "seg10-a-v03",
+      "prompt": "segments/SEG-10/seg10-a-minimax-h3-prompt-v03.txt",
+      "status": "unchanged_from_v03"
+    },
+    {
+      "segment": "seg10-b-v04",
+      "prompt": "segments/SEG-10/seg10-b-minimax-h3-prompt-v04.txt",
+      "passed": 16,
+      "warnings": 1,
+      "failed": 0,
+      "characters": 6831,
+      "warning": "Five required reference images exceed the recommended soft limit of four."
+    }
+  ],
+  "manual_checks": {
+    "opening_continuity": "B opens with the heroine crouched in the green gap immediately left of the larger fan, closer to it than to the smaller fan, with her right palm on the upper-left fan top plate.",
+    "cadi_entry": "Cadi starts outside the frame, flies in from the upper edge during 0s-2s, stops behind the heroine's left shoulder, then speaks during 2s-5s.",
+    "camera_angle": "bottom view 3_1.png remains the camera-angle source.",
+    "fan_shape_and_position": "Screenshot 2026-09-22 165319.png remains the fan-shape, scale and woman-to-fan position source.",
+    "duration": "B remains 13 seconds."
+  }
+}

@@ -1,0 +1,77 @@
+project:
+  title: Cadi Launch Film
+  aspect_ratio: '16:9'
+  label_style: paired
+  section_style: detailed
+  visual_style: 'Photorealistic live-action cinema footage shot on a digital cinema camera with prime lenses: natural skin texture with visible pores, real fabric weave, physically accurate reflections, shallow depth of field and subtle film grain.'
+  virtual_factory:
+    description_file: assets/environments/virtual-factory-description-v02.txt
+    usage_file: assets/environments/virtual-factory-usage-v02.md
+    reference_mode: text_only
+    applies_to: [SEG-10]
+    interior_policy: Use only the visible white-gray structural metal, green guide channels, exposed service pipes, overhead crane ribs, warm industrial practical lights and soft cyan floor reflections of the Creo dock.
+
+assets:
+  heroine:
+    priority: 10
+    file: assets/characters/heroine-photo-reference-v01.png
+    role: identity
+    binding: Her face, hair, and clothing follow
+    canonical: the female protagonist, a 20-something East Asian female mechanical R&D engineer. She has long, straight, center-parted black hair and wears a tailored taupe-gray blazer, an ivory crew-neck top, and loose light-colored trousers. She is professional, composed, and places a high value on immaculate grooming.
+    retention: Preserve her facial features, hair, clothing, body proportions, professional composure and real-person appearance under the dock lighting.
+  cadi:
+    priority: 20
+    summon_tokens: [cadi, mascot, plasma, flame head, chest core]
+    file: assets/characters/cadi_red.png
+    role: identity
+    binding: Its design, proportions, and colors follow
+    canonical: Cadi, a small flying robot mascot. Its head is composed of actively burning, ethereal red plasma fire with orange-gold inner tongues and a warm white luminous center that continuously flickers, dances, and undulates with rising wisps and subtle luminous embers (an energetic plasma flame, completely non-solid, with zero gelatinous or jelly-like surface tension). Within the dynamic flame sit two oversized oval warm-white eyes with dark red rims and a tiny mouth, atop a dark charcoal-gray segmented robot body with red joint accents and a glowing circular warm-white chest core with a gold-orange rim. Its height is approximately half of the female protagonist's upper body.
+    retention: Preserve the continuously burning red plasma-fire head, orange-gold inner flames, warm-white center and eyes, dark segmented body, red accents, chest core, proportions and non-solid combustion.
+    extra_negatives: [rubbery, gelatinous, solid jelly texture, solid glass surface]
+  ray:
+    priority: 30
+    summon_tokens: [ray]
+    file: assets/characters/agent5-ray.png
+    role: identity
+    binding: Its appearance, proportions, and colors follow
+    canonical: Ray, a compact white humanoid service robot with a rounded rectangular head, a glossy black face display, two luminous yellow oval eyes, a small yellow expressive mouth, twin gold lightning-bolt antennae, dark circular side modules with gold rims, black articulated joints, a gold lightning-bolt chest emblem, and a rectangular transport backpack bearing a gold lightning symbol.
+    retention: Preserve its white shell, black face display, yellow facial lights, lightning antennae, gold accents, chest emblem, dark joints, backpack and compact proportions.
+  fan_placement:
+    priority: 40
+    summon_tokens: [cooling-fan housing, placement geometry, placement assembly]
+    file: assets/placement/Screenshot 2026-09-22 165319.png
+    role: exact_fan_shape_scale_and_local_placement
+    binding: Its exact shape, relative scale, top profile, edge thickness, position and spacing follow
+    canonical: the larger upper-right cooling-fan housing and its immediately adjacent placement geometry. It is a broad low-profile gray housing with a rounded outer corner, a straight inner edge, a large concentric circular top structure, a raised central circular cap, and a thin layered sidewall, resting within the green placement base.
+    retention: Preserve the fan's exact silhouette, concentric top, central cap, layered sidewall, scale, placement position, spacing and human-to-fan proportion; render it as full-scale physical hardware.
+  placement_angle:
+    priority: 50
+    summon_tokens: [placement-creo viewing angle]
+    file: assets/placement/bottom view 3_1.png
+    role: exact_camera_angle_and_composition
+    binding: Its camera azimuth, downward tilt, framing, perspective and component overlap follow
+    canonical: the low oblique three-quarter placement-creo viewing angle. The larger fan dominates the right foreground, the smaller fan is cropped at lower left, the long pale module crosses the upper frame, the cyan module enters at upper right, and the green placement base remains visible between them.
+    retention: Preserve the low oblique three-quarter camera azimuth, downward tilt, perspective, crop and component overlap.
+
+segments:
+  - id: seg10-a-v03
+    scene: 10
+    seed: 8001
+    duration_seconds: 13
+    cast: [heroine, fan_placement, placement_angle]
+    prompt: segments/SEG-10/seg10-a-minimax-h3-prompt-v03.txt
+    prompt_registry: segments/SEG-10/cast-registry-v04.yaml
+    environment: creo_dock_text_only
+    environment_description_file: assets/environments/virtual-factory-description-v02.txt
+    beat: 女主角開場已在風扇旁，立即蹲下端詳、觸摸頂部並說強度不足；沿bottom view 3_1角度。
+  - id: seg10-b-v04
+    scene: 10
+    seed: 8001
+    duration_seconds: 13
+    cast: [heroine, cadi, ray, fan_placement, placement_angle]
+    prompt: segments/SEG-10/seg10-b-minimax-h3-prompt-v04.txt
+    prompt_registry: segments/SEG-10/cast-registry-v04.yaml
+    environment: creo_dock_text_only
+    environment_description_file: assets/environments/virtual-factory-description-v02.txt
+    beat: 鎖定女主角位於大型風扇左側綠色空隙；Cadi從鏡頭外飛入後啟動服務，Ray殘影進場敬禮、接資料後殘影離鏡。
+    continues_from: seg10-a-v03
