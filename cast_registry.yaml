@@ -329,31 +329,31 @@ segments:
   - id: seg05-a
     scene: 5
     seed: 7501
-    duration_seconds: 14
-    frame_setting: 依實際節點14秒設定計算
+    duration_seconds: 15
+    frames: 362
     cast:
     - cadi
     - hapa
-    prompt: segments/SEG-05/seg05-a-minimax-h3-prompt-v04.txt
-    beat: Cadi派hapa向左飛離。
-    prompt_registry: segments/SEG-05/cast-registry-v04.yaml
+    prompt: segments/SEG-05/seg05-a-minimax-h3-prompt-v05.txt
+    beat: Cadi派hapa向左飛離；15秒生成，正片0–14秒。
+    prompt_registry: segments/SEG-05/cast-registry-v05.yaml
     environment: virtual_factory
-    environment_description_file: assets/environments/virtual-factory-description-v01.txt
+    environment_description_file: assets/environments/virtual-factory-description-v02.txt
 
   - id: seg05-b
     scene: 5
     seed: 7501
-    duration_seconds: 12
-    frame_setting: 依實際節點12秒設定計算
+    duration_seconds: 15
+    frames: 362
     cast:
     - cadi
     - hana
     continues_from: seg05-a
-    prompt: segments/SEG-05/seg05-b-minimax-h3-prompt-v04.txt
-    beat: Cadi派hana向右飛離；180度環繞Cadi，準備前往下一站。
-    prompt_registry: segments/SEG-05/cast-registry-v04.yaml
+    prompt: segments/SEG-05/seg05-b-minimax-h3-prompt-v05.txt
+    beat: Cadi派hana向右飛離；180度環繞Cadi，準備前往下一站；15秒生成，正片0–12秒。
+    prompt_registry: segments/SEG-05/cast-registry-v05.yaml
     environment: virtual_factory
-    environment_description_file: assets/environments/virtual-factory-description-v01.txt
+    environment_description_file: assets/environments/virtual-factory-description-v02.txt
 
   - id: seg06-a
     scene: 6

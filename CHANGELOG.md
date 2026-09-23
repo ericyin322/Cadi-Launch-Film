@@ -1,5 +1,12 @@
 # 修改紀錄
 
+## 2026-09-23｜SEG-05 H3 A／B v05：紅焰 Cadi、聲音統一、15 秒緩衝
+
+- Cadi 全段紅焰（cadi_red.png、根目錄 canonical）；聲音逐字統一為「in a bright, playful yet professional childlike Mandarin voice」。
+- 工廠描述改 v02（無地名）；保留環境音效。A／B 各生成 15 秒／362 幀，正片取 A 0–14＋B 0–12＝26 秒，尾段為穩定停留緩衝。
+- 女主角不出場，Cadi canonical 刪去以女主角為基準的身高句（Absent Objects）。使用者直接要求，略過過時 Storyboard v02。
+- 新增 cast-registry／reference-manifest／生成說明／validation v05、場景綁定 v02；A 6595、B 6985 字元，各 13 項通過、0 警告、0 失敗；v04 保留，影片未生成。
+
 ## 2026-09-23｜SEG-04 A H3 v05：改用參考圖（Ref2VA）
 
 - 上傳女主角（Picture 1）與 cadi_red.png（Picture 2），同 B 段；流程圖不在 A 出場，不上傳。

@@ -82,21 +82,22 @@
       "screenplay_approval": "approved_character_and_motion_revision_incorporated",
       "storyboard": "v02",
       "approval": "storyboard_v02_outdated_user_requested_motion_revision",
-      "h3": "text_factory_updated_video_unverified",
+      "h3": "v05_red_cadi_voice_unified_video_unverified",
       "h3_storyboard_override": "explicit_user_request_2026-09-17",
-      "h3_notes": "segments/SEG-05/minimax-h3-generation-notes-v04.md",
+      "h3_notes": "segments/SEG-05/minimax-h3-generation-notes-v05.md",
       "duration_seconds": 26,
       "brief": "segments/SEG-05/brief-v03.md",
       "character_revision": "explicit_user_request_2026-09-17",
       "storyboard_notes": "v02含女主角與雙站工作全景，已過時；新版待製作。",
-      "environment_description_file": "assets/environments/virtual-factory-description-v01.txt",
+      "environment_description_file": "assets/environments/virtual-factory-description-v02.txt",
       "environment_reference_mode": "text_only",
-      "environment_binding": "segments/SEG-05/factory-scene-binding-v01.md",
+      "environment_binding": "segments/SEG-05/factory-scene-binding-v02.md",
       "h3_prompts": [
-        "segments/SEG-05/seg05-a-minimax-h3-prompt-v04.txt",
-        "segments/SEG-05/seg05-b-minimax-h3-prompt-v04.txt"
+        "segments/SEG-05/seg05-a-minimax-h3-prompt-v05.txt",
+        "segments/SEG-05/seg05-b-minimax-h3-prompt-v05.txt"
       ],
-      "reference_manifest": "segments/SEG-05/reference-manifest-v04.json"
+      "reference_manifest": "segments/SEG-05/reference-manifest-v05.json",
+      "h3_generation": "A/B 各15秒362幀；正片 A0–14＋B0–12＝26秒"
     },
     {
       "id": "SEG-06",
