@@ -538,7 +538,7 @@ segments:
     environment: virtual_factory
     environment_description_file: assets/environments/virtual-factory-description-v01.txt
     beat: Ray交付殼體厚度、Gap距離與材質資料；Finn確認後開始AI最佳化運算
-    continues_from: seg10-c
+    continues_from: seg10-b-v02
   - id: seg11-b
     scene: 11
     seed: 8101

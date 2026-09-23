@@ -1,5 +1,12 @@
 # 修改紀錄
 
+## 2026-09-23｜SEG-10 H3 A／B v02：Creo 船塢與指定風扇
+
+- 依使用者直接要求生成新版 H3，授權略過新版 Storyboard 尚未確認；舊版 A／B／C v01 保留。
+- 新版改為 A／B 各13秒，合計26秒並沿用 seed 8001；場景固定為 SEG-09 後的同一座 Creo 船塢。
+- `assets/placement/Screenshot 2026-09-22 165319.png` 在兩段均實際上傳，用於大型右上風扇的形狀、比例、頂部同心圓、中央圓蓋、外殼厚度與局部 placement 位置。
+- 新增 A／B prompt v02、cast registry v02、reference manifest v02、場景綁定 v02、生成說明 v02 與驗證紀錄 v02。A 13項、B 15項通過，均0警告、0失敗；影片未生成。
+
 ## 2026-09-23｜SEG-10 風扇近看與 Ray 殘影派工
 
 - 新建 `screenplay/master-storyboard-v0.21.md` 與 `segments/SEG-10/brief-v03.md`，保留舊版。
