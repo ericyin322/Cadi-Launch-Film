@@ -10,8 +10,8 @@ project:
     Photorealistic live-action cinema footage shot on a digital cinema camera with prime lenses: natural skin texture with visible pores, real fabric weave, physically accurate reflections, shallow depth of field and subtle film grain.
 
   virtual_factory:
-    description_file: assets/environments/virtual-factory-description-v02.txt
-    usage_file: assets/environments/virtual-factory-usage-v02.md
+    description_file: assets/environments/virtual-factory-description-v01.txt
+    usage_file: assets/environments/virtual-factory-usage-v01.md
     reference_mode: text_only
     applies_to:
     - SEG-04
@@ -25,7 +25,7 @@ project:
     - SEG-12
     environment_description: A bright futuristic engineering district beneath a blue sky with white clouds. A glowing
       cyan transport avenue leads toward a monumental tower surrounded by enormous horizontal rings. Multilevel automated
-      workshops line both sides, combining dense high-rise urban streetscapes with white-gray metal facades,
+      workshops line both sides, combining dense Taiwanese and Hong Kong streetscapes with white-gray metal facades,
       exposed pipes, glass platforms, and vertical orange engineering signs. Elevated cyan rails connect the buildings.
       Yellow industrial robot arms operate inside warm-lit workshops, small white service robots move along terraces,
       and hovering disc-shaped carriers transport luminous translucent cubes. Green rooftop planters soften the architecture.
@@ -178,28 +178,6 @@ assets:
       transport backpack and compact body proportions. Its shell and joints reflect
       the physical lighting of the scene.'
 
-  fan_placement:
-    priority: 95
-    file: assets/placement/Screenshot 2026-09-22 165319.png
-    role: exact_fan_shape_scale_and_local_placement
-    binding: Its exact shape, relative scale, top profile, edge thickness, position and spacing follow
-    summon_tokens:
-    - cooling-fan housing
-    - placement geometry
-    - placement assembly
-    canonical: the larger upper-right cooling-fan housing and its immediately adjacent placement geometry. It is a broad low-profile gray housing with a rounded outer corner, a straight inner edge, a large concentric circular top structure, a raised central circular cap, and a thin layered sidewall, resting within the green placement base.
-    retention: Preserve the larger upper-right fan housing's exact rounded rectangular silhouette, concentric circular top structure, raised central cap, layered sidewall, relative size, placement position, adjacent spacing and human-to-fan scale; render it as solid full-scale engineering hardware with physically accurate gray metal and polymer surfaces, direct floor support, contact shadows and dock-light reflections.
-
-  placement_angle:
-    priority: 96
-    file: assets/placement/bottom view 3_1.png
-    role: exact_camera_angle_and_composition
-    binding: Its camera azimuth, downward tilt, framing, perspective and component overlap follow
-    summon_tokens:
-    - placement-creo viewing angle
-    canonical: the low oblique three-quarter placement-creo viewing angle. The larger fan dominates the right foreground, the smaller fan is cropped at lower left, the long pale module crosses the upper frame, the cyan module enters at upper right, and the green placement base remains visible between them.
-    retention: Preserve the low oblique three-quarter camera azimuth, downward tilt, perspective, crop and component overlap.
-
   finn:
     priority: 100
     file: assets/characters/agent4-finn.png
@@ -217,24 +195,6 @@ assets:
       tracked base and compact body proportions. Its shell, joints and treads reflect the
       physical lighting of the scene.'
 
-  layout_ref:
-    priority: 110
-    file: assets/placement/placement_2D.png
-    role: exact_final_layout
-    binding: Its exact component identities, proportions, spacing, positions, silhouettes, color grouping, and rectangular plane orientation follow
-    canonical: the completed holographic placement layout. Its exact component identities, proportions, spacing,
-      positions, silhouettes, color grouping, and rectangular plane orientation follow
-    retention: Preserve the exact component identities, proportions, spacing, positions, silhouettes, color grouping
-      and rectangular orientation; render them as a stable volumetric holographic placement under the scene lighting.
-  pure_white_room:
-    priority: 120
-    file: assets/environments/純白房間.png
-    role: environment_reference
-    binding: Its symmetrical white architecture, lighting, wall panels, ceiling recess and floor reflections follow
-    canonical: the pure-white futuristic room
-    retention: Preserve the empty symmetrical composition, seamless white panels, pale reflective floor, rounded recessed
-      ceiling tray, warm-white perimeter lights, chamfered corners and paired slim black ventilation slots.
-
   alchemy_lab:
     priority: 130
     file: assets/environments/科技煉丹爐.jpg
@@ -245,7 +205,6 @@ assets:
       lamps, bottle shelves, cyan monitor consoles, and the central bronze gourd furnace with pagoda roof, steel cap,
       cyan-green porthole, circular base and control platform. Everything is built from real bronze, steel, timber,
       glass and paper, lit by practical lamps and furnace glow.
-
 
 segments:
   - id: "S03a"
@@ -296,16 +255,16 @@ segments:
     seed: 7301
     frames: 362
     cast: [heroine, cadi]
-    prompt: "segments/SEG-03/seg03-a-minimax-h3-prompt-v03.txt"
-    beat: "鏡頭09–10（v0.22）：挪椅坐下、Hi Cadi；紅焰 Cadi 螢幕內問候；Lisa 不耐煩交代棘手任務；Outlook icon、讀郵件後驚訝、0.5 秒思考停頓。"
+    prompt: "segments/SEG-03/seg03-a-minimax-h3-prompt-v02.txt"
+    beat: "鏡頭09–10：挪椅坐下、喚醒螢幕說 Hi Cadi；Cadi 螢幕內問候；Lisa 不耐煩交代信件；Outlook icon、0.5 秒思考停頓。"
   - id: "seg03-b"
     scene: 3
     seed: 7301
     frames: 362
     cast: [heroine, cadi]
     continues_from: "seg03-a"
-    prompt: "segments/SEG-03/seg03-b-minimax-h3-prompt-v03.txt"
-    beat: "鏡頭11（v0.22）：Cadi 建議馬上評估並提出 IEC spec＋GP 的 placement 預覽，鏡頭退至肩後；Lisa 點頭說讓我們開始吧；胸核擴張、紅橙暖光掃鏡。"
+    prompt: "segments/SEG-03/seg03-b-minimax-h3-prompt-v02.txt"
+    beat: "鏡頭11：Cadi 提出 IEC spec＋GP 的 placement 預覽建議，鏡頭退至肩後；Lisa 點頭說讓我們開始吧；胸口光擴張、青藍光掃鏡。"
 
   - id: seg04-b
     scene: 4
@@ -316,11 +275,11 @@ segments:
     - heroine
     - cadi
     - workflow
-    prompt: segments/SEG-04/seg04-b-minimax-h3-prompt-v08.txt
+    prompt: segments/SEG-04/seg04-b-minimax-h3-prompt-v07.txt
     beat: 0–7秒Spec與GP說明；7–8秒停留銜接。
     environment: virtual_factory
-    environment_description_file: assets/environments/virtual-factory-description-v02.txt
-    prompt_registry: segments/SEG-04/cast-registry-v10.yaml
+    environment_description_file: assets/environments/virtual-factory-description-v01.txt
+    prompt_registry: segments/SEG-04/cast-registry-v07.yaml
 
   - id: seg04-c
     scene: 4
@@ -332,79 +291,71 @@ segments:
     - cadi
     - workflow
     continues_from: seg04-b
-    prompt: segments/SEG-04/seg04-c-minimax-h3-prompt-v03.txt
+    prompt: segments/SEG-04/seg04-c-minimax-h3-prompt-v02.txt
     beat: 首秒銜接；Creo導入3D模型與Rib說明；說完後流程上移，露出approve鍵，女主才按。
     environment: virtual_factory
-    environment_description_file: assets/environments/virtual-factory-description-v02.txt
-    prompt_registry: segments/SEG-04/cast-registry-v10.yaml
+    environment_description_file: assets/environments/virtual-factory-description-v01.txt
+    prompt_registry: segments/SEG-04/cast-registry-v07.yaml
 
   - id: seg05-a
     scene: 5
     seed: 7501
-    duration_seconds: 15
-    frames: 362
+    duration_seconds: 14
+    frame_setting: 依實際節點14秒設定計算
     cast:
     - cadi
     - hapa
-    prompt: segments/SEG-05/seg05-a-minimax-h3-prompt-v06.txt
-    beat: hapa從左側SPEC／HTTP建築飛出，Cadi派工後向左飛離；15秒生成，正片0–14秒。
-    prompt_registry: segments/SEG-05/cast-registry-v06.yaml
+    prompt: segments/SEG-05/seg05-a-minimax-h3-prompt-v04.txt
+    beat: Cadi派hapa向左飛離。
+    prompt_registry: segments/SEG-05/cast-registry-v04.yaml
     environment: virtual_factory
-    environment_description_file: assets/environments/virtual-factory-description-v02.txt
+    environment_description_file: assets/environments/virtual-factory-description-v01.txt
 
   - id: seg05-b
     scene: 5
     seed: 7501
-    duration_seconds: 15
-    frames: 362
+    duration_seconds: 12
+    frame_setting: 依實際節點12秒設定計算
     cast:
     - cadi
     - hana
     continues_from: seg05-a
-    prompt: segments/SEG-05/seg05-b-minimax-h3-prompt-v06.txt
-    beat: hana從右側GP辨識建築飛出，Cadi派工後向右飛離；180度環繞Cadi，準備前往下一站；15秒生成，正片0–12秒。
-    prompt_registry: segments/SEG-05/cast-registry-v06.yaml
+    prompt: segments/SEG-05/seg05-b-minimax-h3-prompt-v04.txt
+    beat: Cadi派hana向右飛離；180度環繞Cadi，準備前往下一站。
+    prompt_registry: segments/SEG-05/cast-registry-v04.yaml
     environment: virtual_factory
-    environment_description_file: assets/environments/virtual-factory-description-v02.txt
+    environment_description_file: assets/environments/virtual-factory-description-v01.txt
 
   - id: seg06-a
     scene: 6
     seed: 7601
     duration_seconds: 15
-    frame_setting: 15秒／362幀；正片取0–14秒
+    frame_setting: 依實際節點15秒設定計算
     cast:
     - cadi
     - drop
     - hapa
     - hana
-    - pure_white_room
-    prompt: segments/SEG-06/seg06-a-minimax-h3-prompt-v04.txt
-    beat: Cadi背後高速前飛，殘影轉入純白房間；揮手；hapa／hana左緣飛入交付Spec／GP（浮空）後左緣飛離。
-    prompt_registry: segments/SEG-06/cast-registry-v04.yaml
-    reference_images:
-    - label: <Picture 5>
-      file: assets/environments/純白房間.png
-      role: environment_reference
-    environment: pure_white_room
+    prompt: segments/SEG-06/seg06-a-minimax-h3-prompt-v03.txt
+    beat: Cadi抵達並揮手；hapa／hana交付Spec／GP後飛離。
+    prompt_registry: segments/SEG-06/cast-registry-v03.yaml
+    environment: virtual_factory
+    environment_description_file: assets/environments/virtual-factory-description-v01.txt
 
   - id: seg06-b
     scene: 6
     seed: 7601
-    duration_seconds: 15
-    frame_setting: 15秒／362幀；正片取0–10秒
+    duration_seconds: 9
+    frame_setting: 依實際節點9秒設定計算
     cast:
     - cadi
     - drop
-    - pure_white_room
-    prompt: segments/SEG-06/seg06-b-minimax-h3-prompt-v04.txt
-    beat: Cadi交代彙整原則，drop開始交叉驗證浮空資料。
-    prompt_registry: segments/SEG-06/cast-registry-v04.yaml
-    reference_images:
-    - label: <Picture 3>
-      file: assets/environments/純白房間.png
-      role: environment_reference
+    prompt: segments/SEG-06/seg06-b-minimax-h3-prompt-v03.txt
+    beat: Cadi交代彙整原則，drop開始交叉驗證。
+    prompt_registry: segments/SEG-06/cast-registry-v03.yaml
     continues_from: seg06-a
-    environment: pure_white_room
+    environment: virtual_factory
+    environment_description_file: assets/environments/virtual-factory-description-v01.txt
 
   - id: seg07-a
     scene: 7
@@ -414,18 +365,14 @@ segments:
     cast:
     - cadi
     - drop
-    - pure_white_room
-    prompt: segments/SEG-07/seg07-a-minimax-h3-prompt-v07.txt
-    prompt_registry: segments/SEG-07/cast-registry-v10.yaml
-    reference_images:
-    - label: <Picture 3>
-      file: assets/environments/純白房間.png
-      role: environment_reference
+    prompt: segments/SEG-07/seg07-a-minimax-h3-prompt-v03.txt
+    prompt_registry: segments/SEG-07/cast-registry-v03.yaml
     reference_videos:
     - label: <Video 1>
       file: assets/blender/cpu-motion-v07/01-scatter-rise-v07.mp4
       role: scatter_motion_and_final_layout
-    environment: pure_white_room
+    environment: virtual_factory
+    environment_description_file: assets/environments/virtual-factory-description-v01.txt
 
   - id: seg07-b
     scene: 7
@@ -435,135 +382,70 @@ segments:
     cast:
     - heroine
     - cadi
-    - layout_ref
-    - pure_white_room
-    prompt: segments/SEG-07/seg07-b-minimax-h3-prompt-v10.txt
-    prompt_registry: segments/SEG-07/cast-registry-v10.yaml
-    reference_images:
-    - label: <Picture 3>
-      file: ''
-      status: pending_user_reference
-      role: exact_final_layout
-    - label: <Picture 4>
-      file: assets/environments/純白房間.png
-      role: environment_reference
-    continues_from: seg07-a
-    environment: pure_white_room
-
-  - id: seg08-a
-    scene: 8
-    seed: 7801
-    duration_seconds: 13
-    frame_setting: 依實際節點秒數設定
-    cast:
-    - heroine
-    - cadi
-    - layout_ref
-    - pure_white_room
-    prompt: segments/SEG-08/seg08-a-minimax-h3-prompt-v07.txt
-    prompt_registry: segments/SEG-08/cast-registry-v07.yaml
-    reference_images:
-    - label: <Picture 3>
-      file: assets/placement/placement_2D.png
-      role: exact_final_layout
-    - label: <Picture 4>
-      file: assets/environments/純白房間.png
-      role: environment_reference
-    continues_from: seg07-b
-    environment: pure_white_room
-
-  - id: seg08-b
-    scene: 8
-    seed: 7801
-    duration_seconds: 10
-    frame_setting: 依實際節點秒數設定
-    cast:
-    - heroine
-    - cadi
-    - pure_white_room
-    prompt: segments/SEG-08/seg08-b-minimax-h3-prompt-v05.txt
-    prompt_registry: segments/SEG-08/cast-registry-v07.yaml
-    reference_images:
-    - label: <Picture 3>
-      file: assets/environments/純白房間.png
-      role: environment_reference
+    - drop
+    prompt: segments/SEG-07/seg07-b-minimax-h3-prompt-v03.txt
+    prompt_registry: segments/SEG-07/cast-registry-v03.yaml
     reference_videos:
     - label: <Video 1>
-      file: assets/blender/cpu-motion-v07/02-cpu-move-highlight-v07.mp4
-      role: cpu_lateral_move_and_hold
-    continues_from: seg08-a
-    environment: pure_white_room
+      file: assets/blender/cpu-motion-v07/01-scatter-rise-v07.mp4
+      role: final_layout
+    continues_from: seg07-a
+    environment: virtual_factory
+    environment_description_file: assets/environments/virtual-factory-description-v01.txt
 
   - id: seg04-a
     scene: 4
     seed: 7401
-    duration_seconds: 15
-    frames: 362
-    edit_use: 0-10.0s（10-15秒為銜接緩衝）
-    mode: Ref2VA
-    cast:
+    duration_seconds: 9
+    mode: T2VA
+    cast: []
+    text_subjects:
     - heroine
     - cadi
     environment: virtual_factory
-    environment_description_file: assets/environments/virtual-factory-description-v02.txt
-    prompt: segments/SEG-04/seg04-a-minimax-h3-prompt-v05.txt
-    prompt_registry: segments/SEG-04/cast-registry-v10.yaml
+    environment_description_file: assets/environments/virtual-factory-description-v01.txt
+    prompt: segments/SEG-04/seg04-a-minimax-h3-prompt-v02.txt
+    prompt_registry: segments/SEG-04/cast-registry-v07.yaml
 
-  - id: seg10-a-v03
+  - id: seg10-a
     scene: 10
     seed: 8001
     duration_seconds: 13
     cast:
     - heroine
-    - fan_placement
-    - placement_angle
-    prompt: segments/SEG-10/seg10-a-minimax-h3-prompt-v03.txt
-    prompt_registry: segments/SEG-10/cast-registry-v03.yaml
-    environment: creo_dock_text_only
-    environment_description_file: assets/environments/virtual-factory-description-v02.txt
-    reference_images:
-    - label: <Picture 1>
-      file: assets/characters/heroine-photo-reference-v01.png
-      role: identity
-    - label: <Picture 2>
-      file: assets/placement/Screenshot 2026-09-22 165319.png
-      role: exact_fan_shape_scale_and_local_placement
-    - label: <Picture 3>
-      file: assets/placement/bottom view 3_1.png
-      role: exact_camera_angle_and_composition
-    beat: 女主角開場已在風扇旁，立即蹲下端詳、觸摸頂部並說強度不足；沿bottom view 3_1角度。
-  - id: seg10-b-v04
+    - cadi
+    prompt: segments/SEG-10/seg10-a-minimax-h3-prompt-v01.txt
+    prompt_registry: segments/SEG-10/cast-registry-v01.yaml
+    environment: virtual_factory
+    environment_description_file: assets/environments/virtual-factory-description-v01.txt
+    beat: 檢查風扇、強度不足與最佳化建議
+  - id: seg10-b
     scene: 10
     seed: 8001
-    duration_seconds: 13
+    duration_seconds: 15
+    cast:
+    - heroine
+    - cadi
+    prompt: segments/SEG-10/seg10-b-minimax-h3-prompt-v01.txt
+    prompt_registry: segments/SEG-10/cast-registry-v01.yaml
+    environment: virtual_factory
+    environment_description_file: assets/environments/virtual-factory-description-v01.txt
+    beat: 完整參數、服務與執行同意
+    continues_from: seg10-a
+  - id: seg10-c
+    scene: 10
+    seed: 8001
+    duration_seconds: 10
     cast:
     - heroine
     - cadi
     - ray
-    - fan_placement
-    - placement_angle
-    prompt: segments/SEG-10/seg10-b-minimax-h3-prompt-v04.txt
-    prompt_registry: segments/SEG-10/cast-registry-v04.yaml
-    environment: creo_dock_text_only
-    environment_description_file: assets/environments/virtual-factory-description-v02.txt
-    reference_images:
-    - label: <Picture 1>
-      file: assets/characters/heroine-photo-reference-v01.png
-      role: identity
-    - label: <Picture 2>
-      file: assets/characters/cadi_red.png
-      role: identity
-    - label: <Picture 3>
-      file: assets/characters/agent5-ray.png
-      role: identity
-    - label: <Picture 4>
-      file: assets/placement/Screenshot 2026-09-22 165319.png
-      role: exact_fan_shape_scale_and_local_placement
-    - label: <Picture 5>
-      file: assets/placement/bottom view 3_1.png
-      role: exact_camera_angle_and_composition
-    beat: 鎖定女主角位於大型風扇左側綠色空隙；Cadi從鏡頭外飛入後啟動服務，Ray殘影進場敬禮、接資料後殘影離鏡。
-    continues_from: seg10-a-v03
+    prompt: segments/SEG-10/seg10-c-minimax-h3-prompt-v01.txt
+    prompt_registry: segments/SEG-10/cast-registry-v01.yaml
+    environment: virtual_factory
+    environment_description_file: assets/environments/virtual-factory-description-v01.txt
+    beat: 招手、Ray現身、派工、抱箱跑入研究所
+    continues_from: seg10-b
 
   - id: seg11-a
     scene: 11
@@ -593,7 +475,6 @@ segments:
     environment_reference_file: assets/environments/科技煉丹爐.jpg
     beat: 煉丹爐特寫與轟鳴；Ray驚訝；爆鳴閃光後Finn開爐取出丹藥般結果交給Ray
     continues_from: seg11-a
-
   - id: seg11-c
     scene: 11
     seed: 8101
@@ -603,7 +484,7 @@ segments:
     - cadi
     - ray
     prompt: segments/SEG-11/seg11-c-minimax-h3-prompt-v03.txt
-    prompt_registry: segments/SEG-11/cast-registry-v03.yaml
+    prompt_registry: segments/SEG-11/cast-registry-v04.yaml
     environment: virtual_factory
     environment_description_file: assets/environments/virtual-factory-description-v01.txt
     beat: Ray帶回丹藥般結果找到女主角與Cadi；同一風扇長出一根Rib；Cadi回報完成，女主角開心點頭

@@ -1,0 +1,32 @@
+subject_definitions:
+<Subject 1> is Ray, a compact white humanoid service robot with a rounded rectangular head, a glossy black face display, two luminous yellow oval eyes, a small yellow expressive mouth, twin gold lightning-bolt antennae, dark circular side modules with gold rims, black articulated joints, a gold lightning-bolt chest emblem, and a rectangular transport backpack bearing a gold lightning symbol. Its appearance, proportions, and colors follow <Picture 1>.
+<Subject 2> is Finn, a compact tracked research robot with a rounded rectangular white head and body, a glossy black face display, two luminous blue oval eyes, a small blue expressive mouth, black articulated arms and hands, a circular turbine-like mechanism centered on its chest, gold fasteners, blue status lights, and twin black tank-tread bases. Its appearance, proportions, and colors follow <Picture 2>.
+<Subject 3> is Finn's techno-alchemy laboratory in <Picture 3>: a symmetrical room with dark timber ceiling beams and copper pipes, a large ornate ceiling ventilation turbine, hanging faceted crystal lamps and red silk lamps, apothecary bottle shelves and glowing cyan monitor consoles along both walls, and at its center a bronze gourd-shaped alchemy furnace crowned by a tiered pagoda roof and a cylindrical steel cap, with a round glowing cyan-green chamber porthole, standing on a circular base atop a control platform.
+
+summary:
+[reference generation] A 13-second interior sequence featuring <Subject 1> and <Subject 2> inside <Subject 3>. Close-ups show the alchemy furnace roaring as it computes; Ray reacts in amazement. A contained boom marks completion, then Finn opens the furnace, takes out a luminous pill-like result and hands it to Ray.
+
+retention_analysis:
+<Subject 1> / <Picture 1>: fully_preserved - fully preserved: its white shell, black face display, yellow eyes and mouth, twin lightning antennae, gold accents, chest emblem, dark articulated limbs, transport backpack and compact body proportions. Its shell and joints reflect the physical lighting of the scene.
+<Subject 2> / <Picture 2>: fully_preserved - fully preserved: its white shell, black face display, blue eyes and mouth, black articulated arms and hands, chest turbine, gold fasteners, blue status lights, tracked base and compact body proportions. Its shell, joints and treads reflect the physical lighting of the scene.
+<Subject 3> / <Picture 3>: fully_preserved - Preserve the symmetrical layout, timber beams, copper pipes, ceiling turbine, crystal and red silk lamps, bottle shelves, cyan monitor consoles, and the central bronze gourd furnace with pagoda roof, steel cap, cyan-green porthole, circular base and control platform. Everything is built from real bronze, steel, timber, glass and paper, lit by practical lamps and furnace glow.
+
+detailed_description:
+Photorealistic live-action cinema footage shot on a digital cinema camera with prime lenses: natural skin texture with visible pores, real fabric weave, physically accurate reflections, shallow depth of field and subtle film grain.
+
+[Shot 1] Continue at the instant the capsule has entered the furnace. Tight close-up on the round cyan-green porthole of the bronze furnace in <Subject 3>: behind thick glass, a spinning vortex of light and sparks swallows the capsule's glow. Engraved circuit lines on the bronze body begin to light up.
+[0s-3s] The vortex accelerates; the engraved lines pulse outward ring by ring. The low rumble swells into a deep, rhythmic roar that vibrates the porthole rim. The camera holds close with a slow push-in.
+[3s-6s] The camera tilts slowly up the furnace body in close-up: steam jets hiss from the seams, the small red lamps under the pagoda eaves shake, orange fire licks from vents around the circular base, and burners beneath the platform flare with roaring flames. The roar grows louder and heavier; firelight flickers over bronze and steel.
+[6s-9s] Cut-in close-up on Ray <Picture 1>, lit by pulsing orange and cyan-green light: its luminous yellow eyes widen into large ovals and its small yellow mouth opens in clear astonishment. Behind it, out of focus, Finn <Picture 2> watches the furnace calmly, one hand resting on the control platform. The whole room trembles with the roar; the ceiling turbine spins faster and lamps sway.
+
+[Shot 2] At 00:09.000, one contained pressure-release boom lands with a brief orange-white flash from the porthole, triggering a hard cut to a medium two-shot of Ray and Finn in front of the furnace. The furnace stays intact; the roar drops to a soft after-rumble and warm vapor drifts from the eaves.
+[9s-11s] Finn rolls to the porthole, which irises open with a burst of warm vapor. Finn reaches into the glowing chamber and lifts out one luminous pill-like calculation result: a single smooth metallic pellet with a warm gold core and thin cyan data lines. The porthole closes behind it.
+[11s-13s] Finn turns and places the same pill-like result into Ray's waiting palm. Ray closes its fingers securely around it, still wide-eyed but now focused. Finn releases only after the handoff is stable. End on the glowing result held between them, the furnace glowing calmly behind.
+
+Negative constraints: no subtitles, no readable text, no extra fingers or limbs, no deformed limbs, no duplicate characters, no shaky camera, no looping.
+
+overall_soundscape:
+A deep mechanical furnace roar builds from a low rumble into a heavy, rhythmic thunder with hissing steam jets, crackling fire bursts, rattling lamps and a faster ceiling turbine. One contained boom and brief pressure release mark completion, followed by a soft after-rumble, a porthole hiss, warm vapor, pellet contact and quiet joint servos. There is no dialogue.
+
+non_diegetic_music:
+N/A.

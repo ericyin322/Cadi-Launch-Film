@@ -441,3 +441,8 @@
 - 依使用者指示，以已確認的SEG-09 Blender v06／H3 v01更新正式文字分鏡；新增 `screenplay/master-storyboard-v0.9.md`，v0.8保留。
 - SEG-09改為26秒無台詞的Cadi彈指、Creo力量亮相、接風扇、五台協同搬運落位、俯瞰布局及Cadi降至風扇旁；同步更新分段表、EV-15／16、DLG-24–26狀態與09→10連續性。
 - SEG-10鏡頭35–36只做必要銜接修正：對已落位風扇執行試排驗證；鏡頭37–38與DLG-27–29不變。
+
+## 2026-09-23｜SEG-11 煉丹爐房間與 H3 A／B v04
+
+- 新增 `screenplay/master-storyboard-v0.25.md`（v0.24 保留）：SEG-11 鏡頭39–41 改為 Ray 殘影高速進入 Finn 的科技煉丹爐房間、Finn 把資料丟入煉丹爐、爐體特寫轟鳴、Finn 從爐內取出結果交給 Ray；EV-18 與 10→11 連續性同步。
+- SEG-11 新增 brief-v04、A／B prompt v04、cast-registry-v04、reference-manifest-v04、alchemy-lab-binding-v01、生成說明與驗證 v04；根 registry 新增 `alchemy_lab` 資產並更新 seg11-a／b。C 沿用 v03。影片未生成。

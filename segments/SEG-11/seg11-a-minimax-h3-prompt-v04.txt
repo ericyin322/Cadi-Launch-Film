@@ -1,0 +1,30 @@
+subject_definitions:
+<Subject 1> is Ray, a compact white humanoid service robot with a rounded rectangular head, a glossy black face display, two luminous yellow oval eyes, a small yellow expressive mouth, twin gold lightning-bolt antennae, dark circular side modules with gold rims, black articulated joints, a gold lightning-bolt chest emblem, and a rectangular transport backpack bearing a gold lightning symbol. Its appearance, proportions, and colors follow <Picture 1>.
+<Subject 2> is Finn, a compact tracked research robot with a rounded rectangular white head and body, a glossy black face display, two luminous blue oval eyes, a small blue expressive mouth, black articulated arms and hands, a circular turbine-like mechanism centered on its chest, gold fasteners, blue status lights, and twin black tank-tread bases. Its appearance, proportions, and colors follow <Picture 2>.
+<Subject 3> is Finn's techno-alchemy laboratory in <Picture 3>: a symmetrical room with dark timber ceiling beams and copper pipes, a large ornate ceiling ventilation turbine, hanging faceted crystal lamps and red silk lamps, apothecary bottle shelves and glowing cyan monitor consoles along both walls, and at its center a bronze gourd-shaped alchemy furnace crowned by a tiered pagoda roof and a cylindrical steel cap, with a round glowing cyan-green chamber porthole, standing on a circular base atop a control platform.
+
+summary:
+[reference generation] A 13-second interior sequence featuring <Subject 1> and <Subject 2> inside <Subject 3>. Ray streaks into the laboratory at high speed and delivers the fan data capsule; Finn confirms the data, starts AI optimization and tosses the capsule into the alchemy furnace.
+
+retention_analysis:
+<Subject 1> / <Picture 1>: fully_preserved - fully preserved: its white shell, black face display, yellow eyes and mouth, twin lightning antennae, gold accents, chest emblem, dark articulated limbs, transport backpack and compact body proportions. Its shell and joints reflect the physical lighting of the scene.
+<Subject 2> / <Picture 2>: fully_preserved - fully preserved: its white shell, black face display, blue eyes and mouth, black articulated arms and hands, chest turbine, gold fasteners, blue status lights, tracked base and compact body proportions. Its shell, joints and treads reflect the physical lighting of the scene.
+<Subject 3> / <Picture 3>: fully_preserved - Preserve the symmetrical layout, timber beams, copper pipes, ceiling turbine, crystal and red silk lamps, bottle shelves, cyan monitor consoles, and the central bronze gourd furnace with pagoda roof, steel cap, cyan-green porthole, circular base and control platform. Everything is built from real bronze, steel, timber, glass and paper, lit by practical lamps and furnace glow.
+
+detailed_description:
+Photorealistic live-action cinema footage shot on a digital cinema camera with prime lenses: natural skin texture with visible pores, real fabric weave, physically accurate reflections, shallow depth of field and subtle film grain.
+
+[Shot 1] A stable medium-wide eye-level view facing the central alchemy furnace of <Subject 3>, the cyan-green porthole glowing softly behind the control platform. Finn <Picture 2> waits screen-left of center in front of the platform, facing the camera. Warm lamp light and cool monitor glow mix on the bronze furnace and polished floor; a faint steady furnace hum fills the room.
+[0s-2s] A gold-white motion streak rushes in from the right frame edge at high speed, brakes hard beside Finn and resolves into Ray <Picture 1>, one brief afterimage trailing toward frame-right. The wind of its arrival swings the hanging crystal and red silk lamps and swirls thin steam off the pipes. Ray lands firmly on both feet, holding a compact warm-white and cyan engineering-data capsule against its chest.
+[2s-6s] Ray <Subject 1> (S1), in a clear, energetic and precise youthful Mandarin voice, says: <d>[Mandarin Chinese] 殼體厚度、Gap距離、材質資料都在這裡，請計算可行 Rib。</d> Its yellow mouth light moves in precise synchronization. While speaking, Ray extends the capsule with both hands; Finn rolls forward half a body length and receives it securely in both articulated hands.
+[6s-8s] Finn holds the capsule at chest height; a narrow cyan scan passes over it. Three translucent engineering layers rise briefly above it in sequence: a shell-thickness surface map, measured Gap-distance bands and a material-property field. Finn's blue eyes narrow analytically. The camera eases closer from the same side, keeping Ray at right, Finn at left and the furnace centered behind them.
+[8s-11s] Finn <Subject 2> (S2), in a calm, analytical adult Mandarin voice with a subtle electronic clarity, says: <d>[Mandarin Chinese] 條件完整。開始AI最佳化運算。</d> Its blue mouth light synchronizes precisely. The three layers fold back into the capsule, and Finn turns its tracked base toward the furnace.
+[11s-13s] The furnace porthole irises open with a short hiss of vapor. Finn tosses the capsule underhand; it arcs through the air and drops into the swirling cyan-green chamber. The porthole closes, the chamber light surges brighter, and a deep rumble begins inside the bronze body. Ray watches beside Finn. End on both robots facing the awakening furnace.
+
+Negative constraints: no subtitles, no readable text, no extra fingers or limbs, no deformed limbs, no duplicate characters, no shaky camera, no looping.
+
+overall_soundscape:
+Quiet laboratory room tone with a faint furnace hum and soft ventilation. Ray's arrival is one fast air snap, a metallic brake skid and swaying lamp tassels. Soft tread movement, a focused scan tone, a porthole hiss, a capsule landing inside the chamber and a rising low rumble follow. Both Mandarin voices remain close, intelligible and synchronized to their assigned mouth lights.
+
+non_diegetic_music:
+N/A.
