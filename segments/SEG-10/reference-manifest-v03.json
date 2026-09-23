@@ -1,0 +1,34 @@
+{
+  "mode": "Ref2VA",
+  "source": "screenplay/master-storyboard-v0.21.md",
+  "seed": 8001,
+  "aspect_ratio": "16:9",
+  "total_duration_seconds": 26,
+  "environment_reference_mode": "creo_dock_text_only",
+  "segments": [
+    {
+      "id": "seg10-a-v03",
+      "duration_seconds": 13,
+      "prompt": "segments/SEG-10/seg10-a-minimax-h3-prompt-v03.txt",
+      "images": [
+        {"picture": 1, "slot": "ref_image_0", "asset": "heroine", "file": "assets/characters/heroine-photo-reference-v01.png", "role": "identity"},
+        {"picture": 2, "slot": "ref_image_1", "asset": "fan_placement", "file": "assets/placement/Screenshot 2026-09-22 165319.png", "role": "exact_fan_shape_scale_and_local_placement"},
+        {"picture": 3, "slot": "ref_image_2", "asset": "placement_angle", "file": "assets/placement/bottom view 3_1.png", "role": "exact_camera_angle_and_composition"}
+      ]
+    },
+    {
+      "id": "seg10-b-v03",
+      "duration_seconds": 13,
+      "prompt": "segments/SEG-10/seg10-b-minimax-h3-prompt-v03.txt",
+      "images": [
+        {"picture": 1, "slot": "ref_image_0", "asset": "heroine", "file": "assets/characters/heroine-photo-reference-v01.png", "role": "identity"},
+        {"picture": 2, "slot": "ref_image_1", "asset": "cadi", "file": "assets/characters/cadi_red.png", "role": "identity"},
+        {"picture": 3, "slot": "ref_image_2", "asset": "ray", "file": "assets/characters/agent5-ray.png", "role": "identity"},
+        {"picture": 4, "slot": "ref_image_3", "asset": "fan_placement", "file": "assets/placement/Screenshot 2026-09-22 165319.png", "role": "exact_fan_shape_scale_and_local_placement"},
+        {"picture": 5, "slot": "ref_image_4", "asset": "placement_angle", "file": "assets/placement/bottom view 3_1.png", "role": "exact_camera_angle_and_composition"}
+      ]
+    }
+  ],
+  "reference_policy": "The 2026-09-22 screenshot controls fan shape and scale; bottom view 3_1.png controls the placement-creo camera angle and composition in both units. A begins with the heroine already beside the fan and contains no approach walk.",
+  "supersedes": "segments/SEG-10/reference-manifest-v02.json"
+}

@@ -1,5 +1,12 @@
 # 修改紀錄
 
+## 2026-09-23｜SEG-10 H3 v03：取消走入與 bottom view 機位
+
+- A 的0–3秒改為女主角開場已站在風扇旁並直接蹲下，取消走入與接近動作。
+- A、B 實際上傳 `assets/placement/bottom view 3_1.png` 作 placement-creo 攝影角度與構圖參考；原指定圖繼續負責風扇形狀與人物比例。
+- 新增 A／B prompt v03、registry／manifest／場景綁定／生成說明／驗證紀錄 v03；維持13＋13秒、seed 8001、Creo船塢、對白及Ray動作。
+- A 14項通過、0警告、0失敗；B 16項通過、1項五張參考圖軟警告、0失敗。影片未生成，v02保留。
+
 ## 2026-09-23｜SEG-10 H3 A／B v02：Creo 船塢與指定風扇
 
 - 依使用者直接要求生成新版 H3，授權略過新版 Storyboard 尚未確認；舊版 A／B／C v01 保留。

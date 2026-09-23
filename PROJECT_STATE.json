@@ -243,10 +243,10 @@
       "screenplay_notes": "2026-09-23：女主角依指定比例圖走到 placement-creo 風扇旁，蹲下端詳並伸手觸摸風扇頂部，說「這個風扇的強度不足」；Cadi 回應「我來啟動風扇Rib AI 最佳化服務」；Ray 以殘影高速進場、向 Cadi 敬禮、接過資料，再以殘影衝刺離鏡。舊版 ABS／壓強10／Gap1.5／詢問同意／模型資料箱內容取消。SEG-11 劇情不變，只以 Ray 已取得風扇模型資料銜接。",
       "storyboard": "v01",
       "approval": "storyboard_v01_outdated_revision_pending",
-      "h3": "a_v02_b_v02_creo_dock_fan_reference_ready_video_unverified",
+      "h3": "a_v03_b_v03_no_approach_bottom_view_angle_ready_video_unverified",
       "environment_description_file": "assets/environments/virtual-factory-description-v02.txt",
       "environment_reference_mode": "text_only",
-      "environment_binding": "segments/SEG-10/factory-scene-binding-v02.md",
+      "environment_binding": "segments/SEG-10/factory-scene-binding-v03.md",
       "screenplay_approval": "approved_by_user_revision",
       "brief": "segments/SEG-10/brief-v03.md",
       "storyboard_notes": "新版須呈現指定人物比例與站位、女主角走近風扇、蹲下端詳並觸摸頂部、兩句新台詞，以及 Ray 殘影進場敬禮、接資料、殘影離鏡。",
@@ -255,20 +255,21 @@
       "time_range": "03:34–04:00",
       "character_reference": "assets/characters/agent5-ray.png",
       "placement_scale_reference": "assets/placement/Screenshot 2026-09-22 165319.png",
+      "placement_angle_reference": "assets/placement/bottom view 3_1.png",
       "h3_storyboard_override": "explicit_user_request_after_text_revision_2026-09-23",
       "h3_prompts": [
-        "segments/SEG-10/seg10-a-minimax-h3-prompt-v02.txt",
-        "segments/SEG-10/seg10-b-minimax-h3-prompt-v02.txt"
+        "segments/SEG-10/seg10-a-minimax-h3-prompt-v03.txt",
+        "segments/SEG-10/seg10-b-minimax-h3-prompt-v03.txt"
       ],
-      "reference_manifest": "segments/SEG-10/reference-manifest-v02.json",
-      "h3_notes": "segments/SEG-10/minimax-h3-generation-notes-v02.md",
-      "prompt_registry": "segments/SEG-10/cast-registry-v02.yaml",
+      "reference_manifest": "segments/SEG-10/reference-manifest-v03.json",
+      "h3_notes": "segments/SEG-10/minimax-h3-generation-notes-v03.md",
+      "prompt_registry": "segments/SEG-10/cast-registry-v03.yaml",
       "h3_duration_seconds": 26,
       "h3_segment_durations_seconds": {
         "a": 13,
         "b": 13
       },
-      "timing_notes": "H3 v02 採 A／B 各13秒，合計26秒，對齊原時槽；尚未生成影片或驗證配音與嘴型。指定 placement 圖在兩段均實際上傳以鎖定風扇形狀與比例，場景固定為 Creo 船塢。"
+      "timing_notes": "H3 v03 維持 A／B 各13秒、合計26秒。A取消0–3秒走入，開場已在風扇旁並直接蹲下；A／B新增bottom view 3_1.png鎖定placement-creo角度，原Screenshot繼續鎖定風扇形狀。影片與嘴型未驗證。"
     },
     {
       "id": "SEG-11",

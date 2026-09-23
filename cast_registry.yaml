@@ -190,6 +190,16 @@ assets:
     canonical: the larger upper-right cooling-fan housing and its immediately adjacent placement geometry. It is a broad low-profile gray housing with a rounded outer corner, a straight inner edge, a large concentric circular top structure, a raised central circular cap, and a thin layered sidewall, resting within the green placement base.
     retention: Preserve the larger upper-right fan housing's exact rounded rectangular silhouette, concentric circular top structure, raised central cap, layered sidewall, relative size, placement position, adjacent spacing and human-to-fan scale; render it as solid full-scale engineering hardware with physically accurate gray metal and polymer surfaces, direct floor support, contact shadows and dock-light reflections.
 
+  placement_angle:
+    priority: 96
+    file: assets/placement/bottom view 3_1.png
+    role: exact_camera_angle_and_composition
+    binding: Its camera azimuth, downward tilt, framing, perspective and component overlap follow
+    summon_tokens:
+    - placement-creo viewing angle
+    canonical: the low oblique three-quarter placement-creo viewing angle. The larger fan dominates the right foreground, the smaller fan is cropped at lower left, the long pale module crosses the upper frame, the cyan module enters at upper right, and the green placement base remains visible between them.
+    retention: Preserve the low oblique three-quarter camera azimuth, downward tilt, perspective, crop and component overlap.
+
   finn:
     priority: 100
     file: assets/characters/agent4-finn.png
@@ -478,15 +488,16 @@ segments:
     prompt: segments/SEG-04/seg04-a-minimax-h3-prompt-v02.txt
     prompt_registry: segments/SEG-04/cast-registry-v07.yaml
 
-  - id: seg10-a-v02
+  - id: seg10-a-v03
     scene: 10
     seed: 8001
     duration_seconds: 13
     cast:
     - heroine
     - fan_placement
-    prompt: segments/SEG-10/seg10-a-minimax-h3-prompt-v02.txt
-    prompt_registry: segments/SEG-10/cast-registry-v02.yaml
+    - placement_angle
+    prompt: segments/SEG-10/seg10-a-minimax-h3-prompt-v03.txt
+    prompt_registry: segments/SEG-10/cast-registry-v03.yaml
     environment: creo_dock_text_only
     environment_description_file: assets/environments/virtual-factory-description-v02.txt
     reference_images:
@@ -496,8 +507,11 @@ segments:
     - label: <Picture 2>
       file: assets/placement/Screenshot 2026-09-22 165319.png
       role: exact_fan_shape_scale_and_local_placement
-    beat: 女主角在Creo船塢走到風扇旁，蹲下端詳、觸摸頂部並說強度不足。
-  - id: seg10-b-v02
+    - label: <Picture 3>
+      file: assets/placement/bottom view 3_1.png
+      role: exact_camera_angle_and_composition
+    beat: 女主角開場已在風扇旁，立即蹲下端詳、觸摸頂部並說強度不足；沿bottom view 3_1角度。
+  - id: seg10-b-v03
     scene: 10
     seed: 8001
     duration_seconds: 13
@@ -506,8 +520,9 @@ segments:
     - cadi
     - ray
     - fan_placement
-    prompt: segments/SEG-10/seg10-b-minimax-h3-prompt-v02.txt
-    prompt_registry: segments/SEG-10/cast-registry-v02.yaml
+    - placement_angle
+    prompt: segments/SEG-10/seg10-b-minimax-h3-prompt-v03.txt
+    prompt_registry: segments/SEG-10/cast-registry-v03.yaml
     environment: creo_dock_text_only
     environment_description_file: assets/environments/virtual-factory-description-v02.txt
     reference_images:
@@ -523,8 +538,11 @@ segments:
     - label: <Picture 4>
       file: assets/placement/Screenshot 2026-09-22 165319.png
       role: exact_fan_shape_scale_and_local_placement
-    beat: Cadi啟動風扇Rib AI最佳化服務；Ray殘影進場敬禮、接資料後殘影離鏡。
-    continues_from: seg10-a-v02
+    - label: <Picture 5>
+      file: assets/placement/bottom view 3_1.png
+      role: exact_camera_angle_and_composition
+    beat: 沿bottom view 3_1角度；Cadi啟動服務，Ray殘影進場敬禮、接資料後殘影離鏡。
+    continues_from: seg10-a-v03
 
   - id: seg11-a
     scene: 11
@@ -538,7 +556,7 @@ segments:
     environment: virtual_factory
     environment_description_file: assets/environments/virtual-factory-description-v01.txt
     beat: Ray交付殼體厚度、Gap距離與材質資料；Finn確認後開始AI最佳化運算
-    continues_from: seg10-b-v02
+    continues_from: seg10-b-v03
   - id: seg11-b
     scene: 11
     seed: 8101
