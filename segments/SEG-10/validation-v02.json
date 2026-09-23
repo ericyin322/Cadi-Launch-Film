@@ -1,0 +1,34 @@
+{
+  "date": "2026-09-23",
+  "checker": ".agents/skills/h3-scene-prompt/scripts/check_prompt.py",
+  "registry": "segments/SEG-10/cast-registry-v02.yaml",
+  "results": [
+    {
+      "segment": "seg10-a-v02",
+      "prompt": "segments/SEG-10/seg10-a-minimax-h3-prompt-v02.txt",
+      "passed": 13,
+      "warnings": 0,
+      "failed": 0,
+      "characters": 5177
+    },
+    {
+      "segment": "seg10-b-v02",
+      "prompt": "segments/SEG-10/seg10-b-minimax-h3-prompt-v02.txt",
+      "passed": 15,
+      "warnings": 0,
+      "failed": 0,
+      "characters": 6914
+    }
+  ],
+  "manual_checks": {
+    "location": "Both prompts explicitly take place inside the Creo dock.",
+    "fan_reference": "assets/placement/Screenshot 2026-09-22 165319.png is uploaded in both units and bound to the fan shape, scale and local placement geometry.",
+    "dialogue": [
+      "這個風扇的強度不足",
+      "我來啟動風扇Rib AI 最佳化服務"
+    ],
+    "duration": "13 + 13 = 26 seconds",
+    "continuity": "A ends with the heroine crouched and touching the fan top; B begins from the same pose beside the same fan in the same dock.",
+    "ray_action": "One afterimage arrival, one salute, one data handoff, and one afterimage exit."
+  }
+}

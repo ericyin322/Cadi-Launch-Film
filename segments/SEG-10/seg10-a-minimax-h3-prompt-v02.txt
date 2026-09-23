@@ -1,0 +1,28 @@
+subject_definitions:
+<Subject 1> is the female protagonist, a 20-something East Asian female mechanical R&D engineer. She has long, straight, center-parted black hair and wears a tailored taupe-gray blazer, an ivory crew-neck top, and loose light-colored trousers. She is professional, composed, and places a high value on immaculate grooming. Her face, hair, and clothing follow <Picture 1>.
+<Subject 2> is the larger upper-right cooling-fan housing and its immediately adjacent placement geometry. It is a broad low-profile gray housing with a rounded outer corner, a straight inner edge, a large concentric circular top structure, a raised central circular cap, and a thin layered sidewall, resting within the green placement base. Its exact shape, relative scale, top profile, edge thickness, position and spacing follow <Picture 2>.
+
+summary:
+[reference generation] A 13-second sequence inside the Creo dock. <Subject 1> walks through the placement aisle to <Subject 2>, crouches beside it, studies it at close range, touches its top surface, and states that its strength is insufficient.
+
+retention_analysis:
+<Subject 1> / <Picture 1>: fully_preserved - fully preserved: her facial features, long straight center-parted black hair, tailored taupe-gray blazer, ivory crew-neck top, loose light-colored trousers, body proportions, professional composure, and immaculate grooming must remain consistent. She is a real person with real skin, real fabric and real lighting inside the scene described by the timeline.
+<Subject 2> / <Picture 2>: partially_preserved - preserve the larger upper-right fan housing's exact rounded rectangular silhouette, concentric circular top structure, raised central cap, layered sidewall, relative size, placement position, adjacent spacing and the human-to-fan scale shown by the reference. Render it as solid full-scale engineering hardware with physically accurate gray metal and polymer surfaces, direct floor support, contact shadows and dock-light reflections.
+
+detailed_description:
+Photorealistic live-action cinema footage shot on a digital cinema camera with prime lenses: natural skin texture with visible pores, real fabric weave, physically accurate reflections, shallow depth of field and subtle film grain.
+
+[Shot 1] Inside the Creo dock, a vast industrial assembly bay built from white-gray structural metal, green guide channels, exposed service pipes, overhead crane ribs, warm practical lamps and soft cyan floor reflections. The completed physical placement assembly rests directly on the level dock floor. The larger upper-right cooling-fan housing <Picture 2> keeps the exact rounded outer corner, straight inner edge, concentric circular top structure, raised central cap, layered sidewall, scale and surrounding spacing defined by the reference. The camera begins at human waist height in a medium-wide three-quarter view, with the fan occupying the right foreground and a clear component aisle leading toward it.
+[0s-3s] The female protagonist <Picture 1> enters along the clear aisle from the upper-left side of the placement and walks toward the fan at a measured professional pace. Her full body stays readable against the massive hardware, preserving the human-to-fan scale of <Picture 2>. The camera tracks laterally with her while the fan remains anchored in the right foreground.
+[3s-5s] She reaches the open space beside the fan, stops close to its outer rounded corner, turns toward the concentric top structure and lowers into a balanced crouch. Her blazer and trousers fold naturally as she bends; her long hair settles over her shoulders. The camera makes a gentle push closer without changing sides.
+[5s-8s] In a medium-low three-quarter composition, she leans forward and carefully studies the raised central cap, circular rings, top plate and layered edge. Her gaze travels from the center outward to the housing rim. The fan and every surrounding placement component remain completely stationary on the dock floor.
+[8s-10s] She extends one hand and places her palm and fingers flat on the fan's top plate beside the raised circular center. Her fingertips make a short controlled pass across the surface, then stop. The camera racks focus from her concentrated eyes to the point of contact, revealing realistic surface texture and contact pressure.
+[10s-13s] Keeping one hand on the fan top, the female protagonist <Subject 1> (S1), in a clear, composed adult female Mandarin voice with a firm engineering judgment, says: <d>[Mandarin Chinese] 這個風扇的強度不足</d> Her lips synchronize precisely. She finishes the sentence without standing, eyes fixed on the inspected structure, and the shot holds on her crouched scale beside the enormous fan.
+
+Negative constraints: no subtitles, no readable text, no extra fingers or limbs, no deformed hands, no shaky camera, no slow motion, no looping.
+
+overall_soundscape:
+Low Creo-dock ventilation, distant crane servos, a soft electrical hum, measured footsteps on the metal floor, natural fabric movement during the crouch, a quiet palm contact on the fan surface, and close intelligible Mandarin dialogue with precise lip synchronization.
+
+non_diegetic_music:
+N/A.

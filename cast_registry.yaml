@@ -178,6 +178,18 @@ assets:
       transport backpack and compact body proportions. Its shell and joints reflect
       the physical lighting of the scene.'
 
+  fan_placement:
+    priority: 95
+    file: assets/placement/Screenshot 2026-09-22 165319.png
+    role: exact_fan_shape_scale_and_local_placement
+    binding: Its exact shape, relative scale, top profile, edge thickness, position and spacing follow
+    summon_tokens:
+    - cooling-fan housing
+    - placement geometry
+    - placement assembly
+    canonical: the larger upper-right cooling-fan housing and its immediately adjacent placement geometry. It is a broad low-profile gray housing with a rounded outer corner, a straight inner edge, a large concentric circular top structure, a raised central circular cap, and a thin layered sidewall, resting within the green placement base.
+    retention: Preserve the larger upper-right fan housing's exact rounded rectangular silhouette, concentric circular top structure, raised central cap, layered sidewall, relative size, placement position, adjacent spacing and human-to-fan scale; render it as solid full-scale engineering hardware with physically accurate gray metal and polymer surfaces, direct floor support, contact shadows and dock-light reflections.
+
   finn:
     priority: 100
     file: assets/characters/agent4-finn.png
@@ -466,45 +478,53 @@ segments:
     prompt: segments/SEG-04/seg04-a-minimax-h3-prompt-v02.txt
     prompt_registry: segments/SEG-04/cast-registry-v07.yaml
 
-  - id: seg10-a
+  - id: seg10-a-v02
+    scene: 10
+    seed: 8001
+    duration_seconds: 13
+    cast:
+    - heroine
+    - fan_placement
+    prompt: segments/SEG-10/seg10-a-minimax-h3-prompt-v02.txt
+    prompt_registry: segments/SEG-10/cast-registry-v02.yaml
+    environment: creo_dock_text_only
+    environment_description_file: assets/environments/virtual-factory-description-v02.txt
+    reference_images:
+    - label: <Picture 1>
+      file: assets/characters/heroine-photo-reference-v01.png
+      role: identity
+    - label: <Picture 2>
+      file: assets/placement/Screenshot 2026-09-22 165319.png
+      role: exact_fan_shape_scale_and_local_placement
+    beat: 女主角在Creo船塢走到風扇旁，蹲下端詳、觸摸頂部並說強度不足。
+  - id: seg10-b-v02
     scene: 10
     seed: 8001
     duration_seconds: 13
     cast:
     - heroine
     - cadi
-    prompt: segments/SEG-10/seg10-a-minimax-h3-prompt-v01.txt
-    prompt_registry: segments/SEG-10/cast-registry-v01.yaml
-    environment: virtual_factory
-    environment_description_file: assets/environments/virtual-factory-description-v01.txt
-    beat: 檢查風扇、強度不足與最佳化建議
-  - id: seg10-b
-    scene: 10
-    seed: 8001
-    duration_seconds: 15
-    cast:
-    - heroine
-    - cadi
-    prompt: segments/SEG-10/seg10-b-minimax-h3-prompt-v01.txt
-    prompt_registry: segments/SEG-10/cast-registry-v01.yaml
-    environment: virtual_factory
-    environment_description_file: assets/environments/virtual-factory-description-v01.txt
-    beat: 完整參數、服務與執行同意
-    continues_from: seg10-a
-  - id: seg10-c
-    scene: 10
-    seed: 8001
-    duration_seconds: 10
-    cast:
-    - heroine
-    - cadi
     - ray
-    prompt: segments/SEG-10/seg10-c-minimax-h3-prompt-v01.txt
-    prompt_registry: segments/SEG-10/cast-registry-v01.yaml
-    environment: virtual_factory
-    environment_description_file: assets/environments/virtual-factory-description-v01.txt
-    beat: 招手、Ray現身、派工、抱箱跑入研究所
-    continues_from: seg10-b
+    - fan_placement
+    prompt: segments/SEG-10/seg10-b-minimax-h3-prompt-v02.txt
+    prompt_registry: segments/SEG-10/cast-registry-v02.yaml
+    environment: creo_dock_text_only
+    environment_description_file: assets/environments/virtual-factory-description-v02.txt
+    reference_images:
+    - label: <Picture 1>
+      file: assets/characters/heroine-photo-reference-v01.png
+      role: identity
+    - label: <Picture 2>
+      file: assets/characters/cadi_red.png
+      role: identity
+    - label: <Picture 3>
+      file: assets/characters/agent5-ray.png
+      role: identity
+    - label: <Picture 4>
+      file: assets/placement/Screenshot 2026-09-22 165319.png
+      role: exact_fan_shape_scale_and_local_placement
+    beat: Cadi啟動風扇Rib AI最佳化服務；Ray殘影進場敬禮、接資料後殘影離鏡。
+    continues_from: seg10-a-v02
 
   - id: seg11-a
     scene: 11
