@@ -1,0 +1,38 @@
+subject_definitions:
+<Subject 1> is the female protagonist, a 20-something East Asian female mechanical R&D engineer. She has long, straight, center-parted black hair and wears a tailored taupe-gray blazer, an ivory crew-neck top, and loose light-colored trousers. She is professional, composed, and places a high value on immaculate grooming. Her face, hair, and clothing follow <Picture 1>.
+<Subject 2> is Cadi, a small flying robot mascot. Its head is composed of actively burning, ethereal red plasma fire with orange-gold inner tongues and a warm white luminous center that continuously flickers, dances, and undulates with rising wisps and subtle luminous embers (an energetic plasma flame, completely non-solid, with zero gelatinous or jelly-like surface tension). Within the dynamic flame sit two oversized oval warm-white eyes with dark red rims and a tiny mouth, atop a dark charcoal-gray segmented robot body with red joint accents and a glowing circular warm-white chest core with a gold-orange rim. Its height is approximately half of the female protagonist's upper body. Its design, proportions, and colors follow <Picture 2>.
+<Subject 3> is the workflow reference displayed on a floating virtual screen. Its node layout, connections, labels and symbols follow <Picture 3>.
+
+summary:
+[reference generation] An eight-second continuous shot: <Subject 2> explains the first part of a workflow while <Subject 1> sips her drink, followed by a one-second settled hold.
+
+retention_analysis:
+<Subject 1> / <Picture 1> (throughout [Shot 1]): fully_preserved - face, hair, clothing, proportions and professional composure; real skin and fabric under scene lighting.
+<Subject 2> / <Picture 2>: fully_preserved - fully preserved: its actively burning red plasma fire head with orange-gold inner tongues and a warm white luminous center, continuous flickering combustion, soft rising flame tongues, subtle luminous embers, wind-drag during movement, upward licking and dissipation while hovering, oversized oval warm-white eyes with dark red rims, tiny mouth, dark charcoal-gray segmented robot body with red joint accents, body proportions, and glowing circular warm-white chest core with a gold-orange rim must remain consistent. It is lit by the same real lighting as the scene described by the timeline.
+<Subject 3> / <Picture 3> (throughout [Shot 1]): fully_preserved - node layout, connection directions, labels and symbols, displayed within the borders of a readable virtual screen.
+
+detailed_description:
+Photorealistic live-action cinema footage shot on a digital cinema camera with prime lenses: natural skin texture with visible pores, real fabric weave, physically accurate reflections, shallow depth of field and subtle film grain.
+
+A bright futuristic engineering district beneath a blue sky with white clouds. A glowing cyan transport avenue leads toward a monumental tower surrounded by enormous horizontal rings. Multilevel automated workshops line both sides, combining dense high-rise urban streetscapes with white-gray metal facades, exposed pipes, glass platforms, and vertical orange engineering signs. Elevated cyan rails connect the buildings. Yellow industrial robot arms operate inside warm-lit workshops, small white service robots move along terraces, and hovering disc-shaped carriers transport luminous translucent cubes. Green rooftop planters soften the architecture. Natural sunlight creates realistic metal and glass reflections.
+16:9.
+
+[Shot 1] One continuous eight-second shot. The female protagonist <Picture 1>, <Subject 1>, sits screen-right on a lounge chair beneath a parasol on a floating platform, holding a drink and straw in her right hand. Cadi <Picture 2>, <Subject 2>, hovers screen-left. The surrounding factory follows the text-defined district architecture and spatial layout. Between them, below their faces, a rectangular translucent virtual screen displays the workflow <Picture 3>, <Subject 3>. The visible screen surface is occupied entirely by the workflow; its nodes, labels and connections follow the reference layout and remain inside the screen borders. Start from her front-right at seated eye height with a 35mm prime lens, continuing a small, slow clockwise arc toward a frontal medium two-shot. Keep both faces and the full screen visible.
+
+Cadi speaks in a bright, playful yet professional childlike Mandarin voice, with clear English technical terms. Each dialogue fragment belongs to its assigned interval.
+
+[0s-2s] Cadi continues spreading his hands as the virtual screen opens. The first workflow region brightens within the screen. Cadi <Subject 2> (S1) says: <d>[Chinese] 我會先看IEC Spec 實際的內容，</d> His tiny mouth follows the words. She raises her drink while watching the screen. His actively burning, ethereal red plasma fire with orange-gold inner tongues and a warm white luminous center continuously flickers, dances, and undulates; soft tongues and luminous embers rise and dissipate from his completely non-solid head.
+
+[2s-5s] Cadi <Subject 2> (S1) traces the input connections on the screen and says: <d>[Chinese] 並結合GP圖的結果進行整合，先給您確認，</d> A cyan highlight travels along the existing graphic connections, contained within the rectangular display. She takes a sip through the straw while following the workflow with her eyes. Her right hand supports the cup; her left hand rests on the chair arm.
+
+[5s-7s] Cadi <Subject 2> (S1) presents an open palm toward her and says: <d>[Chinese] 如果您要修改可以跟我說。</d> She releases the straw and lowers the cup to chest level, listening attentively. His fire wisps rise and dissolve while hovering; his eyes, mouth, charcoal-gray body with red joint accents and warm-white gold-orange chest core remain consistent.
+
+[7s-8s] The explanation pauses. Settle into a locked frontal medium two-shot. Cadi holds an open palm toward her with his mouth closed. She holds the cup at chest level in her right hand, left hand resting on the chair arm, gaze on the workflow. Hold the camera, screen position, graphic layout and body poses for the full second. Only subtle breathing and soft upward flame flicker continue. The instrumental continues gently through this quiet vocal pause. End on this exact stable composition.
+
+Negative constraints: no subtitles, no extra fingers, no deformed limbs, no duplicate characters, no shaky camera, no cuts, no looping, no rubbery, gelatinous, solid jelly texture, no solid glass surface.
+
+overall_soundscape:
+Only Cadi's scripted speaking voice and instrumental music are audible. Dialogue is close and clear. Environmental sound, Foley and action effects are silent; all physical actions are visual only.
+
+non_diegetic_music:
+Upbeat major-key instrumental pop, about 116 BPM: buoyant bass, light drums, electric piano and playful plucked synth. Energetic and optimistic throughout. Keep music low beneath Cadi, keeping a steady level through the final hold. The scripted dialogue is the sole vocal layer.

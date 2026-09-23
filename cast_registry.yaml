@@ -304,11 +304,11 @@ segments:
     - heroine
     - cadi
     - workflow
-    prompt: segments/SEG-04/seg04-b-minimax-h3-prompt-v07.txt
+    prompt: segments/SEG-04/seg04-b-minimax-h3-prompt-v08.txt
     beat: 0–7秒Spec與GP說明；7–8秒停留銜接。
     environment: virtual_factory
-    environment_description_file: assets/environments/virtual-factory-description-v01.txt
-    prompt_registry: segments/SEG-04/cast-registry-v07.yaml
+    environment_description_file: assets/environments/virtual-factory-description-v02.txt
+    prompt_registry: segments/SEG-04/cast-registry-v08.yaml
 
   - id: seg04-c
     scene: 4
@@ -320,11 +320,11 @@ segments:
     - cadi
     - workflow
     continues_from: seg04-b
-    prompt: segments/SEG-04/seg04-c-minimax-h3-prompt-v02.txt
+    prompt: segments/SEG-04/seg04-c-minimax-h3-prompt-v03.txt
     beat: 首秒銜接；Creo導入3D模型與Rib說明；說完後流程上移，露出approve鍵，女主才按。
     environment: virtual_factory
-    environment_description_file: assets/environments/virtual-factory-description-v01.txt
-    prompt_registry: segments/SEG-04/cast-registry-v07.yaml
+    environment_description_file: assets/environments/virtual-factory-description-v02.txt
+    prompt_registry: segments/SEG-04/cast-registry-v08.yaml
 
   - id: seg05-a
     scene: 5
@@ -477,16 +477,16 @@ segments:
   - id: seg04-a
     scene: 4
     seed: 7401
-    duration_seconds: 9
+    duration_seconds: 10
     mode: T2VA
     cast: []
     text_subjects:
     - heroine
     - cadi
     environment: virtual_factory
-    environment_description_file: assets/environments/virtual-factory-description-v01.txt
-    prompt: segments/SEG-04/seg04-a-minimax-h3-prompt-v02.txt
-    prompt_registry: segments/SEG-04/cast-registry-v07.yaml
+    environment_description_file: assets/environments/virtual-factory-description-v02.txt
+    prompt: segments/SEG-04/seg04-a-minimax-h3-prompt-v03.txt
+    prompt_registry: segments/SEG-04/cast-registry-v08.yaml
 
   - id: seg10-a-v03
     scene: 10

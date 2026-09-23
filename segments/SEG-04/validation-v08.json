@@ -1,0 +1,38 @@
+{
+  "date": "2026-09-23",
+  "checker": ".agents/skills/h3-scene-prompt/scripts/check_prompt.py",
+  "registry": "segments/SEG-04/cast-registry-v08.yaml",
+  "results": [
+    {
+      "segment": "seg04-a",
+      "prompt": "segments/SEG-04/seg04-a-minimax-h3-prompt-v03.txt",
+      "passed": 5,
+      "warnings": 2,
+      "failed": 2,
+      "characters": 5141,
+      "note": "T2VA；FAIL 為檢查器 Ref2VA 區段與 15 秒預設的既有限制"
+    },
+    {
+      "segment": "seg04-b",
+      "prompt": "segments/SEG-04/seg04-b-minimax-h3-prompt-v08.txt",
+      "passed": 14,
+      "warnings": 0,
+      "failed": 0,
+      "characters": 6946
+    },
+    {
+      "segment": "seg04-c",
+      "prompt": "segments/SEG-04/seg04-c-minimax-h3-prompt-v03.txt",
+      "passed": 14,
+      "warnings": 0,
+      "failed": 0,
+      "characters": 6993
+    }
+  ],
+  "manual_checks": {
+    "cadi_voice": "B、C 逐字使用 in a bright, playful yet professional childlike Mandarin voice",
+    "cadi_color": "紅焰 canonical；A 開場改紅橙掃光，無 Cadi 青藍描述",
+    "white_opening": "A 0–1 秒全白、四周火焰狀光效",
+    "place_names": "已移除 Taiwan／Hong Kong"
+  }
+}

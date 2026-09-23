@@ -1,5 +1,13 @@
 # 修改紀錄
 
+## 2026-09-23｜SEG-04 H3 A v03／B v08／C v03：紅焰銜接、Cadi 聲音統一、全白開場
+
+- Cadi 維持紅焰（cadi_red.png、根目錄 canonical）；A 開場掃光由青色改為紅橙暖光。
+- B、C 的 Cadi 聲音逐字統一為「in a bright, playful yet professional childlike Mandarin voice」；A 無台詞。
+- A 新增 0–1 秒全白畫面、四周紅橙火焰狀光效；A 改 10 秒，原動作順延 1 秒。
+- 工廠描述改用 v02（無地名）；新增 brief-v05、cast-registry／reference-manifest／生成說明／validation v08，根目錄 registry 與狀態同步。
+- B、C 各 14 項通過、0 警告、0 失敗；影片未生成，舊版保留。
+
 ## 2026-09-23｜SEG-03 H3 A／B v03：紅焰 Cadi、新台詞與驚訝表情
 
 - 新增 A／B prompt v03、`cast-registry-v03.yaml`、`reference-manifest-v03.json`、`minimax-h3-generation-notes-v03.md`、`validation-v03.json`；v02 保留。
