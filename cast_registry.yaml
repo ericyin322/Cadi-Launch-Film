@@ -284,16 +284,16 @@ segments:
     seed: 7301
     frames: 362
     cast: [heroine, cadi]
-    prompt: "segments/SEG-03/seg03-a-minimax-h3-prompt-v02.txt"
-    beat: "鏡頭09–10：挪椅坐下、喚醒螢幕說 Hi Cadi；Cadi 螢幕內問候；Lisa 不耐煩交代信件；Outlook icon、0.5 秒思考停頓。"
+    prompt: "segments/SEG-03/seg03-a-minimax-h3-prompt-v03.txt"
+    beat: "鏡頭09–10（v0.22）：挪椅坐下、Hi Cadi；紅焰 Cadi 螢幕內問候；Lisa 不耐煩交代棘手任務；Outlook icon、讀郵件後驚訝、0.5 秒思考停頓。"
   - id: "seg03-b"
     scene: 3
     seed: 7301
     frames: 362
     cast: [heroine, cadi]
     continues_from: "seg03-a"
-    prompt: "segments/SEG-03/seg03-b-minimax-h3-prompt-v02.txt"
-    beat: "鏡頭11：Cadi 提出 IEC spec＋GP 的 placement 預覽建議，鏡頭退至肩後；Lisa 點頭說讓我們開始吧；胸口光擴張、青藍光掃鏡。"
+    prompt: "segments/SEG-03/seg03-b-minimax-h3-prompt-v03.txt"
+    beat: "鏡頭11（v0.22）：Cadi 建議馬上評估並提出 IEC spec＋GP 的 placement 預覽，鏡頭退至肩後；Lisa 點頭說讓我們開始吧；胸核擴張、紅橙暖光掃鏡。"
 
   - id: seg04-b
     scene: 4

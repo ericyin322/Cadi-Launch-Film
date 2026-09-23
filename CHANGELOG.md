@@ -1,5 +1,20 @@
 # 修改紀錄
 
+## 2026-09-23｜SEG-03 H3 A／B v03：紅焰 Cadi、新台詞與驚訝表情
+
+- 新增 A／B prompt v03、`cast-registry-v03.yaml`、`reference-manifest-v03.json`、`minimax-h3-generation-notes-v03.md`、`validation-v03.json`；v02 保留。
+- Cadi 參考圖改為 `cadi_red.png`，canonical 逐字取自根目錄 registry；聲音描述統一。
+- 剪輯改為 A 0–11.0 秒＋B 0–10.0 秒＝21 秒；根目錄 registry 的 seg03-a／b 提示詞路徑與 beat 同步更新。
+- A、B 各 13 項通過、0 警告、0 失敗；影片未生成。
+
+## 2026-09-23｜SEG-03 劇情更新：紅焰 Cadi、任務台詞與驚訝表情
+
+- 新建 `screenplay/master-storyboard-v0.22.md` 與 `segments/SEG-03/brief-v03.md`，v0.21／brief-v02 保留。
+- Cadi 藍焰改紅焰，火光與光掃鏡改為紅橙暖光；SEG-04 開頭掃光同步改色。
+- Cadi 聲音描述統一為「in a bright, playful yet professional childlike Mandarin voice」。
+- DLG-06A 改為「接到一個棘手的任務，你看一下。」；Cadi 讀完郵件後新增驚訝表情；DLG-06B 刪去「主題是 placement 會議」。
+- 維持 21 秒；H3 A／B v02 標為過時，本輪未製作新版 H3。
+
 ## 2026-09-23｜SEG-10 B H3 v04：位置銜接與 Cadi 入鏡
 
 - A 維持 v03，只新增 B prompt v04 及配套版本。

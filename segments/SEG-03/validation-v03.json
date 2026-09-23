@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-23",
+  "checker": ".agents/skills/h3-scene-prompt/scripts/check_prompt.py",
+  "registry": "segments/SEG-03/cast-registry-v03.yaml",
+  "results": [
+    {
+      "segment": "seg03-a-v03",
+      "prompt": "segments/SEG-03/seg03-a-minimax-h3-prompt-v03.txt",
+      "passed": 13,
+      "warnings": 0,
+      "failed": 0,
+      "characters": 6962
+    },
+    {
+      "segment": "seg03-b-v03",
+      "prompt": "segments/SEG-03/seg03-b-minimax-h3-prompt-v03.txt",
+      "passed": 13,
+      "warnings": 0,
+      "failed": 0,
+      "characters": 6662
+    }
+  ],
+  "manual_checks": {
+    "cadi_voice": "兩句 Cadi 台詞皆逐字使用 in a bright, playful yet professional childlike Mandarin voice",
+    "dialogue": "DLG-06A／06B 與 v0.22 一致",
+    "surprise": "A 9.0–9.6 秒驚訝表情，之後 0.5 秒停頓",
+    "color": "無青藍／cyan 描述"
+  }
+}

@@ -7,7 +7,7 @@
     "主管",
     "技術發表會觀眾"
   ],
-  "source_of_truth": "screenplay/master-storyboard-v0.21.md",
+  "source_of_truth": "screenplay/master-storyboard-v0.22.md",
   "video_prompt_target": "MiniMax H3",
   "storyboard_style": "黑白漫畫式線稿（僅限 Storyboard 前期圖，不進 H3 提示詞）",
   "final_video_style": "寫實真人電影質感；H3 逐字文字見 cast_registry.yaml project.visual_style",
@@ -34,17 +34,24 @@
       "id": "SEG-03",
       "storyboard": "v01",
       "approval": "storyboard_v01_outdated_revision_pending",
-      "h3": "a_v04_b_v02_ready_video_unverified",
-      "screenplay": "v0.8",
+      "h3": "a_v03_b_v03_ready_video_unverified",
+      "screenplay": "v0.22_seg03_revision",
       "screenplay_approval": "approved_by_user_revision",
-      "brief": "segments/SEG-03/brief-v02.md",
+      "brief": "segments/SEG-03/brief-v03.md",
       "timing_status": "21_seconds_confirmed_by_user",
       "timing_notes": "依使用者決定維持21秒；完整保留對白、動作及0.5秒思考停頓。全片5:00與後段時間碼不變。",
-      "screenplay_notes": "依使用者要求維持 v0.8 原檔微調：攝影機進入辦公區，女主角稍微挪開辦公椅並坐下、喚醒螢幕；Cadi 思考停頓0.5秒。",
+      "screenplay_notes": "依使用者指示僅修訂 SEG-03，來源升至 v0.22，保留 v0.21。(1) Cadi 由青藍焰改為紅焰版（cadi_red.png），螢幕火光與結尾光掃鏡改為紅橙暖光，SEG-04 開頭「掃光退去」同步改色以維持連續性；(2) Cadi 聲音描述統一為「in a bright, playful yet professional childlike Mandarin voice」；(3) DLG-06A 改為「接到一個棘手的任務，你看一下。」；(4) Cadi 讀完郵件後新增驚訝表情，再接 0.5 秒思考停頓；(5) DLG-06B 刪去「主題是 placement 會議」。維持 21 秒；DLG-06B 縮短約1.5秒，可吸收驚訝表情時間。H3 A／B v02 過時，待確認後製作新版。",
       "duration_seconds": 21,
       "time_range": "00:45–01:06",
-      "h3_storyboard_override": "explicit_user_request_2026-09-15",
-      "h3_notes": "segments/SEG-03/minimax-h3-generation-notes-v02.md；A 9.5秒＋B 11.5秒，seed 7301，heroine＋cadi 兩圖"
+      "h3_storyboard_override": "explicit_user_request_2026-09-23",
+      "h3_notes": "segments/SEG-03/minimax-h3-generation-notes-v03.md；A 0–11.0秒＋B 0–10.0秒，seed 7301，heroine＋cadi_red 兩圖",
+      "cadi_voice": "in a bright, playful yet professional childlike Mandarin voice",
+      "h3_prompts": [
+        "segments/SEG-03/seg03-a-minimax-h3-prompt-v03.txt",
+        "segments/SEG-03/seg03-b-minimax-h3-prompt-v03.txt"
+      ],
+      "prompt_registry": "segments/SEG-03/cast-registry-v03.yaml",
+      "reference_manifest": "segments/SEG-03/reference-manifest-v03.json"
     },
     {
       "id": "SEG-04",
