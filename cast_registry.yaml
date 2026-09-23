@@ -308,7 +308,7 @@ segments:
     beat: 0–7秒Spec與GP說明；7–8秒停留銜接。
     environment: virtual_factory
     environment_description_file: assets/environments/virtual-factory-description-v02.txt
-    prompt_registry: segments/SEG-04/cast-registry-v08.yaml
+    prompt_registry: segments/SEG-04/cast-registry-v09.yaml
 
   - id: seg04-c
     scene: 4
@@ -324,7 +324,7 @@ segments:
     beat: 首秒銜接；Creo導入3D模型與Rib說明；說完後流程上移，露出approve鍵，女主才按。
     environment: virtual_factory
     environment_description_file: assets/environments/virtual-factory-description-v02.txt
-    prompt_registry: segments/SEG-04/cast-registry-v08.yaml
+    prompt_registry: segments/SEG-04/cast-registry-v09.yaml
 
   - id: seg05-a
     scene: 5
@@ -477,7 +477,9 @@ segments:
   - id: seg04-a
     scene: 4
     seed: 7401
-    duration_seconds: 10
+    duration_seconds: 15
+    frames: 362
+    edit_use: 0-10.0s（10-15秒為銜接緩衝）
     mode: T2VA
     cast: []
     text_subjects:
@@ -485,8 +487,8 @@ segments:
     - cadi
     environment: virtual_factory
     environment_description_file: assets/environments/virtual-factory-description-v02.txt
-    prompt: segments/SEG-04/seg04-a-minimax-h3-prompt-v03.txt
-    prompt_registry: segments/SEG-04/cast-registry-v08.yaml
+    prompt: segments/SEG-04/seg04-a-minimax-h3-prompt-v04.txt
+    prompt_registry: segments/SEG-04/cast-registry-v09.yaml
 
   - id: seg10-a-v03
     scene: 10

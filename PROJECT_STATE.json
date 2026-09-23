@@ -58,23 +58,23 @@
       "storyboard": "v01",
       "approval": "storyboard_v01_approved_user_requested_b_refinement",
       "h3": "text_factory_updated_video_unverified",
-      "h3_notes": "segments/SEG-04/minimax-h3-generation-notes-v08.md",
+      "h3_notes": "segments/SEG-04/minimax-h3-generation-notes-v09.md",
       "brief": "segments/SEG-04/brief-v05.md",
       "screenplay_override": "segments/SEG-04/brief-v05.md",
       "timing_status": "b_8_seconds_user_requested_c_15_seconds_production_plan",
       "h3_storyboard_override": "explicit_user_request_2026-09-16",
-      "timing_notes": "A10（新增1秒全白開場）＋B8＋C15＝33秒；全片原300秒時槽待重排，未修改其他段。",
+      "timing_notes": "A生成15秒取0–10秒（1秒全白開場）＋B8＋C15＝正片33秒；全片原300秒時槽待重排，未修改其他段。",
       "environment_description_file": "assets/environments/virtual-factory-description-v02.txt",
       "environment_reference_mode": "text_only",
       "environment_binding": "segments/SEG-04/factory-scene-binding-v01.md",
       "h3_prompts": [
-        "segments/SEG-04/seg04-a-minimax-h3-prompt-v03.txt",
+        "segments/SEG-04/seg04-a-minimax-h3-prompt-v04.txt",
         "segments/SEG-04/seg04-b-minimax-h3-prompt-v08.txt",
         "segments/SEG-04/seg04-c-minimax-h3-prompt-v03.txt"
       ],
-      "reference_manifest": "segments/SEG-04/reference-manifest-v08.json",
-      "prompt_registry": "segments/SEG-04/cast-registry-v08.yaml",
-      "validation": "segments/SEG-04/validation-v08.json"
+      "reference_manifest": "segments/SEG-04/reference-manifest-v09.json",
+      "prompt_registry": "segments/SEG-04/cast-registry-v09.yaml",
+      "validation": "segments/SEG-04/validation-v09.json"
     },
     {
       "id": "SEG-05",

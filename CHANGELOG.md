@@ -1,5 +1,11 @@
 # 修改紀錄
 
+## 2026-09-23｜SEG-04 A H3 v04：依最新規則補齊區段
+
+- 補 `subject_definitions`、`retention_analysis`（registry 逐字），畫風置於 [Shot 1] 開頭，新增 Negative constraints。
+- 改為 15 秒／362 幀生成、5 個時間段；正片取 0–10 秒，10–15 秒為銜接 B 的穩定緩衝。
+- 新增 cast-registry／reference-manifest／生成說明／validation v09；根目錄 registry 與狀態同步。A 8 項通過、2 項預期警告、0 失敗；v03 保留。
+
 ## 2026-09-23｜SEG-04 H3 A v03／B v08／C v03：紅焰銜接、Cadi 聲音統一、全白開場
 
 - Cadi 維持紅焰（cadi_red.png、根目錄 canonical）；A 開場掃光由青色改為紅橙暖光。
