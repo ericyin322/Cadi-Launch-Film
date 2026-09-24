@@ -693,6 +693,58 @@ segments:
     - label: <Picture 5>
       file: assets/placement/bottom view- rib done.png
       role: final_rib_count_position_and_shape
+  - id: seg12-a-v03
+    scene: 12
+    seed: 8201
+    duration_seconds: 12
+    cast:
+    - heroine
+    - cadi
+    - ray
+    - fan_placement
+    prompt: segments/SEG-12/seg12-a-minimax-h3-prompt-v03.txt
+    prompt_registry: segments/SEG-12/cast-registry-v03.yaml
+    continues_from: seg10-b-v04
+    beat: 同A v02；移除bottom view 3_1，參考圖只管造型；水平地面由文字鎖定
+    reference_images:
+    - label: <Picture 1>
+      file: assets/characters/heroine-photo-reference-v01.png
+      role: identity
+    - label: <Picture 2>
+      file: assets/characters/cadi_red.png
+      role: identity
+    - label: <Picture 3>
+      file: assets/characters/agent5-ray.png
+      role: identity
+    - label: <Picture 4>
+      file: assets/placement/Screenshot 2026-09-22 165319.png
+      role: fan_shape_and_heroine_scale_only
+  - id: seg12-b-v03
+    scene: 12
+    seed: 8201
+    duration_seconds: 13
+    cast:
+    - heroine
+    - cadi
+    - rib_view_pre
+    - rib_view_post
+    prompt: segments/SEG-12/seg12-b-minimax-h3-prompt-v03.txt
+    prompt_registry: segments/SEG-12/cast-registry-v03.yaml
+    continues_from: seg12-a-v03
+    beat: 裁切圖只管造型；不拉大廣角；網格即最終低矮尺寸，只填實
+    reference_images:
+    - label: <Picture 1>
+      file: assets/characters/heroine-photo-reference-v01.png
+      role: identity
+    - label: <Picture 2>
+      file: assets/characters/cadi_red.png
+      role: identity
+    - label: <Picture 3>
+      file: assets/placement/rib-not-yet-crop-v01.png
+      role: fan_and_plain_top_shape_only
+    - label: <Picture 4>
+      file: assets/placement/rib-done-crop-v01.png
+      role: final_rib_count_position_and_low_profile_only
   - id: seg12-c-v01
     scene: 12
     seed: 8201

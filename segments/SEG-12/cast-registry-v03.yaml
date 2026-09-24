@@ -1,0 +1,110 @@
+# SEG-12 分段 registry v03（2026-09-24）：A／B v03 用。v01／v02 保留；C／D 仍用 v02。
+# 參考圖只負責造型，機位、地平與地面由文字決定。
+project:
+  title: Cadi Launch Film
+  aspect_ratio: '16:9'
+  label_style: paired
+  section_style: detailed
+  visual_style: 'Photorealistic live-action cinema footage shot on a digital cinema camera with prime lenses: natural skin texture with visible pores, real fabric weave, physically accurate reflections, shallow depth of field and subtle film grain.'
+  virtual_factory:
+    description_file: assets/environments/virtual-factory-description-v02.txt
+    usage_file: assets/environments/virtual-factory-usage-v02.md
+    reference_mode: text_only
+    applies_to:
+    - SEG-12
+    interior_policy: Use only the visible white-gray structural metal, green guide channels, exposed service pipes, overhead crane beams, warm industrial practical lights and soft cyan floor reflections of the Creo dock.
+assets:
+  heroine:
+    priority: 10
+    file: assets/characters/heroine-photo-reference-v01.png
+    role: identity
+    binding: Her face, hair, and clothing follow
+    canonical: the female protagonist, a 20-something East Asian female mechanical R&D engineer. She has long, straight, center-parted black hair and wears a tailored taupe-gray blazer, an ivory crew-neck top, and loose light-colored trousers. She is professional, composed, and places a high value on immaculate grooming.
+    retention: Preserve her facial features, hair, clothing, body proportions, professional composure and real-person appearance under the dock lighting.
+  cadi:
+    priority: 20
+    summon_tokens:
+    - cadi
+    - mascot
+    - plasma
+    - flame head
+    - chest core
+    file: assets/characters/cadi_red.png
+    role: identity
+    binding: Its design, proportions, and colors follow
+    canonical: Cadi, a small flying robot mascot. Its head is composed of actively burning, ethereal red plasma fire with orange-gold inner tongues and a warm white luminous center that continuously flickers, dances, and undulates with rising wisps and subtle luminous embers (an energetic plasma flame, completely non-solid, with zero gelatinous or jelly-like surface tension). Within the dynamic flame sit two oversized oval warm-white eyes with dark red rims and a tiny mouth, atop a dark charcoal-gray segmented robot body with red joint accents and a glowing circular warm-white chest core with a gold-orange rim. Its height is approximately half of the female protagonist's upper body.
+    retention: Preserve the continuously burning red plasma-fire head, orange-gold inner flames, warm-white center and eyes, dark segmented body, red accents, chest core, proportions and non-solid combustion.
+    extra_negatives:
+    - rubbery
+    - gelatinous
+    - solid jelly texture
+    - solid glass surface
+  ray:
+    priority: 30
+    summon_tokens:
+    - ray
+    file: assets/characters/agent5-ray.png
+    role: identity
+    binding: Its appearance, proportions, and colors follow
+    canonical: Ray, a compact white humanoid service robot with a rounded rectangular head, a glossy black face display, two luminous yellow oval eyes, a small yellow expressive mouth, twin gold lightning-bolt antennae, dark circular side modules with gold rims, black articulated joints, a gold lightning-bolt chest emblem, and a rectangular transport backpack bearing a gold lightning symbol.
+    retention: Preserve its white shell, black face display, yellow facial lights, lightning antennae, gold accents, chest emblem, dark joints, backpack and compact proportions.
+  fan_placement:
+    priority: 40
+    summon_tokens:
+    - cooling-fan housing
+    - placement geometry
+    - placement assembly
+    file: assets/placement/Screenshot 2026-09-22 165319.png
+    role: fan_shape_and_heroine_scale_only
+    binding: Its exact shape, relative scale, top profile, edge thickness, position and spacing follow
+    canonical: the larger upper-right cooling-fan housing and its immediately adjacent placement geometry. It is a broad low-profile gray housing with a rounded outer corner, a straight inner edge, a large concentric circular top structure, a raised central circular cap, and a thin layered sidewall, resting within the green placement base.
+    retention: Preserve the fan's silhouette, concentric top, central cap, layered sidewall and the woman-to-fan scale; the camera, horizon and floor plane come from the timeline.
+  rib_view_pre:
+    priority: 60
+    summon_tokens:
+    - layout before reinforcement
+    file: assets/placement/rib-not-yet-crop-v01.png
+    role: fan_and_plain_top_shape_only
+    binding: Its fan geometry, housing proportions and the plain top plate follow
+    canonical: 'the close three-quarter geometry of the two joined cooling fans before reinforcement: the larger fan on the right and the smaller fan on the left share one flat gray housing with a long finned heat-sink block along their front edge, set on open green floor between the pale module edge above and the cyan module corner at upper right. The larger fan''s top plate is plain and smooth around its recessed concentric ring.'
+    retention: Preserve the fan geometry and the plain top plate before generation; the camera, horizon and floor plane come from the timeline.
+  rib_view_post:
+    priority: 70
+    summon_tokens:
+    - after reinforcement
+    file: assets/placement/rib-done-crop-v01.png
+    role: final_rib_count_position_and_low_profile_only
+    binding: The exact number, positions, orientations, low profile and gray finish of the Ribs follow
+    canonical: 'the same two fans after reinforcement. Six low rectangular Ribs stand on the larger fan''s top plate around its recessed concentric ring: four elongated bars radiating outward toward the housing rim at the rear, left, rear-right and right, plus two short square blocks on the front half of the plate, each about as tall as the housing sidewall and in the same matte gray metal as the housing. The smaller fan stays plain.'
+    retention: Preserve the exact count, positions, orientations and low profile of the six finished Ribs as the final state.
+segments:
+- id: seg12-a-v03
+  duration_seconds: 12
+  cast:
+  - heroine
+  - cadi
+  - ray
+  - fan_placement
+  prompt: segments/SEG-12/seg12-a-minimax-h3-prompt-v03.txt
+  continues_from: seg10-b-v04
+  beat: 同A v02；移除bottom view 3_1，機位改文字；綠色基座即水平船塢地面
+  scene: 12
+  seed: 8201
+  prompt_registry: segments/SEG-12/cast-registry-v03.yaml
+  environment: creo_dock_text_only
+  environment_description_file: assets/environments/virtual-factory-description-v02.txt
+- id: seg12-b-v03
+  duration_seconds: 13
+  cast:
+  - heroine
+  - cadi
+  - rib_view_pre
+  - rib_view_post
+  prompt: segments/SEG-12/seg12-b-minimax-h3-prompt-v03.txt
+  continues_from: seg12-a-v03
+  beat: 改用裁切圖只管造型；機位改文字、不拉大廣角；網格一出現即最終低矮尺寸，只填實不長高
+  scene: 12
+  seed: 8201
+  prompt_registry: segments/SEG-12/cast-registry-v03.yaml
+  environment: creo_dock_text_only
+  environment_description_file: assets/environments/virtual-factory-description-v02.txt

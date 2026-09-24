@@ -1,6 +1,6 @@
 {
   "project": "Cadi-Launch-Film",
-  "updated": "2026-09-23",
+  "updated": "2026-09-24",
   "duration_seconds": 300,
   "audience": [
     "上級",
@@ -315,9 +315,9 @@
       "id": "SEG-12",
       "storyboard": "v01",
       "approval": "storyboard_v01_outdated_revision_pending",
-      "h3": "a_v02_b_v02_c_v01_d_v01_ready_video_unverified",
+      "h3": "a_v03_b_v03_c_v01_d_v01_ready_video_unverified",
       "h3_storyboard_override": "explicit_user_request_2026-09-23",
-      "h3_notes": "segments/SEG-12/minimax-h3-generation-notes-v02.md",
+      "h3_notes": "segments/SEG-12/minimax-h3-generation-notes-v03.md（A／B）；segments/SEG-12/minimax-h3-generation-notes-v02.md（C／D）",
       "h3_total_duration_seconds": 44,
       "h3_segment_durations_seconds": {
         "a": 12,
@@ -326,13 +326,13 @@
         "d": 7
       },
       "h3_prompts": [
-        "segments/SEG-12/seg12-a-minimax-h3-prompt-v02.txt",
-        "segments/SEG-12/seg12-b-minimax-h3-prompt-v02.txt",
+        "segments/SEG-12/seg12-a-minimax-h3-prompt-v03.txt",
+        "segments/SEG-12/seg12-b-minimax-h3-prompt-v03.txt",
         "segments/SEG-12/seg12-c-minimax-h3-prompt-v01.txt",
         "segments/SEG-12/seg12-d-minimax-h3-prompt-v01.txt"
       ],
-      "prompt_registry": "segments/SEG-12/cast-registry-v02.yaml",
-      "reference_manifest": "segments/SEG-12/reference-manifest-v02.json",
+      "prompt_registry": "segments/SEG-12/cast-registry-v03.yaml（A／B）；C／D 用 v02",
+      "reference_manifest": "segments/SEG-12/reference-manifest-v03.json",
       "screenplay": "v0.26_seg12_revision",
       "screenplay_approval": "approved_by_user_revision",
       "brief": "segments/SEG-12/brief-v03.md",
@@ -343,12 +343,12 @@
       "storyboard_notes": "v01已過時；新版須呈現 Ray 送回結果、六根 Rib 網格→實體、致謝、整理衣服及辦公室轉場。",
       "environment_description_file": "assets/environments/virtual-factory-description-v02.txt",
       "environment_reference_mode": "creo_dock_text_only",
-      "environment_binding": "segments/SEG-12/factory-scene-binding-v02.md",
-      "validation": "segments/SEG-12/validation-v02.json",
+      "environment_binding": "segments/SEG-12/factory-scene-binding-v03.md",
+      "validation": "segments/SEG-12/validation-v03.json",
       "placement_references": [
         "assets/placement/Screenshot 2026-09-22 165319.png",
-        "assets/placement/bottom view 3_1.png",
-        "assets/placement/bottom view- rib not yet.png",
+        "assets/placement/rib-not-yet-crop-v01.png",
+        "assets/placement/rib-done-crop-v01.png",
         "assets/placement/bottom view- rib done.png"
       ]
     },

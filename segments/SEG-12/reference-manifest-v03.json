@@ -1,0 +1,131 @@
+{
+  "mode": "Ref2VA",
+  "source": "screenplay/master-storyboard-v0.26.md (A/B v03 fixes 2026-09-24)",
+  "seed": 8201,
+  "aspect_ratio": "16:9",
+  "total_duration_seconds": 44,
+  "environment_reference_mode": "creo_dock_text_only_office_text_only",
+  "segments": [
+    {
+      "id": "seg12-a-v03",
+      "duration_seconds": 12,
+      "prompt": "segments/SEG-12/seg12-a-minimax-h3-prompt-v03.txt",
+      "images": [
+        {
+          "picture": 1,
+          "slot": "ref_image_0",
+          "asset": "heroine",
+          "file": "assets/characters/heroine-photo-reference-v01.png",
+          "role": "identity"
+        },
+        {
+          "picture": 2,
+          "slot": "ref_image_1",
+          "asset": "cadi",
+          "file": "assets/characters/cadi_red.png",
+          "role": "identity"
+        },
+        {
+          "picture": 3,
+          "slot": "ref_image_2",
+          "asset": "ray",
+          "file": "assets/characters/agent5-ray.png",
+          "role": "identity"
+        },
+        {
+          "picture": 4,
+          "slot": "ref_image_3",
+          "asset": "fan_placement",
+          "file": "assets/placement/Screenshot 2026-09-22 165319.png",
+          "role": "fan_shape_and_heroine_scale_only"
+        }
+      ]
+    },
+    {
+      "id": "seg12-b-v03",
+      "duration_seconds": 13,
+      "prompt": "segments/SEG-12/seg12-b-minimax-h3-prompt-v03.txt",
+      "images": [
+        {
+          "picture": 1,
+          "slot": "ref_image_0",
+          "asset": "heroine",
+          "file": "assets/characters/heroine-photo-reference-v01.png",
+          "role": "identity"
+        },
+        {
+          "picture": 2,
+          "slot": "ref_image_1",
+          "asset": "cadi",
+          "file": "assets/characters/cadi_red.png",
+          "role": "identity"
+        },
+        {
+          "picture": 3,
+          "slot": "ref_image_2",
+          "asset": "rib_view_pre",
+          "file": "assets/placement/rib-not-yet-crop-v01.png",
+          "role": "fan_and_plain_top_shape_only"
+        },
+        {
+          "picture": 4,
+          "slot": "ref_image_3",
+          "asset": "rib_view_post",
+          "file": "assets/placement/rib-done-crop-v01.png",
+          "role": "final_rib_count_position_and_low_profile_only"
+        }
+      ]
+    },
+    {
+      "id": "seg12-c-v01",
+      "duration_seconds": 12,
+      "prompt": "segments/SEG-12/seg12-c-minimax-h3-prompt-v01.txt",
+      "images": [
+        {
+          "picture": 1,
+          "slot": "ref_image_0",
+          "asset": "heroine",
+          "file": "assets/characters/heroine-photo-reference-v01.png",
+          "role": "identity"
+        },
+        {
+          "picture": 2,
+          "slot": "ref_image_1",
+          "asset": "cadi",
+          "file": "assets/characters/cadi_red.png",
+          "role": "identity"
+        },
+        {
+          "picture": 3,
+          "slot": "ref_image_2",
+          "asset": "fan_placement",
+          "file": "assets/placement/Screenshot 2026-09-22 165319.png",
+          "role": "heroine_position_between_fans_and_scale"
+        },
+        {
+          "picture": 4,
+          "slot": "ref_image_3",
+          "asset": "rib_view_post",
+          "file": "assets/placement/bottom view- rib done.png",
+          "role": "final_rib_count_position_and_shape"
+        }
+      ]
+    },
+    {
+      "id": "seg12-d-v01",
+      "duration_seconds": 7,
+      "prompt": "segments/SEG-12/seg12-d-minimax-h3-prompt-v01.txt",
+      "images": [
+        {
+          "picture": 1,
+          "slot": "ref_image_0",
+          "asset": "heroine",
+          "file": "assets/characters/heroine-photo-reference-v01.png",
+          "role": "identity"
+        }
+      ]
+    }
+  ],
+  "reference_policy": "Reference images supply shape only; camera, horizon and the level floor plane are written in text. B uses cropped rib views without board edges, background or left-side modules. Ribs appear at their final low size and only fill in. C/D unchanged (v01).",
+  "supersedes": "segments/SEG-12/reference-manifest-v02.json"
+}

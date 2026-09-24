@@ -1,5 +1,11 @@
 # 修改紀錄
 
+## 2026-09-24｜SEG-12 H3 A／B v03：地面水平、移除工作桌、Rib 不再先長高
+
+- 新增無板邊裁切圖 `assets/placement/rib-not-yet-crop-v01.png`、`rib-done-crop-v01.png`；A 移除 `bottom view 3_1.png`，參考圖只管造型，機位與水平地面改由文字鎖定。
+- B 裁掉左側模組並取消大廣角；Rib 網格一出現即最終低矮尺寸，只填實。
+- 新增 A／B prompt v03、cast-registry／reference-manifest／生成說明／validation／binding v03；A 6585、B 6627 字元，各15通過、0警告、0失敗。v02 保留，C／D 不變。
+
 ## 2026-09-23｜SEG-12 劇情微調與 H3 A／B v02＋C／D v01：Ray 送回結果、Rib 網格→實體
 
 - 新建 `screenplay/master-storyboard-v0.26.md`（v0.25 保留）與 `segments/SEG-12/brief-v03.md`；SEG-11 鏡頭42（H3 C v03）因內容移入 SEG-12 而停用，DLG-32 停用、新增 DLG-32A。

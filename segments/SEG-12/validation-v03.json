@@ -1,0 +1,36 @@
+{
+  "date": "2026-09-24",
+  "checker": ".agents/skills/h3-scene-prompt/scripts/check_prompt.py",
+  "registry": "segments/SEG-12/cast-registry-v03.yaml",
+  "results": [
+    {
+      "segment": "seg12-a-v03",
+      "prompt": "segments/SEG-12/seg12-a-minimax-h3-prompt-v03.txt",
+      "passed": 15,
+      "warnings": 0,
+      "failed": 0,
+      "characters": 6585
+    },
+    {
+      "segment": "seg12-b-v03",
+      "prompt": "segments/SEG-12/seg12-b-minimax-h3-prompt-v03.txt",
+      "passed": 15,
+      "warnings": 0,
+      "failed": 0,
+      "characters": 6627
+    },
+    {
+      "segment": "seg12-c-v01",
+      "status": "unchanged, see validation-v02.json"
+    },
+    {
+      "segment": "seg12-d-v01",
+      "status": "unchanged, see validation-v02.json"
+    }
+  ],
+  "fixes": {
+    "floating_tilted_board": "bottom view 3_1 removed; crops without board edge/background; text states the green base is the level dock floor extending past every frame edge with a level horizon",
+    "extra_worktables": "left-side modules cropped out; 'smaller modules on the left' removed; open empty green floor around the fans; no wide pullback",
+    "rib_overgrowth": "meshes appear at final low size (about sidewall height), stay fixed, only fill in; extrude/grow/reach-height wording removed"
+  }
+}

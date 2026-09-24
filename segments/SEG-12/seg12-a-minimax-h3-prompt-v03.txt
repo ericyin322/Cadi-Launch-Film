@@ -1,0 +1,33 @@
+subject_definitions:
+<Subject 1> is the female protagonist, a 20-something East Asian female mechanical R&D engineer. She has long, straight, center-parted black hair and wears a tailored taupe-gray blazer, an ivory crew-neck top, and loose light-colored trousers. She is professional, composed, and places a high value on immaculate grooming. Her face, hair, and clothing follow <Picture 1>.
+<Subject 2> is Cadi, a small flying robot mascot. Its head is composed of actively burning, ethereal red plasma fire with orange-gold inner tongues and a warm white luminous center that continuously flickers, dances, and undulates with rising wisps and subtle luminous embers (an energetic plasma flame, completely non-solid, with zero gelatinous or jelly-like surface tension). Within the dynamic flame sit two oversized oval warm-white eyes with dark red rims and a tiny mouth, atop a dark charcoal-gray segmented robot body with red joint accents and a glowing circular warm-white chest core with a gold-orange rim. Its height is approximately half of the female protagonist's upper body. Its design, proportions, and colors follow <Picture 2>.
+<Subject 3> is Ray, a compact white humanoid service robot with a rounded rectangular head, a glossy black face display, two luminous yellow oval eyes, a small yellow expressive mouth, twin gold lightning-bolt antennae, dark circular side modules with gold rims, black articulated joints, a gold lightning-bolt chest emblem, and a rectangular transport backpack bearing a gold lightning symbol. Its appearance, proportions, and colors follow <Picture 3>.
+<Subject 4> is the larger upper-right cooling-fan housing and its immediately adjacent placement geometry. It is a broad low-profile gray housing with a rounded outer corner, a straight inner edge, a large concentric circular top structure, a raised central circular cap, and a thin layered sidewall, resting within the green placement base. Its exact shape, relative scale, top profile, edge thickness, position and spacing follow <Picture 4>.
+
+summary:
+[reference generation] A 12-second continuation on the level floor of the same Creo dock. <Subject 1> is still crouched in the green gap between the two fans, immediately left of <Subject 4>, while <Subject 2> hovers beside her. <Subject 3> dashes in, hands the glowing optimization result to <Subject 2> and dashes away; <Subject 2> announces that Rib generation is starting.
+
+retention_analysis:
+<Subject 1> / <Picture 1>: fully_preserved - preserve her identity, clothing, proportions and the crouched pose continuing from the previous scene.
+<Subject 2> / <Picture 2>: fully_preserved - preserve Cadi's identity, red non-solid flame and body proportions.
+<Subject 3> / <Picture 3>: fully_preserved - preserve Ray's identity, backpack and compact proportions.
+<Subject 4> / <Picture 4>: partially_preserved - preserve only the fan geometry and the woman-to-fan scale; the camera, horizon and floor plane come from the timeline.
+
+detailed_description:
+Photorealistic live-action cinema footage shot on a digital cinema camera with prime lenses: natural skin texture with visible pores, real fabric weave, physically accurate reflections, shallow depth of field and subtle film grain.
+
+[Shot 1] Continue inside the same Creo dock: white-gray structural metal walls, exposed service pipes, overhead crane beams, warm practical lamps and soft cyan floor reflections. The whole placement sits flush on the level dock floor: its green base is a flat, horizontal floor surface that continues beyond every edge of the frame, and every housing and module rests firmly on it. The camera horizon stays level throughout. The camera sits low at the woman's crouching eye level, a three-quarter view from the front-left: the larger fan <Picture 4> fills the right foreground as a low flat gray housing, the smaller fan appears at lower left, and the long pale module lies flat on the floor behind them. The female protagonist <Picture 1> is still crouched on the green floor in the gap between both fans, immediately left of the larger fan's curved outer edge and closer to it than to the smaller fan. Her right arm reaches rightward, palm resting on the upper-left area of the larger fan's top plate beside the concentric ring. The top plate is plain and smooth around the ring. Cadi <Picture 2> already hovers just behind her left shoulder, clear of her body and the fan.
+[0s-2s] Hold the crouched pose and Cadi's steady hover for a brief beat. Then a gold-white motion streak rushes in low and fast across the level floor from the left side of the frame.
+[2s-4s] The streak brakes directly in front of Cadi and resolves into Ray <Picture 3>, both feet landing flat on the green floor, one brief afterimage trailing behind its white shell and gold accents. Ray holds out, in both hands, one small glowing amber-gold pill-shaped result orb.
+[4s-6s] Cadi extends one compact hand and Ray places the orb in its palm. The orb's glow shifts from amber-gold to cyan as Cadi closes its fingers around it; one confirmation pulse marks the handoff. The woman turns her head toward them, palm still on the fan top.
+[6s-7s] Ray gives one quick nod, pivots toward the left and launches into a sprint across the floor; its white-and-gold silhouette stretches into a horizontal afterimage and exits completely through the left edge of the frame.
+[7s-11s] Cadi turns toward the woman and the fan, holding the glowing orb above its open palm. Cadi <Subject 2> (S1), in a bright, playful yet professional childlike Mandarin voice, says: <d>[Mandarin Chinese] 已收到最佳 rib 資料，現在開始生成rib。</d> Its tiny mouth synchronizes exactly while its red flame licks upward with subtle luminous embers. The woman listens attentively and gives one small nod, still crouched.
+[11s-12s] Cadi lifts the orb just above the larger fan's top plate and a soft cyan glow gathers inside it. The camera holds the same low, level three-quarter framing for a clean continuation.
+
+Negative constraints: no subtitles, no readable text, no extra fingers or limbs, no deformed joints, no duplicate characters, no shaky camera, no slow motion, no looping; no rubbery, gelatinous, solid jelly texture; no solid glass surface on the plasma head.
+
+overall_soundscape:
+Low Creo-dock ventilation, distant crane servos and a soft electrical hum continue throughout. Ray's arrival and departure from the left create short directional air snaps and fast metallic footfalls; the handoff has one warm confirmation chime. Cadi's Mandarin dialogue is close, clean and synchronized.
+
+non_diegetic_music:
+N/A.
