@@ -1,0 +1,22 @@
+{
+  "date": "2026-09-24",
+  "registry": "segments/SEG-12/cast-registry-v04.yaml",
+  "results": [
+    {
+      "segment": "seg12-b-v04",
+      "prompt": "segments/SEG-12/seg12-b-minimax-h3-prompt-v04.txt",
+      "passed": 13,
+      "warnings": 0,
+      "failed": 0,
+      "characters": 5510
+    },
+    {
+      "segment": "seg12-a-v03",
+      "status": "unchanged, see validation-v03.json"
+    }
+  ],
+  "fixes": {
+    "floating_and_background": "B starts exactly from a-ending-ref.png; camera locked for 13 s; platform described as resting level on the dock floor as in the frame",
+    "duplicate_cadi": "cadi_red.png and heroine photo no longer uploaded for B; identities come only from the first frame; text states exactly one Cadi and one woman"
+  }
+}

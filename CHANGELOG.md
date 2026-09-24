@@ -1,5 +1,10 @@
 # 修改紀錄
 
+## 2026-09-24｜SEG-12 H3 B v04：A 尾幀當首幀、只留一個 Cadi
+
+- B 以 `segments/SEG-12/a-ending-ref.png` 為首幀並鎖定機位；不再上傳女主角與 `cadi_red.png` 身分圖（避免第二個 Cadi），只掛首幀＋`rib-done-crop-v01.png`。
+- 新增 B prompt v04、cast-registry／reference-manifest／生成說明／validation v04；5510 字元，13 通過、0 警告、0 失敗。B v03 保留。
+
 ## 2026-09-24｜SEG-12 H3 A／B v03：地面水平、移除工作桌、Rib 不再先長高
 
 - 新增無板邊裁切圖 `assets/placement/rib-not-yet-crop-v01.png`、`rib-done-crop-v01.png`；A 移除 `bottom view 3_1.png`，參考圖只管造型，機位與水平地面改由文字鎖定。

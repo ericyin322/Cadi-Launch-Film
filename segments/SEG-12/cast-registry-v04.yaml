@@ -1,0 +1,50 @@
+# SEG-12 分段 registry v04（2026-09-24）：僅 B v04 用。v01～v03 保留。
+# B 以 A 尾幀 a-ending-ref.png 當首幀；女主角與 Cadi 身分由首幀提供，不再另掛身分圖（另掛會生出第二個 Cadi）。
+project:
+  title: Cadi Launch Film
+  aspect_ratio: '16:9'
+  label_style: paired
+  section_style: detailed
+  visual_style: 'Photorealistic live-action cinema footage shot on a digital cinema camera with prime lenses: natural skin texture with visible pores, real fabric weave, physically accurate reflections, shallow depth of field and subtle film grain.'
+  virtual_factory:
+    description_file: assets/environments/virtual-factory-description-v02.txt
+    usage_file: assets/environments/virtual-factory-usage-v02.md
+    reference_mode: text_only
+    applies_to:
+    - SEG-12
+    interior_policy: Use only the visible white-gray structural metal, green guide channels, exposed service pipes, overhead crane beams, warm industrial practical lights and soft cyan floor reflections of the Creo dock.
+assets:
+  a_ending:
+    priority: 5
+    file: segments/SEG-12/a-ending-ref.png
+    role: exact_first_frame
+    binding: The exact first-frame composition, camera position, lens perspective, positions, poses, hand contact, lighting and dock background follow
+    canonical: the exact SEG-12 A ending frame, seen from a fixed eye-level camera inside the Creo dock. A photorealistic East Asian woman with long, straight, center-parted black hair, a taupe-gray blazer, an ivory top and light trousers crouches at center-left behind the two cooling fans, both hands resting on the larger fan's top plate. Cadi, a small robot with an actively burning red plasma-fire head, oversized warm-white eyes with dark red rims, a dark charcoal-gray body with red joint accents and a glowing warm-white chest core, stands on the rear-left of that top plate holding a small glowing cyan orb. The large gray fan with its recessed concentric ring fills the right foreground, the smaller fan fills the lower left, and both sit on a flat green placement platform resting level on the polished gray dock floor. Behind them the dock aisle recedes to the center background under a yellow overhead crane, white-gray walls and warm ceiling lamps.
+    retention: Use it as the exact first frame; preserve the camera, horizon, platform-to-floor relation, both characters, their positions and the dock background for the whole shot.
+    extra_negatives:
+    - rubbery
+    - gelatinous
+    - solid jelly texture
+    - solid glass surface
+  rib_view_post:
+    priority: 70
+    summon_tokens:
+    - after reinforcement
+    file: assets/placement/rib-done-crop-v01.png
+    role: final_rib_count_position_and_low_profile_only
+    binding: The exact number, positions, orientations, low profile and gray finish of the Ribs follow
+    canonical: 'the same two fans after reinforcement. Six low rectangular Ribs stand on the larger fan''s top plate around its recessed concentric ring: four elongated bars radiating outward toward the housing rim at the rear, left, rear-right and right, plus two short square blocks on the front half of the plate, each about as tall as the housing sidewall and in the same matte gray metal as the housing. The smaller fan stays plain.'
+    retention: Preserve the exact count, positions, orientations and low profile of the six finished Ribs as the final state.
+segments:
+- id: seg12-b-v04
+  scene: 12
+  seed: 8201
+  duration_seconds: 13
+  cast:
+  - a_ending
+  - rib_view_post
+  prompt: segments/SEG-12/seg12-b-minimax-h3-prompt-v04.txt
+  prompt_registry: segments/SEG-12/cast-registry-v04.yaml
+  environment: from_first_frame
+  continues_from: seg12-a-v03
+  beat: 以A尾幀為首幀並鎖定機位；不另掛女主角與Cadi身分圖（避免兩個Cadi）；六根Rib網格即最終低矮尺寸、只填實

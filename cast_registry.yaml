@@ -745,6 +745,24 @@ segments:
     - label: <Picture 4>
       file: assets/placement/rib-done-crop-v01.png
       role: final_rib_count_position_and_low_profile_only
+  - id: seg12-b-v04
+    scene: 12
+    seed: 8201
+    duration_seconds: 13
+    cast:
+    - a_ending
+    - rib_view_post
+    prompt: segments/SEG-12/seg12-b-minimax-h3-prompt-v04.txt
+    prompt_registry: segments/SEG-12/cast-registry-v04.yaml
+    continues_from: seg12-a-v03
+    beat: A尾幀為首幀、鎖定機位；不另掛女主角與Cadi身分圖；六根Rib網格即最終低矮尺寸、只填實
+    reference_images:
+    - label: <Picture 1>
+      file: segments/SEG-12/a-ending-ref.png
+      role: exact_first_frame
+    - label: <Picture 2>
+      file: assets/placement/rib-done-crop-v01.png
+      role: final_rib_count_position_and_low_profile_only
   - id: seg12-c-v01
     scene: 12
     seed: 8201
