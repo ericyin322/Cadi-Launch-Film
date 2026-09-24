@@ -804,6 +804,39 @@ segments:
       file: assets/characters/heroine-photo-reference-v01.png
       role: identity
 
+  - id: seg12-c-v02
+    scene: 12
+    seed: 8201
+    duration_seconds: 12
+    cast:
+    - b_ending
+    prompt: segments/SEG-12/seg12-c-minimax-h3-prompt-v02.txt
+    prompt_registry: segments/SEG-12/cast-registry-v05.yaml
+    continues_from: seg12-b-v04
+    beat: B尾幀為首幀；致謝／回應／整理衣服；最後1秒火焰邊緣白光
+    reference_images:
+    - label: <Picture 1>
+      file: segments/SEG-12/b-ending-ref.png
+      role: exact_first_frame
+  - id: seg12-d-v02
+    scene: 12
+    seed: 8201
+    duration_seconds: 8
+    cast:
+    - heroine
+    - screen_layout
+    prompt: segments/SEG-12/seg12-d-minimax-h3-prompt-v02.txt
+    prompt_registry: segments/SEG-12/cast-registry-v05.yaml
+    continues_from: seg12-c-v02
+    beat: 火焰邊緣白光退去露出電腦螢幕（placement-creo-final）；拉遠成辦公室；起身、螢幕關閉
+    reference_images:
+    - label: <Picture 1>
+      file: assets/characters/heroine-photo-reference-v01.png
+      role: identity
+    - label: <Picture 2>
+      file: assets/placement/placement-creo-final.png
+      role: monitor_screen_content
+
   - id: seg13-a
     scene: 13
     seed: 8301
@@ -813,7 +846,7 @@ segments:
     prompt: segments/SEG-13/seg13-a-minimax-h3-prompt-v01.txt
     prompt_registry: segments/SEG-13/cast-registry-v01.yaml
     beat: 女主角抱HP筆電回到凌亂會議室；2:30時鐘；清桌攤平筆電並說指定台詞；Placement 3D投影、驚訝反應、自信解說與點頭；拉出窗外見太陽並轉白
-    continues_from: seg12-d-v01
+    continues_from: seg12-d-v02
   - id: seg13-b
     scene: 13
     seed: 8301

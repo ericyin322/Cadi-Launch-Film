@@ -1,0 +1,29 @@
+subject_definitions:
+<Subject 1> is the female protagonist, a 20-something East Asian female mechanical R&D engineer. She has long, straight, center-parted black hair and wears a tailored taupe-gray blazer, an ivory crew-neck top, and loose light-colored trousers. She is professional, composed, and places a high value on immaculate grooming. Her face, hair, and clothing follow <Picture 1>.
+<Subject 2> is the finished placement model shown on the office monitor: a long green circuit board seen from an oblique top view, with two light-green memory modules and a processor block on the left half, a row of small gray components along the lower left, a pale-pink storage module and a cyan module along the upper right, and two joined gray cooling fans with finned heat-sink blocks at the lower right, all against a plain light-gray viewport background. The exact on-screen layout, component positions, colors and viewing angle follow <Picture 2>.
+
+summary:
+[reference generation] An 8-second transition. The frame opens in pure white; the white light recedes outward with flame-fringed edges to reveal an office computer monitor displaying <Subject 2>. The camera pulls back into the office and settles behind <Subject 1>, who rises from her chair as the monitor turns off.
+
+retention_analysis:
+<Subject 1> / <Picture 1>: fully_preserved - Preserve her facial features, hair, clothing, body proportions, professional composure and real-person appearance under the dock lighting.
+<Subject 2> / <Picture 2>: fully_preserved - preserve the layout, component positions, colors and oblique viewing angle exactly, shown only as the image on the monitor screen.
+
+detailed_description:
+Photorealistic live-action cinema footage shot on a digital cinema camera with prime lenses: natural skin texture with visible pores, real fabric weave, physically accurate reflections, shallow depth of field and subtle film grain.
+
+[Shot 1] The video opens on a pure white frame whose outer border is fringed with flickering red-orange flame tongues and drifting embers.
+[0s-1s] Hold the bright white frame with the flame-fringed border gently licking inward.
+[1s-2s] The white light recedes outward from the center toward all four edges, its receding edge fringed with red-orange flame tongues, and vanishes past the frame. It reveals a close, level view of a widescreen office computer monitor filling the frame, displaying <Picture 2> exactly: the full placement model on its green board, sharp and bright on the screen.
+[2s-4s] The camera pulls straight back at a smooth pace. The dark monitor bezel enters all four sides of the frame, then the surrounding real office emerges: a cool-gray desk, keyboard, office chair and muted early-evening ambient light. The screen keeps showing <Picture 2> unchanged.
+[4s-6s] The camera settles into a medium-wide rear view behind the female protagonist <Picture 1>, seated squarely at the desk and looking at the layout on the monitor. Her long straight center-parted black hair falls neatly down the back of her tailored taupe-gray blazer. She places both hands lightly on the chair arms and begins to rise with controlled, unhurried movement.
+[6s-7s] She reaches a stable standing posture behind the chair. At that moment the monitor dims rapidly from the layout to a uniform black screen, leaving a faint realistic reflection of the office light on the glass.
+[7s-8s] Hold the final rear composition with the black monitor.
+
+Negative constraints: no subtitles, no readable text, no extra fingers or limbs, no deformed limbs, no duplicate characters, no shaky camera, no looping, no broken transition.
+
+overall_soundscape:
+A fading bright shimmer and soft flame whoosh as the white light recedes, resolving into quiet office ventilation, a subtle chair movement and one clean monitor power-down sound. No dialogue.
+
+non_diegetic_music:
+N/A.

@@ -1,5 +1,11 @@
 # 修改紀錄
 
+## 2026-09-24｜SEG-12 H3 C v02／D v02：B 尾幀開場、火焰邊緣白光轉場
+
+- 新建 `screenplay/master-storyboard-v0.27.md`（v0.26 保留），只改 SEG-12 節點 44／45 的轉場描述。
+- C 以 `b-ending-ref.png` 為首幀，結尾一秒火焰邊緣白光；D 改 8 秒，白光退去後螢幕顯示 `placement-creo-final.png`。
+- 新增 C／D prompt v02、cast-registry／reference-manifest／生成說明／validation v05；C 4489、D 3867 字元，0 警告 0 失敗。
+
 ## 2026-09-24｜SEG-12 H3 B v04：A 尾幀當首幀、只留一個 Cadi
 
 - B 以 `segments/SEG-12/a-ending-ref.png` 為首幀並鎖定機位；不再上傳女主角與 `cadi_red.png` 身分圖（避免第二個 Cadi），只掛首幀＋`rib-done-crop-v01.png`。

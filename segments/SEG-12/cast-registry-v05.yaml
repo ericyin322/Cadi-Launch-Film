@@ -1,0 +1,66 @@
+# SEG-12 分段 registry v05（2026-09-24）：C v02／D v02 用。v01～v04 保留。
+# C 以 B 尾幀為首幀，不另掛女主角與 Cadi 身分圖（避免重複角色）。
+project:
+  title: Cadi Launch Film
+  aspect_ratio: '16:9'
+  label_style: paired
+  section_style: detailed
+  visual_style: 'Photorealistic live-action cinema footage shot on a digital cinema camera with prime lenses: natural skin texture with visible pores, real fabric weave, physically accurate reflections, shallow depth of field and subtle film grain.'
+  virtual_factory:
+    description_file: assets/environments/virtual-factory-description-v02.txt
+    usage_file: assets/environments/virtual-factory-usage-v02.md
+    reference_mode: text_only
+    applies_to:
+    - SEG-12
+    interior_policy: Use only the visible white-gray structural metal, green guide channels, exposed service pipes, overhead crane beams, warm industrial practical lights and soft cyan floor reflections of the Creo dock.
+assets:
+  b_ending:
+    priority: 5
+    file: segments/SEG-12/b-ending-ref.png
+    role: exact_first_frame
+    binding: The exact first-frame composition, camera position, lens perspective, positions, poses, lighting and dock background follow
+    canonical: the exact SEG-12 B ending frame, seen from a fixed eye-level camera inside the Creo dock. A photorealistic East Asian woman with long, straight, center-parted black hair, a taupe-gray blazer, an ivory top and light trousers crouches at center-left behind the two cooling fans, one hand resting on her knee, smiling with quiet satisfaction. Cadi, a small robot with an actively burning red plasma-fire head, oversized warm-white eyes with dark red rims, a dark charcoal-gray body with red joint accents and a glowing warm-white chest core, hovers at right above the larger fan. The larger gray fan in the right foreground carries low solid gray Ribs around its recessed concentric ring, the smaller fan fills the lower left, and both sit on a flat green placement platform resting level on the polished gray dock floor. Behind them the dock aisle recedes under a yellow overhead crane, white-gray walls and warm ceiling lamps.
+    retention: Use it as the exact first frame; preserve the camera position, level horizon, platform-to-floor relation, both characters, the finished Ribs and the dock background.
+    extra_negatives:
+    - rubbery
+    - gelatinous
+    - solid jelly texture
+    - solid glass surface
+  heroine:
+    priority: 10
+    file: assets/characters/heroine-photo-reference-v01.png
+    role: identity
+    binding: Her face, hair, and clothing follow
+    canonical: the female protagonist, a 20-something East Asian female mechanical R&D engineer. She has long, straight, center-parted black hair and wears a tailored taupe-gray blazer, an ivory crew-neck top, and loose light-colored trousers. She is professional, composed, and places a high value on immaculate grooming.
+    retention: Preserve her facial features, hair, clothing, body proportions, professional composure and real-person appearance under the dock lighting.
+  screen_layout:
+    priority: 40
+    summon_tokens:
+    - engineering layout on the monitor
+    file: assets/placement/placement-creo-final.png
+    role: monitor_screen_content
+    binding: The exact on-screen layout, component positions, colors and viewing angle follow
+    canonical: 'the finished placement model shown on the office monitor: a long green circuit board seen from an oblique top view, with two light-green memory modules and a processor block on the left half, a row of small gray components along the lower left, a pale-pink storage module and a cyan module along the upper right, and two joined gray cooling fans with finned heat-sink blocks at the lower right, all against a plain light-gray viewport background.'
+    retention: Preserve the layout, component positions, colors and oblique viewing angle as the image displayed inside the monitor screen only.
+segments:
+- id: seg12-c-v02
+  scene: 12
+  seed: 8201
+  duration_seconds: 12
+  cast:
+  - b_ending
+  prompt: segments/SEG-12/seg12-c-minimax-h3-prompt-v02.txt
+  prompt_registry: segments/SEG-12/cast-registry-v05.yaml
+  continues_from: seg12-b-v04
+  beat: B尾幀為首幀；致謝／回應／整理衣服；最後1秒Cadi胸核爆出邊緣帶火焰的白光鋪滿畫面
+- id: seg12-d-v02
+  scene: 12
+  seed: 8201
+  duration_seconds: 8
+  cast:
+  - heroine
+  - screen_layout
+  prompt: segments/SEG-12/seg12-d-minimax-h3-prompt-v02.txt
+  prompt_registry: segments/SEG-12/cast-registry-v05.yaml
+  continues_from: seg12-c-v02
+  beat: 白光（火焰邊緣）退開露出顯示placement-creo-final的螢幕；拉遠成辦公室；女主角起身、螢幕關閉
