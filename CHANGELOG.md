@@ -510,3 +510,7 @@
 
 - 新增 `screenplay/master-storyboard-v0.25.md`（v0.24 保留）：SEG-11 鏡頭39–41 改為 Ray 殘影高速進入 Finn 的科技煉丹爐房間、Finn 把資料丟入煉丹爐、爐體特寫轟鳴、Finn 從爐內取出結果交給 Ray；EV-18 與 10→11 連續性同步。
 - SEG-11 新增 brief-v04、A／B prompt v04、cast-registry-v04、reference-manifest-v04、alchemy-lab-binding-v01、生成說明與驗證 v04；根 registry 新增 `alchemy_lab` 資產並更新 seg11-a／b。C 沿用 v03。影片未生成。
+
+## 2026-09-30｜SEG-06 新增 c 段
+
+2026-09-30：依使用者授權為 SEG-06 新增 c 段（鏡頭23A）：drop 在純白房間單人特寫，接到工作後高速運算，飛快做出抓頭／托腮／困擾／開心，每個動作定格留下半透明殘像，最後殘像全部收回本體。接在 B 之後；H3 C v01 為 Ref2VA、8 秒／193 幀、seed 7601，正片取 0–6 秒（SEG-06 增為 30 秒，待校時）；只上傳 drop 與純白房間兩圖，Cadi／hapa／hana 不提。新增 brief-v05、cast-registry-v05、reference-manifest-v05、生成說明 v05、validation-v05；A／B v04 不變。C 13 通過／0 警告／0 失敗（v05 快照的 Cadi 召喚詞移除通用詞 robot）。影片未生成。

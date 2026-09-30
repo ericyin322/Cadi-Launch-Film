@@ -1,0 +1,31 @@
+subject_definitions:
+<Subject 1> is drop, a compact white humanoid service robot with a smooth solid white teardrop-shaped head tapering to one rounded peak, two large blue eyes, a small expressive mouth, white armored body panels, black articulated joints, circular blue-lit side modules, and a glowing blue water-drop emblem centered on its chest. Its appearance, proportions, and colors follow <Picture 1>.
+<Subject 2> is the pure-white futuristic room in <Picture 2>: an empty symmetrical chamber with seamless white wall panels, a pale glossy reflective floor, a rounded recessed ceiling tray, continuous warm-white perimeter light strips, softly chamfered wall corners, and slim black ventilation slots near both ceiling edges. Its symmetrical white architecture, lighting, wall panels, ceiling recess and floor reflections follow <Picture 2>.
+
+summary:
+[reference generation] An 8-second locked medium close-up inside <Subject 2>: <Subject 1> stands alone against the seamless white wall and computes at high speed, snapping through head-scratching, chin-resting, worried and delighted poses; each finished pose leaves a translucent frozen afterimage in the air, and all afterimages then rush back into its body.
+
+retention_analysis:
+<Subject 1> / <Picture 1>: fully_preserved - fully preserved: its solid teardrop head silhouette, blue eyes, small mouth, white armor, black articulated joints, blue-lit side modules, water-drop chest emblem and body proportions. Its white shell reflects the physical indoor lighting. Each translucent afterimage of <Subject 1> repeats the same silhouette, proportions and blue-and-white colors as a soft pale-blue-white glow, while the real <Subject 1> keeps its solid white shell throughout.
+<Subject 2> / <Picture 2> (0s-8s): fully_preserved - Preserve the seamless white panels, pale reflective floor and warm-white perimeter lights; in this close framing the wall stays a soft, evenly lit white blur behind <Subject 1> and the glossy floor shows only its reflections.
+
+detailed_description:
+Photorealistic live-action cinema footage shot on a digital cinema camera with prime lenses: natural skin texture with visible pores, real fabric weave, physically accurate reflections, shallow depth of field and subtle film grain.
+
+The entire clip takes place inside <Subject 2> from <Picture 2>, and <Subject 1> <Picture 1> is the only performer in frame.
+[Shot 1] Locked-off medium close-up on a prime lens at drop's eye level, framing <Subject 1> from the waist up with generous headroom and side room for raised arms. <Subject 1> stands at the exact center of the frame facing the camera. Behind it the seamless white wall is an evenly lit, shallow-depth-of-field white blur; the bottom edge of the frame shows the pale glossy floor mirroring drop's white shell. The camera stays perfectly still through every second.
+[0s-1s] <Subject 1> stands upright with its arms relaxed. Its two large blue eyes begin to flicker and scan left and right at high speed, its water-drop chest emblem pulses faster and brighter, and fine ripples of blue light race along its black joints and blue-lit side modules as high-speed computation starts.
+[1s-2s] Pose 1, head scratch: in one blink <Subject 1> snaps its right hand to the side of its teardrop head and scratches it, head tilting toward the hand, eyes rolling upward, small mouth pursed to one side. The pose holds crisp for a beat, then <Subject 1> moves on, and a translucent pale-blue-white afterimage of <Subject 1> in exactly this pose stays frozen in the air at the left of the frame, glowing along its edges at about one-third opacity.
+[2s-3s] Pose 2, chin rest: <Subject 1> snaps its left hand under its chin with the elbow tucked to its body, head tilted to the right, eyes gazing up and away, mouth in a small thoughtful curve. Its limbs blur slightly between poses. A second frozen translucent afterimage of this pose stays at the right of the frame.
+[3s-4s] Pose 3, troubled: <Subject 1> presses both hands against the sides of its head, shoulders hunched, body leaning back, eyes narrowed and mouth pulled downward, with a quick worried shudder. A third frozen afterimage of this pose stays at the upper left, beside the first.
+[4s-5s] Pose 4, happy: both arms shoot straight up, head tips back, eyes bright and wide, mouth in a big smile, and <Subject 1> hops so its feet leave the floor for an instant. A fourth frozen afterimage of this pose stays at the upper right, beside the second, so the four translucent afterimages form a loose arc around the real <Subject 1>, which remains solid and centered.
+[5s-6s] All four afterimages streak inward at once as pale-blue-white light trails and merge into <Subject 1>'s body; its water-drop chest emblem flares once with a bright pulse, then settles. <Subject 1> lowers its arms and stands centered with steady blue eyes and a composed, focused face, the afterimages fully gone.
+[6s-8s] Hold the same locked medium close-up: <Subject 1> stands calm and centered, blue eyes steady, chest emblem glowing softly, the white wall a soft blur behind it and the glossy floor holding its gentle reflection through the final frame.
+
+Negative constraints: no subtitles, no readable text, no extra fingers or limbs, no deformed limbs, no shaky camera, no slow motion, no looping.
+
+overall_soundscape:
+Dense high-speed computation sounds, a fast rising chatter of processors and soft data ticks, a crisp servo snap as each pose lands and a glassy chime as each translucent afterimage forms, a rising sweep as the afterimages rush back into the body with one soft confirmation tone, and a faint enclosed-room airflow bed. No speech.
+
+non_diegetic_music:
+A light, energetic instrumental bed at 112 BPM with plucked synthesizer arpeggios, warm bass and restrained electronic percussion. Keep a steady forward pulse, let each pose land on the beat, build slightly through the afterimage buildup, resolve with the rush back into the body, and settle gently for the final hold.

@@ -406,6 +406,24 @@ segments:
     continues_from: seg06-a
     environment: pure_white_room
 
+  - id: seg06-c
+    scene: 6
+    seed: 7601
+    duration_seconds: 8
+    frame_setting: 8秒／193幀；正片取0–6秒
+    cast:
+    - drop
+    - pure_white_room
+    prompt: segments/SEG-06/seg06-c-minimax-h3-prompt-v01.txt
+    prompt_registry: segments/SEG-06/cast-registry-v05.yaml
+    beat: drop純白背景單人特寫，接到工作後高速運算；抓頭、托腮、困擾、開心，每個動作留下定格半透明殘像，最後殘像收回本體。
+    reference_images:
+    - label: <Picture 2>
+      file: assets/environments/純白房間.png
+      role: environment_reference
+    continues_from: seg06-b
+    environment: pure_white_room
+
   - id: seg07-a
     scene: 7
     seed: 7701
