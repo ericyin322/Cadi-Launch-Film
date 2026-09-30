@@ -1,0 +1,33 @@
+subject_definitions:
+<Subject 1> is Cadi, a small flying robot mascot. Its head is composed of actively burning, ethereal red plasma fire with orange-gold inner tongues and a warm white luminous center that continuously flickers, dances, and undulates with rising wisps and subtle luminous embers (an energetic plasma flame, completely non-solid, with zero gelatinous or jelly-like surface tension). Within the dynamic flame sit two oversized oval warm-white eyes with dark red rims and a tiny mouth, atop a dark charcoal-gray segmented robot body with red joint accents and a glowing circular warm-white chest core with a gold-orange rim. Its design, proportions, and colors follow <Picture 1>.
+<Subject 2> is the pure-white futuristic room in <Picture 2>: an empty symmetrical chamber with seamless white wall panels, a pale glossy reflective floor, a broad rounded recessed ceiling tray, continuous warm-white perimeter light strips, softly chamfered wall corners, and slim black ventilation slots near both ceiling edges. Its architecture, lighting and materials follow <Picture 2>.
+
+summary:
+[reference generation] A 6-second single-subject close-up of <Subject 1> inside <Subject 2>: one second of silent preparation, the exact Mandarin line, a finger snap only after the line is complete, and a full one-second hold after the snap.
+
+retention_analysis:
+<Subject 1> / <Picture 1> (throughout [Shot 1]): fully_preserved - fully preserved: its actively burning red plasma fire head with orange-gold inner tongues and a warm white luminous center, continuous flickering combustion, soft rising flame tongues, subtle luminous embers, wind-drag during movement, upward licking and dissipation while hovering, oversized oval warm-white eyes with dark red rims, tiny mouth, dark charcoal-gray segmented robot body with red joint accents, body proportions, and glowing circular warm-white chest core with a gold-orange rim must remain consistent. It is lit by the same real lighting as the scene described by the timeline.
+<Subject 2> / <Picture 2> (throughout [Shot 1]): fully_preserved - Preserve the empty symmetrical chamber, seamless white wall panels, pale glossy reflective floor, broad rounded recessed ceiling tray, continuous warm-white perimeter light strips, softly chamfered wall corners, and slim black ventilation slots near both ceiling edges. Keep the room empty and the background softly defocused behind the close-up.
+
+detailed_description:
+Photorealistic live-action cinema footage shot on a digital cinema camera with prime lenses: natural skin texture with visible pores, real fabric weave, physically accurate reflections, shallow depth of field and subtle film grain.
+16:9.
+
+[Shot 1] One continuous locked-off 6-second close-up. Cadi <Picture 1>, <Subject 1>, fills the frame in a tight upper-body close-up showing its full burning head, warm-white eyes, tiny mouth, chest core, shoulders, forearms and both hands. It hovers slightly left of center at eye height, facing almost front with its gaze held slightly screen-left. Its mouth and right hand remain fully visible and unobstructed. Behind it, <Subject 2> <Picture 2> stays recognizable but softly defocused: the blank white rear panels, rounded ceiling recess and warm-white perimeter light strips form clean symmetrical lines, while the glossy floor is mostly outside the crop. Soft warm-white room light wraps the dark charcoal-gray armor and red joint accents. Hold the camera without cutting, reframing or zooming.
+
+[0s-1s] Silent lead-in. Cadi hovers calmly upright with its tiny mouth closed, both hands relaxed near its sides and its focused gaze slightly screen-left. Its non-solid red plasma fire continuously flickers; orange-gold inner tongues rise around the warm-white center and subtle embers dissipate upward.
+
+[1s-4s] Cadi <Subject 1> (S1) speaks in a bright, playful yet professional childlike female Mandarin voice, clear and assured: <d>[Chinese] 好的，我們把它實際畫出來吧</d> Its tiny mouth articulates every syllable naturally and closes only after the final word is complete. During the line, its eyes brighten with confident enthusiasm, its chest core gives one gentle warm pulse, and its right forearm begins to lift only near the end without yet snapping.
+
+[4s-5s] The dialogue is fully finished and the mouth stays closed. Cadi raises its right hand beside its face, presses the thumb firmly against the middle finger, then completes one crisp finger snap at exactly 5.0 seconds. The thumb slides past the middle fingertip and the middle finger strikes the base of the thumb in one clearly readable motion. A single short, dry finger-snap sound occurs exactly at the instant of contact. Its left hand stays relaxed, its body remains stable in the hover, and its eyes hold their assured screen-left gaze.
+
+[5s-6s] Hold the same close-up for one full second after the snap. Cadi keeps the finished snapping hand pose beside its face, tiny mouth closed and confident gaze steady. Its chest core settles to a constant warm-white gold-orange glow while the living flame continues its natural upward flicker and soft ember dissipation. No further gesture or sound occurs before the final frame.
+
+Negative constraints: no subtitles, no readable text, no extra fingers or limbs, no duplicate subject, no deformed features, no shaky camera, no cuts, no zoom, no looping, rubbery, gelatinous, solid jelly texture, solid glass surface.
+
+overall_soundscape:
+The audio consists exclusively of the scripted dialogue followed by one short, dry finger-snap sound synchronized exactly to the completed snap gesture at 5.0 seconds. All other intervals are silent, including the full one-second hold after the snap.
+
+non_diegetic_music:
+None.
+

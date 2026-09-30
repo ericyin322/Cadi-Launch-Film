@@ -1,0 +1,42 @@
+{
+  "segment": "seg08-cu01",
+  "version": "v01",
+  "mode": "Ref2VA",
+  "seconds": 6,
+  "frames_estimate": 145,
+  "seed": 7801,
+  "prompt": "segments/SEG-08/close-ups/CU-01/seg08-cu01-minimax-h3-prompt-v01.txt",
+  "images": [
+    {
+      "slot": "ref_image_0",
+      "label": "<Picture 1>",
+      "asset": "cadi",
+      "role": "identity",
+      "file": "assets/characters/cadi_red.png"
+    },
+    {
+      "slot": "ref_image_1",
+      "label": "<Picture 2>",
+      "asset": "pure_white_room",
+      "role": "environment_reference",
+      "file": "assets/environments/純白房間.png",
+      "inspected": true,
+      "contains_characters": false,
+      "contains_readable_text": false
+    }
+  ],
+  "videos": [],
+  "audio_strategy": "h3_dialogue_plus_user_requested_snap_sfx",
+  "voice": "bright, playful yet professional childlike female Mandarin voice",
+  "sound_effect": "one dry finger snap synchronized to the completed snap gesture after the dialogue",
+  "timing": {
+    "D_seconds": 3.0,
+    "D_basis": "estimate_not_measured",
+    "lead_in_seconds": 1.0,
+    "snap_action_seconds": 1.0,
+    "post_snap_hold_seconds": 1.0,
+    "target_T_seconds": 6.0,
+    "generation_seconds": 6
+  }
+}
+
