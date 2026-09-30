@@ -22,10 +22,10 @@
 
 ## 額外工作流：特寫鏡頭
 
-- [工作流規格 v01](workflows/close-up/workflow-v01.md)：以臉部特寫呈現既有表情與對話，沿用 H3 格式。
-- [製作卡範本](workflows/close-up/shot-card-template-v01.md)／[特寫索引 v02](workflows/close-up/index-v02.json)。
+- [工作流規格 v02](workflows/close-up/workflow-v02.md)：以臉部特寫呈現既有表情與對話，沿用 H3 格式。
+- [製作卡範本](workflows/close-up/shot-card-template-v02.md)／[特寫索引 v03](workflows/close-up/index-v03.json)。
 - 實際素材歸屬 `segments/SEG-xx/close-ups/CU-01/`；選定鏡頭後才建立，不搬移既有 A／B 提示詞。
-- 用途已確認為補拍／替換素材，保留原時間槽。使用者會在每個 SEG 的新對話提供台詞；以該次逐字原文製作，不自動抽取舊分鏡台詞或回寫主劇本。SEG-04 已完成首組 7 支提示詞，待生成與校時。
+- 用途已確認為補拍／替換素材，保留原時間槽。使用者會在每個 SEG 的新對話提供台詞；以該次逐字原文製作，不自動抽取舊分鏡台詞或回寫主劇本。SEG-04 首組 7 支提示詞待依 v02 改善：上傳背景參考、只留台詞、前後各一秒緩衝、單人臉部特寫。
 
 ## 版本命名
 
