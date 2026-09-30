@@ -8,7 +8,7 @@
       "usage": "pickup_replacement",
       "dialogue_source": "user_provided_in_each_segment_conversation",
       "specification": "workflows/close-up/workflow-v02.md",
-      "index": "workflows/close-up/index-v09.json",
+      "index": "workflows/close-up/index-v10.json",
       "shot_card_template": "workflows/close-up/shot-card-template-v02.md",
       "segment_directory_pattern": "segments/SEG-xx/close-ups/CU-nn/",
       "preserve_existing_h3": true,
@@ -93,7 +93,7 @@
       "prompt_registry": "segments/SEG-04/cast-registry-v10.yaml",
       "validation": "segments/SEG-04/validation-v10.json",
       "close_up": {
-        "index": "workflows/close-up/index-v09.json",
+        "index": "workflows/close-up/index-v10.json",
         "shots": "SEG-04-CU-01..SEG-04-CU-07",
         "status": "prompt_ready_video_unverified_timing_pending",
         "planned_generation_seconds": 67,
@@ -309,7 +309,15 @@
         "a": 13,
         "b": 13
       },
-      "timing_notes": "A維持v03、B升為v04，兩段各13秒。B開場鎖定女主角蹲在大型風扇正左側綠色空隙、右手搭在風扇頂板左上區；Cadi於0–2秒從畫面上緣外飛入，2–5秒說話。影片與嘴型未驗證。"
+      "timing_notes": "A維持v03、B升為v04，兩段各13秒。B開場鎖定女主角蹲在大型風扇正左側綠色空隙、右手搭在風扇頂板左上區；Cadi於0–2秒從畫面上緣外飛入，2–5秒說話。影片與嘴型未驗證。",
+      "close_up": {
+        "index": "workflows/close-up/index-v10.json",
+        "shots": "SEG-10-CU-01",
+        "status": "prompt_ready_video_unverified_timing_pending",
+        "planned_generation_seconds": 9,
+        "background_reference": "assets/environments/dock.png",
+        "validation": "12_passed_1_warning_0_failed"
+      }
     },
     {
       "id": "SEG-11",

@@ -1,0 +1,30 @@
+subject_definitions:
+<Subject 1> is the female protagonist, a 20-something East Asian female mechanical R&D engineer. She has long, straight, center-parted black hair and wears a tailored taupe-gray blazer, an ivory crew-neck top, and loose light-colored trousers. She is professional, composed, and places a high value on immaculate grooming. Her face, hair, and clothing follow <Picture 1>.
+<Subject 2> is the vast industrial dock interior in <Picture 2>: a long symmetrical assembly bay with white-gray steel trusses and wall frames, overhead bridge-crane structure, green vertical columns and floor-edge channels, exposed horizontal service pipes, a glossy pale-green floor, warm amber wall lamps, cool cyan guide lights, and bright white ceiling illumination. Its architecture, perspective, colors and lighting follow <Picture 2>.
+
+summary:
+[reference generation] A 9-second single-subject dialogue close-up of <Subject 1> inside <Subject 2>: one second of silent lead-in, the exact Mandarin line requesting a cover reinforcement design based on customer specifications, then one second of silent settled hold.
+
+retention_analysis:
+<Subject 1> / <Picture 1> (throughout [Shot 1]): fully_preserved - fully preserved: her facial features, long straight center-parted black hair, tailored taupe-gray blazer, ivory crew-neck top, loose light-colored trousers, body proportions, professional composure, and immaculate grooming must remain consistent. She is a real person with real skin, real fabric and real lighting inside the scene described by the timeline.
+<Subject 2> / <Picture 2> (throughout [Shot 1]): fully_preserved - preserve the long symmetrical assembly-bay perspective, white-gray steel trusses and wall frames, overhead bridge-crane structure, green vertical columns and floor-edge channels, exposed horizontal service pipes, glossy pale-green floor, warm amber wall lamps, cool cyan guide lights and bright white ceiling illumination. The dock remains real physical industrial architecture, seen far behind her.
+
+detailed_description:
+Photorealistic live-action cinema footage shot on a digital cinema camera with prime lenses: natural skin texture with visible pores, real fabric weave, physically accurate reflections, shallow depth of field and subtle film grain.
+16:9.
+
+[Shot 1] One continuous locked-off 9-second close-up. The female protagonist <Picture 1>, <Subject 1>, fills the frame in a tight head-and-shoulders composition, with the top of her hair and the point just below her shoulders inside frame, placed slightly left of center. The camera is at eye height with an 85mm prime lens and very shallow depth of field. Her gaze is held slightly screen-right at eye level, directed toward the person she is addressing outside the frame, while her face and mouth stay fully visible and unobstructed. Behind her is <Subject 2> <Picture 2>, far away and softly defocused into broad industrial bokeh: the central vanishing aisle stays aligned behind her, the white-gray trusses and bridge-crane structure remain legible as soft geometric layers, and the warm amber and cool cyan practical lights form fixed points of color. Bright white overhead dock light gives her a soft neutral key, with a subtle warm rim from the wall lamps and cool reflected fill from the floor. Hold the frame without cutting, reframing or zooming.
+
+[0s-1s] Silent lead-in. The female protagonist <Subject 1> is focused and analytical, mouth closed, gaze fixed slightly screen-right at eye level. Blinking, subtle shoulder movement from quiet breathing, and tiny eye movements keep her alive on screen; she is never frozen.
+
+[1s-8s] The female protagonist <Subject 1> (S1) begins speaking in a calm, precise adult female Mandarin voice with natural professional pacing: <d>[Chinese] 目前在cover上還沒有補強結構，你可以依據客戶規範幫我設計補強嗎</d> Her mouth articulates every syllable clearly and naturally, and the English word cover is pronounced clearly within the Mandarin sentence. She begins with a measured technical observation, then lifts her eyebrows slightly and gives a small questioning head inclination during the request. Her gaze stays on the same off-camera point. The delivery fills this interval; the final syllable lands at the 8-second mark and her mouth closes immediately.
+
+[8s-9s] Silent settled hold. Her mouth is closed. She holds a professional, expectant expression with the same eyeline and head position, waiting for the response. Blinking, quiet breathing motion and tiny eye movements continue. End on this exact stable composition.
+
+Negative constraints: no subtitles, no readable text, no extra fingers or limbs, no duplicate subject, no deformed features, no shaky camera, no cuts, no zoom, no looping.
+
+overall_soundscape:
+The audio consists exclusively of the scripted dialogue, recorded close, dry, and clean. All intervals outside the spoken line are silent.
+
+non_diegetic_music:
+None.
