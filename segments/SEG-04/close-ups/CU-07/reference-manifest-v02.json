@@ -1,0 +1,37 @@
+{
+  "segment": "seg04-cu07",
+  "version": "v02",
+  "mode": "Ref2VA",
+  "seconds": 5,
+  "frames_estimate": 121,
+  "seed": 7401,
+  "prompt": "segments/SEG-04/close-ups/CU-07/seg04-cu07-minimax-h3-prompt-v02.txt",
+  "images": [
+    {
+      "slot": "ref_image_0",
+      "label": "<Picture 1>",
+      "asset": "heroine",
+      "role": "identity",
+      "file": "assets/characters/heroine-photo-reference-v01.png"
+    },
+    {
+      "slot": "ref_image_1",
+      "label": "<Picture 2>",
+      "asset": "seg04_cu_background",
+      "role": "environment_reference",
+      "file": "assets/environments/seg04-cu-background-tower-crop-v01.png",
+      "inspected": true,
+      "contains_characters": false,
+      "contains_readable_text": false
+    }
+  ],
+  "videos": [],
+  "audio_strategy": "h3_dialogue",
+  "voice": "calm, decisive adult female Mandarin voice with natural professional pacing",
+  "timing": {
+    "D_seconds": 2.7,
+    "D_basis": "estimate_not_measured",
+    "target_T_seconds": 4.7,
+    "generation_seconds": 5
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "segment": "seg04-cu06",
+  "version": "v02",
+  "mode": "Ref2VA",
+  "seconds": 7,
+  "frames_estimate": 169,
+  "seed": 7401,
+  "prompt": "segments/SEG-04/close-ups/CU-06/seg04-cu06-minimax-h3-prompt-v02.txt",
+  "images": [
+    {
+      "slot": "ref_image_0",
+      "label": "<Picture 1>",
+      "asset": "cadi",
+      "role": "identity",
+      "file": "assets/characters/cadi_red.png"
+    },
+    {
+      "slot": "ref_image_1",
+      "label": "<Picture 2>",
+      "asset": "seg04_cu_background_eastside",
+      "role": "environment_reference",
+      "file": "assets/environments/seg04-cu-background-eastside-crop-v01.png",
+      "inspected": true,
+      "contains_characters": false,
+      "contains_readable_text": false
+    }
+  ],
+  "videos": [],
+  "audio_strategy": "h3_dialogue",
+  "voice": "in a bright, playful yet professional childlike female Mandarin voice",
+  "timing": {
+    "D_seconds": 5.0,
+    "D_basis": "estimate_not_measured",
+    "target_T_seconds": 7.0,
+    "generation_seconds": 7
+  }
+}

@@ -1,0 +1,30 @@
+subject_definitions:
+<Subject 1> is the female protagonist, a 20-something East Asian female mechanical R&D engineer. She has long, straight, center-parted black hair and wears a tailored taupe-gray blazer, an ivory crew-neck top, and loose light-colored trousers. She is professional, composed, and places a high value on immaculate grooming. Her face, hair, and clothing follow <Picture 1>.
+<Subject 2> is the sunlit futuristic engineering district in <Picture 2>: a monumental central tower crowned by a huge horizontal ring, glowing cyan elevated rails crossing between white-gray metal towers, a pale skyline of slender high-rises under a blue sky with white clouds, hovering disc-shaped carriers, and vertical orange and cream panels on the buildings. Its architecture, colors and daylight follow <Picture 2>.
+
+summary:
+[reference generation] A 5-second single-subject dialogue close-up of <Subject 1> in front of <Subject 2>: one second of silent lead-in, the exact Mandarin line, then a silent settled hold.
+
+retention_analysis:
+<Subject 1> / <Picture 1> (throughout [Shot 1]): fully_preserved - fully preserved: her facial features, long straight center-parted black hair, tailored taupe-gray blazer, ivory crew-neck top, loose light-colored trousers, body proportions, professional composure, and immaculate grooming must remain consistent. She is a real person with real skin, real fabric and real lighting inside the scene described by the timeline.
+<Subject 2> / <Picture 2> (throughout [Shot 1]): fully_preserved - preserve the central tower with its huge horizontal ring, the cyan elevated rails, the white-gray metal towers, the pale skyline, the blue sky with white clouds, the hovering disc-shaped carriers and the vertical orange and cream panels. Everything is real physical architecture built from real metal, glass and light, seen far behind her.
+
+detailed_description:
+Photorealistic live-action cinema footage shot on a digital cinema camera with prime lenses: natural skin texture with visible pores, real fabric weave, physically accurate reflections, shallow depth of field and subtle film grain.
+16:9.
+
+[Shot 1] One continuous locked-off 5-second close-up. The female protagonist <Picture 1>, <Subject 1>, fills the frame in a tight head-and-shoulders composition, with the top of her hair and the point just below her shoulders inside frame, placed slightly right of center. The camera is at eye height with an 85mm prime lens and very shallow depth of field. Her gaze is held slightly screen-left at eye level, and her face and mouth stay fully visible and unobstructed. Behind her is <Subject 2> <Picture 2>, far away and softly defocused into large luminous bokeh: the central tower, its ring and the cyan rails read as soft shapes against the blue sky and stay fixed in the frame. Bright natural daylight matching <Picture 2> falls as a soft warm key from camera-left, with cool sky fill on the shadow side of her face. Hold the frame without cutting, reframing or zooming.
+
+[0s-1s] Silent lead-in. The female protagonist <Subject 1> is in a resolved state right after hearing the complete proposal, mouth closed, gaze fixed slightly screen-left at eye level. Blinking, a slow breath moving her shoulders, and tiny eye movements keep her alive on screen; she is never frozen.
+
+[1s-4s] The female protagonist <Subject 1> (S1) begins speaking in a calm, decisive adult female Mandarin voice with natural professional pacing: <d>[Chinese] 可以，就照這個計畫開始。</d> The mouth articulates every syllable clearly and naturally. She gives one brief nod and a firm approval as she speaks, and her gaze stays on the same point. The last syllable lands at about the 3.7-second mark and the mouth closes immediately; the rest of this interval is silent with the mouth closed.
+
+[4s-5s] Silent settled hold. Her mouth is closed. She settles into a decisive, firm closing expression with the same eyeline and head position. Blinking, breathing and tiny eye movements continue. End on this exact stable composition.
+
+Negative constraints: no subtitles, no readable text, no extra fingers or limbs, no duplicate subject, no deformed features, no shaky camera, no cuts, no zoom, no looping.
+
+overall_soundscape:
+The audio consists exclusively of the scripted dialogue, recorded close, dry, and clean. All intervals outside the spoken line are silent.
+
+non_diegetic_music:
+None.
