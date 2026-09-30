@@ -1,0 +1,11 @@
+{
+  "workflow": "close_up",
+  "display_name": "特寫鏡頭",
+  "version": "v01",
+  "status": "ready_for_segment_requests",
+  "usage": "pickup_replacement",
+  "dialogue_source": "user_provided_in_each_segment_conversation",
+  "specification": "workflows/close-up/workflow-v01.md",
+  "shot_card_template": "workflows/close-up/shot-card-template-v01.md",
+  "shots": []
+}

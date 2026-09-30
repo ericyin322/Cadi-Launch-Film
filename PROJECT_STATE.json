@@ -1,6 +1,21 @@
 {
   "project": "Cadi-Launch-Film",
-  "updated": "2026-09-24",
+  "updated": "2026-09-30",
+  "additional_workflows": {
+    "close_up": {
+      "display_name": "特寫鏡頭",
+      "status": "ready_for_segment_requests",
+      "usage": "pickup_replacement",
+      "dialogue_source": "user_provided_in_each_segment_conversation",
+      "specification": "workflows/close-up/workflow-v01.md",
+      "index": "workflows/close-up/index-v01.json",
+      "shot_card_template": "workflows/close-up/shot-card-template-v01.md",
+      "segment_directory_pattern": "segments/SEG-xx/close-ups/CU-nn/",
+      "preserve_existing_h3": true,
+      "pending_decisions": [],
+      "pilot_segment": null
+    }
+  },
   "duration_seconds": 300,
   "audience": [
     "上級",

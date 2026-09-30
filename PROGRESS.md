@@ -1,5 +1,7 @@
 # 製作進度
 
+- 2026-09-30：新增「特寫鏡頭」工作流架構 v01、製作卡範本與空索引。特寫歸屬原 SEG 的 close-ups/CU-nn，沿用 H3 格式與既有驗證器；既有提示詞、劇情與素材未修改。使用者確認用途為補拍／替換素材，台詞由每個 SEG 的新對話提供並逐字記錄，不自動抽取舊分鏡或回寫主劇本。尚未指定試作 SEG、生成特寫提示詞或影片。入口：`workflows/close-up/workflow-v01.md`。
+
 - 2026-09-24：SEG-12 來源升至 `master-storyboard-v0.27.md`，完成 H3 C v02、D v02（v01 保留，A v03、B v04 不變）。C 以 `segments/SEG-12/b-ending-ref.png` 為首幀、只掛這一張，結尾一秒 Cadi 胸核爆出邊緣帶火焰的白光鋪滿畫面；D 改 8 秒，以同一道白光退去轉場到電腦螢幕，螢幕內容掛 `assets/placement/placement-creo-final.png`。C 12、D 13 項通過，0警告0失敗。影片未生成，合計45秒待校時。
 
 - 2026-09-24：SEG-12 B 升為 H3 v04（v03 保留，A v03、C／D v01 不變）。改以 A 尾幀 `segments/SEG-12/a-ending-ref.png` 為首幀並全程鎖定機位，解決 PCB 浮空與背景不一致；B 不再另掛女主角與 Cadi 身分圖，解決生成兩個 Cadi；只上傳首幀＋`rib-done-crop-v01.png`。13項通過、0警告、0失敗。影片待重生驗證。
