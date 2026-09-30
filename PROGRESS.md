@@ -1,5 +1,7 @@
 # 製作進度
 
+- 2026-09-30：SEG-04 CU-03（女主角「那就先擬一份評估計畫。」）依特寫工作流 v02 重製（v01 保留）。背景沿用 CU-01 的高塔裁切圖；音軌只留台詞；D 估 2.5 秒 → T 4.5 秒，以 5 秒生成（0–1／1–4／4–5）；12 通過／1 警告／0 失敗；影片未生成。CU-04～07 待修。索引 index-v06.json。
+
 - 2026-09-30：SEG-04 CU-02（Cadi）依特寫工作流 v02 重製（v01 保留）。Cadi 聲音改為 `in a bright, playful yet professional childlike female Mandarin voice`（使用者指示孩子氣女聲）；背景用原全景圖右上區乾淨裁切 `seg04-cu-background-eastside-crop-v01.png`；音軌只留台詞；D 估 8 秒 → 10 秒（0–1／1–9／9–10）；移除舊版小點頭。12 通過／1 警告／0 失敗；影片未生成。CU-03～07 待修。索引 index-v05.json。
 
 - 2026-09-30：SEG-04 CU-01 依特寫工作流 v02 重製提示詞（v01 保留）。使用者提供背景圖 `6289735f-06d2-40a2-bb98-d253a20a5a8c.png`（工廠街景，含多台小機器人），裁出無角色無文字的中央高塔區塊 `seg04-cu-background-tower-crop-v01.png` 作 Picture 2；Picture 1 女主角。音軌只留逐字台詞、music=None；D 估計 5 秒 → 7 秒（0–1 靜音／1–6 說話／6–7 靜音）；提示詞不含對話對象。12 通過／1 警告（舊 15 秒 beat 假設）／0 失敗。影片未生成、D 未實測；CU-02～07 仍待 v02。索引 index-v04.json。

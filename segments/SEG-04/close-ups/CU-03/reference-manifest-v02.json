@@ -1,0 +1,50 @@
+{
+  "segment": "seg04-cu03",
+  "version": "v02",
+  "mode": "Ref2VA",
+  "seconds": 5,
+  "frames_estimate": 121,
+  "seed": 7401,
+  "prompt": "segments/SEG-04/close-ups/CU-03/seg04-cu03-minimax-h3-prompt-v02.txt",
+  "images": [
+    {
+      "slot": "ref_image_0",
+      "label": "<Picture 1>",
+      "asset": "heroine",
+      "role": "identity",
+      "file": "assets/characters/heroine-photo-reference-v01.png"
+    },
+    {
+      "slot": "ref_image_1",
+      "label": "<Picture 2>",
+      "asset": "seg04_cu_background",
+      "role": "environment_reference",
+      "file": "assets/environments/seg04-cu-background-tower-crop-v01.png",
+      "shared_with": "SEG-04-CU-01 v02",
+      "inspected": true,
+      "contains_characters": false,
+      "contains_readable_text": false
+    }
+  ],
+  "videos": [],
+  "audio_strategy": "h3_dialogue",
+  "timing": {
+    "D_seconds": 2.5,
+    "D_basis": "estimate_not_measured",
+    "target_T_seconds": 4.5,
+    "generation_seconds": 5,
+    "note": "T=4.5 秒；節點最短 4 秒、以 5 秒生成，多出的 0.5 秒在尾端裁掉（待節點實際步進查核）",
+    "lead_in": [
+      0,
+      1
+    ],
+    "speech": [
+      1,
+      4
+    ],
+    "tail_hold": [
+      4,
+      5
+    ]
+  }
+}
