@@ -1,0 +1,59 @@
+{
+  "segment": "seg04-cu01",
+  "version": "v02",
+  "mode": "Ref2VA",
+  "seconds": 7,
+  "frames_estimate": 169,
+  "seed": 7401,
+  "prompt": "segments/SEG-04/close-ups/CU-01/seg04-cu01-minimax-h3-prompt-v02.txt",
+  "images": [
+    {
+      "slot": "ref_image_0",
+      "label": "<Picture 1>",
+      "asset": "heroine",
+      "role": "identity",
+      "file": "assets/characters/heroine-photo-reference-v01.png"
+    },
+    {
+      "slot": "ref_image_1",
+      "label": "<Picture 2>",
+      "asset": "seg04_cu_background",
+      "role": "environment_reference",
+      "file": "assets/environments/seg04-cu-background-tower-crop-v01.png",
+      "derived_from": "assets/environments/6289735f-06d2-40a2-bb98-d253a20a5a8c.png",
+      "crop_box_px": [
+        490,
+        40,
+        1194,
+        436
+      ],
+      "crop_size_px": [
+        704,
+        396
+      ],
+      "inspected": true,
+      "contains_characters": false,
+      "contains_readable_text": false,
+      "note": "僅中央高塔／圓環／天際線／青色高架軌道；原圖下半部的小機器人與機械臂已裁除"
+    }
+  ],
+  "videos": [],
+  "audio_strategy": "h3_dialogue",
+  "timing": {
+    "D_seconds": 5.0,
+    "D_basis": "estimate_not_measured",
+    "target_T_seconds": 7,
+    "lead_in": [
+      0,
+      1
+    ],
+    "speech": [
+      1,
+      6
+    ],
+    "tail_hold": [
+      6,
+      7
+    ]
+  }
+}

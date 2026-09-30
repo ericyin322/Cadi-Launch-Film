@@ -8,7 +8,7 @@
       "usage": "pickup_replacement",
       "dialogue_source": "user_provided_in_each_segment_conversation",
       "specification": "workflows/close-up/workflow-v02.md",
-      "index": "workflows/close-up/index-v03.json",
+      "index": "workflows/close-up/index-v04.json",
       "shot_card_template": "workflows/close-up/shot-card-template-v02.md",
       "segment_directory_pattern": "segments/SEG-xx/close-ups/CU-nn/",
       "preserve_existing_h3": true,
@@ -93,7 +93,7 @@
       "prompt_registry": "segments/SEG-04/cast-registry-v10.yaml",
       "validation": "segments/SEG-04/validation-v10.json",
       "close_up": {
-        "index": "workflows/close-up/index-v03.json",
+        "index": "workflows/close-up/index-v04.json",
         "shots": "SEG-04-CU-01..SEG-04-CU-07",
         "status": "prompt_ready_video_unverified_timing_pending",
         "planned_generation_seconds": 67,

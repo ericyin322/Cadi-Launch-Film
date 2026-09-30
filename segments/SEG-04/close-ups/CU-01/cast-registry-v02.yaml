@@ -1,0 +1,45 @@
+project:
+  title: Cadi Launch Film
+  aspect_ratio: '16:9'
+  frames_per_segment: 169
+  label_style: paired
+  section_style: detailed
+  visual_style: 'Photorealistic live-action cinema footage shot on a digital cinema camera with prime lenses: natural skin
+    texture with visible pores, real fabric weave, physically accurate reflections, shallow depth of field and subtle film
+    grain.'
+assets:
+  heroine:
+    priority: 10
+    summon_tokens:
+    - female protagonist
+    - heroine
+    file: assets/characters/heroine-photo-reference-v01.png
+    role: identity
+    binding: Her face, hair, and clothing follow
+    canonical: the female protagonist, a 20-something East Asian female mechanical R&D engineer. She has long, straight, center-parted
+      black hair and wears a tailored taupe-gray blazer, an ivory crew-neck top, and loose light-colored trousers. She is
+      professional, composed, and places a high value on immaculate grooming.
+    retention: 'fully preserved: her facial features, long straight center-parted black hair, tailored taupe-gray blazer,
+      ivory crew-neck top, loose light-colored trousers, body proportions, professional composure, and immaculate grooming
+      must remain consistent. She is a real person with real skin, real fabric and real lighting inside the scene described
+      by the timeline.'
+  seg04_cu_background:
+    priority: 120
+    file: assets/environments/seg04-cu-background-tower-crop-v01.png
+    role: environment_reference
+    binding: Its architecture, colors and daylight follow
+    canonical: the sunlit futuristic engineering district
+    retention: Preserve the central tower with its huge horizontal ring, the cyan elevated rails, the white-gray metal towers,
+      the pale skyline, the blue sky with white clouds, the hovering disc-shaped carriers and the vertical orange and cream
+      panels.
+segments:
+- id: seg04-cu01
+  scene: 4
+  seed: 7401
+  duration_seconds: 7
+  cast:
+  - heroine
+  - seg04_cu_background
+  mode: Ref2VA
+  prompt: segments/SEG-04/close-ups/CU-01/seg04-cu01-minimax-h3-prompt-v02.txt
+  beat: 提問（女主角特寫，D+2秒配時）
