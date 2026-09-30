@@ -1,5 +1,12 @@
 # 修改紀錄
 
+## 2026-09-30｜SEG-04 特寫 H3 CU-01～CU-07
+
+- 依本次對話提供的五輪逐字台詞，建立 SEG-04 特寫補拍組；女主角看畫面左、Cadi 看畫面右，固定 85mm 眼平特寫與觀景平台散景，原 A／B／C 提示詞及主劇本不修改。
+- Cadi 的 104 字長句拆成 CU-04～CU-06 三支，前後文逐字相接；所有 CU 只上傳當鏡可見角色身分圖，不上傳或提及未出鏡角色。
+- 新增 7 組 shot card、Ref2VA prompt、registry、manifest、生成說明與 validation；每支 12 passed／0 warnings／0 failed，影片未生成。
+- 新增 `workflows/close-up/index-v02.json`。規劃生成 67 秒，超過原 SEG-04 24 秒；保留逐字台詞，採用與全片校時待後續決定。
+
 ## 2026-09-30｜新增特寫鏡頭工作流架構 v01
 
 - 新增 workflows/close-up 的工作流、製作卡範本及空索引；定義 SEG 內 CU 分支、版本管理、表情／台詞／視線／音訊與剪輯驗收。
