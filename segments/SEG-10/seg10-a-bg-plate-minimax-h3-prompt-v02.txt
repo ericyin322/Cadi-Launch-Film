@@ -1,0 +1,24 @@
+integrated_multimodal_description:
+[Shot 1] 16:9. Photorealistic live-action cinema footage shot on a digital cinema camera with prime lenses: natural skin texture with visible pores, real fabric weave, physically accurate reflections, shallow depth of field and subtle film grain.
+
+The Creo dock, a vast industrial assembly bay built from white-gray structural metal, green guide channels, exposed service pipes, overhead crane ribs, warm practical lamps and soft cyan floor reflections. The level dock floor is a smooth green-surfaced expanse that extends in every direction to the bay walls, with the floor's green guide channels running toward the walls and soft cyan reflections on its surface. The open floor around the camera is clear and uncluttered. Every element of the bay stays completely stationary, and the lighting stays steady, warm and even.
+
+The entire video is one continuous shot with no internal cut. The camera stands at the exact center of the bay at a constant standing eye height of about 1.6 meters, on a fixed tripod position that never moves. It pans smoothly clockwise at a constant speed, completing exactly one full 360-degree rotation in 15 seconds, so that every surrounding wall of the bay passes through the frame in full. The camera stays level with a horizontal horizon and a steady wide-angle framing that shows the wall from floor to ceiling.
+
+[0s-3s] Start facing the first wall: white-gray structural metal with vertical green guide channels and a row of exposed service pipes, warm practical lamps mounted along it. The camera begins panning to the right.
+
+[3s-6s] The pan sweeps across the second wall: a long white-gray metal facade with horizontal service pipe runs and warm lamps, overhead crane ribs arching across the upper frame, soft cyan reflections shimmering on the floor below.
+
+[6s-9s] The pan reaches the opposite side of the bay. Massive structural columns, green guide channels running along the floor, and crane ribs converging overhead in the depth of the space fill the view.
+
+[9s-12s] The pan continues across the fourth wall: white-gray metal panels with exposed pipes, warm lamps and green guide channels, the crane ribs stretching across the ceiling above.
+
+[12s-15s] The pan completes the full circle and returns to the starting wall, framed exactly as at 0s. End on this steady, stable composition.
+
+Negative constraints: no subtitles, no readable text, no shaky camera, no slow motion, no looping, no camera cut.
+
+overall_soundscape:
+Complete silence. The audio track carries no sound at all.
+
+non_diegetic_music:
+N/A.

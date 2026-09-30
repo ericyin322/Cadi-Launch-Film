@@ -1,0 +1,24 @@
+integrated_multimodal_description:
+[Shot 1] 16:9. Photorealistic live-action cinema footage shot on a digital cinema camera with prime lenses: natural skin texture with visible pores, real fabric weave, physically accurate reflections, shallow depth of field and subtle film grain.
+
+The Creo dock, a vast industrial assembly bay built from white-gray structural metal, green guide channels, exposed service pipes, overhead crane ribs, warm practical lamps and soft cyan floor reflections. The level dock floor is the green placement base, which extends in every direction to the bay walls. At the center of the floor rests the completed physical placement assembly: a broad low-profile gray cooling-fan housing with a rounded outer corner, a straight inner edge, a large concentric circular top structure, a raised central circular cap and a thin layered sidewall; a smaller gray fan housing beside it; a long pale module lying across the floor behind them; and a cyan module at the far side. All hardware is full-scale, solid, and rests directly on the floor with soft contact shadows. Every element of the bay stays completely stationary, and the lighting stays steady, warm and even.
+
+The entire video is one continuous shot with no internal cut. The camera stays at a constant standing eye height of about 1.6 meters and travels along one smooth, constant-speed circular track around the placement assembly, completing exactly one full 360-degree revolution in 15 seconds. The lens looks inward and keeps the placement assembly at the center of the frame throughout, so the bay's surroundings sweep past behind it.
+
+[0s-3s] Start facing the larger fan housing from the front. Behind the assembly, a white-gray structural wall with vertical green guide channels and a row of exposed service pipes fills the background. The camera begins gliding to the left along the circular track.
+
+[3s-6s] The track carries the camera to the assembly's left side. The background becomes a long white-gray metal wall lined with warm practical lamps and horizontal service pipe runs, with overhead crane ribs arching across the upper frame. Soft cyan reflections shimmer on the floor between the wall and the hardware.
+
+[6s-9s] The camera passes behind the assembly, halfway around the circle. The far side of the bay is visible behind the hardware: massive structural columns, green guide channels running along the floor, and crane ribs converging overhead in the depth of the bay.
+
+[9s-12s] The camera continues around to the assembly's right side. The background shows another white-gray metal wall with exposed pipes, warm lamps and green guide channels, the crane ribs stretching across the ceiling above.
+
+[12s-15s] The camera completes the circle and returns to its starting position in front of the larger fan housing, framed exactly as at 0s, with the original wall, pipes and green guide channels behind the assembly. End on this steady, stable composition.
+
+Negative constraints: no subtitles, no readable text, no shaky camera, no slow motion, no looping, no camera cut.
+
+overall_soundscape:
+Complete silence. The audio track carries no sound at all.
+
+non_diegetic_music:
+N/A.
