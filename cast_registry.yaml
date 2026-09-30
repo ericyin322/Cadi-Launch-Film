@@ -226,6 +226,16 @@ assets:
       positions, silhouettes, color grouping, and rectangular plane orientation follow
     retention: Preserve the exact component identities, proportions, spacing, positions, silhouettes, color grouping
       and rectangular orientation; render them as a stable volumetric holographic placement under the scene lighting.
+  placement_candidates:
+    priority: 110
+    summon_tokens:
+    - placement candidates
+    file: assets/software/alotofplacement.png
+    role: data_panel_reference
+    binding: Its thumbnail grid, orange frames, gray layout outlines and orange highlighted parts follow
+    canonical: a contact sheet of placement results laid out as a five-by-two grid of ten small thumbnails, each in a bright orange frame with a short run title above it, every thumbnail showing the same gray component-layout outline of a circuit board with one small orange-highlighted part sitting at a different position
+    retention: Preserve the grid of framed thumbnails, the bright orange frames, the identical gray board layout in every thumbnail, the single orange-highlighted part at a different position in each thumbnail and the small run titles; extend the same look to dozens of thumbnails per panel.
+
   pure_white_room:
     priority: 120
     file: assets/environments/純白房間.png
@@ -413,12 +423,16 @@ segments:
     frame_setting: 9秒／217幀；正片取0–7秒
     cast:
     - drop
+    - placement_candidates
     - pure_white_room
-    prompt: segments/SEG-06/seg06-c-minimax-h3-prompt-v02.txt
-    prompt_registry: segments/SEG-06/cast-registry-v06.yaml
-    beat: drop在三面抽象資料面板間高速滑步並留下殘影；A思考、B搖頭、C托腮停一秒後豁然開朗，殘影收回，所有資料轉綠。
+    prompt: segments/SEG-06/seg06-c-minimax-h3-prompt-v03.txt
+    prompt_registry: segments/SEG-06/cast-registry-v07.yaml
+    beat: drop在三面佈滿大量placement縮圖的資料牆間高速滑步並拖出頻閃殘影；A思考、B搖頭、C托腮停一秒後豁然開朗，殘影全部消失，所有placement轉為綠色。
     reference_images:
     - label: <Picture 2>
+      file: assets/software/alotofplacement.png
+      role: data_panel_reference
+    - label: <Picture 3>
       file: assets/environments/純白房間.png
       role: environment_reference
     continues_from: seg06-b

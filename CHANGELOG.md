@@ -518,3 +518,7 @@
 ## 2026-09-30｜SEG-06 c 段改版
 
 2026-09-30：依使用者改寫，SEG-06 c 段升 H3 C v02（v01 保留）：三面抽象資料面板（A 格狀表、B 座標點圖、C 橫條清單，琥珀黃標記、無可讀文字）在純白房間展開，drop 站姿高速滑步並拖殘影，A 思考、B 搖頭、C 托腮停一秒後豁然開朗，殘影收回，資料自左向右轉翠綠。固定機位全身中廣角；Ref2VA、9秒／217幀、seed 7601，正片取 0–7 秒（SEG-06 約31秒，待校時）。新增 brief-v06、cast-registry-v06、reference-manifest-v06、生成說明 v06、validation-v06、`master-storyboard-v0.29.md`；13 通過／0 警告／0 失敗。影片未生成。
+
+## 2026-09-30｜SEG-06 c 段 v03
+
+2026-09-30：依使用者回饋 SEG-06 c 段升 H3 C v03（v01、v02 保留）：(1) 資料改用 `assets/software/alotofplacement.png`（實際上傳為 `<Picture 2>`）——三面由數十張 placement 縮圖組成的浮空資料牆，橘色外框／高亮零件，最後轉翠綠；(2) 殘影改為五個等距逐個變淡的頻閃複影，豁然開朗時殘像衝入本體、消散成火花，第6秒結束前畫面只剩一個實體 drop。新增 registry 資產 `placement_candidates`、brief-v07、cast-registry-v07、reference-manifest-v07、生成說明 v07、validation-v07、`master-storyboard-v0.30.md`；C 14 通過／0 警告／0 失敗（6,974 字元）。影片未生成。

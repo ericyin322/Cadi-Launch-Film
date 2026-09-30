@@ -121,7 +121,7 @@
         "segments/SEG-05/seg05-a-minimax-h3-prompt-v06.txt",
         "segments/SEG-05/seg05-b-minimax-h3-prompt-v06.txt"
       ],
-      "reference_manifest": "segments/SEG-05/reference-manifest-v06.json",
+      "reference_manifest": "segments/SEG-05/reference-manifest-v07.json",
       "h3_generation": "A/B 各15秒362幀；正片 A0–14＋B0–12＝26秒"
     },
     {
@@ -129,9 +129,9 @@
       "screenplay": "v0.24",
       "storyboard": "v02",
       "approval": "storyboard_v02_pending_user_review",
-      "h3": "a_v04_b_v04_c_v02_pure_white_room_video_unverified",
+      "h3": "a_v04_b_v04_c_v03_pure_white_room_video_unverified",
       "time_range": "01:56–02:20",
-      "brief": "segments/SEG-06/brief-v06.md",
+      "brief": "segments/SEG-06/brief-v07.md",
       "character_revision": "explicit_user_request_2026-09-17",
       "duration_seconds": 24,
       "timing_status": "original_slot_retained_pending_readthrough",
@@ -139,16 +139,16 @@
       "screenplay_approval": "approved_by_user_revision",
       "storyboard_notes": "六格已完成：抵達、招呼、hapa交付Spec、hana交付GP、兩Agent離場、drop彙整。純黑白；v01與初稿保留。",
       "h3_storyboard_override": "explicit_user_request_2026-09-23",
-      "h3_notes": "segments/SEG-06/minimax-h3-generation-notes-v06.md",
+      "h3_notes": "segments/SEG-06/minimax-h3-generation-notes-v07.md",
       "environment_description_file": "",
       "environment_reference_mode": "image",
       "environment_binding": "segments/SEG-06/pure-white-room-binding-v01.md",
       "h3_prompts": [
         "segments/SEG-06/seg06-a-minimax-h3-prompt-v04.txt",
         "segments/SEG-06/seg06-b-minimax-h3-prompt-v04.txt",
-        "segments/SEG-06/seg06-c-minimax-h3-prompt-v02.txt"
+        "segments/SEG-06/seg06-c-minimax-h3-prompt-v03.txt"
       ],
-      "reference_manifest": "segments/SEG-06/reference-manifest-v06.json",
+      "reference_manifest": "segments/SEG-06/reference-manifest-v07.json",
       "storyboard_status": "v02_outdated_pure_white_room",
       "environment_file": "assets/environments/純白房間.png",
       "h3_generation": "A/B 各15秒362幀；C 9秒217幀；正片 A0–14＋B0–10＋C0–7＝31秒（待校時）"
@@ -269,7 +269,7 @@
         "segments/SEG-09/seg09-a-minimax-h3-prompt-v02.txt",
         "segments/SEG-09/seg09-b-minimax-h3-prompt-v06.txt"
       ],
-      "reference_manifest": "segments/SEG-09/reference-manifest-v06.json",
+      "reference_manifest": "segments/SEG-09/reference-manifest-v07.json",
       "prompt_registry": "segments/SEG-09/cast-registry-v06.yaml",
       "h3_notes": "segments/SEG-09/minimax-h3-generation-notes-v06.md",
       "brief": "segments/SEG-09/brief-v08.md",
@@ -358,7 +358,7 @@
         "segments/SEG-12/seg12-d-minimax-h3-prompt-v02.txt"
       ],
       "prompt_registry": "segments/SEG-12/cast-registry-v05.yaml（C／D）；v04（B）；v03（A）",
-      "reference_manifest": "segments/SEG-12/reference-manifest-v06.json",
+      "reference_manifest": "segments/SEG-12/reference-manifest-v07.json",
       "screenplay": "v0.27_seg12_transition_revision",
       "screenplay_approval": "approved_by_user_revision",
       "brief": "segments/SEG-12/brief-v03.md",

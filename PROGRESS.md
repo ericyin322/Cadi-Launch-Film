@@ -1,5 +1,7 @@
 # 製作進度
 
+- 2026-09-30：依使用者回饋 SEG-06 c 段升 H3 C v03（v01、v02 保留）：(1) 資料改用 `assets/software/alotofplacement.png`（實際上傳為 `<Picture 2>`）——三面由數十張 placement 縮圖組成的浮空資料牆，橘色外框／高亮零件，最後轉翠綠；(2) 殘影改為五個等距逐個變淡的頻閃複影，豁然開朗時殘像衝入本體、消散成火花，第6秒結束前畫面只剩一個實體 drop。新增 registry 資產 `placement_candidates`、brief-v07、cast-registry-v07、reference-manifest-v07、生成說明 v07、validation-v07、`master-storyboard-v0.30.md`；C 14 通過／0 警告／0 失敗（6,974 字元）。影片未生成。
+
 - 2026-09-30：依使用者改寫，SEG-06 c 段升 H3 C v02（v01 保留）：三面抽象資料面板（A 格狀表、B 座標點圖、C 橫條清單，琥珀黃標記、無可讀文字）在純白房間展開，drop 站姿高速滑步並拖殘影，A 思考、B 搖頭、C 托腮停一秒後豁然開朗，殘影收回，資料自左向右轉翠綠。固定機位全身中廣角；Ref2VA、9秒／217幀、seed 7601，正片取 0–7 秒（SEG-06 約31秒，待校時）。新增 brief-v06、cast-registry-v06、reference-manifest-v06、生成說明 v06、validation-v06、`master-storyboard-v0.29.md`；13 通過／0 警告／0 失敗。影片未生成。
 
 - 2026-09-30：依使用者授權為 SEG-06 新增 c 段（鏡頭23A）：drop 在純白房間單人特寫，接到工作後高速運算，飛快做出抓頭／托腮／困擾／開心，每個動作定格留下半透明殘像，最後殘像全部收回本體。接在 B 之後；H3 C v01 為 Ref2VA、8 秒／193 幀、seed 7601，正片取 0–6 秒（SEG-06 增為 30 秒，待校時）；只上傳 drop 與純白房間兩圖，Cadi／hapa／hana 不提。新增 brief-v05、cast-registry-v05、reference-manifest-v05、生成說明 v05、validation-v05；A／B v04 不變。C 13 通過／0 警告／0 失敗（v05 快照的 Cadi 召喚詞移除通用詞 robot）。影片未生成。

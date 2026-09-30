@@ -40,6 +40,7 @@ SEG-02B v08 新增待提供資產：`software/phone-home-reference-v01.png`，�
 | `characters/heroine-face-reference-v01.png` | 主角臉部基準 | 臉型、長直黑髮、氣質 | 原服裝、背景與光線 |
 | `characters/heroine-outfit-reference-v01.png` | 主角服裝基準 | 西裝外套、淺色上衣、寬褲輪廓 | 原人物臉部與姿勢 |
 | `software/creo-interface-reference-v01.png` | Creo 視覺基準 | 灰白介面、頂部功能區、模型樹與建模視窗 | 小字、網址與截圖內容 |
+| `software/alotofplacement.png` | SEG-06 c 段 `<Picture 2>`／placement 資料牆外觀基準（2026-09-30） | 5×2 縮圖格、橘色外框、同一塊灰色板面佈局、每張位置不同的橘色高亮零件、小字 run 標題 | 具體 run 編號、零件精確位置（以牆的風格延伸為數十張） |
 | `software/teams-ui-reference-v01.png` | seg02-b 專用 `<Picture 1>`／群組聊天介面基準（待放入） | header 配色與高度、標題與通話圖示位置、頭像欄、泡泡形狀與圓角、字級比例 | 原圖的範例訊息、人名、時間戳、未讀標記、真人頭像與側邊欄 |
 | `style/storyboard-style-reference-v01.png` | Storyboard 畫風基準 | 黑白線稿、漫畫式角色、分格與景深 | 原劇情內容 |
 
