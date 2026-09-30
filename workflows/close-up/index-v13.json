@@ -1,0 +1,133 @@
+{
+  "workflow": "close_up",
+  "display_name": "特寫鏡頭",
+  "version": "v13",
+  "updated": "2026-09-30",
+  "status": "seg04_seg08_seg10_prompts_ready_video_unverified",
+  "usage": "pickup_replacement",
+  "dialogue_source": "user_provided_2026-09-30",
+  "specification": "workflows/close-up/workflow-v02.md",
+  "shot_card_template": "workflows/close-up/shot-card-template-v02.md",
+  "previous_index": "workflows/close-up/index-v12.json",
+  "timing": {
+    "planned_generation_seconds_all_shots": 79,
+    "basis": "SEG-04 CU-01～08 現行採用提示詞共62秒、SEG-08 CU-01 v02 8秒、SEG-10 CU-01 9秒；各D仍為估計值",
+    "decision": "素材生成總長不等於最終剪輯採用長度；生成後依各鏡頭卡的首尾緩衝與動作節點取用"
+  },
+  "shots": [
+    {
+      "id": "SEG-08-CU-01",
+      "segment": "SEG-08",
+      "status": "prompt_ready_v02",
+      "visible_subject": "cadi",
+      "duration_seconds": 8,
+      "mode": "Ref2VA",
+      "seed": 7801,
+      "dialogue": "好的，我們把它實際畫出來吧",
+      "directory": "segments/SEG-08/close-ups/CU-01/",
+      "prompt": "segments/SEG-08/close-ups/CU-01/seg08-cu01-minimax-h3-prompt-v02.txt",
+      "validation": "13_passed_0_warnings_0_failed",
+      "video_status": "not_generated",
+      "adoption_status": "not_adopted_timing_pending",
+      "prompt_v01_preserved": "segments/SEG-08/close-ups/CU-01/seg08-cu01-minimax-h3-prompt-v01.txt",
+      "review_note": "全程微笑；台詞5.5秒結束；6秒才開始彈指；7秒響亮回音彈指；7–8秒完整停留；影片未生成",
+      "timing": {
+        "D_seconds": 4.5,
+        "D_basis": "estimate_not_measured",
+        "dialogue_end_seconds": 5.5,
+        "snap_action_start_seconds": 6.0,
+        "snap_contact_seconds": 7.0,
+        "post_snap_hold_seconds": 1.0,
+        "target_T_seconds": 8.0,
+        "generation_seconds": 8
+      },
+      "background": "assets/environments/純白房間.png",
+      "voice": "childlike female Mandarin",
+      "expression": "friendly smile maintained from first frame through final frame",
+      "sound_effect": "one loud sharp finger snap with clear spacious echo and natural decay"
+    },
+    {
+      "id": "SEG-10-CU-01",
+      "segment": "SEG-10",
+      "status": "prompt_ready_v01",
+      "duration_seconds": 9,
+      "prompt": "segments/SEG-10/close-ups/CU-01/seg10-cu01-minimax-h3-prompt-v01.txt",
+      "validation": "12_passed_1_warning_0_failed",
+      "video_status": "not_generated"
+    },
+    {
+      "id": "SEG-04-CU-01",
+      "segment": "SEG-04",
+      "status": "prompt_ready_v02",
+      "duration_seconds": 7,
+      "prompt": "segments/SEG-04/close-ups/CU-01/seg04-cu01-minimax-h3-prompt-v02.txt",
+      "validation": "12_passed_1_warning_0_failed",
+      "video_status": "not_generated"
+    },
+    {
+      "id": "SEG-04-CU-02",
+      "segment": "SEG-04",
+      "status": "prompt_ready_v02",
+      "duration_seconds": 10,
+      "prompt": "segments/SEG-04/close-ups/CU-02/seg04-cu02-minimax-h3-prompt-v02.txt",
+      "validation": "12_passed_1_warning_0_failed",
+      "video_status": "not_generated"
+    },
+    {
+      "id": "SEG-04-CU-03",
+      "segment": "SEG-04",
+      "status": "prompt_ready_v02",
+      "duration_seconds": 5,
+      "prompt": "segments/SEG-04/close-ups/CU-03/seg04-cu03-minimax-h3-prompt-v02.txt",
+      "validation": "12_passed_1_warning_0_failed",
+      "video_status": "not_generated"
+    },
+    {
+      "id": "SEG-04-CU-04",
+      "segment": "SEG-04",
+      "status": "prompt_ready_v02",
+      "duration_seconds": 11,
+      "prompt": "segments/SEG-04/close-ups/CU-04/seg04-cu04-minimax-h3-prompt-v02.txt",
+      "validation": "12_passed_1_warning_0_failed",
+      "video_status": "not_generated",
+      "v03_note": "語速指令無效，v03（9秒）不建議使用；檔案保留"
+    },
+    {
+      "id": "SEG-04-CU-05",
+      "segment": "SEG-04",
+      "status": "prompt_ready_v02",
+      "duration_seconds": 11,
+      "prompt": "segments/SEG-04/close-ups/CU-05/seg04-cu05-minimax-h3-prompt-v02.txt",
+      "validation": "12_passed_1_warning_0_failed",
+      "video_status": "not_generated"
+    },
+    {
+      "id": "SEG-04-CU-06",
+      "segment": "SEG-04",
+      "status": "prompt_ready_v02",
+      "duration_seconds": 7,
+      "prompt": "segments/SEG-04/close-ups/CU-06/seg04-cu06-minimax-h3-prompt-v02.txt",
+      "validation": "12_passed_1_warning_0_failed",
+      "video_status": "not_generated"
+    },
+    {
+      "id": "SEG-04-CU-07",
+      "segment": "SEG-04",
+      "status": "prompt_ready_v02",
+      "duration_seconds": 5,
+      "prompt": "segments/SEG-04/close-ups/CU-07/seg04-cu07-minimax-h3-prompt-v02.txt",
+      "validation": "12_passed_1_warning_0_failed",
+      "video_status": "not_generated"
+    },
+    {
+      "id": "SEG-04-CU-08",
+      "segment": "SEG-04",
+      "status": "prompt_ready_v01",
+      "duration_seconds": 6,
+      "prompt": "segments/SEG-04/close-ups/CU-08/seg04-cu08-minimax-h3-prompt-v01.txt",
+      "validation": "12_passed_1_warning_0_failed",
+      "video_status": "not_generated"
+    }
+  ],
+  "revision_reason": "SEG-08-CU-01 升至v02：台詞於6秒前結束、6秒才開始彈指、Cadi全程微笑、彈指聲響亮且帶回音；v01與其他特寫均保留，影片均未生成"
+}

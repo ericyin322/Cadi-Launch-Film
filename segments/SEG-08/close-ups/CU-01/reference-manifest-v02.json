@@ -1,0 +1,45 @@
+{
+  "segment": "seg08-cu01",
+  "version": "v02",
+  "mode": "Ref2VA",
+  "seconds": 8,
+  "frames_estimate": 193,
+  "seed": 7801,
+  "prompt": "segments/SEG-08/close-ups/CU-01/seg08-cu01-minimax-h3-prompt-v02.txt",
+  "images": [
+    {
+      "slot": "ref_image_0",
+      "label": "<Picture 1>",
+      "asset": "cadi",
+      "role": "identity",
+      "file": "assets/characters/cadi_red.png"
+    },
+    {
+      "slot": "ref_image_1",
+      "label": "<Picture 2>",
+      "asset": "pure_white_room",
+      "role": "environment_reference",
+      "file": "assets/environments/純白房間.png",
+      "inspected": true,
+      "contains_characters": false,
+      "contains_readable_text": false
+    }
+  ],
+  "videos": [],
+  "audio_strategy": "h3_dialogue_plus_user_requested_loud_reverberant_snap_sfx",
+  "voice": "bright, playful yet professional childlike female Mandarin voice",
+  "sound_effect": "one loud sharp finger snap with a clear spacious room echo, synchronized to finger contact after 6 seconds",
+  "timing": {
+    "D_seconds": 4.5,
+    "D_basis": "estimate_not_measured",
+    "lead_in_seconds": 1.0,
+    "dialogue_window": "1.0-5.5",
+    "pre_snap_smile_hold": "5.5-6.0",
+    "snap_action_window": "6.0-7.0",
+    "snap_contact_seconds": 7.0,
+    "post_snap_hold_seconds": 1.0,
+    "target_T_seconds": 8.0,
+    "generation_seconds": 8
+  }
+}
+
