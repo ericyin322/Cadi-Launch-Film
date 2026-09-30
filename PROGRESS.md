@@ -1,5 +1,7 @@
 # 製作進度
 
+- 2026-09-30：SEG-04 CU-04（Cadi）依特寫工作流 v02 重製（v01 保留）：孩子氣女聲、eastside 背景、D 估 8.5 秒 → 11 秒生成；12 通過／1 警告／0 失敗；影片未生成。另新增 `segments/SEG-04/close-ups/consolidation-eval-v01.md`：CU-05～07 不能不刪詞就整支省掉，僅 CU-05＋06 可能合併（T 約 15.4 秒，待實測 D）；並記錄 ComfyUI 疑似固定 15 秒的檢查建議。索引 index-v07.json。
+
 - 2026-09-30：SEG-04 CU-03（女主角「那就先擬一份評估計畫。」）依特寫工作流 v02 重製（v01 保留）。背景沿用 CU-01 的高塔裁切圖；音軌只留台詞；D 估 2.5 秒 → T 4.5 秒，以 5 秒生成（0–1／1–4／4–5）；12 通過／1 警告／0 失敗；影片未生成。CU-04～07 待修。索引 index-v06.json。
 
 - 2026-09-30：SEG-04 CU-02（Cadi）依特寫工作流 v02 重製（v01 保留）。Cadi 聲音改為 `in a bright, playful yet professional childlike female Mandarin voice`（使用者指示孩子氣女聲）；背景用原全景圖右上區乾淨裁切 `seg04-cu-background-eastside-crop-v01.png`；音軌只留台詞；D 估 8 秒 → 10 秒（0–1／1–9／9–10）；移除舊版小點頭。12 通過／1 警告／0 失敗；影片未生成。CU-03～07 待修。索引 index-v05.json。
