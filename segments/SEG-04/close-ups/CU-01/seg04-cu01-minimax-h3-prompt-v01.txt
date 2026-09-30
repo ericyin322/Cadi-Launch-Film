@@ -1,0 +1,30 @@
+subject_definitions:
+<Subject 1> is the female protagonist, a 20-something East Asian female mechanical R&D engineer. She has long, straight, center-parted black hair and wears a tailored taupe-gray blazer, an ivory crew-neck top, and loose light-colored trousers. She is professional, composed, and places a high value on immaculate grooming. Her face, hair, and clothing follow <Picture 1>.
+
+summary:
+[reference generation] A 7-second single-subject dialogue close-up of <Subject 1> for the SEG-04 pickup sequence, preserving the established eyeline, platform lighting, and exact Mandarin line.
+
+retention_analysis:
+<Subject 1> / <Picture 1> (throughout [Shot 1]): fully_preserved - fully preserved: her facial features, long straight center-parted black hair, tailored taupe-gray blazer, ivory crew-neck top, loose light-colored trousers, body proportions, professional composure, and immaculate grooming must remain consistent. She is a real person with real skin, real fabric and real lighting inside the scene described by the timeline.
+
+detailed_description:
+Photorealistic live-action cinema footage shot on a digital cinema camera with prime lenses: natural skin texture with visible pores, real fabric weave, physically accurate reflections, shallow depth of field and subtle film grain.
+16:9.
+
+[Shot 1] One continuous locked-off 7-second close-up on the same sunlit floating observation platform established in SEG-04. Frame The female protagonist <Picture 1>, <Subject 1>, in a tight head-and-shoulders close-up, with the top of her hair and the point just below her shoulders inside frame. The camera is at eye height with an 85mm prime lens and very shallow depth of field. The subject looks screen-left at the counterpart's established eye height; keep the face and mouth unobstructed. A narrow band of warm natural sunlight comes from camera-left, with soft cyan reflections from the platform glass. The background is only defocused white-gray metal, cyan glass bokeh, and warm daylight; no readable signage or distinct background figures. Do not cut, reframe, or cross the eyeline axis.
+[0s-1s] Hold the established close-up. The female protagonist begins in a focused appraisal state, mouth closed, gaze fixed screen-left at the counterpart's established eye height. Natural blinking, quiet breathing, and tiny eye movements continue without breaking the fixed eyeline.
+
+[1s-3s] The female protagonist <Subject 1> (S1) begins speaking in a calm, decisive adult female Mandarin voice with natural professional pacing: <d>[Chinese] 先幫我評估一下，這次 CPU 更新會影響哪些地方？</d> Keep the entire line verbatim. The mouth articulates every syllable clearly and naturally; the English technical terms retain clear pronunciation. The expression develops through a slight tightening of the brow as she frames the question.
+
+[3s-6s] Continue the same uninterrupted delivery of the single dialogue line already specified, without repeating or paraphrasing any words. Preserve precise lip synchronization, screen-left at the counterpart's established eye height, and the emotional progression of a slight tightening of the brow as she frames the question. Natural blinking, quiet breathing, and tiny eye movements continue without breaking the fixed eyeline.
+
+[6s-7s] The line is complete. The mouth closes cleanly. The female protagonist settles into a professional, expectant listening expression, preserving the same eyeline and pose for an editable reaction tail. Natural blinking, quiet breathing, and tiny eye movements continue without breaking the fixed eyeline.
+
+Negative constraints: no subtitles, no readable text, no extra fingers or limbs, no duplicate subject, no deformed features, no shaky camera, no cuts, no zoom, no looping.
+
+overall_soundscape:
+The scripted line is the sole vocal layer, recorded close, dry, and intelligible. A low, steady open-air platform ambience and distant ventilation hum remain unobtrusive beneath the voice. No other speaker is audible in this generated clip.
+
+non_diegetic_music:
+Continue the existing upbeat major-key instrumental pop bed at about 116 BPM, with buoyant bass, light drums, electric piano, and playful plucked synth. Keep it low and continuous as an edit pickup, with no new intro, ending sting, or dynamic reset.
+

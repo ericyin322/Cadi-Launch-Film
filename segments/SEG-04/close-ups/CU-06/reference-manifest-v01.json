@@ -1,0 +1,21 @@
+{
+  "segment": "seg04-cu06",
+  "mode": "Ref2VA",
+  "seconds": 9,
+  "seed": 7401,
+  "prompt": "segments/SEG-04/close-ups/CU-06/seg04-cu06-minimax-h3-prompt-v01.txt",
+  "images": [
+    {
+      "slot": "ref_image_0",
+      "label": "<Picture 1>",
+      "asset": "cadi",
+      "file": "assets/characters/cadi_red.png"
+    }
+  ],
+  "videos": [],
+  "environment": {
+    "mode": "text_only_closeup_bokeh",
+    "source": "SEG-04 virtual-factory platform continuity"
+  }
+}
+

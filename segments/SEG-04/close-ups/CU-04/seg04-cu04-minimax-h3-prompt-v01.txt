@@ -1,0 +1,32 @@
+subject_definitions:
+<Subject 1> is Cadi, a small flying robot mascot. Its head is composed of actively burning, ethereal red plasma fire with orange-gold inner tongues and a warm white luminous center that continuously flickers, dances, and undulates with rising wisps and subtle luminous embers (an energetic plasma flame, completely non-solid, with zero gelatinous or jelly-like surface tension). Within the dynamic flame sit two oversized oval warm-white eyes with dark red rims and a tiny mouth, atop a dark charcoal-gray segmented robot body with red joint accents and a glowing circular warm-white chest core with a gold-orange rim. Its design, proportions, and colors follow <Picture 1>.
+
+summary:
+[reference generation] A 15-second single-subject dialogue close-up of <Subject 1> for the SEG-04 pickup sequence, preserving the established eyeline, platform lighting, and exact Mandarin line.
+
+retention_analysis:
+<Subject 1> / <Picture 1> (throughout [Shot 1]): fully_preserved - fully preserved: its actively burning red plasma fire head with orange-gold inner tongues and a warm white luminous center, continuous flickering combustion, soft rising flame tongues, subtle luminous embers, wind-drag during movement, upward licking and dissipation while hovering, oversized oval warm-white eyes with dark red rims, tiny mouth, dark charcoal-gray segmented robot body with red joint accents, body proportions, and glowing circular warm-white chest core with a gold-orange rim must remain consistent. It is lit by the same real lighting as the scene described by the timeline.
+
+detailed_description:
+Photorealistic live-action cinema footage shot on a digital cinema camera with prime lenses: natural skin texture with visible pores, real fabric weave, physically accurate reflections, shallow depth of field and subtle film grain.
+16:9.
+
+[Shot 1] One continuous locked-off 15-second close-up on the same sunlit floating observation platform established in SEG-04. Frame Cadi <Picture 1>, <Subject 1>, in a tight close-up framing its full burning head, eyes, tiny mouth, upper torso, and chest core. The camera is at eye height with an 85mm prime lens and very shallow depth of field. The subject looks screen-right at the counterpart's established eye height; keep the face and mouth unobstructed. A narrow band of warm natural sunlight comes from camera-left, with soft cyan reflections from the platform glass. The background is only defocused white-gray metal, cyan glass bokeh, and warm daylight; no readable signage or distinct background figures. Do not cut, reframe, or cross the eyeline axis.
+[0s-1s] Hold the established close-up. Cadi begins in a a confident proposal state state, mouth closed, gaze fixed screen-right at the counterpart's established eye height. The non-solid flame continuously flickers, its orange-gold inner tongues rise around the warm-white center, and subtle embers dissipate upward while the body hovers steadily.
+
+[1s-5s] Cadi <Subject 1> (S1) begins speaking in a bright, playful yet professional childlike Mandarin voice, with clear English technical terms: <d>[Chinese] 我建議透過工作流提供的 MCP 工具，先取得最新 IEC Spec 和 GP 圖，確認變更參數，</d> Keep the entire line verbatim. The mouth articulates every syllable clearly and naturally; the English technical terms retain clear pronunciation. The expression develops through a clear explanation of data retrieval and parameter confirmation.
+
+[5s-9s] Continue the same uninterrupted delivery of the single dialogue line already specified, without repeating or paraphrasing any words. Preserve precise lip synchronization, screen-right at the counterpart's established eye height, and the emotional progression of a clear explanation of data retrieval and parameter confirmation. The non-solid flame continuously flickers, its orange-gold inner tongues rise around the warm-white center, and subtle embers dissipate upward while the body hovers steadily.
+
+[9s-13s] Continue the same uninterrupted delivery of the single dialogue line already specified, without repeating or paraphrasing any words. Preserve precise lip synchronization, screen-right at the counterpart's established eye height, and the emotional progression of a clear explanation of data retrieval and parameter confirmation. The non-solid flame continuously flickers, its orange-gold inner tongues rise around the warm-white center, and subtle embers dissipate upward while the body hovers steadily.
+
+[13s-15s] The line is complete. The mouth closes cleanly. Cadi settles into an open-ended continuation expression ready for the next clause, preserving the same eyeline and pose for an editable reaction tail. The non-solid flame continuously flickers, its orange-gold inner tongues rise around the warm-white center, and subtle embers dissipate upward while the body hovers steadily.
+
+Negative constraints: no subtitles, no readable text, no extra fingers or limbs, no duplicate subject, no deformed features, no shaky camera, no cuts, no zoom, no looping, no rubbery, gelatinous, solid jelly texture, no solid glass surface.
+
+overall_soundscape:
+The scripted line is the sole vocal layer, recorded close, dry, and intelligible. A low, steady open-air platform ambience and distant ventilation hum remain unobtrusive beneath the voice. No other speaker is audible in this generated clip.
+
+non_diegetic_music:
+Continue the existing upbeat major-key instrumental pop bed at about 116 BPM, with buoyant bass, light drums, electric piano, and playful plucked synth. Keep it low and continuous as an edit pickup, with no new intro, ending sting, or dynamic reset.
+
