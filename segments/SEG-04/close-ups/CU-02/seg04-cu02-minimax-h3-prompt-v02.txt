@@ -1,0 +1,30 @@
+subject_definitions:
+<Subject 1> is Cadi, a small flying robot mascot. Its head is composed of actively burning, ethereal red plasma fire with orange-gold inner tongues and a warm white luminous center that continuously flickers, dances, and undulates with rising wisps and subtle luminous embers (an energetic plasma flame, completely non-solid, with zero gelatinous or jelly-like surface tension). Within the dynamic flame sit two oversized oval warm-white eyes with dark red rims and a tiny mouth, atop a dark charcoal-gray segmented robot body with red joint accents and a glowing circular warm-white chest core with a gold-orange rim. Its design, proportions, and colors follow <Picture 1>.
+<Subject 2> is the sunlit futuristic engineering district in <Picture 2>: white-gray multilevel buildings with exposed pipes and glass panels, glowing cyan elevated rails, green rooftop planters, a vertical orange panel with a white cube symbol, and slender towers with cyan rings under a blue sky with white clouds. Its architecture, colors and daylight follow <Picture 2>.
+
+summary:
+[reference generation] A 10-second single-subject dialogue close-up of <Subject 1> in front of <Subject 2>: one second of silent lead-in, the exact Mandarin line, then one second of silent settled hold.
+
+retention_analysis:
+<Subject 1> / <Picture 1> (throughout [Shot 1]): fully_preserved - fully preserved: its actively burning red plasma fire head with orange-gold inner tongues and a warm white luminous center, continuous flickering combustion, soft rising flame tongues, subtle luminous embers, wind-drag during movement, upward licking and dissipation while hovering, oversized oval warm-white eyes with dark red rims, tiny mouth, dark charcoal-gray segmented robot body with red joint accents, body proportions, and glowing circular warm-white chest core with a gold-orange rim must remain consistent. It is lit by the same real lighting as the scene described by the timeline.
+<Subject 2> / <Picture 2> (throughout [Shot 1]): fully_preserved - preserve the white-gray multilevel buildings with exposed pipes and glass panels, the glowing cyan elevated rails, the green rooftop planters, the vertical orange panel with a white cube symbol, and the slender towers with cyan rings under a blue sky with white clouds. Everything is real physical architecture built from real metal, glass and light, seen far behind it.
+
+detailed_description:
+Photorealistic live-action cinema footage shot on a digital cinema camera with prime lenses: natural skin texture with visible pores, real fabric weave, physically accurate reflections, shallow depth of field and subtle film grain.
+16:9.
+
+[Shot 1] One continuous locked-off 10-second close-up. Cadi <Picture 1>, <Subject 1>, fills the frame in a tight close-up showing its full burning head, eyes, tiny mouth, upper torso and chest core, placed slightly left of center. The camera is at eye height with an 85mm prime lens and very shallow depth of field. Its gaze is held slightly screen-right at eye level, and its face and mouth stay fully visible and unobstructed. Behind it is <Subject 2> <Picture 2>, far away and softly defocused into large luminous bokeh: the buildings, cyan rails and towers read as soft shapes against the blue sky and stay fixed in the frame. Bright natural daylight matching <Picture 2> falls as a soft warm key from camera-left, with cool sky fill on the shadow side. Hold the frame without cutting, reframing or zooming.
+
+[0s-1s] Silent lead-in. Cadi <Subject 1> hovers steadily in a focused, attentive state, tiny mouth closed, gaze fixed slightly screen-right at eye level. Its non-solid red plasma fire continuously flickers, orange-gold inner tongues rise around the warm-white center, and subtle embers dissipate upward; it is never frozen.
+
+[1s-9s] Cadi <Subject 1> (S1) begins speaking in a bright, playful yet professional childlike female Mandarin voice, with clear English technical terms: <d>[Chinese] 供電要從六相增加到八相，周邊元件的配置得跟著調整，散熱能力也需要重新評估。</d> The tiny mouth articulates every syllable clearly and naturally. The expression develops through an ordered explanation of the power, component-layout and thermal consequences, with its warm-white eyes staying on the same point. The flame keeps flickering and rising throughout the delivery. The delivery fills this interval; the last syllable lands at the 9-second mark and the mouth closes immediately.
+
+[9s-10s] Silent settled hold. The tiny mouth is closed. Cadi settles into a composed, attentive expression with the same eyeline and hover position. The flame continues to flicker and embers rise softly. End on this exact stable composition.
+
+Negative constraints: no subtitles, no readable text, no extra fingers or limbs, no duplicate subject, no deformed features, no shaky camera, no cuts, no zoom, no looping, rubbery, gelatinous, solid jelly texture, solid glass surface.
+
+overall_soundscape:
+The audio consists exclusively of the scripted dialogue, recorded close, dry, and clean. All intervals outside the spoken line are silent.
+
+non_diegetic_music:
+None.

@@ -1,0 +1,60 @@
+{
+  "segment": "seg04-cu02",
+  "version": "v02",
+  "mode": "Ref2VA",
+  "seconds": 10,
+  "frames_estimate": 241,
+  "seed": 7401,
+  "prompt": "segments/SEG-04/close-ups/CU-02/seg04-cu02-minimax-h3-prompt-v02.txt",
+  "images": [
+    {
+      "slot": "ref_image_0",
+      "label": "<Picture 1>",
+      "asset": "cadi",
+      "role": "identity",
+      "file": "assets/characters/cadi_red.png"
+    },
+    {
+      "slot": "ref_image_1",
+      "label": "<Picture 2>",
+      "asset": "seg04_cu_background_eastside",
+      "role": "environment_reference",
+      "file": "assets/environments/seg04-cu-background-eastside-crop-v01.png",
+      "derived_from": "assets/environments/6289735f-06d2-40a2-bb98-d253a20a5a8c.png",
+      "crop_box_px": [
+        1060,
+        0,
+        1672,
+        344
+      ],
+      "crop_size_px": [
+        612,
+        344
+      ],
+      "inspected": true,
+      "contains_characters": false,
+      "contains_readable_text": false,
+      "note": "原圖右上區：建築、管線、青色軌道、綠色屋頂植栽、橙色方塊符號看板、遠處高塔；作為Cadi反打的另一側街區背景（鏡位假設待確認）"
+    }
+  ],
+  "videos": [],
+  "audio_strategy": "h3_dialogue",
+  "voice": "in a bright, playful yet professional childlike female Mandarin voice",
+  "timing": {
+    "D_seconds": 8.0,
+    "D_basis": "estimate_not_measured",
+    "target_T_seconds": 10,
+    "lead_in": [
+      0,
+      1
+    ],
+    "speech": [
+      1,
+      9
+    ],
+    "tail_hold": [
+      9,
+      10
+    ]
+  }
+}

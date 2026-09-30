@@ -2,6 +2,10 @@
 
 - 2026-09-30：依 SEG-04 特寫生成回饋新增工作流 v02、製作卡 v02、索引 v03。改善規則為背景圖片綁定、音軌僅指定台詞、試讀 D+前後各1秒、畫面及參考僅當鏡角色。舊7支特寫標記 revision_needed，保留原檔；背景圖與實測語速待取得，尚未製作新版提示詞或檢視生成影片。67秒屬舊版素材總長，不能直接視為剪輯採用長度。
 
+## 2026-09-30｜SEG-04 CU-02 v02 提示詞（Cadi、孩子氣女聲）
+
+- 新增 CU-02 prompt／registry／manifest／shot-card／生成說明／validation v02、背景裁切圖 eastside v01、index-v05.json；v01 保留。10 秒（估計 D=8 秒）；12 通過、1 警告、0 失敗；影片未生成。
+
 ## 2026-09-30｜SEG-04 CU-01 v02 提示詞（背景綁定、純台詞、D+2、單人）
 
 - 新增 CU-01 的 prompt／cast-registry／reference-manifest／shot-card／生成說明／validation v02，v01 保留；新增 `assets/environments/seg04-cu-background-tower-crop-v01.png`（由使用者提供的全景圖裁切，原圖保留）與 `workflows/close-up/index-v04.json`。
