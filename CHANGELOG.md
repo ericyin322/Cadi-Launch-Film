@@ -2,6 +2,10 @@
 
 - 2026-09-30：依 SEG-04 特寫生成回饋新增工作流 v02、製作卡 v02、索引 v03。改善規則為背景圖片綁定、音軌僅指定台詞、試讀 D+前後各1秒、畫面及參考僅當鏡角色。舊7支特寫標記 revision_needed，保留原檔；背景圖與實測語速待取得，尚未製作新版提示詞或檢視生成影片。67秒屬舊版素材總長，不能直接視為剪輯採用長度。
 
+## 2026-09-30｜SEG-04 CU-04 v03：Cadi 語速加快
+
+- 新增 CU-04 prompt／registry／manifest／shot-card／生成說明／validation v03 與 index-v08.json；v02 保留。9 秒生成；12 通過、1 警告、0 失敗；CU-04～07 維持原拆法。
+
 ## 2026-09-30｜SEG-04 CU-04 v02 提示詞與精簡評估
 
 - 新增 CU-04 prompt／registry／manifest／shot-card／生成說明／validation v02、consolidation-eval-v01.md、index-v07.json；v01 保留。11 秒生成（估計 D=8.5 秒）；12 通過、1 警告、0 失敗；影片未生成。
