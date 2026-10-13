@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-13",
+  "registry": "segments/SEG-06/cast-registry-v08.yaml",
+  "checker": ".agents/skills/h3-scene-prompt/scripts/check_prompt.py",
+  "results": [
+    {
+      "segment": "seg06-c",
+      "passed": 14,
+      "warnings": 0,
+      "failed": 0,
+      "characters": 6970
+    }
+  ],
+  "video_generated": false,
+  "notes": "A/B未變；影片與工程內容待驗證。"
+}

@@ -425,9 +425,9 @@ segments:
     - drop
     - placement_candidates
     - pure_white_room
-    prompt: segments/SEG-06/seg06-c-minimax-h3-prompt-v03.txt
-    prompt_registry: segments/SEG-06/cast-registry-v07.yaml
-    beat: drop在三面佈滿大量placement縮圖的資料牆間高速滑步並拖出頻閃殘影；A思考、B搖頭、C托腮停一秒後豁然開朗，殘影全部消失，所有placement轉為綠色。
+    prompt: segments/SEG-06/seg06-c-minimax-h3-prompt-v04.txt
+    prompt_registry: segments/SEG-06/cast-registry-v08.yaml
+    beat: drop活潑地測試大量布局，收斂成三個候選；轉頭回看並微調一個高亮零件，間隙打開、光路縮短；開心彈起並收回全部殘影，推出唯一翠綠推薦方案，兩個琥珀備選留在後方。
     reference_images:
     - label: <Picture 2>
       file: assets/software/alotofplacement.png
@@ -448,7 +448,7 @@ segments:
     - drop
     - pure_white_room
     prompt: segments/SEG-07/seg07-a-minimax-h3-prompt-v07.txt
-    prompt_registry: segments/SEG-07/cast-registry-v10.yaml
+    prompt_registry: segments/SEG-07/cast-registry-v11.yaml
     reference_images:
     - label: <Picture 3>
       file: assets/environments/純白房間.png
@@ -469,8 +469,8 @@ segments:
     - cadi
     - layout_ref
     - pure_white_room
-    prompt: segments/SEG-07/seg07-b-minimax-h3-prompt-v10.txt
-    prompt_registry: segments/SEG-07/cast-registry-v10.yaml
+    prompt: segments/SEG-07/seg07-b-minimax-h3-prompt-v11.txt
+    prompt_registry: segments/SEG-07/cast-registry-v11.yaml
     reference_images:
     - label: <Picture 3>
       file: ''

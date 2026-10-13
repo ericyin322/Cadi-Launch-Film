@@ -131,41 +131,44 @@
       "screenplay": "v0.24",
       "storyboard": "v02",
       "approval": "storyboard_v02_pending_user_review",
-      "h3": "a_v04_b_v04_c_v03_pure_white_room_video_unverified",
+      "h3": "a_v04_b_v04_c_v04_playful_recommendation_test_video_unverified",
       "time_range": "01:56–02:20",
-      "brief": "segments/SEG-06/brief-v07.md",
+      "brief": "segments/SEG-06/brief-v08.md",
       "character_revision": "explicit_user_request_2026-09-17",
       "duration_seconds": 24,
       "timing_status": "original_slot_retained_pending_readthrough",
       "screenplay_notes": "Cadi 直飛 drop 站點並打招呼；hana／hapa 直接交付資料後飛離，drop 接手彙整。 2026-09-19：DLG-14改為「最新 Spec 已取得。固有項目標綠，新增參數已標黃。」 2026-09-23：drop 工作站改純白房間（無工作台、資料浮空）；開場 Cadi 背後殘影轉場；hapa／hana 左緣進出。",
       "screenplay_approval": "approved_by_user_revision",
       "storyboard_notes": "六格已完成：抵達、招呼、hapa交付Spec、hana交付GP、兩Agent離場、drop彙整。純黑白；v01與初稿保留。",
-      "h3_storyboard_override": "explicit_user_request_2026-09-23",
-      "h3_notes": "segments/SEG-06/minimax-h3-generation-notes-v07.md",
+      "h3_storyboard_override": "explicit_user_request_2026-10-13_for_seg06_c",
+      "h3_notes": "segments/SEG-06/minimax-h3-generation-notes-v08.md",
       "environment_description_file": "",
       "environment_reference_mode": "image",
       "environment_binding": "segments/SEG-06/pure-white-room-binding-v01.md",
       "h3_prompts": [
         "segments/SEG-06/seg06-a-minimax-h3-prompt-v04.txt",
         "segments/SEG-06/seg06-b-minimax-h3-prompt-v04.txt",
-        "segments/SEG-06/seg06-c-minimax-h3-prompt-v03.txt"
+        "segments/SEG-06/seg06-c-minimax-h3-prompt-v04.txt"
       ],
-      "reference_manifest": "segments/SEG-06/reference-manifest-v07.json",
+      "reference_manifest": "segments/SEG-06/reference-manifest-v08.json",
       "storyboard_status": "v02_outdated_pure_white_room",
       "environment_file": "assets/environments/純白房間.png",
-      "h3_generation": "A/B 各15秒362幀；C 9秒217幀；正片 A0–14＋B0–10＋C0–7＝31秒（待校時）"
+      "h3_generation": "A/B 各15秒362幀；C 9秒217幀；正片 A0–14＋B0–10＋C0–7＝31秒（待校時）",
+      "prompt_registry": "segments/SEG-06/cast-registry-v08.yaml",
+      "validation": "segments/SEG-06/validation-v08.json",
+      "h3_production_override": "2026-10-13：SEG-06 C 新增 H3 v04（舊版保留），依使用者確認的活潑、靈光一現方向，呈現大量布局演算→三個候選→微調高亮零件→單一翠綠推薦；6秒前殘影收回，兩個琥珀備選保留。A／B v04及主劇本未改。使用者直接要求H3，Storyboard未重製；影片未生成。"
     },
     {
       "id": "SEG-07",
       "storyboard": "v01",
       "approval": "storyboard_v01_outdated_revision_pending",
-      "h3": "a_v07_b_v10_pure_white_room_reference_ready_final_layout_image_pending",
+      "h3": "a_v07_b_v11_pure_white_room_reference_ready_final_layout_image_pending",
       "storyboard_notes": "v01已過時；新版須呈現drop看資料、立體零件灑落排好、Cadi邀請女主角觀看。",
       "brief": "segments/SEG-07/brief-v02.md",
       "screenplay": "v0.19",
-      "screenplay_override": "H3 B v10 production override: heroine stands then bends slightly to inspect the placement; drop is absent; final layout uses Picture 3; pure-white room uses Picture 4; placement hovers horizontally in the room center",
+      "screenplay_override": "H3 B v11 production override: dialogue is 概念設計完成，您覺得如何; heroine stands then bends slightly to inspect the placement; drop is absent; final layout uses Picture 3; pure-white room uses Picture 4; placement hovers horizontally in the room center",
       "screenplay_approval": "approved_by_user_revision",
-      "screenplay_notes": "已併入 master-storyboard-v0.18.md。承接SEG06；DLG-18停用，DLG-19為「這是最新版的placement，您覺得如何」。為銜接SEG-08，鏡頭27同步H3 B v07：女主角站在工作區近左側，稍微彎腰端詳Placement；drop不出場，最終布局使用Picture 3。",
+      "screenplay_notes": "已併入 master-storyboard-v0.18.md。承接SEG06；DLG-18停用，劇本記錄的DLG-19為「這是最新版的placement，您覺得如何」；2026-10-13 使用者授權 H3 B v11 改為「概念設計完成，您覺得如何」。為銜接SEG-08，鏡頭27同步H3 B v07：女主角站在工作區近左側，稍微彎腰端詳Placement；drop不出場，最終布局使用Picture 3。",
       "duration_seconds": 26,
       "time_range": "02:20–02:46",
       "timing_status": "original_slot_retained_pending_readthrough",
@@ -174,17 +177,17 @@
         "assets/blender/cpu-motion-v07/01-scatter-rise-v07.blend"
       ],
       "h3_storyboard_override": "explicit_user_request_after_text_revision_2026-09-17",
-      "h3_notes": "segments/SEG-07/minimax-h3-generation-notes-v10.md",
+      "h3_notes": "segments/SEG-07/minimax-h3-generation-notes-v11.md",
       "environment_reference_file": "assets/environments/純白房間.png",
       "environment_reference_mode": "image_reference",
       "environment_binding": "segments/SEG-07/pure-white-room-binding-v01.md",
       "placement_support": "horizontal_hover_in_room_center_at_waist_to_chest_height",
       "h3_prompts": [
         "segments/SEG-07/seg07-a-minimax-h3-prompt-v07.txt",
-        "segments/SEG-07/seg07-b-minimax-h3-prompt-v10.txt"
+        "segments/SEG-07/seg07-b-minimax-h3-prompt-v11.txt"
       ],
-      "reference_manifest": "segments/SEG-07/reference-manifest-v10.json",
-      "prompt_registry": "segments/SEG-07/cast-registry-v10.yaml"
+      "reference_manifest": "segments/SEG-07/reference-manifest-v11.json",
+      "prompt_registry": "segments/SEG-07/cast-registry-v11.yaml"
     },
     {
       "id": "SEG-08",
