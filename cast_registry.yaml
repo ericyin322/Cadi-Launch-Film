@@ -314,7 +314,7 @@ segments:
     frames: 362
     cast: [heroine, cadi]
     continues_from: "seg03-a"
-    prompt: "segments/SEG-03/seg03-b-minimax-h3-prompt-v03.txt"
+    prompt: "segments/SEG-03/seg03-b-minimax-h3-prompt-v04.txt"
     beat: "鏡頭11（v0.22）：Cadi 建議馬上評估並提出 IEC spec＋GP 的 placement 預覽，鏡頭退至肩後；Lisa 點頭說讓我們開始吧；胸核擴張、紅橙暖光掃鏡。"
 
   - id: seg04-b

@@ -1,0 +1,21 @@
+
+上傳順序（ref_order，必須照這個順序掛圖）:
+  ref_image_0  assets/characters/heroine-photo-reference-v01.png-> <Picture 1> / <Subject 1> = heroine
+  ref_image_1  assets/characters/cadi_red.png-> <Picture 2> / <Subject 2> = cadi
+  seed = 7301, frames = 362
+
+[  ok  ] 六區段齊全（detailed 格式）
+[  ok  ] 區段順序正確
+[  ok  ] 標籤形式: <Subject N> / <Picture N> 配對（官方契約）
+[  ok  ] <Picture> 索引連續: 1..2 (= ref_image_0..1)
+[  ok  ] 內文用到的索引都已宣告
+[  ok  ] 時間碼 beat 數 ≈ 6
+[  ok  ] 負面表列存在
+[  ok  ] 長度 6662 字元（上限 7000）
+[  ok  ] 索引數量與 cast 一致: <Picture 1>=heroine, <Picture 2>=cadi
+[  ok  ] <Picture 1> (heroine) canonical description 逐字一致
+[  ok  ] <Picture 2> (cadi) canonical description 逐字一致
+[  ok  ] 沒有排除宣告、保留槽或否定標籤（不出場的物件不會被召喚）
+[  ok  ] project.visual_style 逐字一致
+
+13 passed, 0 warnings, 0 failed

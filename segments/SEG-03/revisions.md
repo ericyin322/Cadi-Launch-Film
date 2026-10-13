@@ -16,3 +16,5 @@
 
 - 2026-09-23：依使用者指示僅修訂 SEG-03，來源升至 v0.22，保留 v0.21。(1) Cadi 由青藍焰改為紅焰版（cadi_red.png），螢幕火光與結尾光掃鏡改為紅橙暖光，SEG-04 開頭「掃光退去」同步改色以維持連續性；(2) Cadi 聲音描述統一為「in a bright, playful yet professional childlike Mandarin voice」；(3) DLG-06A 改為「接到一個棘手的任務，你看一下。」；(4) Cadi 讀完郵件後新增驚訝表情，再接 0.5 秒思考停頓；(5) DLG-06B 刪去「主題是 placement 會議」。維持 21 秒；DLG-06B 縮短約1.5秒，可吸收驚訝表情時間。H3 A／B v02 過時，待確認後製作新版。
 - 2026-09-23：依使用者要求完成 SEG-03 H3 A／B v03（依 v0.22／brief-v03，授權略過 Storyboard 確認）。紅焰 Cadi 改掛 `cadi_red.png`；Cadi 聲音逐字統一為 bright, playful yet professional childlike Mandarin voice；DLG-06A「接到一個棘手的任務」、Cadi 讀郵件後驚訝（A 9.0–9.6 秒）、DLG-06B 精簡版；結尾紅橙暖光掃鏡。A 取0–11.0、B 取0–10.0，合計21秒、seed 7301。兩段各13項通過、0警告、0失敗；影片未生成，v02 保留。
+
+- 2026-10-13：SEG-03 B H3 升 v04，依使用者指示將 DLG-06B「半小時後要開會」改為「明天一早要開會」。僅替換此句，A v03、其他台詞、動作、時序與 seed 7301 保留；舊版保留。同步 registry／manifest／生成說明 v04；影片未生成。

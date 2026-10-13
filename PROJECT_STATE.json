@@ -1,6 +1,6 @@
 {
   "project": "Cadi-Launch-Film",
-  "updated": "2026-09-30",
+  "updated": "2026-10-13",
   "additional_workflows": {
     "close_up": {
       "display_name": "特寫鏡頭",
@@ -52,7 +52,7 @@
       "id": "SEG-03",
       "storyboard": "v01",
       "approval": "storyboard_v01_outdated_revision_pending",
-      "h3": "a_v03_b_v03_ready_video_unverified",
+      "h3": "a_v03_b_v04_ready_video_unverified",
       "screenplay": "v0.22_seg03_revision",
       "screenplay_approval": "approved_by_user_revision",
       "brief": "segments/SEG-03/brief-v03.md",
@@ -62,14 +62,15 @@
       "duration_seconds": 21,
       "time_range": "00:45–01:06",
       "h3_storyboard_override": "explicit_user_request_2026-09-23",
-      "h3_notes": "segments/SEG-03/minimax-h3-generation-notes-v03.md；A 0–11.0秒＋B 0–10.0秒，seed 7301，heroine＋cadi_red 兩圖",
+      "h3_notes": "segments/SEG-03/minimax-h3-generation-notes-v04.md；僅 B 台詞開頭改為「明天一早要開會」，其餘與 v03 相同。",
       "cadi_voice": "in a bright, playful yet professional childlike Mandarin voice",
       "h3_prompts": [
         "segments/SEG-03/seg03-a-minimax-h3-prompt-v03.txt",
-        "segments/SEG-03/seg03-b-minimax-h3-prompt-v03.txt"
+        "segments/SEG-03/seg03-b-minimax-h3-prompt-v04.txt"
       ],
-      "prompt_registry": "segments/SEG-03/cast-registry-v03.yaml",
-      "reference_manifest": "segments/SEG-03/reference-manifest-v03.json"
+      "prompt_registry": "segments/SEG-03/cast-registry-v04.yaml",
+      "reference_manifest": "segments/SEG-03/reference-manifest-v04.json",
+      "h3_dialogue_override": "2026-10-13 使用者授權：半小時後要開會 → 明天一早要開會；主劇本保留。"
     },
     {
       "id": "SEG-04",
