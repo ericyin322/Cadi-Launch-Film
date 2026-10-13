@@ -356,9 +356,9 @@ segments:
     cast:
     - cadi
     - hapa
-    prompt: segments/SEG-05/seg05-a-minimax-h3-prompt-v06.txt
+    prompt: segments/SEG-05/seg05-a-minimax-h3-prompt-v07.txt
     beat: hapa從左側SPEC／HTTP建築飛出，Cadi派工後向左飛離；15秒生成，正片0–14秒。
-    prompt_registry: segments/SEG-05/cast-registry-v06.yaml
+    prompt_registry: segments/SEG-05/cast-registry-v07.yaml
     environment: virtual_factory
     environment_description_file: assets/environments/virtual-factory-description-v02.txt
 

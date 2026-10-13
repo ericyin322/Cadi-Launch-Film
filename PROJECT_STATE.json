@@ -109,9 +109,9 @@
       "screenplay_approval": "approved_character_and_motion_revision_incorporated",
       "storyboard": "v02",
       "approval": "storyboard_v02_outdated_user_requested_motion_revision",
-      "h3": "v06_agents_exit_buildings_video_unverified",
+      "h3": "a_v07_b_v06_dialogue_updated_video_unverified",
       "h3_storyboard_override": "explicit_user_request_2026-09-17",
-      "h3_notes": "segments/SEG-05/minimax-h3-generation-notes-v06.md",
+      "h3_notes": "segments/SEG-05/minimax-h3-generation-notes-v07.md",
       "duration_seconds": 26,
       "brief": "segments/SEG-05/brief-v04.md",
       "character_revision": "explicit_user_request_2026-09-17",
@@ -120,7 +120,7 @@
       "environment_reference_mode": "text_only",
       "environment_binding": "segments/SEG-05/factory-scene-binding-v02.md",
       "h3_prompts": [
-        "segments/SEG-05/seg05-a-minimax-h3-prompt-v06.txt",
+        "segments/SEG-05/seg05-a-minimax-h3-prompt-v07.txt",
         "segments/SEG-05/seg05-b-minimax-h3-prompt-v06.txt"
       ],
       "reference_manifest": "segments/SEG-05/reference-manifest-v07.json",

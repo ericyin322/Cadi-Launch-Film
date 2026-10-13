@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-13",
+  "checker": ".agents/skills/h3-scene-prompt/scripts/check_prompt.py",
+  "registry": "segments/SEG-05/cast-registry-v07.yaml",
+  "results": [
+    {
+      "segment": "seg05-a",
+      "prompt": "segments/SEG-05/seg05-a-minimax-h3-prompt-v07.txt",
+      "passed": 13,
+      "warnings": 0,
+      "failed": 0,
+      "characters": 6791
+    }
+  ]
+}
