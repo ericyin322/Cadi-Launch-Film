@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-14",
+  "segment": "seg12-c-v03",
+  "prompt": "segments/SEG-12/seg12-c-minimax-h3-prompt-v03.txt",
+  "registry": "segments/SEG-12/cast-registry-v06.yaml",
+  "checker": ".agents/skills/h3-scene-prompt/scripts/check_prompt.py",
+  "passed": 13,
+  "warnings": 0,
+  "failed": 0,
+  "characters": 6315,
+  "video_generated": false,
+  "pending": ["首幀連續性", "同一位 Cadi 身分綁定與角色數量", "白光轉場"]
+}

@@ -1,0 +1,117 @@
+# SEG-12 C v03：B 尾幀＋同一位 Cadi 身分參考。
+project:
+  title: Cadi Launch Film
+  aspect_ratio: '16:9'
+  label_style: paired
+  section_style: detailed
+  visual_style: 'Photorealistic live-action cinema footage shot on a digital cinema
+    camera with prime lenses: natural skin texture with visible pores, real fabric
+    weave, physically accurate reflections, shallow depth of field and subtle film
+    grain.'
+  virtual_factory:
+    description_file: assets/environments/virtual-factory-description-v02.txt
+    usage_file: assets/environments/virtual-factory-usage-v02.md
+    reference_mode: text_only
+    applies_to:
+    - SEG-12
+    interior_policy: Use only the visible white-gray structural metal, green guide
+      channels, exposed service pipes, overhead crane beams, warm industrial practical
+      lights and soft cyan floor reflections of the Creo dock.
+assets:
+  b_ending:
+    priority: 5
+    file: segments/SEG-12/b-ending-ref.png
+    role: exact_first_frame
+    binding: The exact first-frame composition, camera position, lens perspective,
+      positions, poses, lighting and dock background follow
+    canonical: the exact SEG-12 B ending frame, seen from a fixed eye-level camera
+      inside the Creo dock. A photorealistic East Asian woman with long, straight,
+      center-parted black hair, a taupe-gray blazer, an ivory top and light trousers
+      crouches at center-left behind the two cooling fans, one hand resting on her
+      knee, smiling with quiet satisfaction. Cadi, a small robot with an actively
+      burning red plasma-fire head, oversized warm-white eyes with dark red rims,
+      a dark charcoal-gray body with red joint accents and a glowing warm-white chest
+      core, hovers at right above the larger fan. The larger gray fan in the right
+      foreground carries low solid gray Ribs around its recessed concentric ring,
+      the smaller fan fills the lower left, and both sit on a flat green placement
+      platform resting level on the polished gray dock floor. Behind them the dock
+      aisle recedes under a yellow overhead crane, white-gray walls and warm ceiling
+      lamps.
+    retention: Use it as the exact first frame; preserve the camera position, level
+      horizon, platform-to-floor relation, both characters, the finished Ribs and
+      the dock background.
+    extra_negatives:
+    - rubbery
+    - gelatinous
+    - solid jelly texture
+    - solid glass surface
+  heroine:
+    priority: 10
+    file: assets/characters/heroine-photo-reference-v01.png
+    role: identity
+    binding: Her face, hair, and clothing follow
+    canonical: the female protagonist, a 20-something East Asian female mechanical
+      R&D engineer. She has long, straight, center-parted black hair and wears a tailored
+      taupe-gray blazer, an ivory crew-neck top, and loose light-colored trousers.
+      She is professional, composed, and places a high value on immaculate grooming.
+    retention: Preserve her facial features, hair, clothing, body proportions, professional
+      composure and real-person appearance under the dock lighting.
+  screen_layout:
+    priority: 40
+    summon_tokens:
+    - engineering layout on the monitor
+    file: assets/placement/placement-creo-final.png
+    role: monitor_screen_content
+    binding: The exact on-screen layout, component positions, colors and viewing angle
+      follow
+    canonical: 'the finished placement model shown on the office monitor: a long green
+      circuit board seen from an oblique top view, with two light-green memory modules
+      and a processor block on the left half, a row of small gray components along
+      the lower left, a pale-pink storage module and a cyan module along the upper
+      right, and two joined gray cooling fans with finned heat-sink blocks at the
+      lower right, all against a plain light-gray viewport background.'
+    retention: Preserve the layout, component positions, colors and oblique viewing
+      angle as the image displayed inside the monitor screen only.
+  cadi:
+    summon_tokens:
+    - cadi
+    - mascot
+    - plasma
+    - flame head
+    - chest core
+    priority: 20
+    file: assets/characters/cadi_red.png
+    role: identity
+    binding: Its design, proportions, and colors follow
+    canonical: Cadi, a small flying robot mascot. Its head is composed of actively
+      burning, ethereal red plasma fire with orange-gold inner tongues and a warm
+      white luminous center that continuously flickers, dances, and undulates with
+      rising wisps and subtle luminous embers (an energetic plasma flame, completely
+      non-solid, with zero gelatinous or jelly-like surface tension). Within the dynamic
+      flame sit two oversized oval warm-white eyes with dark red rims and a tiny mouth,
+      atop a dark charcoal-gray segmented robot body with red joint accents and a
+      glowing circular warm-white chest core with a gold-orange rim. Its height is
+      approximately half of the female protagonist's upper body.
+    retention: 'fully preserved: its actively burning red plasma fire head with orange-gold
+      inner tongues and a warm white luminous center, continuous flickering combustion,
+      soft rising flame tongues, subtle luminous embers, wind-drag during movement,
+      upward licking and dissipation while hovering, oversized oval warm-white eyes
+      with dark red rims, tiny mouth, dark charcoal-gray segmented robot body with
+      red joint accents, body proportions, and glowing circular warm-white chest core
+      with a gold-orange rim must remain consistent. It is lit by the same real lighting
+      as the scene described by the timeline.'
+    extra_negatives:
+    - rubbery, gelatinous, solid jelly texture
+    - solid glass surface
+segments:
+- id: seg12-c-v03
+  scene: 12
+  seed: 8201
+  duration_seconds: 12
+  cast:
+  - b_ending
+  - cadi
+  prompt: segments/SEG-12/seg12-c-minimax-h3-prompt-v03.txt
+  prompt_registry: segments/SEG-12/cast-registry-v06.yaml
+  continues_from: seg12-b-v04
+  beat: B尾幀為首幀；致謝／回應／整理衣服；最後1秒Cadi胸核爆出邊緣帶火焰的白光鋪滿畫面
